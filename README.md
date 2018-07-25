@@ -19,8 +19,8 @@ This repository documents the setup of the PID proxy.
 Redirection and proxying configuration implemented in the PID Proxy is slaved to this repository. This means that the configuration you see here (the files ending in .conf) is the master copy of Apache config which is then pulled to the server for deployment. So far, the three subdomains managed by the PID Proxy use configuration from the files:
 
 * [linked.data.gov.au.conf](linked.data.gov.au.conf)
-* [environment.data.gov.au.conf](environment.data.gov.au.conf) 
-* [reference.data.gov.au.conf](reference.data.gov.au.conf).
+* [environment.data.gov.au.conf](environment.data.gov.au.conf)
+* [reference.data.gov.au.conf](reference.data.gov.au.conf)
 
 
 ## PID Governance
