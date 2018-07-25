@@ -10,9 +10,15 @@ The PID proxy manages URIs within the (sub)domains:
 ## Documentation
 This repository documents the setup of the PID proxy.
 
-**In outline**: the server is a small Virtual Machine (VM) that running Linux within which is installed the Apache 2 web server program which is configured to make URI redirects and proxying. The only other program of significance (i.e. not 'out-of-the-box' Linux programs) installed on the VM is Git which is used to pull updated Apache server config files from this repository to the server.
+### In outline
+The server is a small Virtual Machine (VM) that running Linux within which is installed the Apache 2 web server program which is configured to make URI redirects and proxying. The only other program of significance (i.e. not 'out-of-the-box' Linux programs) installed on the VM is Git which is used to pull updated Apache server config files from this repository to the server.
 
-**In detail**: the installation log of the server is in this repository as [install.sh](install.sh).
+### In detail
+* The server is a Virtual Machine established on the [NeCTAR](nectar.org.au) cloud 
+  * The specific VM and the Floating IP address allocated to it is provided within the NeCTAR project 'AGLDWG' allocation by [QRISCloud](https://www.qriscloud.org.au/) which is a NeCTAR provider institution 
+* The Floating IP of the PID Proxy is [203.100.30.55](http://203.100.30.55)
+* The Virtual Machine image of the current VM acting as PID Proxy is name: pid-prod8, ID: b8567a35-adaf-41cc-8228-b3e7f70d74e7
+  * The installation log of the server is in this repository as [install.sh](install.sh)
 
 
 ## Backup
