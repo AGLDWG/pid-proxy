@@ -32,6 +32,7 @@ Redirection and proxying configuration implemented in the PID Proxy is slaved to
 
 * [linked.data.gov.au.conf](conf/linked.data.gov.au.conf)
 * [environment.data.gov.au.conf](conf/environment.data.gov.au.conf)
+  * [lab.environment.data.gov.au.conf](conf/lab.environment.data.gov.au.conf)
 * [reference.data.gov.au.conf](conf/reference.data.gov.au.conf)
 
 The non-persistent domains are managed using .conf files with their names.
