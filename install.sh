@@ -30,6 +30,10 @@ sudo mkdir /var/log/apache2/environment.data.gov.au
 sudo touch /var/log/apache2/environment.data.gov.au/access.log
 sudo touch /var/log/apache2/environment.data.gov.au/error.log
 
+sudo mkdir /var/log/apache2/lab.environment.data.gov.au
+sudo touch /var/log/apache2/lab.environment.data.gov.au/access.log
+sudo touch /var/log/apache2/lab.environment.data.gov.au/error.log
+
 sudo mkdir /var/log/apache2/reference.data.gov.au
 sudo touch /var/log/apache2/reference.data.gov.au/access.log
 sudo touch /var/log/apache2/reference.data.gov.au/error.log
