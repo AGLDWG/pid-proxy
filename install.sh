@@ -50,6 +50,7 @@ cd /home/ubuntu/backup
 sudo cp conf/*.conf /etc/apache2/sites-available/
 sudo a2ensite catalogue.linked.data.gov.au.conf
 sudo a2ensite environment.data.gov.au.conf
+sudo a2ensite lab.environment.data.gov.au.conf
 sudo a2ensite infrastructure.data.gov.au.conf
 sudo a2ensite linked.data.gov.au.conf
 sudo a2ensite lode2.linked.data.gov.au.conf
