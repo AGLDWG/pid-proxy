@@ -129,7 +129,25 @@ def def_ont_agrif_html():
 
 
 # TODO: implement custom tests for AGRIF demo (https://github.com/AGLDWG/agrif-demo)
+def ont_agrif_demo_html():
+    """Tests for the AGRIF demo
+    """
+    source = 'http://reference.data.gov.au/agrifdemo'
+    target = 'http://www.linked.data.gov.au/reference.data.gov.au/agrifdemo'
 
+    # get the HTML version of the demo
+    r = requests.get(
+        source,
+        headers={'Accept': 'text/html'},
+        allow_redirects=False
+        )
+
+    # check the redirection
+    assert r.headers.get('Location') == target, \
+        'Failed redirect from ' + source + ' to ' + target
+
+    # check for bad response code
+    r.raise_for_status()
 
 # reference.data.gov.au/def/ont/dataset
 #
@@ -154,3 +172,6 @@ if __name__ == '__main__':
     def_ont_agrif_rdf_2()
     def_ont_agrif_rdf_3()
     def_ont_agrif_html()
+    ont_agrif_demo_html()
+
+    print("All tests passed successfully!")

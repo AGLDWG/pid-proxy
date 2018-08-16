@@ -104,9 +104,10 @@ def def_op_html_header():
 
 if __name__ == '__main__':
     def_ba_glossary()
-    # def_water_quality_op_rdf()
-    # def_water_quality_op_html()
-    # def_water_quality_op_rdf_header()
-    # def_water_quality_op_html_header()
-    # def_op_rdf_header()
-    # def_op_html_header()
+    def_water_quality_op_rdf()
+    def_water_quality_op_html()
+    def_water_quality_op_rdf_header()
+    def_water_quality_op_html_header()
+    def_op_rdf_header()
+    def_op_html_header()
+    print('All tests passed successfully!')
