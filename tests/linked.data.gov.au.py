@@ -12,7 +12,7 @@ def validate_redirect(label, from_, to, headers=None):
     r = requests.get(from_, headers=headers, allow_redirects=False, timeout=2)
 
     assert r.headers.get('Location') == to, \
-        'For test \'{}\', URI {} did not redirect to {} as expected, instead {}'.format(label, from_, to, str(r.headers.get('Location')))
+        'For test \'{}\', URI {} did not redirect to {} as expected, instead {}.'.format(label, from_, to, str(r.headers.get('Location')))
 
 
 def test_html_response(uri, expected_title):
@@ -96,7 +96,7 @@ def test_all_redirects():
             if len(case['headers']) > 0:
                 print('headers: {}'.format(case['headers']))
             validate_redirect(case['label'], case['from'], case['to'], case['headers'])
-            print('\nok\n\n')
+            print('ok\n\n')
 
 
 if __name__ == '__main__':

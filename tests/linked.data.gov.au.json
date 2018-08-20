@@ -7,7 +7,7 @@
          "headers": {}
       },
       {
-         "label": "Registry Status Vocabulary, RDF (turtle)",
+         "label": "Registry Status Vocabulary, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/def/reg-status.ttl",
          "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
          "headers": {}
@@ -31,7 +31,7 @@
          "headers": {}
       },
       {
-         "label": "Registry Status Vocabulary, Concept accepted RDF (turtle)",
+         "label": "Registry Status Vocabulary, Concept accepted RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/def/reg-status/accepted.ttl",
          "to": "http://www.linked.data.gov.au/def/reg-status/accepted.ttl",
          "headers": {}
@@ -45,7 +45,7 @@
          "headers": {}
       },
       {
-         "label": "Place Names Ontology, RDF (turtle)",
+         "label": "Place Names Ontology, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/def/placenames.ttl",
          "to": "http://www.linked.data.gov.au/def/placenames.ttl",
          "headers": {}
@@ -71,7 +71,7 @@
          "headers": {}
       },
       {
-         "label": "G-NAF Dataset, RDF (turtle)",
+         "label": "G-NAF Dataset, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/dataset/gnaf.ttl",
          "to": "http://gnafld.net/index.ttl",
          "headers": {}
@@ -87,6 +87,54 @@
          "from": "http://linked.data.gov.au/dataset/gnaf",
          "to": "http://gnafld.net/index.ttl",
          "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "G-NAF Dataset, Address Register HTML",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/",
+         "to": "http://gnafld.net/address/",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, Address Register RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/index.ttl",
+         "to": "http://gnafld.net/address/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, Address Register RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/",
+         "to": "http://gnafld.net/address/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/?_format=text/turtle",
+         "to": "http://gnafld.net/address/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, an Address HTML",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
+         "to": "http://gnafld.net/address/GAACT714845933",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, an Address RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933.ttl",
+         "to": "http://gnafld.net/address/GAACT714845933.ttl",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, an Address RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
+         "to": "http://gnafld.net/address/GAACT714845933.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933?_format=text/turtle",
+         "to": "http://gnafld.net/address/GAACT714845933.ttl",
+         "headers": {}
       }
    ]
 }
