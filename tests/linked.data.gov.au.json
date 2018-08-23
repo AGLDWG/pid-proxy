@@ -210,7 +210,7 @@
     },
     {
       "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+      "from": "http://test.linked.data.gov.au/def/iso19160-1-address-nz-profile",
       "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
       "headers": {"Accept": "text/turtle"}
     }
@@ -230,12 +230,12 @@
     },
     {
       "label": "AGRIF Ontology, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
+      "from": "http://test.linked.data.gov.au/def/agrif?_format=text/turtle",
       "to": "http://www.linked.data.gov.au/def/agrif.ttl",
       "headers": {}
     },{
       "label": "AGRIF Ontology, HTRDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/agrif",
+      "from": "http://test.linked.data.gov.au/def/agrif",
       "to": "http://www.linked.data.gov.au/def/agrif.ttl",
       "headers": {"Accept": "text/turtle"}
     }
