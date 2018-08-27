@@ -136,5 +136,108 @@
          "to": "http://gnafld.net/address/GAACT714845933.ttl",
          "headers": {}
       }
+   ],
+   "http://linked.data.gov.au/def/fsdf":[
+      {
+        "label": "FSDF Ontology, HTML",
+        "from": "http://test.linked.data.gov.au/def/fsdf",
+        "to": "http://www.linked.data.gov.au/def/fsdf",
+        "headers": {}
+      },
+      {
+        "label": "FSDF Ontology, RDF (turtle) via file ext.",
+        "from": "http://test.linked.data.gov.au/def/fsdf.ttl",
+        "to": "http://www.linked.data.gov.au/def/fsdf.ttl",
+        "headers": {}
+      },
+      {
+        "label": "FSDF Ontology, RDF (turtle) via QSA",
+        "from": "http://test.linked.data.gov.au/def/fsdf?_format=text/turtle",
+        "to": "http://www.linked.data.gov.au/def/fsdf.ttl",
+        "headers": {}
+      },
+      {
+        "label": "FSDF Ontology, RDF (turtle) via conneg",
+        "from": "http://test.linked.data.gov.au/def/fsdf",
+        "to": "http://www.linked.data.gov.au/def/fsdf.ttl",
+        "headers": {"Accept": "text/turtle"}
+      }
+   ],
+   "http://linked.data.gov.au/def/iso19160-1-address":[
+      {
+        "label": "ISO19160 Ontology, HTML",
+        "from": "http://test.linked.data.gov.au/def/iso19160-1-address",
+        "to": "http://www.linked.data.gov.au/def/iso19160-1-address",
+        "headers": {}
+      },
+      {
+        "label": "ISO19160 Ontology, RDF (turtle) via file ext.",
+        "from": "http://test.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "to": "http://www.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "headers": {}
+      },
+      {
+        "label": "ISO19160 Ontology, RDF (turtle) via QSA",
+        "from": "http://test.linked.data.gov.au/def/iso19160-1-address?_format=text/turtle",
+        "to": "http://www.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "headers": {}
+      },
+      {
+        "label": "ISO19160 Ontology, RDF (turtle) via conneg",
+        "from": "http://test.linked.data.gov.au/def/iso19160-1-address",
+        "to": "http://www.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "headers": {"Accept": "text/turtle"}
+      }
+   ],
+   "http://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
+     {
+       "label": "ISO19160 NZ Profile Ontology, HTML",
+       "from": "http://test.linked.data.gov.au/def/iso19160-1-address-nz-profile",
+       "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile",
+       "headers": {}
+     },
+     {
+      "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via file ext.",
+      "from": "http://test.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+      "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+      "headers": {}
+    },
+    {
+      "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via QSA",
+      "from": "http://test.linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
+      "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+      "headers": {}
+    },
+    {
+      "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
+      "from": "http://test.linked.data.gov.au/def/iso19160-1-address-nz-profile",
+      "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+      "headers": {"Accept": "text/turtle"}
+    }
+   ],
+   "http://linked.data.gov.au/def/agrif": [
+     {
+       "label": "AGRIF Ontology, HTML",
+       "from": "http://test.linked.data.gov.au/def/agrif",
+       "to": "http://www.linked.data.gov.au/def/agrif",
+       "headers": {}
+     },
+     {
+      "label": "AGRIF Ontology, RDF (turtle) via file ext.",
+      "from": "http://test.linked.data.gov.au/def/agrif.ttl",
+      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "headers": {}
+    },
+    {
+      "label": "AGRIF Ontology, RDF (turtle) via QSA",
+      "from": "http://test.linked.data.gov.au/def/agrif?_format=text/turtle",
+      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "headers": {}
+    },{
+      "label": "AGRIF Ontology, HTRDF (turtle) via conneg",
+      "from": "http://test.linked.data.gov.au/def/agrif",
+      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "headers": {"Accept": "text/turtle"}
+    }
    ]
 }
