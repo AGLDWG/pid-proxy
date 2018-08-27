@@ -93,5 +93,69 @@
          "to": "http://registry2.it.csiro.au/def/ba/landscape-classification?_format=ttl",
          "headers": {"Accept": "text/turtle"}
       }
+   ],
+     "http://environment.data.gov.au/def/ba/license":[
+      {
+         "label": "BA license",
+         "from": "http://environment.data.gov.au/def/ba/license",
+         "to": "http://registry2.it.csiro.au/def/ba/license",
+         "headers": {}
+      },
+      {
+         "label": "BA license, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/license.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA license, RDF (turtle) via QSA",
+         "from": "http://environment.data.gov.au/def/ba/license?_format=text/turtle",
+         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA license, RDF (turtle) via native QSA",
+         "from": "http://environment.data.gov.au/def/ba/license?_format=ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA license, RDF (turtle) via conneg",
+         "from": "http://environment.data.gov.au/def/ba/license",
+         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "headers": {"Accept": "text/turtle"}
+      }
+   ],
+     "http://environment.data.gov.au/def/ba/source":[
+      {
+         "label": "BA source",
+         "from": "http://environment.data.gov.au/def/ba/source",
+         "to": "http://registry2.it.csiro.au/def/ba/source",
+         "headers": {}
+      },
+      {
+         "label": "BA source, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/source.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/source?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA source, RDF (turtle) via QSA",
+         "from": "http://environment.data.gov.au/def/ba/source?_format=text/turtle",
+         "to": "http://registry2.it.csiro.au/def/ba/source?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA source, RDF (turtle) via native QSA",
+         "from": "http://environment.data.gov.au/def/ba/source?_format=ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/source?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA source, RDF (turtle) via conneg",
+         "from": "http://environment.data.gov.au/def/ba/source",
+         "to": "http://registry2.it.csiro.au/def/ba/source?_format=ttl",
+         "headers": {"Accept": "text/turtle"}
+      }
    ]
 }
