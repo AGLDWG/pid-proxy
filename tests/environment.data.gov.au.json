@@ -1,0 +1,97 @@
+{
+   "http://environment.data.gov.au/def/ba/glossary":[
+      {
+         "label": "BA Glossary",
+         "from": "http://environment.data.gov.au/def/ba/glossary",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/glossary.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary, RDF (turtle) via QSA",
+         "from": "http://environment.data.gov.au/def/ba/glossary?_format=text/turtle",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary, RDF (turtle) via native QSA",
+         "from": "http://environment.data.gov.au/def/ba/glossary?_format=ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary, RDF (turtle) via conneg",
+         "from": "http://environment.data.gov.au/def/ba/glossary",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary?_format=ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+
+      {
+         "label": "BA Glossary Term aquifer",
+         "from": "http://environment.data.gov.au/def/ba/glossary/aquifer",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary/aquifer",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary Term aquifer, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/glossary/aquifer.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary Term aquifer, RDF (turtle) via QSA",
+         "from": "http://environment.data.gov.au/def/ba/glossary/aquifer?_format=text/turtle",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary Term aquifer, RDF (turtle) via native QSA",
+         "from": "http://environment.data.gov.au/def/ba/glossary/aquifer?_format=ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA Glossary Term aquifer, RDF (turtle) via conneg",
+         "from": "http://environment.data.gov.au/def/ba/glossary/aquifer",
+         "to": "http://registry2.it.csiro.au/def/ba/glossary/aquifer?_format=ttl",
+         "headers": {"Accept": "text/turtle"}
+      }
+   ],
+   "http://environment.data.gov.au/def/ba/landscape-classification":[
+      {
+         "label": "BA landscape-classification",
+         "from": "http://environment.data.gov.au/def/ba/landscape-classification",
+         "to": "http://registry2.it.csiro.au/def/ba/landscape-classification",
+         "headers": {}
+      },
+      {
+         "label": "BA landscape-classification, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/landscape-classification.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/landscape-classification?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA landscape-classification, RDF (turtle) via QSA",
+         "from": "http://environment.data.gov.au/def/ba/landscape-classification?_format=text/turtle",
+         "to": "http://registry2.it.csiro.au/def/ba/landscape-classification?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA landscape-classification, RDF (turtle) via native QSA",
+         "from": "http://environment.data.gov.au/def/ba/landscape-classification?_format=ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/landscape-classification?_format=ttl",
+         "headers": {}
+      },
+      {
+         "label": "BA landscape-classification, RDF (turtle) via conneg",
+         "from": "http://environment.data.gov.au/def/ba/landscape-classification",
+         "to": "http://registry2.it.csiro.au/def/ba/landscape-classification?_format=ttl",
+         "headers": {"Accept": "text/turtle"}
+      }
+   ]
+}
