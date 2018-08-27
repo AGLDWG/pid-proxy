@@ -94,39 +94,51 @@
          "headers": {"Accept": "text/turtle"}
       }
    ],
-     "http://environment.data.gov.au/def/ba/license":[
+   "http://environment.data.gov.au/def/ba/licence":[
       {
-         "label": "BA license",
-         "from": "http://environment.data.gov.au/def/ba/license",
-         "to": "http://registry2.it.csiro.au/def/ba/license",
+         "label": "BA licence",
+         "from": "http://environment.data.gov.au/def/ba/licence",
+         "to": "http://registry2.it.csiro.au/def/ba/licence",
          "headers": {}
       },
       {
-         "label": "BA license, RDF (turtle) via file ext",
-         "from": "http://environment.data.gov.au/def/ba/license.ttl",
-         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "label": "BA licence, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/licence.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/licence?_format=ttl",
          "headers": {}
       },
       {
-         "label": "BA license, RDF (turtle) via QSA",
-         "from": "http://environment.data.gov.au/def/ba/license?_format=text/turtle",
-         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "label": "BA licence, RDF (turtle) via QSA",
+         "from": "http://environment.data.gov.au/def/ba/licence?_format=text/turtle",
+         "to": "http://registry2.it.csiro.au/def/ba/licence?_format=ttl",
          "headers": {}
       },
       {
-         "label": "BA license, RDF (turtle) via native QSA",
-         "from": "http://environment.data.gov.au/def/ba/license?_format=ttl",
-         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "label": "BA licence, RDF (turtle) via native QSA",
+         "from": "http://environment.data.gov.au/def/ba/licence?_format=ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/licence?_format=ttl",
          "headers": {}
       },
       {
-         "label": "BA license, RDF (turtle) via conneg",
-         "from": "http://environment.data.gov.au/def/ba/license",
-         "to": "http://registry2.it.csiro.au/def/ba/license?_format=ttl",
+         "label": "BA licence, RDF (turtle) via conneg",
+         "from": "http://environment.data.gov.au/def/ba/licence",
+         "to": "http://registry2.it.csiro.au/def/ba/licence?_format=ttl",
          "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "BA licence term id-licence",
+         "from": "http://environment.data.gov.au/def/ba/licence/id-licence",
+         "to": "http://registry2.it.csiro.au/def/ba/licence",
+         "headers": {}
+      },
+      {
+         "label": "BA licence term id-licence, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/licence/id-licence.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/licence/id-licence?_format=ttl",
+         "headers": {}
       }
    ],
-     "http://environment.data.gov.au/def/ba/source":[
+   "http://environment.data.gov.au/def/ba/source":[
       {
          "label": "BA source",
          "from": "http://environment.data.gov.au/def/ba/source",
@@ -153,9 +165,21 @@
       },
       {
          "label": "BA source, RDF (turtle) via conneg",
-         "from": "http://environment.data.gov.au/def/ba/source",
-         "to": "http://registry2.it.csiro.au/def/ba/source?_format=ttl",
+         "from": "http://environment.data.gov.au/def/ba/source/dictionary-ecology",
+         "to": "http://registry2.it.csiro.au/def/ba/source/dictionary-ecology?_format=ttl",
          "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "BA source, term dictionary-ecology",
+         "from": "http://environment.data.gov.au/def/ba/source",
+         "to": "http://registry2.it.csiro.au/def/ba/source/dictionary-ecology",
+         "headers": {}
+      },
+      {
+         "label": "BA source term dictionary-ecology, RDF (turtle) via file ext",
+         "from": "http://environment.data.gov.au/def/ba/source/dictionary-ecology.ttl",
+         "to": "http://registry2.it.csiro.au/def/ba/source/dictionary-ecology?_format=ttl",
+         "headers": {}
       }
    ]
 }
