@@ -103,11 +103,14 @@ def def_op_html_header():
         'Failed redirect from ' + source + ' to ' + target
 
 if __name__ == '__main__':
-    def_ba_glossary()
-    def_water_quality_op_rdf()
-    def_water_quality_op_html()
-    def_water_quality_op_rdf_header()
-    def_water_quality_op_html_header()
-    def_op_rdf_header()
-    def_op_html_header()
-    print('All tests passed successfully!')
+    # def_ba_glossary()
+    # def_water_quality_op_rdf()
+    # def_water_quality_op_html()
+    # def_water_quality_op_rdf_header()
+    # def_water_quality_op_html_header()
+    # def_op_rdf_header()
+    # def_op_html_header()
+    # print('All tests passed successfully!')
+
+    import functions
+    functions.validate_all_redirects('environment.data.gov.au.json')
