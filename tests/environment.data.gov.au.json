@@ -128,7 +128,7 @@
       {
          "label": "BA licence term id-licence",
          "from": "http://environment.data.gov.au/def/ba/licence/id-licence",
-         "to": "http://registry2.it.csiro.au/def/ba/licence",
+         "to": "http://registry2.it.csiro.au/def/ba/licence/id-licence",
          "headers": {}
       },
       {
@@ -171,7 +171,7 @@
       },
       {
          "label": "BA source, term dictionary-ecology",
-         "from": "http://environment.data.gov.au/def/ba/source",
+         "from": "http://environment.data.gov.au/def/ba/source/dictionary-ecology",
          "to": "http://registry2.it.csiro.au/def/ba/source/dictionary-ecology",
          "headers": {}
       },
