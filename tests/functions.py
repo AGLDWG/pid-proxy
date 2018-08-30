@@ -29,6 +29,85 @@ def validate_html_response(uri, expected_title):
         'HTML response does not contain the correct <title> element. Expected "{}" got "{}"'.format(expected_title, received_title)
 
 
+def is_rdf_parseable(r, expected_title, formatType):
+    # check the result is parseable RDF
+    g = None
+    try:
+        g = rdflib.Graph().parse(data=r.content.decode('utf-8'), format=formatType)
+    except Exception as e:
+        print(e)
+
+    if g is None:
+        raise AssertionError(f'RDF {formatType} result is not parsable')
+
+    # define namespaces
+    RDFS = rdflib.namespace.RDFS
+    XSD = rdflib.namespace.XSD
+    SKOS = rdflib.namespace.SKOS
+
+    found_title = False
+    if not found_title:  # test for rdfs:label lang set to en on string literal
+        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, lang='en'))):
+            found_title = True
+    if not found_title:  # test for rdfs:label lang set to none on string literal
+        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title))):
+            found_title = True
+    if not found_title:  # test for rdfs:label on xsd:string
+        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+            found_title = True
+    if not found_title:  # test for skos:label lang set to en on string literal
+        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, lang='en'))):
+            found_title = True
+    if not found_title:  # test for skos:label lang set to none on string literal
+        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title))):
+            found_title = True
+    if not found_title:  # test for skos:label on xsd:string
+        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+            found_title = True
+    if not found_title:  # test for skos:prefLabel lang set to en on string literal
+        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, lang='en'))):
+            found_title = True
+    if not found_title:  # test for skos:prefLabel lang set to none on string literal
+        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title))):
+            found_title = True
+    if not found_title:  # test for skos:label on xsd:string
+        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+            found_title = True
+
+    assert found_title == True, \
+        'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .)'
+
+    return found_title
+
+
+def validate_rdf_xml_response(uri, expected_title):
+    # get the RDF version of the resource, using Content Negotiation
+    r = requests.get(uri, headers={'Accept': 'application/rdf+xml'})
+
+    print(uri)
+    print(r.headers)
+
+    # # check Content-Type
+    # assert 'application/rdf+xml' in r.headers['Content-Type'], \
+    #     'Response for RDF by Content Negotiation does not have Content-Type set to application/rdf+xml.'
+    #
+    # # get the RDF version of the resource, using Query String Arguments
+    # r = requests.get(uri + '?_format=application/rdf+xml')
+    #
+    # # check Content-Type
+    # assert 'application/rdf+xml' in r.headers['Content-Type'], \
+    #     'Response for RDF by _format Query String Argument does not have Content-Type set to application/rdf+xml.'
+    #
+    # # get the RDF version of the resource, using file extension-like syntax
+    # r = requests.get(uri + '.rdf')
+    #
+    # # check Content-Type
+    # assert 'application/rdf+xml' in r.headers['Content-Type'], \
+    #     'Response for RDF by file extension does not have Content-Type set to application/rdf+xml.'
+
+    result = is_rdf_parseable(r, expected_title, 'application/rdf+xml')
+    print(f'Title found: {result}')
+
 # TODO: broaden this to RDF/XML as well as turtle
 def validate_turtle_response(uri, expected_title):
     # get the RDF version of the resource, using Content Negotiation
@@ -55,54 +134,8 @@ def validate_turtle_response(uri, expected_title):
     assert 'text/turtle' in r.headers['Content-Type'], \
         'Response for RDF by file extension does not have Content-Type set to text/turtle.'
 
-    # check the result is parseable RDF
-    g = None
-    try:
-        g = rdflib.Graph().parse(data=r.content.decode('utf-8'), format='text/turtle')
-    except Exception as e:
-        print(e)
-
-    if g is None:
-        raise AssertionError('RDF (turtle) result is not parsable')
-
-    # define namespaces
-    RDFS = rdflib.namespace.RDFS
-    XSD = rdflib.namespace.XSD
-    SKOS = rdflib.namespace.SKOS
-
-    found_title = False
-    if not found_title: # test for rdfs:label lang set to en on string literal
-        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, lang='en'))):
-            found_title = True
-    if not found_title: # test for rdfs:label lang set to none on string literal
-        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title))):
-            found_title = True
-    if not found_title: # test for rdfs:label on xsd:string
-        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
-            found_title = True
-    if not found_title: # test for skos:label lang set to en on string literal
-        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, lang='en'))):
-            found_title = True
-    if not found_title: # test for skos:label lang set to none on string literal
-        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title))):
-            found_title = True
-    if not found_title: # test for skos:label on xsd:string
-        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
-            found_title = True
-    if not found_title: # test for skos:prefLabel lang set to en on string literal
-        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, lang='en'))):
-            found_title = True
-    if not found_title: # test for skos:prefLabel lang set to none on string literal
-        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title))):
-            found_title = True
-    if not found_title: # test for skos:label on xsd:string
-        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, datatype=XSD.string))):
-            found_title = True
-
-    assert found_title == True, \
-        'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .)'
-    print(f'Title found: {found_title}')
-
+    result = is_rdf_parseable(r, expected_title, 'text/turtle')
+    print(f'Title found: {result}')
 
     # # check parsable RDF contains the correct title (label)
     # q = '''
