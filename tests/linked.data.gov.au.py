@@ -89,7 +89,7 @@ def test_turtle_response(uri, expected_title):
 
 
 def test_all_redirects():
-    uris = json.load(open('linked.data.gov.au.json', 'r'))
+    uris = json.load(open('C:\\Users\\chu101\Documents\\pidsvc\\pid-proxy\\tests\\linked.data.gov.au.json', 'r'))
     for uri, cases in uris.items():
         for case in cases:
             print('from: {}\nto: {}'.format(case['from'], case['to']))
