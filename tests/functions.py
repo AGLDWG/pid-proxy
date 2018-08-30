@@ -49,7 +49,7 @@ def validate_turtle_response(uri, expected_title):
         'Response for RDF by _format Query String Argument does not have Content-Type set to text/turtle.'
 
     # get the RDF version of the resource, using file extension-like syntax
-    r = requests.get(uri)
+    r = requests.get(uri  + '.ttl')
 
     # check Content-Type
     assert 'text/turtle' in r.headers['Content-Type'], \
