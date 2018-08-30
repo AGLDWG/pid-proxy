@@ -87,23 +87,23 @@ def validate_rdf_xml_response(uri, expected_title):
     print(uri)
     print(r.headers)
 
-    # # check Content-Type
-    # assert 'application/rdf+xml' in r.headers['Content-Type'], \
-    #     'Response for RDF by Content Negotiation does not have Content-Type set to application/rdf+xml.'
-    #
-    # # get the RDF version of the resource, using Query String Arguments
-    # r = requests.get(uri + '?_format=application/rdf+xml')
-    #
-    # # check Content-Type
-    # assert 'application/rdf+xml' in r.headers['Content-Type'], \
-    #     'Response for RDF by _format Query String Argument does not have Content-Type set to application/rdf+xml.'
-    #
-    # # get the RDF version of the resource, using file extension-like syntax
-    # r = requests.get(uri + '.rdf')
-    #
-    # # check Content-Type
-    # assert 'application/rdf+xml' in r.headers['Content-Type'], \
-    #     'Response for RDF by file extension does not have Content-Type set to application/rdf+xml.'
+    # check Content-Type
+    assert 'application/rdf+xml' in r.headers['Content-Type'], \
+        'Response for RDF by Content Negotiation does not have Content-Type set to application/rdf+xml.'
+
+    # get the RDF version of the resource, using Query String Arguments
+    r = requests.get(uri + '?_format=application/rdf+xml')
+
+    # check Content-Type
+    assert 'application/rdf+xml' in r.headers['Content-Type'], \
+        'Response for RDF by _format Query String Argument does not have Content-Type set to application/rdf+xml.'
+
+    # get the RDF version of the resource, using file extension-like syntax
+    r = requests.get(uri + '.rdf')
+
+    # check Content-Type
+    assert 'application/rdf+xml' in r.headers['Content-Type'], \
+        'Response for RDF by file extension does not have Content-Type set to application/rdf+xml.'
 
     result = is_rdf_parseable(r, expected_title, 'application/rdf+xml')
     print(f'Title found: {result}')
