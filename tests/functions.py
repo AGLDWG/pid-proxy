@@ -66,7 +66,6 @@ def validate_turtle_response(uri, expected_title):
         raise AssertionError('RDF (turtle) result is not parsable')
 
     # define namespaces
-    OWL = rdflib.Namespace('http://www.w3.org/2002/07/owl#')
     RDFS = rdflib.namespace.RDFS
     XSD = rdflib.namespace.XSD
     SKOS = rdflib.namespace.SKOS
