@@ -58,33 +58,77 @@ def validate_turtle_response(uri, expected_title):
     # check the result is parseable RDF
     g = None
     try:
-        g = rdflib.Graph().parse(data=r.content.decode('utf-8'), format='turtle')
+        g = rdflib.Graph().parse(data=r.content.decode('utf-8'), format='text/turtle')
     except Exception as e:
         print(e)
 
     if g is None:
         raise AssertionError('RDF (turtle) result is not parsable')
 
-    # check parsable RDF contains the correct title (label)
-    q = '''
-            PREFIX owl: <http://www.w3.org/2002/07/owl#>
-            PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
-            PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
-            SELECT ?title 
-            WHERE {{
-                <{}>  a owl:Ontology .
-                {{ ?o rdfs:label ?title . }}
-                UNION
-                {{ ?o skos:prefLabel ?title . }}
-            }}
-        '''.format(uri.replace('.ttl', ''))
+    # define namespaces
+    OWL = rdflib.Namespace('http://www.w3.org/2002/07/owl#')
+    RDFS = rdflib.namespace.RDFS
+    XSD = rdflib.namespace.XSD
+    SKOS = rdflib.namespace.SKOS
 
-    received_title = None
-    for t in g.query(q):
-        received_title = str(t['title']).strip()
+    found_title = False
+    if not found_title: # test for rdfs:label lang set to en on string literal
+        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, lang='en'))):
+            found_title = True
+    if not found_title: # test for rdfs:label lang set to none on string literal
+        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title))):
+            found_title = True
+    if not found_title: # test for rdfs:label on xsd:string
+        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+            found_title = True
+    if not found_title: # test for skos:label lang set to en on string literal
+        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, lang='en'))):
+            found_title = True
+    if not found_title: # test for skos:label lang set to none on string literal
+        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title))):
+            found_title = True
+    if not found_title: # test for skos:label on xsd:string
+        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+            found_title = True
+    if not found_title: # test for skos:prefLabel lang set to en on string literal
+        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, lang='en'))):
+            found_title = True
+    if not found_title: # test for skos:prefLabel lang set to none on string literal
+        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title))):
+            found_title = True
+    if not found_title: # test for skos:label on xsd:string
+        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+            found_title = True
 
-    assert received_title == expected_title, \
+    assert found_title == True, \
         'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .)'
+    print(f'Title found: {found_title}')
+
+
+    # # check parsable RDF contains the correct title (label)
+    # q = '''
+    #         PREFIX owl: <http://www.w3.org/2002/07/owl#>
+    #         PREFIX rdfs: <http://www.w3.org/2000/01/rdf-schema#>
+    #         PREFIX skos: <http://www.w3.org/2004/02/skos/core#>
+    #         SELECT ?title
+    #         WHERE {{
+    #             <{}>  a owl:Ontology .
+    #             {{ ?o rdfs:label ?title . }}
+    #             UNION
+    #             {{ ?o skos:prefLabel ?title . }}
+    #         }}
+    #     '''.format(uri.replace('.ttl', ''))
+    #
+    # received_title = None
+    # print("start")
+    # for t in g.query(q):
+    #     print(f'test value: {t}')
+    #     received_title = str(t['title']).strip()
+    #     if (received_title != None):
+    #         break
+    #
+    # assert received_title == expected_title, \
+    #     'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .)'
 
 
 def validate_all_redirects(json_file):
