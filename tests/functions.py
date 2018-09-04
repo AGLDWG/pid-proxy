@@ -46,36 +46,42 @@ def is_rdf_parseable(r, expected_title, formatType):
     SKOS = rdflib.namespace.SKOS
 
     found_title = False
-    if not found_title:  # test for rdfs:label lang set to en on string literal
-        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, lang='en'))):
+    # if not found_title:  # test for rdfs:label lang set to en on string literal
+    #     for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, lang='en'))):
+    #         found_title = True
+    # if not found_title:  # test for rdfs:label lang set to none on string literal
+    #     for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title))):
+    #         found_title = True
+    # if not found_title:  # test for rdfs:label on xsd:string
+    #     for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+    #         found_title = True
+    # if not found_title:  # test for skos:label lang set to en on string literal
+    #     for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, lang='en'))):
+    #         found_title = True
+    # if not found_title:  # test for skos:label lang set to none on string literal
+    #     for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title))):
+    #         found_title = True
+    # if not found_title:  # test for skos:label on xsd:string
+    #     for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
+    #         found_title = True
+    # if not found_title:  # test for skos:prefLabel lang set to en on string literal
+    #     for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, lang='en'))):
+    #         found_title = True
+    # if not found_title:  # test for skos:prefLabel lang set to none on string literal
+    #     for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title))):
+    #         found_title = True
+    # if not found_title:  # test for skos:label on xsd:string
+    #     for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, datatype=XSD.string))):
             found_title = True
-    if not found_title:  # test for rdfs:label lang set to none on string literal
-        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title))):
+    
+    # test to get title string
+    for s, p, o in g.triples((None, RDFS.label, None)):
+        if o == expected_title:
             found_title = True
-    if not found_title:  # test for rdfs:label on xsd:string
-        for s, p, o in g.triples((None, RDFS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
-            found_title = True
-    if not found_title:  # test for skos:label lang set to en on string literal
-        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, lang='en'))):
-            found_title = True
-    if not found_title:  # test for skos:label lang set to none on string literal
-        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title))):
-            found_title = True
-    if not found_title:  # test for skos:label on xsd:string
-        for s, p, o in g.triples((None, SKOS.label, rdflib.term.Literal(expected_title, datatype=XSD.string))):
-            found_title = True
-    if not found_title:  # test for skos:prefLabel lang set to en on string literal
-        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, lang='en'))):
-            found_title = True
-    if not found_title:  # test for skos:prefLabel lang set to none on string literal
-        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title))):
-            found_title = True
-    if not found_title:  # test for skos:label on xsd:string
-        for s, p, o in g.triples((None, SKOS.prefLabel, rdflib.term.Literal(expected_title, datatype=XSD.string))):
-            found_title = True
+        print(f'Title name found as: {o}')
 
     assert found_title == True, \
-        'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .)'
+        'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .) or the expected title did not match.'
 
     return found_title
 

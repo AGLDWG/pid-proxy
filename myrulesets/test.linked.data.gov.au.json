@@ -1,0 +1,49 @@
+{
+    "http://linked.data.gov.au/def/reg-status":
+    {
+        "metadata": {
+            "id": "Registry Status Vocabulary",
+            "name": "Registry Status Vocabulary redirection",
+            "definition": "Registry Status Vocabulary persistent domain",
+            "authority": "AGLDWG"
+        },
+        "parameters": [
+            {
+               "label": "Registry Status Vocabulary",
+               "from": "http://linked.data.gov.au/def/reg-status",
+               "to": "http://www.linked.data.gov.au/def/reg-status",
+               "headers": {}
+            },
+            {
+               "label": "Registry Status Vocabulary, RDF (turtle) via file ext",
+               "from": "http://linked.data.gov.au/def/reg-status.ttl",
+               "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+               "headers": {}
+            },
+            {
+               "label": "Registry Status Vocabulary, RDF (turtle) via QSA",
+               "from": "http://linked.data.gov.au/def/reg-status?_format=text/turtle",
+               "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+               "headers": {}
+            },
+            {
+               "label": "Registry Status Vocabulary, RDF (turtle) via conneg",
+               "from": "http://linked.data.gov.au/def/reg-status",
+               "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+               "headers": {"Accept": "text/turtle"}
+            },
+            {
+               "label": "Registry Status Vocabulary, Concept accepted HTML",
+               "from": "http://linked.data.gov.au/def/reg-status/accepted",
+               "to": "http://www.linked.data.gov.au/def/reg-status/accepted",
+               "headers": {}
+            },
+            {
+               "label": "Registry Status Vocabulary, Concept accepted RDF (turtle) via file ext",
+               "from": "http://linked.data.gov.au/def/reg-status/accepted.ttl",
+               "to": "http://www.linked.data.gov.au/def/reg-status/accepted.ttl",
+               "headers": {}
+            }
+         ]
+    }
+}
