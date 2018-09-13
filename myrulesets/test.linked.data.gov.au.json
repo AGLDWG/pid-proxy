@@ -12,12 +12,7 @@
                "to": "http://www.linked.data.gov.au/def/reg-status",
                "headers": {},
                "title": "Registry Ontology's Status vocabulary",
-               "rules": ["redirect", "html_title", "rdf"],
-               "rdf": {
-                   "n3": false,
-                   "turtle": true,
-                   "xml": false
-               }
+               "rules": ["redirect", "html_title"]
             },
             {
                "label": "Registry Status Vocabulary, RDF (turtle) via file ext",
@@ -25,7 +20,8 @@
                "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
                "headers": {},
                "title": "",
-               "rules": ["redirect"]
+               "rules": ["redirect", "rdf"],
+               "rdf": ["turtle"]
             },
             {
                "label": "Registry Status Vocabulary, RDF (turtle) via QSA",
