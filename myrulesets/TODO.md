@@ -2,6 +2,8 @@
 ## Validate RDF Ruleset
 ### TODO
 * Support for testing other (optional) RDF types
+* Convert the tests for other PIDs to the new format
+* Attend to the failed tests (mostly the content-type not set for HTML)
 ### Current features
 #### Validates that the required information is there for a given PID.
 * Validates the metadata
