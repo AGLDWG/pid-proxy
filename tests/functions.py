@@ -41,9 +41,7 @@ def is_rdf_parseable(r, uri, expected_title, formatType):
         raise AssertionError(f'RDF {formatType} result is not parsable')
 
     # define namespaces
-    RDFS = rdflib.namespace.RDFS
-    XSD = rdflib.namespace.XSD
-    SKOS = rdflib.namespace.SKOS
+    from rdflib.namespace import RDFS, XSD, SKOS, DC, DCTERMS
 
     found_title = False
     
@@ -54,19 +52,28 @@ def is_rdf_parseable(r, uri, expected_title, formatType):
                 found_title = True
             print(f'Title name found as: {o}')
 
-    for s, p, o in g.triples((None, SKOS.prefLabel, None)):
-        if o is not None:
-            if o.value == expected_title:
-                found_title = True
-                print(f'Title name found as: {o}')
+    if not found_title:  # preventing this action if title found in loop above
+        for s, p, o in g.triples((None, SKOS.prefLabel, None)):
+            if o is not None:
+                if o.value == expected_title:
+                    found_title = True
+                    print(f'Title name found as: {o}')
 
-    for s, p, o in g.triples((None, SKOS.label, None)):
-        if o is not None:
-            if o.value == expected_title:
-                found_title = True
-                print(f'Title name found as: {o}')
+    if not found_title:  # preventing this action if title found in loop above
+        for s, p, o in g.triples((None, DC.title, None)):
+            if o is not None:
+                if o.value == expected_title:
+                    found_title = True
+                    print(f'Title name found as: {o}')
 
-    assert found_title == True, \
+    if not found_title:  # preventing this action if title found in loop above
+        for s, p, o in g.triples((None, DCTERMS.title, None)):
+            if o is not None:
+                if o.value == expected_title:
+                    found_title = True
+                    print(f'Title name found as: {o}')
+
+    assert found_title is True, \
         'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .) or the expected title did not match.'
 
     return found_title
@@ -100,7 +107,7 @@ def validate_rdf_xml_response(uri, expected_title):
     result = is_rdf_parseable(r, expected_title, 'application/rdf+xml')
     print(f'Title found: {result}')
 
-# TODO: broaden this to RDF/XML as well as turtle
+
 def validate_turtle_response(uri, expected_title):
     # get the RDF version of the resource, using Content Negotiation
     r = requests.get(uri, headers={'Accept': 'text/turtle'})
@@ -120,7 +127,7 @@ def validate_turtle_response(uri, expected_title):
         'Response for RDF by _format Query String Argument does not have Content-Type set to text/turtle.'
 
     # get the RDF version of the resource, using file extension-like syntax
-    r = requests.get(uri  + '.ttl')
+    r = requests.get(uri + '.ttl')
 
     # check Content-Type
     assert 'text/turtle' in r.headers['Content-Type'], \
