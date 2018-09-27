@@ -1,6 +1,14 @@
 {
    "http://linked.data.gov.au/def/reg-status":[
       {
+         "label": "G-NAF Ontology",
+         "from": "http://linked.data.gov.au/def/gnaf",
+         "to": "http://gnafld.net/def/gnaf",
+         "headers": {}
+      }
+   ],
+   "http://linked.data.gov.au/def/reg-status":[
+      {
          "label": "Registry Status Vocabulary",
          "from": "http://linked.data.gov.au/def/reg-status",
          "to": "http://www.linked.data.gov.au/def/reg-status",
