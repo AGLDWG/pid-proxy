@@ -111,3 +111,5 @@ venv.bak/
 # Mac indexes
 .DS_Store
 
+# Visual Studio indexes
+.vscode/
