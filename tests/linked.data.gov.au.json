@@ -81,19 +81,19 @@
       {
          "label": "G-NAF Dataset, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/dataset/gnaf.ttl",
-         "to": "http://gnafld.net/index.ttl",
+         "to": "http://gnafld.net/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
-         "to": "http://gnafld.net/index.ttl",
+         "to": "http://gnafld.net/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via conneg",
          "from": "http://linked.data.gov.au/dataset/gnaf",
-         "to": "http://gnafld.net/index.ttl",
+         "to": "http://gnafld.net/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
@@ -226,25 +226,25 @@
    "http://linked.data.gov.au/def/agrif": [
      {
        "label": "AGRIF Ontology, HTML",
-       "from": "http://test.linked.data.gov.au/def/agrif",
-       "to": "http://www.linked.data.gov.au/def/agrif",
+       "from": "http://linked.data.gov.au/def/agrif",
+       "to": "http://reference.data.gov.au/def/ont/agrif",
        "headers": {}
      },
      {
       "label": "AGRIF Ontology, RDF (turtle) via file ext.",
-      "from": "http://test.linked.data.gov.au/def/agrif.ttl",
-      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "from": "http://linked.data.gov.au/def/agrif.ttl",
+      "to": "http://reference.data.gov.au/def/ont/agrif.ttl",
       "headers": {}
     },
     {
       "label": "AGRIF Ontology, RDF (turtle) via QSA",
-      "from": "http://test.linked.data.gov.au/def/agrif?_format=text/turtle",
-      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
+      "to": "http://reference.data.gov.au/def/ont/agrif.ttl",
       "headers": {}
     },{
       "label": "AGRIF Ontology, HTRDF (turtle) via conneg",
-      "from": "http://test.linked.data.gov.au/def/agrif",
-      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "from": "http://linked.data.gov.au/def/agrif",
+      "to": "http://reference.data.gov.au/def/ont/agrif.ttl",
       "headers": {"Accept": "text/turtle"}
     }
    ]
