@@ -1,5 +1,5 @@
 {
-   "http://linked.data.gov.au/def/reg-status":[
+   "http://linked.data.gov.au/def/gnaf":[
       {
          "label": "G-NAF Ontology",
          "from": "http://linked.data.gov.au/def/gnaf",
@@ -227,24 +227,49 @@
      {
        "label": "AGRIF Ontology, HTML",
        "from": "http://linked.data.gov.au/def/agrif",
-       "to": "http://reference.data.gov.au/def/ont/agrif",
+       "to": "http://www.linked.data.gov.au/def/agrif",
        "headers": {}
      },
      {
       "label": "AGRIF Ontology, RDF (turtle) via file ext.",
       "from": "http://linked.data.gov.au/def/agrif.ttl",
-      "to": "http://reference.data.gov.au/def/ont/agrif.ttl",
+      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
       "headers": {}
     },
     {
       "label": "AGRIF Ontology, RDF (turtle) via QSA",
       "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
-      "to": "http://reference.data.gov.au/def/ont/agrif.ttl",
+      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
       "headers": {}
     },{
       "label": "AGRIF Ontology, HTRDF (turtle) via conneg",
       "from": "http://linked.data.gov.au/def/agrif",
-      "to": "http://reference.data.gov.au/def/ont/agrif.ttl",
+      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "headers": {"Accept": "text/turtle"}
+    }
+   ],
+   "http://linked.data.gov.au/def/dataset": [
+     {
+       "label": "Dataset Ontology, HTML",
+       "from": "http://linked.data.gov.au/def/dataset",
+       "to": "http://www.linked.data.gov.au/def/dataset",
+       "headers": {}
+     },
+     {
+      "label": "Dataset Ontology, RDF (turtle) via file ext.",
+      "from": "http://linked.data.gov.au/def/dataset.ttl",
+      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "headers": {}
+    },
+    {
+      "label": "Dataset Ontology, RDF (turtle) via QSA",
+      "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
+      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "headers": {}
+    },{
+      "label": "Dataset Ontology, HTRDF (turtle) via conneg",
+      "from": "http://linked.data.gov.au/def/agrif",
+      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
       "headers": {"Accept": "text/turtle"}
     }
    ]
