@@ -263,12 +263,12 @@
     },
     {
       "label": "Dataset Ontology, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
+      "from": "http://linked.data.gov.au/def/dataset?_format=text/turtle",
       "to": "http://www.linked.data.gov.au/def/dataset.ttl",
       "headers": {}
     },{
       "label": "Dataset Ontology, HTRDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/agrif",
+      "from": "http://linked.data.gov.au/def/dataset",
       "to": "http://www.linked.data.gov.au/def/dataset.ttl",
       "headers": {"Accept": "text/turtle"}
     }
