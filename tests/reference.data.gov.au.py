@@ -168,10 +168,14 @@ def ont_agrif_demo_html():
 
 
 if __name__ == '__main__':
-    def_ont_agrif_rdf_1()
-    def_ont_agrif_rdf_2()
-    def_ont_agrif_rdf_3()
-    def_ont_agrif_html()
-    ont_agrif_demo_html()
+    # def_ont_agrif_rdf_1()
+    # def_ont_agrif_rdf_2()
+    # def_ont_agrif_rdf_3()
+    # def_ont_agrif_html()
+    # ont_agrif_demo_html()
+    #
+    # print("All tests passed successfully!")
 
-    print("All tests passed successfully!")
+    import functions
+
+    functions.validate_all_redirects('reference.data.gov.au.json')
