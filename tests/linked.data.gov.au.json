@@ -73,33 +73,33 @@
    ],
    "http://linked.data.gov.au/dataset/gnaf":[
       {
+         "label": "G-NAF Dataset, RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
+         "to": "http://gnafld.net/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/gnaf.ttl",
+         "to": "http://gnafld.net/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "G-NAF Dataset, RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/gnaf",
+         "to": "http://gnafld.net/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
          "label": "G-NAF Dataset, HTML",
          "from": "http://linked.data.gov.au/dataset/gnaf",
          "to": "http://gnafld.net",
          "headers": {}
       },
       {
-         "label": "G-NAF Dataset, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf.ttl",
-         "to": "http://gnafld.net/?_format=text/turtle",
-         "headers": {}
-      },
-      {
-         "label": "G-NAF Dataset, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
-         "to": "http://gnafld.net/?_format=text/turtle",
-         "headers": {}
-      },
-      {
-         "label": "Place Names Ontology, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf",
-         "to": "http://gnafld.net/?_format=text/turtle",
-         "headers": {"Accept": "text/turtle"}
-      },
-      {
-         "label": "G-NAF Dataset, Address Register HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/",
-         "to": "http://gnafld.net/address/",
+         "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/?_format=text/turtle",
+         "to": "http://gnafld.net/address/index.ttl",
          "headers": {}
       },
       {
@@ -115,15 +115,15 @@
          "headers": {"Accept": "text/turtle"}
       },
       {
-         "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/?_format=text/turtle",
-         "to": "http://gnafld.net/address/index.ttl",
+         "label": "G-NAF Dataset, Address Register HTML",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/",
+         "to": "http://gnafld.net/address/",
          "headers": {}
       },
       {
-         "label": "G-NAF Dataset, an Address HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
-         "to": "http://gnafld.net/address/GAACT714845933",
+         "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933?_format=text/turtle",
+         "to": "http://gnafld.net/address/GAACT714845933.ttl",
          "headers": {}
       },
       {
@@ -139,9 +139,157 @@
          "headers": {"Accept": "text/turtle"}
       },
       {
-         "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933?_format=text/turtle",
-         "to": "http://gnafld.net/address/GAACT714845933.ttl",
+         "label": "G-NAF Dataset, an Address HTML",
+         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
+         "to": "http://gnafld.net/address/GAACT714845933",
+         "headers": {}
+      }
+   ],
+   "http://linked.data.gov.au/dataset/geofabric":[
+      {
+         "label": "Geofabric Dataset, RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/geofabric?_format=text/turtle",
+         "to": "http://geofabricld.net/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/geofabric.ttl",
+         "to": "http://geofabricld.net/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/geofabric",
+         "to": "http://geofabricld.net/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Geofabric Dataset, HTML",
+         "from": "http://linked.data.gov.au/dataset/geofabric",
+         "to": "http://geofabricld.net",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, Catchment Register RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/?_format=text/turtle",
+         "to": "http://geofabricld.net/catchment/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, Catchment Register RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/index.ttl",
+         "to": "http://geofabricld.net/catchment/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, Catchment Register RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/",
+         "to": "http://geofabricld.net/catchment/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Geofabric Dataset, Catchment Register HTML",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/",
+         "to": "http://geofabricld.net/catchment/",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, a Catchment RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523?_format=text/turtle",
+         "to": "http://geofabricld.net/catchment/6600523.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, a Catchment RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523.ttl",
+         "to": "http://geofabricld.net/catchment/6600523.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Geofabric Dataset, a Catchment RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523",
+         "to": "http://geofabricld.net/catchment/6600523.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Geofabric Dataset, a Catchment HTML",
+         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523",
+         "to": "http://geofabricld.net/catchment/6600523",
+         "headers": {}
+      }
+   ],
+   "http://linked.data.gov.au/dataset/data-policies":[
+      {
+         "label": "Data Policies Dataset, RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/data-policies?_format=text/turtle",
+         "to": "http://13.236.122.60/licences/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/data-policies.ttl",
+         "to": "http://13.236.122.60/licences/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/data-policies",
+         "to": "http://13.236.122.60/licences/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Data Policies Dataset, HTML",
+         "from": "http://linked.data.gov.au/dataset/data-policies",
+         "to": "http://13.236.122.60/licences/",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, Licences Register RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/?_format=text/turtle",
+         "to": "http://13.236.122.60/licences/licence/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, Licences Register RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/index.ttl",
+         "to": "http://13.236.122.60/licences/licence/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, Licences Register RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/",
+         "to": "http://13.236.122.60/licences/licence/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Data Policies Dataset, Licences Register HTML",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/",
+         "to": "http://13.236.122.60/licences/licence/",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, a Licence RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd?_format=text/turtle",
+         "to": "http://13.236.122.60/licences/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, a Licence RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd.ttl",
+         "to": "http://13.236.122.60/licences/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd.ttl",
+         "headers": {}
+      },
+      {
+         "label": "Data Policies Dataset, a Licence RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd",
+         "to": "http://13.236.122.60/licences/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Data Policies Dataset, a Licence HTML",
+         "from": "http://linked.data.gov.au/dataset/data-policies/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd",
+         "to": "http://13.236.122.60/licences/licence/c0a5884a-b9cc-4df2-be9f-f94554a7e1cd",
          "headers": {}
       }
    ],
