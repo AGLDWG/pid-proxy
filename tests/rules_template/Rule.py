@@ -11,16 +11,17 @@ class Rule:
     It returns a standard rule return object which is a Python dict comprised of the Rule object's instance variables.
     """
 
-    def __init__(self,
-                 name,
-                 definition,
-                 authority,
-                 passed,
-                 fail_reasons,
-                 components_total_count,
-                 components_failed_count,
-                 # components_failed -- night add this later
-                 ):
+    def __init__(
+        self,
+        name,
+        definition,
+        authority,
+        passed,
+        fail_reasons,
+        components_total_count,
+        components_failed_count,
+        # components_failed -- night add this later
+    ):
         """
         Initialize the Rule object
 
@@ -46,14 +47,13 @@ class Rule:
         self.fail_reasons = fail_reasons
         self.components_total_count = components_total_count
         self.components_failed_count = components_failed_count
-        #self.components_failed = components_failed
+        # self.components_failed = components_failed
 
     @staticmethod
     def make_id(name):
         # replace all nonASCII characters
-        id = ''.join([i if ord(i) < 128 else '' for i in name])
+        id = "".join([i if ord(i) < 128 else "" for i in name])
         # replace spaces with underscores
-        id = id.replace(' ', '_')
+        id = id.replace(" ", "_")
         id = id.lower()
         return id
-

@@ -1,5 +1,6 @@
 import datetime
 
+
 class Rule:
     """
     Template for a Rule.
@@ -10,16 +11,17 @@ class Rule:
     It returns a standard rule return object which is a Python dict comprised of the Rule object's instance variables.
     """
 
-    def __init__(self,
-                 name,
-                 definition,
-                 authority,
-                 passed,
-                 fail_reasons,
-                 components_total_count,
-                 components_failed_count,
-                 # components_failed -- night add this later
-                 ):
+    def __init__(
+        self,
+        name,
+        definition,
+        authority,
+        passed,
+        fail_reasons,
+        components_total_count,
+        components_failed_count,
+        # components_failed -- night add this later
+    ):
         """
         Initialize the Rule object
 
@@ -45,16 +47,17 @@ class Rule:
         self.fail_reasons = fail_reasons
         self.components_total_count = components_total_count
         self.components_failed_count = components_failed_count
-        #self.components_failed = components_failed
+        # self.components_failed = components_failed
 
     @staticmethod
     def make_id(name):
         # replace all nonASCII characters
-        id = ''.join([i if ord(i) < 128 else '' for i in name])
+        id = "".join([i if ord(i) < 128 else "" for i in name])
         # replace spaces with underscores
-        id = id.replace(' ', '_')
+        id = id.replace(" ", "_")
         id = id.lower()
         return id
+
 
 class RuleSet:
     """
@@ -83,17 +86,19 @@ class RuleSet:
         self.rules = rules
         self.fail_reasons = []
         for r in rules:
-            assert isinstance(r, Rule), 'RuleSets\' rules must be Rules'
+            assert isinstance(r, Rule), "RuleSets' rules must be Rules"
             if not r.passed:
                 self.passed = False
                 for fr in r.fail_reasons:
-                    self.fail_reasons.append('Rule %s: %s' % (r.name, fr))
+                    self.fail_reasons.append("Rule %s: %s" % (r.name, fr))
 
         # dependencies
         if dependencies is not None:
             assert isinstance(dependencies, list)
             for d in dependencies:
-                assert isinstance(d, RuleSet), 'RuleSets\' dependencies must be other RuleSets'
+                assert isinstance(
+                    d, RuleSet
+                ), "RuleSets' dependencies must be other RuleSets"
             self.dependencies = dependencies
 
             # evaluate adherence to the dependencies
@@ -103,22 +108,21 @@ class RuleSet:
 
                     for fr in d.fail_reasons:
                         # this will compound the RuleSet name onto the Rule name and the fail reason
-                        self.fail_reasons.append('RuleSet %s: %s' % (d.name, fr))
+                        self.fail_reasons.append("RuleSet %s: %s" % (d.name, fr))
 
     @staticmethod
     def make_id(name):
         # replace all nonASCII characters
-        id = ''.join([i if ord(i) < 128 else '' for i in name])
+        id = "".join([i if ord(i) < 128 else "" for i in name])
         # replace spaces with underscores
-        id = id.replace(' ', '_')
+        id = id.replace(" ", "_")
         id = id.lower()
         return id
 
 
-
-
 import requests
 import rdflib
+
 try:
     from BeautifulSoup import BeautifulSoup
 except ImportError:
@@ -134,6 +138,7 @@ class RuleInheritanceError(Exception):
     Arguments:
         Exception {string} -- The error message that caused the exception.
     """
+
     pass
 
 
@@ -148,8 +153,8 @@ class AGLDWG_ValidRuleSet(RuleSet):
         test = ValidateMetadataIsPresent(uri, data)
         rules_results.append(test)
         if test.passed:
-            metadata = data['metadata']
-            components = data['components']
+            metadata = data["metadata"]
+            components = data["components"]
             # test for valid metadata
             test = ValidateMetadata(uri, metadata)
             rules_results.append(test)
@@ -163,13 +168,13 @@ class AGLDWG_ValidRuleSet(RuleSet):
                     break
 
                 # test each rule
-                failed = False # if any of the rules fail, then stop
-                for rule in component['rules']:
-                    if rule == 'html':
+                failed = False  # if any of the rules fail, then stop
+                for rule in component["rules"]:
+                    if rule == "html":
                         test = ValidateHTML(uri, metadata, component)
                         rules_results.append(test)
 
-                    if rule == 'rdf':
+                    if rule == "rdf":
                         test = ValidateRDF(uri, metadata, component)
                         rules_results.append(test)
                 #     if rule == 'html':
@@ -177,18 +182,17 @@ class AGLDWG_ValidRuleSet(RuleSet):
                 #         test = ValidateHTML()
                 #         rules_results.append(test)
 
-                    # if rule == 'html_title':
-                    #     test = ValidateHTMLResponse(uri, metadata, component)
-                    #     rules_results.append(test)
-                    #
-                    # if rule == 'rdf':
-                    #     test = ValidateTurtleResponse('hello', metadata, component)
-                    #
-                    # # if any tests failed, stop
-                    # if not test.passed:
-                    #     failed = True
-                    #     break
-
+                # if rule == 'html_title':
+                #     test = ValidateHTMLResponse(uri, metadata, component)
+                #     rules_results.append(test)
+                #
+                # if rule == 'rdf':
+                #     test = ValidateTurtleResponse('hello', metadata, component)
+                #
+                # # if any tests failed, stop
+                # if not test.passed:
+                #     failed = True
+                #     break
 
                 # if failed: # if a component fails, stop
                 #     break
@@ -196,116 +200,136 @@ class AGLDWG_ValidRuleSet(RuleSet):
         RuleSet.__init__(self, ruleset_name, rules_results)
 
 
-
 class ValidateRDF(Rule):
-    def __init__(self, uri:str, metadata:dict, component:list):
+    def __init__(self, uri: str, metadata: dict, component: list):
         passed = True
         fail_reasons = []
-        total_components = 1 #TODO:
+        total_components = 1  # TODO:
 
         ### turtle file-extension-like
-        _from = component['from'] + '.ttl'
-        _to = component['to'] + '.ttl'
+        _from = component["from"] + ".ttl"
+        _to = component["to"] + ".ttl"
         _headers = {}  # {"Accept": "text/turtle"}
 
         # check the redirect for turtle
         r = requests.get(_from, _headers, allow_redirects=False, timeout=2)
-        if (r.headers.get('Location') == _to):
+        if r.headers.get("Location") == _to:
             # check that the content type is set correctly
-            if r.headers['Content-Type'] is not 'text/turtle':
+            if r.headers["Content-Type"] is not "text/turtle":
                 passed = False
-                fail_reasons.append(f'{_from} Response for turtle by file extension does not have Content-Type set to text/turtle')
+                fail_reasons.append(
+                    f"{_from} Response for turtle by file extension does not have Content-Type set to text/turtle"
+                )
             else:
                 # check that the RDF is parsable and that it contains the expected title
-                result = self.is_rdf_parsable(self, r, uri, component['title'], 'text/turtle')
-                if not result['titleFound']:
+                result = self.is_rdf_parsable(
+                    self, r, uri, component["title"], "text/turtle"
+                )
+                if not result["titleFound"]:
                     passed = False
-                    theFoundTitle = result['title']
-                    fail_reasons.append(f'{_from} RDF title found as \'{theFoundTitle}\'' + result['message'])
+                    theFoundTitle = result["title"]
+                    fail_reasons.append(
+                        f"{_from} RDF title found as '{theFoundTitle}'"
+                        + result["message"]
+                    )
         else:
             passed = False
             fail_reasons.append(
-                'For test \'{}\', URI {} did not redirect to {} as expected, instead {}.'.format(component['label'],
-                                                                                                 _from,
-                                                                                                 _to, str(
-                        r.headers.get('Location'))))
+                "For test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+                    component["label"], _from, _to, str(r.headers.get("Location"))
+                )
+            )
 
         ### END of turtle file-extension-like
 
         ### turtle QSA
-        _from = component['from'] + '?_format=text/turtle'
+        _from = component["from"] + "?_format=text/turtle"
 
         # check the redirect for turtle
         r = requests.get(_from, _headers, allow_redirects=False, timeout=2)
-        if (r.headers.get('Location') == _to):
+        if r.headers.get("Location") == _to:
             # check that the content type is set correctly
-            if r.headers['Content-Type'] is not 'text/turtle':
+            if r.headers["Content-Type"] is not "text/turtle":
                 passed = False
-                fail_reasons.append(f'{_from} Response for turtle by QSA does not have Content-Type set to text/turtle')
+                fail_reasons.append(
+                    f"{_from} Response for turtle by QSA does not have Content-Type set to text/turtle"
+                )
             else:
                 # check that the RDF is parsable and that it contains the expected title
-                result = self.is_rdf_parsable(self, r, uri, component['title'], 'text/turtle')
-                if not result['titleFound']:
+                result = self.is_rdf_parsable(
+                    self, r, uri, component["title"], "text/turtle"
+                )
+                if not result["titleFound"]:
                     passed = False
-                    theFoundTitle = result['title']
-                    fail_reasons.append(f'{_from} RDF title found as \'{theFoundTitle}\'' + result['message'])
+                    theFoundTitle = result["title"]
+                    fail_reasons.append(
+                        f"{_from} RDF title found as '{theFoundTitle}'"
+                        + result["message"]
+                    )
         else:
             passed = False
             fail_reasons.append(
-                'For test \'{}\', URI {} did not redirect to {} as expected, instead {}.'.format(component['label'],
-                                                                                                 _from,
-                                                                                                 _to, str(
-                        r.headers.get('Location'))))
+                "For test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+                    component["label"], _from, _to, str(r.headers.get("Location"))
+                )
+            )
         ### END of turtle QSA
 
         ### turtle conneg
         _headers = {"Accept": "text/turtle"}
-        _from = component['from']
-        _to = component['to'] + '.ttl'
+        _from = component["from"]
+        _to = component["to"] + ".ttl"
 
         r = requests.get(_from, headers=_headers, allow_redirects=False, timeout=2)
-        if r.headers.get('Location') == _to:
+        if r.headers.get("Location") == _to:
             # check that the content type is set correctly
-            if r.headers['Content-Type'] is not 'text/turtle':
+            if r.headers["Content-Type"] is not "text/turtle":
                 passed = False
-                fail_reasons.append(f'{_from} Response for turtle by content negotiation does not have Content-Type set to text/turtle')
+                fail_reasons.append(
+                    f"{_from} Response for turtle by content negotiation does not have Content-Type set to text/turtle"
+                )
             else:
                 # check that the RDF is parsable and that it contains the expected title
-                result = self.is_rdf_parsable(self, r, uri, component['title'], 'text/turtle')
-                if not result['titleFound']:
+                result = self.is_rdf_parsable(
+                    self, r, uri, component["title"], "text/turtle"
+                )
+                if not result["titleFound"]:
                     passed = False
-                    theFoundTitle = result['title']
-                    fail_reasons.append(f'{_from} RDF title found as \'{theFoundTitle}\'' + result['message'])
+                    theFoundTitle = result["title"]
+                    fail_reasons.append(
+                        f"{_from} RDF title found as '{theFoundTitle}'"
+                        + result["message"]
+                    )
         else:
             passed = False
             fail_reasons.append(
-                'For test \'{}\', URI {} did not redirect to {} as expected, instead {}.'.format(component['label'],
-                                                                                                 _from,
-                                                                                                 _to, str(
-                        r.headers.get('Location'))))
+                "For test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+                    component["label"], _from, _to, str(r.headers.get("Location"))
+                )
+            )
         ## END of turtle conneg
 
         Rule.__init__(
             self,
-            metadata['name'],
-            'Validate expected RDF',
-            metadata['authority'],
+            metadata["name"],
+            "Validate expected RDF",
+            metadata["authority"],
             passed,
             fail_reasons,
             total_components,
-            len(fail_reasons)
+            len(fail_reasons),
         )
 
     def is_rdf_parsable(self, r, uri, expected_title, formatType):
         # check the result is parseable RDF
         g = None
         try:
-            g = rdflib.Graph().parse(data=r.content.decode('utf-8'), format=formatType)
+            g = rdflib.Graph().parse(data=r.content.decode("utf-8"), format=formatType)
         except Exception as e:
             print(e)
 
         if g is None:
-            raise AssertionError(f'RDF {formatType} result is not parsable')
+            raise AssertionError(f"RDF {formatType} result is not parsable")
 
         # define namespaces
         RDFS = rdflib.namespace.RDFS
@@ -313,32 +337,36 @@ class ValidateRDF(Rule):
         SKOS = rdflib.namespace.SKOS
 
         # dict of result to return
-        result = {'titleFound': False}
+        result = {"titleFound": False}
 
         # test to get title string
         for s, p, o in g.triples((rdflib.URIRef(uri), RDFS.label, None)):
             if o is not None:
                 if o.value == expected_title:
-                    result['titleFound'] = True
-                result['title'] = o
+                    result["titleFound"] = True
+                result["title"] = o
 
         for s, p, o in g.triples((None, SKOS.prefLabel, None)):
             if o is not None:
                 if o.value == expected_title:
-                    result['titleFound'] = True
-                result['title'] = o
+                    result["titleFound"] = True
+                result["title"] = o
 
         for s, p, o in g.triples((None, SKOS.label, None)):
             if o is not None:
                 if o.value == expected_title:
-                    result['titleFound'] = True
-                result['title'] = o
+                    result["titleFound"] = True
+                result["title"] = o
 
-        result['message'] = 'Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .) or the expected title did not match.'
+        result[
+            "message"
+        ] = "Parsable RDF response does not contain correct ontology title (?o  a owl:Ontology ; rdfs:label ?title .) or the expected title did not match."
 
-        return result   # returns the title that was found and whether it succeeded or not
-                        # result['title'] = the title that was found
-                        # result['titleFound'] = the bool if title was found
+        return (
+            result
+        )  # returns the title that was found and whether it succeeded or not
+        # result['title'] = the title that was found
+        # result['titleFound'] = the bool if title was found
 
 
 # class ValidateTurtleResponse(Rule):
@@ -402,7 +430,7 @@ class ValidateHTML(Rule):
     """Validate the HTML Content-type and title tag of the PID URI.
     """
 
-    def __init__(self, uri:str, metadata:dict, component:list):
+    def __init__(self, uri: str, metadata: dict, component: list):
         """Constructor
         
         Arguments:
@@ -416,46 +444,57 @@ class ValidateHTML(Rule):
         fail_reasons = []
 
         # check the redirect
-        r = requests.get(component['from'], headers={}, allow_redirects=False, timeout=2)
-        if (r.headers.get('Location') == component['to']):
+        r = requests.get(
+            component["from"], headers={}, allow_redirects=False, timeout=2
+        )
+        if r.headers.get("Location") == component["to"]:
             pass
         else:
             passed = False
             fail_reasons.append(
-                'For test \'{}\', URI {} did not redirect to {} as expected, instead {}.'.format(component['label'],
-                                                                                                 component['from'],
-                                                                                                 component['to'], str(
-                        r.headers.get('Location'))))
+                "For test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+                    component["label"],
+                    component["from"],
+                    component["to"],
+                    str(r.headers.get("Location")),
+                )
+            )
 
         # get the HTML version of the resource
         r = requests.get(uri)
 
         # check Content-Type
-        if r.headers['Content-Type'] == 'text/html':
+        if r.headers["Content-Type"] == "text/html":
             pass
         else:
             passed = False
-            fail_reasons.append('Response for HTML does not have Content-Type set to text/html.')
+            fail_reasons.append(
+                "Response for HTML does not have Content-Type set to text/html."
+            )
 
         # check for HTML title ""
-        expected_title = component['title']
-        parsed_html = BeautifulSoup(r.content.decode('utf-8'), features="html.parser")
-        received_title = parsed_html.head.find('title').text
-        if expected_title  == received_title:
+        expected_title = component["title"]
+        parsed_html = BeautifulSoup(r.content.decode("utf-8"), features="html.parser")
+        received_title = parsed_html.head.find("title").text
+        if expected_title == received_title:
             pass
         else:
             passed = False
-            fail_reasons.append('HTML response does not contain the correct <title> element. Expected "{}" got "{}"'.format(expected_title, received_title))
+            fail_reasons.append(
+                'HTML response does not contain the correct <title> element. Expected "{}" got "{}"'.format(
+                    expected_title, received_title
+                )
+            )
 
         Rule.__init__(
             self,
-            metadata['name'],
-            'Validate expected HTML',
-            metadata['authority'],
+            metadata["name"],
+            "Validate expected HTML",
+            metadata["authority"],
             passed,
             fail_reasons,
-            1, # total components
-            len(fail_reasons)
+            1,  # total components
+            len(fail_reasons),
         )
 
 
@@ -466,45 +505,38 @@ class ValidateComponent(Rule):
         Rule {[type]} -- [description]
     """
 
-    def __init__(self, uri, component:list):
+    def __init__(self, uri, component: list):
         passed = True
         fail_reasons = []
 
         # required component keys
-        required = [
-            'label',
-            'from',
-            'to',
-            'title',
-            'rules',
-            'headers'
-        ]
+        required = ["label", "from", "to", "title", "rules", "headers"]
 
         for req in required:
             if not req in component:
-                fail_reasons.append(f'The \'{req}\' component is missing for {uri}')
+                fail_reasons.append(f"The '{req}' component is missing for {uri}")
 
         if fail_reasons:
             passed = False
 
         Rule.__init__(
             self,
-            'Components for AGLDWG PID URI',
-            'Validate that the AGLDWG PID URI contains required metadata for validation checking.',
-            'AGLDWG',
+            "Components for AGLDWG PID URI",
+            "Validate that the AGLDWG PID URI contains required metadata for validation checking.",
+            "AGLDWG",
             passed,
             fail_reasons,
             len(required),
-            len(fail_reasons)
+            len(fail_reasons),
         )
 
 
 class ValidateRedirect(Rule):
-    #TODO: This is not currently used
+    # TODO: This is not currently used
     """Validate expected redirect route from a location to a destination. Redirects consider HTTP headers for content negotiation.
     """
 
-    def __init__(self, metadata:dict, component:list):
+    def __init__(self, metadata: dict, component: list):
         """Constructor
         
         Arguments:
@@ -516,45 +548,57 @@ class ValidateRedirect(Rule):
         passed = True
         fail_reasons = []
 
-        r = requests.get(component['from'], headers=component['headers'], allow_redirects=False, timeout=2)
-        if(r.headers.get('Location') == component['to']):
+        r = requests.get(
+            component["from"],
+            headers=component["headers"],
+            allow_redirects=False,
+            timeout=2,
+        )
+        if r.headers.get("Location") == component["to"]:
             pass
         else:
             passed = False
-            fail_reasons.append('For test \'{}\', URI {} did not redirect to {} as expected, instead {}.'.format(component['label'], component['from'], component['to'], str(r.headers.get('Location'))))
+            fail_reasons.append(
+                "For test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+                    component["label"],
+                    component["from"],
+                    component["to"],
+                    str(r.headers.get("Location")),
+                )
+            )
 
         Rule.__init__(
             self,
-            metadata['name'],
-            'Validate correct HTTP redirections.',
-            metadata['authority'],
+            metadata["name"],
+            "Validate correct HTTP redirections.",
+            metadata["authority"],
             passed,
             fail_reasons,
-            1, # total components
-            len(fail_reasons)
+            1,  # total components
+            len(fail_reasons),
         )
 
 
 class ValidateMetadataIsPresent(Rule):
-    def __init__(self, uri:str, data:dict):
+    def __init__(self, uri: str, data: dict):
         passed = True
         fail_reasons = []
 
         if not "metadata" in data:
-            fail_reasons.append(f'The metadata field is missing for URI {uri}')
+            fail_reasons.append(f"The metadata field is missing for URI {uri}")
 
         if fail_reasons:
             passed = False
 
         Rule.__init__(
             self,
-            'Metadata field is present for AGLDWG PID URI',
-            'Validate that the AGLDWG URI contains a field named \'metadata\'',
-            'AGLDWG',
+            "Metadata field is present for AGLDWG PID URI",
+            "Validate that the AGLDWG URI contains a field named 'metadata'",
+            "AGLDWG",
             passed,
             fail_reasons,
             1,
-            len(fail_reasons)
+            len(fail_reasons),
         )
 
 
@@ -562,7 +606,7 @@ class ValidateMetadata(Rule):
     """Validate that the PID URI test contains the required metadata.
     """
 
-    def __init__(self, uri:str, metadata:dict):
+    def __init__(self, uri: str, metadata: dict):
         """Constructor
         
         Arguments:
@@ -574,25 +618,22 @@ class ValidateMetadata(Rule):
         fail_reasons = []
 
         # required metadata fields
-        required = [
-            'name', 
-            'authority'
-        ]
+        required = ["name", "authority"]
 
         for req in required:
             if not req in metadata:
-                fail_reasons.append(f'The \'{req}\' metadata is missing for URI {uri}')
-        
+                fail_reasons.append(f"The '{req}' metadata is missing for URI {uri}")
+
         if fail_reasons:
             passed = False
 
         Rule.__init__(
             self,
-            'Metadata for AGLDWG PID URI',
-            'Validate that the AGLDWG PID URI contains required metadata for validation checking.',
-            'AGLDWG',
+            "Metadata for AGLDWG PID URI",
+            "Validate that the AGLDWG PID URI contains required metadata for validation checking.",
+            "AGLDWG",
             passed,
             fail_reasons,
             len(required),
-            len(fail_reasons)
+            len(fail_reasons),
         )

@@ -1,4 +1,3 @@
-
 import os
 import json
 from pprint import pprint
@@ -12,12 +11,12 @@ class TestAGLDWG_Ruleset:
     def __init__(self):
         self.result = []
 
-        filename = 'test2.linked.data.gov.au.json'
+        filename = "test2.linked.data.gov.au.json"
         file_path = os.path.join(os.path.dirname(os.path.realpath(__file__)), filename)
 
         # load JSON file
         uris_object = None
-        with open(file_path, 'r') as f:
+        with open(file_path, "r") as f:
             uris_object = json.load(f)
 
         # call the ruleset with the test info
@@ -26,7 +25,7 @@ class TestAGLDWG_Ruleset:
             # break
 
 
-if __name__ == '__main__':
+if __name__ == "__main__":
 
     # Test driver
     test = TestAGLDWG_Ruleset()
@@ -37,9 +36,9 @@ if __name__ == '__main__':
             failed = True
 
     if not failed:
-        print('All passed!')
+        print("All passed!")
     else:
-        print('Test failed.')
+        print("Test failed.")
         for reason in test.result:
             if len(reason.fail_reasons) is not 0:
                 for fail in reason.fail_reasons:

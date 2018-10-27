@@ -29,17 +29,19 @@ class RuleSet:
         self.rules = rules
         self.fail_reasons = []
         for r in rules:
-            assert isinstance(r, Rule), 'RuleSets\' rules must be Rules'
+            assert isinstance(r, Rule), "RuleSets' rules must be Rules"
             if not r.passed:
                 self.passed = False
                 for fr in r.fail_reasons:
-                    self.fail_reasons.append('Rule %s: %s' % (r.name, fr))
+                    self.fail_reasons.append("Rule %s: %s" % (r.name, fr))
 
         # dependencies
         if dependencies is not None:
             assert isinstance(dependencies, list)
             for d in dependencies:
-                assert isinstance(d, RuleSet), 'RuleSets\' dependencies must be other RuleSets'
+                assert isinstance(
+                    d, RuleSet
+                ), "RuleSets' dependencies must be other RuleSets"
             self.dependencies = dependencies
 
             # evaluate adherence to the dependencies
@@ -49,13 +51,13 @@ class RuleSet:
 
                     for fr in d.fail_reasons:
                         # this will compound the RuleSet name onto the Rule name and the fail reason
-                        self.fail_reasons.append('RuleSet %s: %s' % (d.name, fr))
+                        self.fail_reasons.append("RuleSet %s: %s" % (d.name, fr))
 
     @staticmethod
     def make_id(name):
         # replace all nonASCII characters
-        id = ''.join([i if ord(i) < 128 else '' for i in name])
+        id = "".join([i if ord(i) < 128 else "" for i in name])
         # replace spaces with underscores
-        id = id.replace(' ', '_')
+        id = id.replace(" ", "_")
         id = id.lower()
         return id
