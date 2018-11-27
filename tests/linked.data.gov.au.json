@@ -446,5 +446,79 @@
       "to": "http://www.linked.data.gov.au/def/dataset.ttl",
       "headers": {"Accept": "text/turtle"}
     }
+   ],
+   "http://linked.data.gov.au/dataset/asgs2016":[
+      {
+         "label": "ASGS 2016  Dataset, RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/asgs2016?_format=text/turtle",
+         "to": "http://13.236.122.60/asgs/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/asgs2016.ttl",
+         "to": "http://13.236.122.60/asgs/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/asgs2016",
+         "to": "http://13.236.122.60/asgs/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "ASGS 2016  Dataset, HTML",
+         "from": "http://linked.data.gov.au/dataset/asgs2016",
+         "to": "http://asgsld.net",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, Meshblock Register RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/?_format=text/turtle",
+         "to": "http://13.236.122.60/asgs/meshblock/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, meshblock Register RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/index.ttl",
+         "to": "http://13.236.122.60/asgs/meshblock/index.ttl",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, meshblock Register RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/",
+         "to": "http://13.236.122.60/asgs/meshblock/index.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "ASGS 2016  Dataset, meshblock Register HTML",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/",
+         "to": "http://13.236.122.60/asgs/meshblock/",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, an meshblock RDF (turtle) via QSA",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/GAACT714845933?_format=text/turtle",
+         "to": "http://13.236.122.60/asgs/meshblock/GAACT714845933.ttl",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, an meshblock RDF (turtle) via file ext",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/GAACT714845933.ttl",
+         "to": "http://13.236.122.60/asgs/meshblock/GAACT714845933.ttl",
+         "headers": {}
+      },
+      {
+         "label": "ASGS 2016  Dataset, an meshblock RDF (turtle) via conneg",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/GAACT714845933",
+         "to": "http://13.236.122.60/asgs/meshblock/GAACT714845933.ttl",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "ASGS 2016  Dataset, an meshblock HTML",
+         "from": "http://linked.data.gov.au/dataset/asgs2016/meshblock/GAACT714845933",
+         "to": "http://13.236.122.60/asgs/meshblock/GAACT714845933",
+         "headers": {}
+      }
    ]
 }
