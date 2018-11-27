@@ -319,6 +319,32 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
+   "http://linked.data.gov.au/def/asgs":[
+      {
+        "label": "ASGS Ontology, HTML",
+        "from": "http://linked.data.gov.au/def/asgs",
+        "to": "http://www.linked.data.gov.au/def/asgs",
+        "headers": {}
+      },
+      {
+        "label": "ASGS Ontology, RDF (turtle) via file ext.",
+        "from": "http://linked.data.gov.au/def/asgs.ttl",
+        "to": "http://www.linked.data.gov.au/def/asgs.ttl",
+        "headers": {}
+      },
+      {
+        "label": "ASGS Ontology, RDF (turtle) via QSA",
+        "from": "http://linked.data.gov.au/def/asgs?_format=text/turtle",
+        "to": "http://www.linked.data.gov.au/def/asgs.ttl",
+        "headers": {}
+      },
+      {
+        "label": "ASGS Ontology, RDF (turtle) via conneg",
+        "from": "http://linked.data.gov.au/def/asgs",
+        "to": "http://www.linked.data.gov.au/def/asgs.ttl",
+        "headers": {"Accept": "text/turtle"}
+      }
+   ],
    "http://linked.data.gov.au/def/iso19160-1-address":[
       {
         "label": "ISO19160 Ontology, HTML",
