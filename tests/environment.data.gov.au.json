@@ -181,5 +181,47 @@
          "to": "http://registry2.it.csiro.au/def/ba/source/dictionary-ecology?_format=ttl",
          "headers": {}
       }
+   ],
+   "http://environment.data.gov.au/def/property":[
+      {
+         "label": "eReefs observable properties collection",
+         "from": "http://environment.data.gov.au/def/property",
+         "to": "http://registry2.it.csiro.au/def/property",
+         "headers": {}
+      },
+      {
+         "label": "eReefs observable property instance",
+         "from": "http://environment.data.gov.au/def/property/sulfur_organic_concentration",
+         "to": "http://registry2.it.csiro.au/def/property/sulfur_organic_concentration",
+         "headers": {}
+      }
+   ],
+   "http://environment.data.gov.au/def/feature":[
+      {
+         "label": "eReefs environmental features collection",
+         "from": "http://environment.data.gov.au/def/feature",
+         "to": "http://registry2.it.csiro.au/def/feature",
+         "headers": {}
+      },
+      {
+         "label": "eReefs environmental features instance",
+         "from": "http://environment.data.gov.au/def/feature/ocean_current",
+         "to": "http://registry2.it.csiro.au/def/feature/ocean_current",
+         "headers": {}
+      }
+   ],
+   "http://environment.data.gov.au/def/object":[
+      {
+         "label": "eReefs objects collection",
+         "from": "http://environment.data.gov.au/def/object",
+         "to": "http://registry2.it.csiro.au/def/object",
+         "headers": {}
+      },
+      {
+         "label": "eReefs objects instance",
+         "from": "http://environment.data.gov.au/def/feature/chlorine_36",
+         "to": "http://registry2.it.csiro.au/def/feature/chlorine_36",
+         "headers": {}
+      }
    ]
 }
