@@ -419,6 +419,44 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
+   "http://linked.data.gov.au/def/gba":[
+      {
+        "label": "GeoBeioregional Assessments Definitions HTML",
+        "from": "http://linked.data.gov.au/def/gba",
+        "to": "http://registry2.it.csiro.au/def/gba",
+        "headers": {}
+      },
+      {
+        "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
+        "from": "http://linked.data.gov.au/def/gba.ttl",
+        "to": "http://registry2.it.csiro.au/def/gba?_format=ttl",
+        "headers": {}
+      },
+      {
+        "label": "GeoBeioregional Assessments Definitions JSON-LD, QSA",
+        "from": "http://linked.data.gov.au/def/gba?_format=text/turtle",
+        "to": "http://registry2.it.csiro.au/def/gba?_format=ttl",
+        "headers": {}
+      },
+      {
+        "label": "GeoBeioregional Assessments Definitions Turtle, conneg",
+        "from": "http://linked.data.gov.au/def/gba",
+        "to": "http://registry2.it.csiro.au/def/gba?_format=ttl",
+        "headers": {"Accept": "text/turtle"}
+      },
+      {
+        "label": "GeoBeioregional Assessments Definitions glossary instance HTML",
+        "from": "http://linked.data.gov.au/def/gba/glossary/abandonment",
+        "to": "http://registry2.it.csiro.au/def/gba/glossary/abandonment",
+        "headers": {}
+      },
+      {
+        "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
+        "from": "http://linked.data.gov.au/def/gba/glossary/abandonment?_format=text/turtle",
+        "to": "http://registry2.it.csiro.au/def/gba/glossary/abandonment?_format=ttl",
+        "headers": {}
+      }
+   ],
    "http://linked.data.gov.au/def/iso19160-1-address":[
       {
         "label": "ISO19160 Ontology, HTML",
