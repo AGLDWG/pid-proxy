@@ -558,5 +558,19 @@
       "to": "http://www.linked.data.gov.au/def/dataset.ttl",
       "headers": {"Accept": "text/turtle"}
     }
+   ],
+   "http://linked.data.gov.au/dataset/energy":[
+      {
+         "label": "NEAR Dataset Register, HTML",
+         "from": "http://linked.data.gov.au/dataset/energy/",
+         "to": "https://eudm.csiro.au/assets/",
+         "headers": {}
+      },
+      {
+         "label": "NEAR Dataset 367b61, HTML",
+         "from": "http://linked.data.gov.au/dataset/energy/14260415-31db-4abf-bfc9-b5d113367b61",
+         "to": "https://eudm.csiro.au/assets/14260415-31db-4abf-bfc9-b5d113367b61",
+         "headers": {}
+      }
    ]
 }
