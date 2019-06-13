@@ -1,5 +1,5 @@
 {
-   "http://linked.data.gov.au/dataset/asgs2011": [
+  "http://linked.data.gov.au/dataset/asgs2011": [
      {
         "label": "ASGS 2011 Dataset, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/dataset/asgs2011?_format=text/turtle",
@@ -73,7 +73,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/dataset/asgs2016": [
+  "http://linked.data.gov.au/dataset/asgs2016": [
      {
         "label": "ASGS 2016 Dataset, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/dataset/asgs2016?_format=text/turtle",
@@ -147,7 +147,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/dataset/data-policies":[
+  "http://linked.data.gov.au/dataset/data-policies":[
       {
          "label": "Data Policies Dataset, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/dataset/data-policies?_format=text/turtle",
@@ -221,7 +221,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/dataset/energy":[
+  "http://linked.data.gov.au/dataset/energy":[
       {
          "label": "NEAR Dataset Register, HTML",
          "from": "http://linked.data.gov.au/dataset/energy/",
@@ -235,7 +235,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/dataset/geofabric":[
+  "http://linked.data.gov.au/dataset/geofabric":[
       {
          "label": "Geofabric Dataset, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/dataset/geofabric?_format=text/turtle",
@@ -309,7 +309,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/dataset/gnaf":[
+  "http://linked.data.gov.au/dataset/gnaf":[
       {
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
@@ -383,7 +383,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/dataset/gnaf-2016-05": [
+  "http://linked.data.gov.au/dataset/gnaf-2016-05": [
       {
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/dataset/gnaf-2016-05?_format=text/turtle",
@@ -458,7 +458,7 @@
       }
    ],
 
-   "http://linked.data.gov.au/def/agrif": [
+  "http://linked.data.gov.au/def/agrif": [
      {
        "label": "AGRIF Ontology, HTML",
        "from": "http://linked.data.gov.au/def/agrif",
@@ -484,7 +484,7 @@
       "headers": {"Accept": "text/turtle"}
     }
    ],
-   "http://linked.data.gov.au/def/asgs":[
+  "http://linked.data.gov.au/def/asgs":[
       {
         "label": "ASGS Ontology, HTML",
         "from": "http://linked.data.gov.au/def/asgs",
@@ -510,7 +510,59 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
-   "http://linked.data.gov.au/def/dataset": [
+  "http://linked.data.gov.au/def/borehole": [
+     {
+       "label": "Borehole Profile, HTML",
+       "from": "http://linked.data.gov.au/def/borehole",
+       "to": "http://www.linked.data.gov.au/def/borehole",
+       "headers": {}
+     },
+     {
+      "label": "Borehole Profile, RDF (turtle) via file ext.",
+      "from": "http://linked.data.gov.au/def/borehole.ttl",
+      "to": "http://www.linked.data.gov.au/def/borehole.ttl",
+      "headers": {}
+    },
+     {
+      "label": "Borehole Profile, RDF (turtle) via QSA",
+      "from": "http://linked.data.gov.au/def/borehole?_format=text/turtle",
+      "to": "http://www.linked.data.gov.au/def/borehole.ttl",
+      "headers": {}
+     },
+     {
+      "label": "Borehole Profile, RDF (turtle) via conneg",
+      "from": "http://linked.data.gov.au/def/borehole",
+      "to": "http://www.linked.data.gov.au/def/borehole.ttl",
+      "headers": {"Accept": "text/turtle"}
+     }
+   ],
+  "http://linked.data.gov.au/def/dataset": [
+     {
+       "label": "Dataset Ontology, HTML",
+       "from": "http://linked.data.gov.au/def/dataset",
+       "to": "http://www.linked.data.gov.au/def/dataset",
+       "headers": {}
+     },
+     {
+      "label": "Dataset Ontology, RDF (turtle) via file ext.",
+      "from": "http://linked.data.gov.au/def/dataset.ttl",
+      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "headers": {}
+    },
+     {
+      "label": "Dataset Ontology, RDF (turtle) via QSA",
+      "from": "http://linked.data.gov.au/def/dataset?_format=text/turtle",
+      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "headers": {}
+     },
+     {
+      "label": "Dataset Ontology, RDF (turtle) via conneg",
+      "from": "http://linked.data.gov.au/def/dataset",
+      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "headers": {"Accept": "text/turtle"}
+     }
+   ],
+  "http://linked.data.gov.au/def/eudm": [
      {
        "label": "Dataset Ontology, HTML",
        "from": "http://linked.data.gov.au/def/dataset",
@@ -536,33 +588,7 @@
       "headers": {"Accept": "text/turtle"}
      }
    ],
-   "http://linked.data.gov.au/def/eudm": [
-     {
-       "label": "Dataset Ontology, HTML",
-       "from": "http://linked.data.gov.au/def/dataset",
-       "to": "http://www.linked.data.gov.au/def/dataset",
-       "headers": {}
-     },
-     {
-      "label": "Dataset Ontology, RDF (turtle) via file ext.",
-      "from": "http://linked.data.gov.au/def/dataset.ttl",
-      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
-      "headers": {}
-    },
-     {
-      "label": "Dataset Ontology, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/dataset?_format=text/turtle",
-      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
-      "headers": {}
-     },
-     {
-      "label": "Dataset Ontology, HTRDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/dataset",
-      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
-      "headers": {"Accept": "text/turtle"}
-     }
-   ],
-   "http://linked.data.gov.au/def/fsdf":[
+  "http://linked.data.gov.au/def/fsdf":[
       {
         "label": "FSDF Ontology, HTML",
         "from": "http://linked.data.gov.au/def/fsdf",
@@ -588,7 +614,7 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
-   "http://linked.data.gov.au/def/gnaf":[
+  "http://linked.data.gov.au/def/gnaf":[
       {
          "label": "G-NAF Ontology",
          "from": "http://linked.data.gov.au/def/gnaf",
@@ -596,7 +622,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/iso19160-1-address":[
+  "http://linked.data.gov.au/def/iso19160-1-address":[
       {
         "label": "ISO19160 Ontology, HTML",
         "from": "http://linked.data.gov.au/def/iso19160-1-address",
@@ -622,33 +648,33 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
-   "http://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
-     {
-       "label": "ISO19160 NZ Profile Ontology, HTML",
-       "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
-       "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile",
-       "headers": {}
-     },
-     {
-      "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via file ext.",
-      "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-      "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-      "headers": {}
-    },
-    {
-      "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
-      "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-      "headers": {}
-    },
-    {
-      "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
-      "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-      "headers": {"Accept": "text/turtle"}
-    }
-   ],
-   "http://linked.data.gov.au/def/loci":[
+  "http://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
+  {
+    "label": "ISO19160 NZ Profile Ontology, HTML",
+    "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+    "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile",
+    "headers": {}
+  },
+  {
+   "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via file ext.",
+   "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+   "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+   "headers": {}
+ },
+ {
+   "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via QSA",
+   "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
+   "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+   "headers": {}
+ },
+ {
+   "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
+   "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+   "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+   "headers": {"Accept": "text/turtle"}
+ }
+],
+  "http://linked.data.gov.au/def/loci":[
       {
          "label": "LocI Ontology",
          "from": "http://linked.data.gov.au/def/loci",
@@ -674,7 +700,7 @@
          "headers": {"Accept": "text/turtle"}
       }
    ],
-   "http://linked.data.gov.au/def/placenames":[
+  "http://linked.data.gov.au/def/placenames":[
       {
          "label": "Place Names Ontology",
          "from": "http://linked.data.gov.au/def/placenames",
@@ -701,7 +727,7 @@
       }
    ],
 
-   "http://linked.data.gov.au/def/gba":[
+  "http://linked.data.gov.au/def/gba":[
       {
         "label": "GeoBeioregional Assessments Definitions HTML",
         "from": "http://linked.data.gov.au/def/gba",
@@ -739,7 +765,7 @@
         "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/reg-status":[
+  "http://linked.data.gov.au/def/reg-status":[
       {
          "label": "Registry Status Vocabulary",
          "from": "http://linked.data.gov.au/def/reg-status",
@@ -777,7 +803,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/borehole-inclination": [
+  "http://linked.data.gov.au/def/borehole-inclination": [
       {
          "label": "Borehole Inclination Vocabulary HTML",
          "from": "http://linked.data.gov.au/def/borehole-inclination",
@@ -797,7 +823,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/borehole-surface-circumstance": [
+  "http://linked.data.gov.au/def/borehole-surface-circumstance": [
       {
          "label": "Borehole Surface Circumstance HTML",
          "from": "http://linked.data.gov.au/def/borehole-surface-circumstance",
@@ -817,7 +843,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/borehole-status": [
+  "http://linked.data.gov.au/def/borehole-status": [
       {
          "label": "Borehole Status HTML",
          "from": "http://linked.data.gov.au/def/borehole-status",
@@ -837,7 +863,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/borehole-type": [
+  "http://linked.data.gov.au/def/borehole-type": [
       {
          "label": "Borehole Type HTML",
          "from": "http://linked.data.gov.au/def/borehole-type",
@@ -857,7 +883,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/data-access": [
+  "http://linked.data.gov.au/def/data-access": [
       {
          "label": "Data Access HTML",
          "from": "http://linked.data.gov.au/def/data-access",
@@ -877,7 +903,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/geochemistry-sampling-method": [
+  "http://linked.data.gov.au/def/geochemistry-sampling-method": [
       {
          "label": "Geochemistry Sampling Method HTML",
          "from": "http://linked.data.gov.au/def/geochemistry-sampling-method",
@@ -897,7 +923,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/geophysical-survey": [
+  "http://linked.data.gov.au/def/geophysical-survey": [
       {
          "label": "Geophysical Survey HTML",
          "from": "http://linked.data.gov.au/def/geophysical-survey",
@@ -917,7 +943,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/gsq-commodity-code": [
+  "http://linked.data.gov.au/def/gsq-commodity-code": [
       {
          "label": "GSQ Commodity Code HTML",
          "from": "http://linked.data.gov.au/def/gsq-commodity-code",
@@ -937,7 +963,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/gsq-lithology": [
+  "http://linked.data.gov.au/def/gsq-lithology": [
       {
          "label": "GSQ Lithology HTML",
          "from": "http://linked.data.gov.au/def/gsq-lithology",
@@ -957,7 +983,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/mining-industry-report": [
+  "http://linked.data.gov.au/def/mining-industry-report": [
       {
          "label": "Mining Industry Report HTML",
          "from": "http://linked.data.gov.au/def/mining-industry-report",
@@ -977,7 +1003,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/qld-mining-permit": [
+  "http://linked.data.gov.au/def/qld-mining-permit": [
       {
          "label": "Queensland Mining Permit HTML",
          "from": "http://linked.data.gov.au/def/qld-mining-permit",
@@ -997,7 +1023,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/mining-sample": [
+  "http://linked.data.gov.au/def/mining-sample": [
       {
          "label": "Mining Sample HTML",
          "from": "http://linked.data.gov.au/def/mining-sample",
@@ -1017,7 +1043,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/mining-survey-status": [
+  "http://linked.data.gov.au/def/mining-survey-status": [
       {
          "label": "Mining Survey Status HTML",
          "from": "http://linked.data.gov.au/def/mining-survey-status",
@@ -1037,7 +1063,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/sampling-method": [
+  "http://linked.data.gov.au/def/sampling-method": [
       {
          "label": "Sampling Method HTML",
          "from": "http://linked.data.gov.au/def/sampling-method",
@@ -1057,7 +1083,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/seismic-sampling-method": [
+  "http://linked.data.gov.au/def/seismic-sampling-method": [
       {
          "label": "Seismic Sampling Method HTML",
          "from": "http://linked.data.gov.au/def/seismic-sampling-method",
@@ -1077,7 +1103,7 @@
          "headers": {}
       }
    ],
-   "http://linked.data.gov.au/def/spatial-region": [
+  "http://linked.data.gov.au/def/spatial-region": [
       {
          "label": "Spatial Region HTML",
          "from": "http://linked.data.gov.au/def/spatial-region",
