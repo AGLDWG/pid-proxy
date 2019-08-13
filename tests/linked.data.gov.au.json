@@ -709,20 +709,20 @@
       },
       {
          "label": "LocI Ontology, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/def/placenames.ttl",
-         "to": "http://www.linked.data.gov.au/def/placenames.ttl",
+         "from": "http://linked.data.gov.au/def/loci.ttl",
+         "to": "http://www.linked.data.gov.au/def/loci/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/def/loci?_format=text/turtle",
-         "to": "http://www.linked.data.gov.au/def/loci.ttl",
+         "to": "http://www.linked.data.gov.au/def/loci/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via conneg",
          "from": "http://linked.data.gov.au/def/loci",
-         "to": "http://www.linked.data.gov.au/def/loci.ttl",
+         "to": "http://www.linked.data.gov.au/def/loci/loci.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -736,19 +736,19 @@
       {
          "label": "Place Names Ontology, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/def/placenames.ttl",
-         "to": "http://www.linked.data.gov.au/def/placenames.ttl",
+         "to": "http://www.linked.data.gov.au/def/placenames/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/def/placenames?_format=text/turtle",
-         "to": "http://www.linked.data.gov.au/def/placenames.ttl",
+         "to": "http://www.linked.data.gov.au/def/placenames/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via conneg",
          "from": "http://linked.data.gov.au/def/placenames",
-         "to": "http://www.linked.data.gov.au/def/placenames.ttl",
+         "to": "http://www.linked.data.gov.au/def/placenames/placenames.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
