@@ -494,19 +494,19 @@
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/asgs.ttl",
-        "to": "http://www.linked.data.gov.au/def/asgs.ttl",
+        "to": "http://www.linked.data.gov.au/def/asgs/asgs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/asgs?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/asgs.ttl",
+        "to": "http://www.linked.data.gov.au/def/asgs/asgs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/asgs",
-        "to": "http://www.linked.data.gov.au/def/asgs.ttl",
+        "to": "http://www.linked.data.gov.au/def/asgs/asgs.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -546,19 +546,19 @@
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/crs.ttl",
-        "to": "http://www.linked.data.gov.au/def/crs.ttl",
+        "to": "http://www.linked.data.gov.au/def/crs/schema/crs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/crs?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/crs.ttl",
+        "to": "http://www.linked.data.gov.au/def/crs/schema/crs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/crs",
-        "to": "http://www.linked.data.gov.au/def/crs.ttl",
+        "to": "http://www.linked.data.gov.au/def/crs/schema/crs.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -616,25 +616,25 @@
    ],
   "http://linked.data.gov.au/def/geofabric":[
       {
-        "label": "ASGS Ontology, HTML",
+        "label": "Geofabric Ontology, HTML",
         "from": "http://linked.data.gov.au/def/geofabric",
         "to": "http://www.linked.data.gov.au/def/geofabric",
         "headers": {}
       },
       {
-        "label": "ASGS Ontology, RDF (turtle) via file ext.",
+        "label": "Geofabric Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/geofabric.ttl",
         "to": "http://www.linked.data.gov.au/def/geofabric.ttl",
         "headers": {}
       },
       {
-        "label": "ASGS Ontology, RDF (turtle) via QSA",
+        "label": "Geofabric Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/geofabric?_format=text/turtle",
         "to": "http://www.linked.data.gov.au/def/geofabric.ttl",
         "headers": {}
       },
       {
-        "label": "ASGS Ontology, RDF (turtle) via conneg",
+        "label": "Geofabric Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/geofabric",
         "to": "http://www.linked.data.gov.au/def/geofabric.ttl",
         "headers": {"Accept": "text/turtle"}
