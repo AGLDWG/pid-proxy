@@ -1,0 +1,31 @@
+,
+      {
+         "label": "Earth Science Data Category vocab RDF via conneg",
+         "from": "http://linked.data.gov.au/def/earth-science-data-category",
+         "to": "https://vocabs.gsq.digital/vocabulary/earth-science-data-category",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Earth Science Data Category vocab RDF via QSA",
+         "from": "http://linked.data.gov.au/def/earth-science-data-category?_format=text/turtle",
+         "to": "https://vocabs.gsq.digital/vocabulary/earth-science-data-category?_format=text/turtle",
+         "headers": {}
+      },
+      {
+         "label": "Earth Science Data Category - single term HTML, gravity-data",
+         "from": "http://linked.data.gov.au/def/earth-science-data-category/gravity-data",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category/gravity-data",
+         "headers": {}
+      },
+      {
+         "label": "Earth Science Data Category - single term RDF via conneg, gravity-data",
+         "from": "http://linked.data.gov.au/def/earth-science-data-category/gravity-data",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category/gravity-data",
+         "headers": {"Accept": "text/turtle"}
+      },
+      {
+         "label": "Earth Science Data Category - single term RDF via QSA, gravity-data",
+         "from": "http://linked.data.gov.au/def/earth-science-data-category/gravity-data?_format=text/turtle",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category/gravity-data&_format=text/turtle",
+         "headers": {}
+      }
