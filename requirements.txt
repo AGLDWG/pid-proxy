@@ -1,0 +1,4 @@
+# only needed for running the Python testing scripts in tests/, not for PID Proxy server installation
+requests
+rdflib
+bs4
