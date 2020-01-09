@@ -462,25 +462,25 @@
      {
        "label": "AGRIF Ontology, HTML",
        "from": "http://linked.data.gov.au/def/agrif",
-       "to": "http://www.linked.data.gov.au/def/agrif",
+       "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.html",
        "headers": {}
      },
      {
       "label": "AGRIF Ontology, RDF (turtle) via file ext.",
       "from": "http://linked.data.gov.au/def/agrif.ttl",
-      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "headers": {}
     },
      {
       "label": "AGRIF Ontology, RDF (turtle) via QSA",
       "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
-      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "headers": {}
     },
      {
       "label": "AGRIF Ontology, HTRDF (turtle) via conneg",
       "from": "http://linked.data.gov.au/def/agrif",
-      "to": "http://www.linked.data.gov.au/def/agrif.ttl",
+      "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "headers": {"Accept": "text/turtle"}
     }
    ],
@@ -488,25 +488,25 @@
       {
         "label": "ASGS Ontology, HTML",
         "from": "http://linked.data.gov.au/def/asgs",
-        "to": "http://www.linked.data.gov.au/def/asgs",
+        "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.html",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/asgs.ttl",
-        "to": "http://www.linked.data.gov.au/def/asgs/asgs.ttl",
+        "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/asgs?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/asgs/asgs.ttl",
+        "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/asgs",
-        "to": "http://www.linked.data.gov.au/def/asgs/asgs.ttl",
+        "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -514,25 +514,25 @@
      {
        "label": "Borehole Profile, HTML",
        "from": "http://linked.data.gov.au/def/borehole",
-       "to": "http://www.linked.data.gov.au/def/borehole",
+       "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.html",
        "headers": {}
      },
      {
       "label": "Borehole Profile, RDF (turtle) via file ext.",
       "from": "http://linked.data.gov.au/def/borehole.ttl",
-      "to": "http://www.linked.data.gov.au/def/borehole.ttl",
+      "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {}
     },
      {
       "label": "Borehole Profile, RDF (turtle) via QSA",
       "from": "http://linked.data.gov.au/def/borehole?_format=text/turtle",
-      "to": "http://www.linked.data.gov.au/def/borehole.ttl",
+      "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {}
      },
      {
       "label": "Borehole Profile, RDF (turtle) via conneg",
       "from": "http://linked.data.gov.au/def/borehole",
-      "to": "http://www.linked.data.gov.au/def/borehole.ttl",
+      "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {"Accept": "text/turtle"}
      }
    ],
@@ -540,77 +540,104 @@
       {
         "label": "ASGS Ontology, HTML",
         "from": "http://linked.data.gov.au/def/crs",
-        "to": "http://www.linked.data.gov.au/def/crs",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/html/crs.html",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/crs.ttl",
-        "to": "http://www.linked.data.gov.au/def/crs/schema/crs.ttl",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/crs?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/crs/schema/crs.ttl",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/crs",
-        "to": "http://www.linked.data.gov.au/def/crs/schema/crs.ttl",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
+
   "http://linked.data.gov.au/def/dataset": [
      {
-       "label": "Dataset Ontology, HTML",
+       "label": "Datatype Ontology, HTML",
        "from": "http://linked.data.gov.au/def/dataset",
-       "to": "http://www.linked.data.gov.au/def/dataset",
+       "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html",
        "headers": {}
      },
      {
       "label": "Dataset Ontology, RDF (turtle) via file ext.",
       "from": "http://linked.data.gov.au/def/dataset.ttl",
-      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "headers": {}
     },
      {
       "label": "Dataset Ontology, RDF (turtle) via QSA",
       "from": "http://linked.data.gov.au/def/dataset?_format=text/turtle",
-      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "headers": {}
      },
      {
       "label": "Dataset Ontology, RDF (turtle) via conneg",
       "from": "http://linked.data.gov.au/def/dataset",
-      "to": "http://www.linked.data.gov.au/def/dataset.ttl",
+      "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "headers": {"Accept": "text/turtle"}
      }
    ],
+  "http://linked.data.gov.au/def/datatype": [
+   {
+     "label": "Datatype Ontology, HTML",
+     "from": "http://linked.data.gov.au/def/datatype",
+     "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/html/datatype.html",
+     "headers": {}
+   },
+   {
+    "label": "Datatype Ontology, RDF (turtle) via file ext.",
+    "from": "http://linked.data.gov.au/def/datatype.ttl",
+    "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
+    "headers": {}
+  },
+   {
+    "label": "Datatype Ontology, RDF (turtle) via QSA",
+    "from": "http://linked.data.gov.au/def/datatype?_format=text/turtle",
+    "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
+    "headers": {}
+   },
+   {
+    "label": "Datatype Ontology, RDF (turtle) via conneg",
+    "from": "http://linked.data.gov.au/def/datatype",
+    "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
+    "headers": {"Accept": "text/turtle"}
+   }
+ ],
   "http://linked.data.gov.au/def/fsdf":[
       {
         "label": "FSDF Ontology, HTML",
         "from": "http://linked.data.gov.au/def/fsdf",
-        "to": "http://www.linked.data.gov.au/def/fsdf",
+        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.html",
         "headers": {}
       },
       {
         "label": "FSDF Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/fsdf.ttl",
-        "to": "http://www.linked.data.gov.au/def/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
         "headers": {}
       },
       {
         "label": "FSDF Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/fsdf?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
         "headers": {}
       },
       {
         "label": "FSDF Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/fsdf",
-        "to": "http://www.linked.data.gov.au/def/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -618,25 +645,25 @@
       {
         "label": "Geofabric Ontology, HTML",
         "from": "http://linked.data.gov.au/def/geofabric",
-        "to": "http://www.linked.data.gov.au/def/geofabric",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.html",
         "headers": {}
       },
       {
         "label": "Geofabric Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/geofabric.ttl",
-        "to": "http://www.linked.data.gov.au/def/geofabric.ttl",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
         "headers": {}
       },
       {
         "label": "Geofabric Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/geofabric?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/geofabric.ttl",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
         "headers": {}
       },
       {
         "label": "Geofabric Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/geofabric",
-        "to": "http://www.linked.data.gov.au/def/geofabric.ttl",
+        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -646,83 +673,101 @@
          "from": "http://linked.data.gov.au/def/gnaf",
          "to": "http://gnafld.net/def/gnaf",
          "headers": {}
+      },
+      {
+        "label": "G-NAF Ontology, RDF (turtle) via file ext.",
+        "from": "http://linked.data.gov.au/def/gnaf.ttl",
+        "to": "http://gnafld.net/def/gnaf.ttl",
+        "headers": {}
+      },
+      {
+        "label": "G-NAF Ontology, RDF (turtle) via QSA",
+        "from": "http://linked.data.gov.au/def/gnaf?_format=text/turtle",
+        "to": "http://gnafld.net/def/gnaf.ttl",
+        "headers": {}
+      },
+      {
+        "label": "G-NAF Ontology, RDF (turtle) via conneg",
+        "from": "http://linked.data.gov.au/def/gnaf",
+        "to": "http://gnafld.net/def/gnaf.ttl",
+        "headers": {"Accept": "text/turtle"}
       }
    ],
   "http://linked.data.gov.au/def/iso19160-1-address":[
       {
         "label": "ISO19160 Ontology, HTML",
         "from": "http://linked.data.gov.au/def/iso19160-1-address",
-        "to": "http://www.linked.data.gov.au/def/iso19160-1-address",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html",
         "headers": {}
       },
       {
         "label": "ISO19160 Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/iso19160-1-address.ttl",
-        "to": "http://www.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
         "headers": {}
       },
       {
         "label": "ISO19160 Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/iso19160-1-address?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
         "headers": {}
       },
       {
         "label": "ISO19160 Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/iso19160-1-address",
-        "to": "http://www.linked.data.gov.au/def/iso19160-1-address.ttl",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
   "http://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
-  {
-    "label": "ISO19160 NZ Profile Ontology, HTML",
-    "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
-    "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile",
-    "headers": {}
-  },
-  {
-   "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via file ext.",
-   "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-   "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-   "headers": {}
- },
- {
-   "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via QSA",
-   "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
-   "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-   "headers": {}
- },
- {
-   "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
-   "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
-   "to": "http://www.linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
-   "headers": {"Accept": "text/turtle"}
- }
+      {
+        "label": "ISO19160 NZ Profile Ontology, HTML",
+        "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.html",
+        "headers": {}
+      },
+      {
+        "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via file ext.",
+        "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
+        "headers": {}
+      },
+      {
+        "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via QSA",
+        "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
+        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
+        "headers": {}
+      },
+      {
+       "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
+       "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+       "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
+       "headers": {"Accept": "text/turtle"}
+      }
 ],
   "http://linked.data.gov.au/def/loci":[
       {
          "label": "LocI Ontology",
          "from": "http://linked.data.gov.au/def/loci",
-         "to": "http://www.linked.data.gov.au/def/loci",
+         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.html",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/def/loci.ttl",
-         "to": "http://www.linked.data.gov.au/def/loci/loci.ttl",
+         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/def/loci?_format=text/turtle",
-         "to": "http://www.linked.data.gov.au/def/loci/loci.ttl",
+         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via conneg",
          "from": "http://linked.data.gov.au/def/loci",
-         "to": "http://www.linked.data.gov.au/def/loci/loci.ttl",
+         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -730,25 +775,25 @@
       {
          "label": "Place Names Ontology",
          "from": "http://linked.data.gov.au/def/placenames",
-         "to": "http://www.linked.data.gov.au/def/placenames",
+         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.html",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via file ext",
          "from": "http://linked.data.gov.au/def/placenames.ttl",
-         "to": "http://www.linked.data.gov.au/def/placenames/placenames.ttl",
+         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via QSA",
          "from": "http://linked.data.gov.au/def/placenames?_format=text/turtle",
-         "to": "http://www.linked.data.gov.au/def/placenames/placenames.ttl",
+         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via conneg",
          "from": "http://linked.data.gov.au/def/placenames",
-         "to": "http://www.linked.data.gov.au/def/placenames/placenames.ttl",
+         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -756,25 +801,25 @@
       {
         "label": "ASGS Ontology, HTML",
         "from": "http://linked.data.gov.au/def/plot",
-        "to": "http://www.linked.data.gov.au/def/plot",
+        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/docs/plot.html",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
         "from": "http://linked.data.gov.au/def/plot.ttl",
-        "to": "http://www.linked.data.gov.au/def/plot.ttl",
+        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
         "from": "http://linked.data.gov.au/def/plot?_format=text/turtle",
-        "to": "http://www.linked.data.gov.au/def/plot.ttl",
+        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
         "from": "http://linked.data.gov.au/def/plot",
-        "to": "http://www.linked.data.gov.au/def/plot.ttl",
+        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
