@@ -64,13 +64,6 @@ System Owner:  [Australian Government Linked Data Working Group](http://linked.d
 
 System Owner contact:  
 **Nicholas Car**  
-*Senior Experimental Scientist*  
 *Co-chair, AGLDWG*  
-CSIRO Land & Water  
-<nicholas.car@csiro.au>  
-
-Technical Contact:  
-**Edmond Chuc**  
-*Research Projects Officer*  
-CSIRO Land & Water  
-<edmond.chuc@csiro.au>  
+Qld Dept Natural Resources, Mines and Energy  
+<nicholas.car@surroundaustralia.com>  
