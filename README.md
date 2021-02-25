@@ -64,6 +64,6 @@ System Owner:  [Australian Government Linked Data Working Group](http://linked.d
 
 System Owner contact:  
 **Nicholas Car**  
-*Co-chair, AGLDWG*  
-Qld Dept Natural Resources, Mines and Energy  
-<nicholas.car@surroundaustralia.com>  
+Research School of Computer Science  
+Australian National University   
+<nicholas.car@anu.edu.au>  
