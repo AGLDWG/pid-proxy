@@ -38,25 +38,37 @@ sudo mkdir /var/log/apache2/reference.data.gov.au
 sudo touch /var/log/apache2/reference.data.gov.au/access.log
 sudo touch /var/log/apache2/reference.data.gov.au/error.log
 
+sudo mkdir /var/log/apache2/test.linked.data.gov.au
+sudo touch /var/log/apache2/test.linked.data.gov.au/access.log
+sudo touch /var/log/apache2/test.linked.data.gov.au/error.log
+
 # install Git
+# -- probably already done in standard Ubuntu install
 sudo apt install -y git
 
 # pull the master repo for Apache conf files
-git clone https://github.com/AGLDWG/pid-proxy.git /home/ubuntu/backup
+git clone https://github.com/AGLDWG/pid-proxy.git /home/ubuntu/pid-proxy-config
 
 # copy the repo's .conf file to Apache & enable
 sudo rm /etc/apache2/sites-available/*.conf
-cd /home/ubuntu/backup
-sudo cp conf/*.conf /etc/apache2/sites-available/
+sudo cp /home/ubuntu/pid-proxy-config/conf/*.conf /etc/apache2/sites-available/
+sudo a2ensite 0-linked.data.gov.au.conf
+sudo a2ensite 0-linked.data.gov.au-le-ssl.conf
 sudo a2ensite catalogue.linked.data.gov.au.conf
+sudo a2ensite catalogue.linked.data.gov.au-le-ssl.conf
 sudo a2ensite environment.data.gov.au.conf
-sudo a2ensite lab.environment.data.gov.au.conf
 sudo a2ensite infrastructure.data.gov.au.conf
-sudo a2ensite linked.data.gov.au.conf
-sudo a2ensite lode2.linked.data.gov.au.conf
+sudo a2ensite lab.environment.data.gov.au.conf
+sudo a2ensite linked.data.gov.au-datasets.conf
+sudo a2ensite linked.data.gov.au-ontologies.conf
+sudo a2ensite linked.data.gov.au-registers.conf
+sudo a2ensite linked.data.gov.au-vocabularies.conf
 sudo a2ensite reference.data.gov.au.conf
 sudo a2ensite test.linked.data.gov.au.conf
 sudo a2ensite www.linked.data.gov.au.conf
+
+# enable HTTPS
+# -- follow https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal
 
 # implement Apache mappings
 sudo service apache2 restart

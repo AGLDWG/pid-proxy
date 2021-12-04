@@ -1,0 +1,20 @@
+# 1. Create new VM
+# -- use default network, access via regular SSH
+# -- clone in this repo
+# -- test redirects on public IP by setting requst headers (curl or browser plugin)
+
+# 2. Detach all VM network interfaces
+
+# 3. Attach pidsvc network interface
+# -- ensure both 'web' and 'default' security groups are enabled and 'pidsvc' is not
+
+# 4. Dissassociat Floating IP from old server
+
+# 5. Associate Floating IP with new server
+
+# 6. Hard Reboot new server
+# -- to updte internal server DNS
+
+# test
+# -- online resolution
+# SSH access
