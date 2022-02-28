@@ -42,6 +42,11 @@ sudo mkdir /var/log/apache2/test.linked.data.gov.au
 sudo touch /var/log/apache2/test.linked.data.gov.au/access.log
 sudo touch /var/log/apache2/test.linked.data.gov.au/error.log
 
+# Add log rotation for log files in the subdirectories of /var/log/apache2.
+# Ubuntu-specific! Relies on the first line of /etc/logrotate.d/apache2
+# specifying the path to the main log files. 
+sudo bash -c "sed -e 's+\*.log+*/*.log+' < /etc/logrotate.d/apache2 > /etc/logrotate.d/apache2-pidproxy"
+
 # install Git
 # -- probably already done in standard Ubuntu install
 sudo apt install -y git
