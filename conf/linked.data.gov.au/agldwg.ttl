@@ -1,4 +1,0 @@
-RewriteCond %{QUERY_STRING} _mediatype=text/turtle
-RewriteRule ^/def/fl                 https://raw.githubusercontent.com/AGLDWG/feature-labelling-model/main/model.ttl [R=302,L]
-RewriteRule ^/def/fl.ttl             https://raw.githubusercontent.com/AGLDWG/feature-labelling-model/main/model.ttl [R=302,L]
-RewriteRule ^/def/fl                 https://agldwg.github.io/feature-labelling-model/model.html [R=302,L]
