@@ -1,1257 +1,1257 @@
 {
-  "http://linked.data.gov.au/dataset/asgs2011": [
+  "https://linked.data.gov.au/dataset/asgs2011": [
      {
         "label": "ASGS 2011 Dataset, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/dataset/asgs2011?_format=text/turtle",
+        "from": "https://linked.data.gov.au/dataset/asgs2011?_format=text/turtle",
         "to": "http://asgsld.net/2011/index.ttl",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, RDF (turtle) via file ext",
-        "from": "http://linked.data.gov.au/dataset/asgs2011.ttl",
+        "from": "https://linked.data.gov.au/dataset/asgs2011.ttl",
         "to": "http://asgsld.net/2011/index.ttl",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/dataset/asgs2011",
+        "from": "https://linked.data.gov.au/dataset/asgs2011",
         "to": "http://asgsld.net/2011/index.ttl",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "label": "ASGS 2011 Dataset, HTML",
-        "from": "http://linked.data.gov.au/dataset/asgs2011",
+        "from": "https://linked.data.gov.au/dataset/asgs2011",
         "to": "http://asgsld.net/2011",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, Address Register RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/?_format=text/turtle",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/?_format=text/turtle",
         "to": "http://asgsld.net/2011/address/?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, Address Register RDF (turtle) via file ext",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/index.ttl",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/index.ttl",
         "to": "http://asgsld.net/2011/address/?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, Address Register RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/",
         "to": "http://asgsld.net/2011/address/?_format=text/turtle",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "label": "ASGS 2011 Dataset, Address Register HTML",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/",
         "to": "http://asgsld.net/2011/address/",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, an Address RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933?_format=text/turtle",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933?_format=text/turtle",
         "to": "http://asgsld.net/2011/address/GAACT714845933?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, an Address RDF (turtle) via file ext",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl",
         "to": "http://asgsld.net/2011/address/GAACT714845933?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2011 Dataset, an Address RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
+        "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
         "to": "http://asgsld.net/2011/address/GAACT714845933?_format=text/turtle",
         "headers": {"Accept": "text/turtle"}
      },
      {
          "label": "ASGS 2011 Dataset, an Address HTML",
-         "from": "http://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
+         "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
          "to": "http://asgsld.net/2011/address/GAACT714845933",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/dataset/asgs2016": [
+  "https://linked.data.gov.au/dataset/asgs2016": [
      {
         "label": "ASGS 2016 Dataset, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/dataset/asgs2016?_format=text/turtle",
+        "from": "https://linked.data.gov.au/dataset/asgs2016?_format=text/turtle",
         "to": "http://asgsld.net/2016/index.ttl",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, RDF (turtle) via file ext",
-        "from": "http://linked.data.gov.au/dataset/asgs2016.ttl",
+        "from": "https://linked.data.gov.au/dataset/asgs2016.ttl",
         "to": "http://asgsld.net/2016/index.ttl",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/dataset/asgs2016",
+        "from": "https://linked.data.gov.au/dataset/asgs2016",
         "to": "http://asgsld.net/2016/index.ttl",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "label": "ASGS 2016 Dataset, HTML",
-        "from": "http://linked.data.gov.au/dataset/asgs2016",
+        "from": "https://linked.data.gov.au/dataset/asgs2016",
         "to": "http://asgsld.net/2016",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, Address Register RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/?_format=text/turtle",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/?_format=text/turtle",
         "to": "http://asgsld.net/2016/address/?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, Address Register RDF (turtle) via file ext",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/index.ttl",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/index.ttl",
         "to": "http://asgsld.net/2016/address/?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, Address Register RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/",
         "to": "http://asgsld.net/2016/address/?_format=text/turtle",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "label": "ASGS 2016 Dataset, Address Register HTML",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/",
         "to": "http://asgsld.net/2016/address/",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, an Address RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933?_format=text/turtle",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933?_format=text/turtle",
         "to": "http://asgsld.net/2016/address/GAACT714845933?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, an Address RDF (turtle) via file ext",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933.ttl",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933.ttl",
         "to": "http://asgsld.net/2016/address/GAACT714845933?_format=text/turtle",
         "headers": {}
      },
      {
         "label": "ASGS 2016 Dataset, an Address RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
+        "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
         "to": "http://asgsld.net/2016/address/GAACT714845933?_format=text/turtle",
         "headers": {"Accept": "text/turtle"}
      },
      {
          "label": "ASGS 2016 Dataset, an Address HTML",
-         "from": "http://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
+         "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
          "to": "http://asgsld.net/2016/address/GAACT714845933",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/dataset/data-policies":[
+  "https://linked.data.gov.au/dataset/data-policies":[
       {
          "label": "Data Policies Dataset, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/data-policies?_format=text/turtle",
-         "to": "http://licences.csiro.au/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/data-policies?_format=text/turtle",
+         "to": "https://licences.csiro.au/index.ttl",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/data-policies.ttl",
-         "to": "http://licences.csiro.au/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/data-policies.ttl",
+         "to": "https://licences.csiro.au/index.ttl",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/data-policies",
-         "to": "http://licences.csiro.au/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/data-policies",
+         "to": "https://licences.csiro.au/index.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Data Policies Dataset, HTML",
-         "from": "http://linked.data.gov.au/dataset/data-policies",
-         "to": "http://licences.csiro.au/",
+         "from": "https://linked.data.gov.au/dataset/data-policies",
+         "to": "https://licences.csiro.au/",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, Licences Register RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/?_format=text/turtle",
          "to": "http://licences.csiro.au/licence/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, Licences Register RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/index.ttl",
          "to": "http://licences.csiro.au/licence/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, Licences Register RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/",
          "to": "http://licences.csiro.au/licence/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Data Policies Dataset, Licences Register HTML",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/",
          "to": "http://licences.csiro.au/licence/",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, a Licence RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0?_format=text/turtle",
          "to": "http://licences.csiro.au/licence/?uri=http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0&_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, a Licence RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0.ttl",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0.ttl",
          "to": "http://licences.csiro.au/licence/?uri=http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0&_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Data Policies Dataset, a Licence RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0",
          "to": "http://licences.csiro.au/licence/?uri=http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0&_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Data Policies Dataset, a Licence HTML",
-         "from": "http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0",
+         "from": "https://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0",
          "to": "http://licences.csiro.au/licence/?uri=http://linked.data.gov.au/dataset/data-policies/licence/b7d27814-a9ed-4cda-88d3-b85ea8ec5af0",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/dataset/energy":[
+  "https://linked.data.gov.au/dataset/energy":[
       {
          "label": "NEAR Dataset Register, HTML",
-         "from": "http://linked.data.gov.au/dataset/energy/",
+         "from": "https://linked.data.gov.au/dataset/energy/",
          "to": "https://near.csiro.au/assets/",
          "headers": {}
       },
       {
          "label": "NEAR Dataset 367b61, HTML",
-         "from": "http://linked.data.gov.au/dataset/energy/14260415-31db-4abf-bfc9-b5d113367b61",
+         "from": "https://linked.data.gov.au/dataset/energy/14260415-31db-4abf-bfc9-b5d113367b61",
          "to": "https://near.csiro.au/assets/14260415-31db-4abf-bfc9-b5d113367b61",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/dataset/geofabric":[
+  "https://linked.data.gov.au/dataset/geofabric":[
       {
          "label": "Geofabric Dataset, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/geofabric?_format=text/turtle",
-         "to": "http://geofabricld.net/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/geofabric?_format=text/turtle",
+         "to": "http://geofabric.linked.fsdf.org.au/dataset/geofabric?_profile=dcat&_mediatype=text/turtle",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/geofabric.ttl",
-         "to": "http://geofabricld.net/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/geofabric.ttl",
+         "to": "http://geofabric.linked.fsdf.org.au/dataset/geofabric?_profile=dcat&_mediatype=text/turtle",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/geofabric",
-         "to": "http://geofabricld.net/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/geofabric",
+         "to": "http://geofabric.linked.fsdf.org.au/dataset/geofabric?_profile=dcat&_mediatype=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Geofabric Dataset, HTML",
-         "from": "http://linked.data.gov.au/dataset/geofabric",
-         "to": "http://geofabricld.net",
+         "from": "https://linked.data.gov.au/dataset/geofabric",
+         "to": "https://geofabric.linked.fsdf.org.au/dataset/geofabric",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, Catchment Register RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/?_format=text/turtle",
          "to": "http://geofabricld.net/catchment/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, Catchment Register RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/index.ttl",
          "to": "http://geofabricld.net/catchment/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, Catchment Register RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/",
          "to": "http://geofabricld.net/catchment/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Geofabric Dataset, Catchment Register HTML",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/",
          "to": "http://geofabricld.net/catchment/",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, a Catchment RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523?_format=text/turtle",
          "to": "http://geofabricld.net/catchment/6600523?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, a Catchment RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523.ttl",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523.ttl",
          "to": "http://geofabricld.net/catchment/6600523?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Geofabric Dataset, a Catchment RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523",
          "to": "http://geofabricld.net/catchment/6600523?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Geofabric Dataset, a Catchment HTML",
-         "from": "http://linked.data.gov.au/dataset/geofabric/catchment/6600523",
+         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523",
          "to": "http://geofabricld.net/catchment/6600523",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/dataset/gnaf":[
+  "https://linked.data.gov.au/dataset/gnaf":[
       {
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
          "to": "http://gnafld.net/index.ttl",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf.ttl",
+         "from": "https://linked.data.gov.au/dataset/gnaf.ttl",
          "to": "http://gnafld.net/index.ttl",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf",
+         "from": "https://linked.data.gov.au/dataset/gnaf",
          "to": "http://gnafld.net/index.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf",
+         "from": "https://linked.data.gov.au/dataset/gnaf",
          "to": "http://gnafld.net",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/?_format=text/turtle",
          "to": "http://gnafld.net/address/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/index.ttl",
          "to": "http://gnafld.net/address/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/",
          "to": "http://gnafld.net/address/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, Address Register HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/",
          "to": "http://gnafld.net/address/",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933?_format=text/turtle",
          "to": "http://gnafld.net/address/GAACT714845933?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, an Address RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933.ttl",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933.ttl",
          "to": "http://gnafld.net/address/GAACT714845933?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, an Address RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
          "to": "http://gnafld.net/address/GAACT714845933?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, an Address HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
+         "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
          "to": "http://gnafld.net/address/GAACT714845933",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/dataset/gnaf-2016-05": [
+  "https://linked.data.gov.au/dataset/gnaf-2016-05": [
       {
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05?_format=text/turtle",
          "to": "http://gnafld.net/2016-05/index.ttl",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05.ttl",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05.ttl",
          "to": "http://gnafld.net/2016-05/index.ttl",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05",
          "to": "http://gnafld.net/2016-05/index.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05",
          "to": "http://gnafld.net/2016-05",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/?_format=text/turtle",
          "to": "http://gnafld.net/2016-05/address/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/index.ttl",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/index.ttl",
          "to": "http://gnafld.net/2016-05/address/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/",
          "to": "http://gnafld.net/2016-05/address/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, Address Register HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/",
          "to": "http://gnafld.net/2016-05/address/",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933?_format=text/turtle",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933?_format=text/turtle",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, an Address RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933.ttl",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933.ttl",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, an Address RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, an Address HTML",
-         "from": "http://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933",
+         "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933",
          "headers": {}
       }
    ],
 
-  "http://linked.data.gov.au/def/agrif": [
+  "https://linked.data.gov.au/def/agrif": [
      {
        "label": "AGRIF Ontology, HTML",
-       "from": "http://linked.data.gov.au/def/agrif",
+       "from": "https://linked.data.gov.au/def/agrif",
        "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.html",
        "headers": {}
      },
      {
       "label": "AGRIF Ontology, RDF (turtle) via file ext.",
-      "from": "http://linked.data.gov.au/def/agrif.ttl",
+      "from": "https://linked.data.gov.au/def/agrif.ttl",
       "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "headers": {}
     },
      {
       "label": "AGRIF Ontology, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/agrif?_format=text/turtle",
+      "from": "https://linked.data.gov.au/def/agrif?_format=text/turtle",
       "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "headers": {}
     },
      {
       "label": "AGRIF Ontology, HTRDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/agrif",
+      "from": "https://linked.data.gov.au/def/agrif",
       "to": "https://raw.githack.com/agldwg/agrif-ont/master/agrif.ttl",
       "headers": {"Accept": "text/turtle"}
     }
    ],
-  "http://linked.data.gov.au/def/asgs":[
+  "https://linked.data.gov.au/def/asgs":[
       {
         "label": "ASGS Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/asgs",
+        "from": "https://linked.data.gov.au/def/asgs",
         "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.html",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/asgs.ttl",
+        "from": "https://linked.data.gov.au/def/asgs.ttl",
         "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/asgs?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/asgs?_format=text/turtle",
         "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/asgs",
+        "from": "https://linked.data.gov.au/def/asgs",
         "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/borehole": [
+  "https://linked.data.gov.au/def/borehole": [
      {
        "label": "Borehole Profile, HTML",
-       "from": "http://linked.data.gov.au/def/borehole",
+       "from": "https://linked.data.gov.au/def/borehole",
        "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.html",
        "headers": {}
      },
      {
       "label": "Borehole Profile, RDF (turtle) via file ext.",
-      "from": "http://linked.data.gov.au/def/borehole.ttl",
+      "from": "https://linked.data.gov.au/def/borehole.ttl",
       "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {}
     },
      {
       "label": "Borehole Profile, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/borehole?_format=text/turtle",
+      "from": "https://linked.data.gov.au/def/borehole?_format=text/turtle",
       "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {}
      },
      {
       "label": "Borehole Profile, RDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/borehole",
+      "from": "https://linked.data.gov.au/def/borehole",
       "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {"Accept": "text/turtle"}
      }
    ],
-  "http://linked.data.gov.au/def/crs":[
+  "https://linked.data.gov.au/def/crs":[
       {
         "label": "ASGS Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/crs",
+        "from": "https://linked.data.gov.au/def/crs",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/html/crs.html",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/crs.ttl",
+        "from": "https://linked.data.gov.au/def/crs.ttl",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/crs?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/crs?_format=text/turtle",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/crs",
+        "from": "https://linked.data.gov.au/def/crs",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/crs-ont/master/schema/crs.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
 
-  "http://linked.data.gov.au/def/dataset": [
+  "https://linked.data.gov.au/def/dataset": [
      {
        "label": "Datatype Ontology, HTML",
-       "from": "http://linked.data.gov.au/def/dataset",
+       "from": "https://linked.data.gov.au/def/dataset",
        "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.html",
        "headers": {}
      },
      {
       "label": "Dataset Ontology, RDF (turtle) via file ext.",
-      "from": "http://linked.data.gov.au/def/dataset.ttl",
+      "from": "https://linked.data.gov.au/def/dataset.ttl",
       "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "headers": {}
     },
      {
       "label": "Dataset Ontology, RDF (turtle) via QSA",
-      "from": "http://linked.data.gov.au/def/dataset?_format=text/turtle",
+      "from": "https://linked.data.gov.au/def/dataset?_format=text/turtle",
       "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "headers": {}
      },
      {
       "label": "Dataset Ontology, RDF (turtle) via conneg",
-      "from": "http://linked.data.gov.au/def/dataset",
+      "from": "https://linked.data.gov.au/def/dataset",
       "to": "https://raw.githack.com/AGLDWG/dataset-ont/master/dataset.ttl",
       "headers": {"Accept": "text/turtle"}
      }
    ],
-  "http://linked.data.gov.au/def/datatype": [
+  "https://linked.data.gov.au/def/datatype": [
    {
      "label": "Datatype Ontology, HTML",
-     "from": "http://linked.data.gov.au/def/datatype",
+     "from": "https://linked.data.gov.au/def/datatype",
      "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/html/datatype.html",
      "headers": {}
    },
    {
     "label": "Datatype Ontology, RDF (turtle) via file ext.",
-    "from": "http://linked.data.gov.au/def/datatype.ttl",
+    "from": "https://linked.data.gov.au/def/datatype.ttl",
     "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
     "headers": {}
   },
    {
     "label": "Datatype Ontology, RDF (turtle) via QSA",
-    "from": "http://linked.data.gov.au/def/datatype?_format=text/turtle",
+    "from": "https://linked.data.gov.au/def/datatype?_format=text/turtle",
     "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
     "headers": {}
    },
    {
     "label": "Datatype Ontology, RDF (turtle) via conneg",
-    "from": "http://linked.data.gov.au/def/datatype",
+    "from": "https://linked.data.gov.au/def/datatype",
     "to": "https://raw.githack.com/AGLDWG/datatype-ont/master/rdf/datatype.ttl",
     "headers": {"Accept": "text/turtle"}
    }
  ],
-  "http://linked.data.gov.au/def/fsdf":[
+  "https://linked.data.gov.au/def/fsdf":[
       {
         "label": "FSDF Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/fsdf",
+        "from": "https://linked.data.gov.au/def/fsdf",
         "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.html",
         "headers": {}
       },
       {
         "label": "FSDF Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/fsdf.ttl",
+        "from": "https://linked.data.gov.au/def/fsdf.ttl",
         "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
         "headers": {}
       },
       {
         "label": "FSDF Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/fsdf?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/fsdf?_format=text/turtle",
         "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
         "headers": {}
       },
       {
         "label": "FSDF Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/fsdf",
+        "from": "https://linked.data.gov.au/def/fsdf",
         "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/geofabric":[
+  "https://linked.data.gov.au/def/geofabric":[
       {
         "label": "Geofabric Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/geofabric",
+        "from": "https://linked.data.gov.au/def/geofabric",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.html",
         "headers": {}
       },
       {
         "label": "Geofabric Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/geofabric.ttl",
+        "from": "https://linked.data.gov.au/def/geofabric.ttl",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
         "headers": {}
       },
       {
         "label": "Geofabric Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/geofabric?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/geofabric?_format=text/turtle",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
         "headers": {}
       },
       {
         "label": "Geofabric Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/geofabric",
+        "from": "https://linked.data.gov.au/def/geofabric",
         "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/gnaf":[
+  "https://linked.data.gov.au/def/gnaf":[
       {
          "label": "G-NAF Ontology",
-         "from": "http://linked.data.gov.au/def/gnaf",
+         "from": "https://linked.data.gov.au/def/gnaf",
          "to": "http://gnafld.net/def/gnaf",
          "headers": {}
       },
       {
         "label": "G-NAF Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/gnaf.ttl",
+        "from": "https://linked.data.gov.au/def/gnaf.ttl",
         "to": "http://gnafld.net/def/gnaf.ttl",
         "headers": {}
       },
       {
         "label": "G-NAF Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/gnaf?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/gnaf?_format=text/turtle",
         "to": "http://gnafld.net/def/gnaf.ttl",
         "headers": {}
       },
       {
         "label": "G-NAF Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/gnaf",
+        "from": "https://linked.data.gov.au/def/gnaf",
         "to": "http://gnafld.net/def/gnaf.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/iso19160-1-address":[
+  "https://linked.data.gov.au/def/iso19160-1-address":[
       {
         "label": "ISO19160 Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.html",
         "headers": {}
       },
       {
         "label": "ISO19160 Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address.ttl",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address.ttl",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
         "headers": {}
       },
       {
         "label": "ISO19160 Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address?_format=text/turtle",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
         "headers": {}
       },
       {
         "label": "ISO19160 Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont/master/iso19160-1.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
+  "https://linked.data.gov.au/def/iso19160-1-address-nz-profile": [
       {
         "label": "ISO19160 NZ Profile Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address-nz-profile",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.html",
         "headers": {}
       },
       {
         "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address-nz-profile.ttl",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
         "headers": {}
       },
       {
         "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/iso19160-1-address-nz-profile?_format=text/turtle",
         "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
         "headers": {}
       },
       {
        "label": "ISO19160 NZ Profile Ontology, RDF (turtle) via conneg",
-       "from": "http://linked.data.gov.au/def/iso19160-1-address-nz-profile",
+       "from": "https://linked.data.gov.au/def/iso19160-1-address-nz-profile",
        "to": "https://raw.githack.com/AGLDWG/iso19160-1-address-ont-nz-profile/master/iso19160-1-nz-profile.ttl",
        "headers": {"Accept": "text/turtle"}
       }
 ],
-  "http://linked.data.gov.au/def/loci":[
+  "https://linked.data.gov.au/def/loci":[
       {
          "label": "LocI Ontology",
-         "from": "http://linked.data.gov.au/def/loci",
+         "from": "https://linked.data.gov.au/def/loci",
          "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.html",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/def/loci.ttl",
+         "from": "https://linked.data.gov.au/def/loci.ttl",
          "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/def/loci?_format=text/turtle",
+         "from": "https://linked.data.gov.au/def/loci?_format=text/turtle",
          "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/def/loci",
+         "from": "https://linked.data.gov.au/def/loci",
          "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/placenames":[
+  "https://linked.data.gov.au/def/placenames":[
       {
          "label": "Place Names Ontology",
-         "from": "http://linked.data.gov.au/def/placenames",
+         "from": "https://linked.data.gov.au/def/placenames",
          "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.html",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/def/placenames.ttl",
+         "from": "https://linked.data.gov.au/def/placenames.ttl",
          "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/def/placenames?_format=text/turtle",
+         "from": "https://linked.data.gov.au/def/placenames?_format=text/turtle",
          "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/def/placenames",
+         "from": "https://linked.data.gov.au/def/placenames",
          "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/plot":[
+  "https://linked.data.gov.au/def/plot":[
       {
         "label": "ASGS Ontology, HTML",
-        "from": "http://linked.data.gov.au/def/plot",
+        "from": "https://linked.data.gov.au/def/plot",
         "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/docs/plot.html",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
-        "from": "http://linked.data.gov.au/def/plot.ttl",
+        "from": "https://linked.data.gov.au/def/plot.ttl",
         "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
-        "from": "http://linked.data.gov.au/def/plot?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/plot?_format=text/turtle",
         "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
-        "from": "http://linked.data.gov.au/def/plot",
+        "from": "https://linked.data.gov.au/def/plot",
         "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
 
-  "http://linked.data.gov.au/def/borehole-inclination": [
+  "https://linked.data.gov.au/def/borehole-inclination": [
       {
          "label": "Borehole Inclination Vocabulary HTML",
-         "from": "http://linked.data.gov.au/def/borehole-inclination",
+         "from": "https://linked.data.gov.au/def/borehole-inclination",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-inclination",
          "headers": {}
       },
       {
          "label": "Borehole Inclination Vocabulary - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/borehole-inclination/",
+         "from": "https://linked.data.gov.au/def/borehole-inclination/",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-inclination",
          "headers": {}
       },
       {
          "label": "Borehole Inclination Vocabulary - single term HTML",
-         "from": "http://linked.data.gov.au/def/borehole-inclination/Vertical",
+         "from": "https://linked.data.gov.au/def/borehole-inclination/Vertical",
          "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-inclination&uri=http://linked.data.gov.au/def/borehole-inclination/Vertical",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/borehole-status": [
+  "https://linked.data.gov.au/def/borehole-status": [
       {
          "label": "Borehole Status HTML",
-         "from": "http://linked.data.gov.au/def/borehole-status",
+         "from": "https://linked.data.gov.au/def/borehole-status",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-status",
          "headers": {}
       },
       {
          "label": "Borehole Status - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/borehole-status/",
+         "from": "https://linked.data.gov.au/def/borehole-status/",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-status",
          "headers": {}
       },
       {
          "label": "Borehole Status - single term HTML",
-         "from": "http://linked.data.gov.au/def/borehole-status/plugged_and_abandoned",
+         "from": "https://linked.data.gov.au/def/borehole-status/plugged_and_abandoned",
          "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-status&uri=http://linked.data.gov.au/def/borehole-status/plugged_and_abandoned",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/borehole-surface-circumstance": [
+  "https://linked.data.gov.au/def/borehole-surface-circumstance": [
       {
          "label": "Borehole Surface Circumstance HTML",
-         "from": "http://linked.data.gov.au/def/borehole-surface-circumstance",
+         "from": "https://linked.data.gov.au/def/borehole-surface-circumstance",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-surface-circumstance",
          "headers": {}
       },
       {
          "label": "Borehole Surface Circumstance - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/borehole-surface-circumstance/",
+         "from": "https://linked.data.gov.au/def/borehole-surface-circumstance/",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-surface-circumstance",
          "headers": {}
       },
       {
          "label": "Borehole Surface Circumstance - single term HTML",
-         "from": "http://linked.data.gov.au/def/borehole-surface-circumstance/from_pre-existing_hole",
+         "from": "https://linked.data.gov.au/def/borehole-surface-circumstance/from_pre-existing_hole",
          "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-surface-circumstance&uri=http://linked.data.gov.au/def/borehole-surface-circumstance/from_pre-existing_hole",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/borehole-type": [
+  "https://linked.data.gov.au/def/borehole-type": [
       {
          "label": "Borehole Type HTML",
-         "from": "http://linked.data.gov.au/def/borehole-type",
+         "from": "https://linked.data.gov.au/def/borehole-type",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-type",
          "headers": {}
       },
       {
          "label": "Borehole Type - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/borehole-type/",
+         "from": "https://linked.data.gov.au/def/borehole-type/",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-type",
          "headers": {}
       },
       {
          "label": "Borehole Type - single term HTML",
-         "from": "http://linked.data.gov.au/def/borehole-type/coal",
+         "from": "https://linked.data.gov.au/def/borehole-type/coal",
          "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-type&uri=http://linked.data.gov.au/def/borehole-type/coal",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/crs-th": [
+  "https://linked.data.gov.au/def/crs-th": [
       {
          "label": "Vocab HTML",
-         "from": "http://linked.data.gov.au/def/crs-th",
+         "from": "https://linked.data.gov.au/def/crs-th",
          "to": "https://github.com/CSIRO-enviro-informatics/crs-th",
          "headers": {}
       },
       {
          "label": "Vocab RDF (turtle)",
-         "from": "http://linked.data.gov.au/def/crs-th",
+         "from": "https://linked.data.gov.au/def/crs-th",
          "to": "https://raw.githubusercontent.com/CSIRO-enviro-informatics/crs-th/master/crs-th.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
-  "http://linked.data.gov.au/def/data-access": [
+  "https://linked.data.gov.au/def/data-access": [
       {
          "label": "Data Access HTML",
-         "from": "http://linked.data.gov.au/def/data-access",
+         "from": "https://linked.data.gov.au/def/data-access",
          "to": "https://vocabs.gsq.digital/vocabulary/data-access",
          "headers": {}
       },
       {
          "label": "Data Access - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/data-access/",
+         "from": "https://linked.data.gov.au/def/data-access/",
          "to": "https://vocabs.gsq.digital/vocabulary/data-access",
          "headers": {}
       },
       {
          "label": "Data Access - single term HTML",
-         "from": "http://linked.data.gov.au/def/data-access/open",
+         "from": "https://linked.data.gov.au/def/data-access/open",
          "to": "https://vocabs.gsq.digital/object?vocab_id=data-access&uri=http://linked.data.gov.au/def/data-access/open",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/earth-science-data-category": [
+  "https://linked.data.gov.au/def/earth-science-data-category": [
       {
          "label": "Earth Science Data Category vocab HTML",
-         "from": "http://linked.data.gov.au/def/earth-science-data-category",
+         "from": "https://linked.data.gov.au/def/earth-science-data-category",
          "to": "https://vocabs.gsq.digital/vocabulary/earth-science-data-category",
          "headers": {}
       }
   ],
-  "http://linked.data.gov.au/def/gba":[
+  "https://linked.data.gov.au/def/gba":[
       {
         "label": "GeoBeioregional Assessments Definitions HTML",
-        "from": "http://linked.data.gov.au/def/gba",
+        "from": "https://linked.data.gov.au/def/gba",
         "to": "http://registry.it.csiro.au/def/gba",
         "headers": {}
       },
       {
         "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
-        "from": "http://linked.data.gov.au/def/gba.ttl",
+        "from": "https://linked.data.gov.au/def/gba.ttl",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {}
       },
       {
         "label": "GeoBeioregional Assessments Definitions JSON-LD, QSA",
-        "from": "http://linked.data.gov.au/def/gba?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/gba?_format=text/turtle",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {}
       },
       {
         "label": "GeoBeioregional Assessments Definitions Turtle, conneg",
-        "from": "http://linked.data.gov.au/def/gba",
+        "from": "https://linked.data.gov.au/def/gba",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {"Accept": "text/turtle"}
       },
       {
         "label": "GeoBeioregional Assessments Definitions glossary instance HTML",
-        "from": "http://linked.data.gov.au/def/gba/glossary/abandonment",
+        "from": "https://linked.data.gov.au/def/gba/glossary/abandonment",
         "to": "http://registry.it.csiro.au/def/gba/glossary/abandonment",
         "headers": {}
       },
       {
         "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
-        "from": "http://linked.data.gov.au/def/gba/glossary/abandonment?_format=text/turtle",
+        "from": "https://linked.data.gov.au/def/gba/glossary/abandonment?_format=text/turtle",
         "to": "http://registry.it.csiro.au/def/gba/glossary/abandonment?_format=ttl",
         "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/geochemistry-sampling-method": [
+  "https://linked.data.gov.au/def/geochemistry-sampling-method": [
       {
          "label": "Geochemistry Sampling Method HTML",
-         "from": "http://linked.data.gov.au/def/geochemistry-sampling-method",
+         "from": "https://linked.data.gov.au/def/geochemistry-sampling-method",
          "to": "https://vocabs.gsq.digital/vocabulary/geochemistry-sampling-method",
          "headers": {}
       },
       {
          "label": "Geochemistry Sampling Method - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/geochemistry-sampling-method/",
+         "from": "https://linked.data.gov.au/def/geochemistry-sampling-method/",
          "to": "https://vocabs.gsq.digital/vocabulary/geochemistry-sampling-method",
          "headers": {}
       },
       {
          "label": "Geochemistry Sampling Method - single term HTML",
-         "from": "http://linked.data.gov.au/def/geochemistry-sampling-method/Panning",
+         "from": "https://linked.data.gov.au/def/geochemistry-sampling-method/Panning",
          "to": "https://vocabs.gsq.digital/object?vocab_id=geochemistry-sampling-method&uri=http://linked.data.gov.au/def/geochemistry-sampling-method/Panning",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/geophysical-survey": [
+  "https://linked.data.gov.au/def/geophysical-survey": [
       {
          "label": "Geophysical Survey HTML",
-         "from": "http://linked.data.gov.au/def/geophysical-survey",
+         "from": "https://linked.data.gov.au/def/geophysical-survey",
          "to": "https://vocabs.gsq.digital/vocabulary/geophysical-survey",
          "headers": {}
       },
       {
          "label": "Geophysical Survey - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/geophysical-survey/",
+         "from": "https://linked.data.gov.au/def/geophysical-survey/",
          "to": "https://vocabs.gsq.digital/vocabulary/geophysical-survey",
          "headers": {}
       },
       {
          "label": "Geophysical Survey - single term HTML",
-         "from": "http://linked.data.gov.au/def/geophysical-survey/EM_Surveys",
+         "from": "https://linked.data.gov.au/def/geophysical-survey/EM_Surveys",
          "to": "https://vocabs.gsq.digital/object?vocab_id=geophysical-survey&uri=http://linked.data.gov.au/def/geophysical-survey/EM_Surveys",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/geoscience-foi": [
+  "https://linked.data.gov.au/def/geoscience-foi": [
       {
          "label": "Geoscience Features of Interest HTML",
-         "from": "http://linked.data.gov.au/def/geoscience-foi",
+         "from": "https://linked.data.gov.au/def/geoscience-foi",
          "to": "https://vocabs.gsq.digital/vocabulary/geoscience-feature-of-interest",
          "headers": {}
       },
       {
          "label": "Geoscience Features of Interest - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/geoscience-foi/",
+         "from": "https://linked.data.gov.au/def/geoscience-foi/",
          "to": "https://vocabs.gsq.digital/vocabulary/geoscience-feature-of-interest",
          "headers": {}
       },
       {
          "label": "Geoscience Features of Interest - single term HTML",
-         "from": "http://linked.data.gov.au/def/geoscience-foi/agate",
+         "from": "https://linked.data.gov.au/def/geoscience-foi/agate",
          "to": "https://vocabs.gsq.digital/object?vocab_id=geoscience-feature-of-interest&uri=http://linked.data.gov.au/def/geoscience-foi/agate",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/gsq-commodity-code": [
+  "https://linked.data.gov.au/def/gsq-commodity-code": [
       {
          "label": "GSQ Commodity Code HTML",
-         "from": "http://linked.data.gov.au/def/gsq-commodity-code",
+         "from": "https://linked.data.gov.au/def/gsq-commodity-code",
          "to": "https://vocabs.gsq.digital/vocabulary/gsq-commodity-code",
          "headers": {}
       },
       {
          "label": "GSQ Commodity Code - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/gsq-commodity-code/",
+         "from": "https://linked.data.gov.au/def/gsq-commodity-code/",
          "to": "https://vocabs.gsq.digital/vocabulary/gsq-commodity-code",
          "headers": {}
       },
       {
          "label": "GSQ Commodity Code - single term HTML",
-         "from": "http://linked.data.gov.au/def/gsq-commodity-code/agate",
+         "from": "https://linked.data.gov.au/def/gsq-commodity-code/agate",
          "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-commodity-code&uri=http://linked.data.gov.au/def/gsq-commodity-code/agate",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/gsq-lithology": [
+  "https://linked.data.gov.au/def/gsq-lithology": [
       {
          "label": "GSQ Lithology HTML",
-         "from": "http://linked.data.gov.au/def/gsq-lithology",
+         "from": "https://linked.data.gov.au/def/gsq-lithology",
          "to": "https://vocabs.gsq.digital/vocabulary/gsq-lithology",
          "headers": {}
       },
       {
          "label": "GSQ Lithology - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/gsq-lithology/",
+         "from": "https://linked.data.gov.au/def/gsq-lithology/",
          "to": "https://vocabs.gsq.digital/vocabulary/gsq-lithology",
          "headers": {}
       },
       {
          "label": "GSQ Lithology - single term HTML",
-         "from": "http://linked.data.gov.au/def/gsq-lithology/adamellite",
+         "from": "https://linked.data.gov.au/def/gsq-lithology/adamellite",
          "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-lithology&uri=http://linked.data.gov.au/def/gsq-lithology/adamellite",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/mining-industry-report": [
+  "https://linked.data.gov.au/def/mining-industry-report": [
       {
          "label": "Mining Industry Report HTML",
-         "from": "http://linked.data.gov.au/def/mining-industry-report",
+         "from": "https://linked.data.gov.au/def/mining-industry-report",
          "to": "https://vocabs.gsq.digital/vocabulary/mining-industry-report",
          "headers": {}
       },
       {
          "label": "Mining Industry Report - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/mining-industry-report/",
+         "from": "https://linked.data.gov.au/def/mining-industry-report/",
          "to": "https://vocabs.gsq.digital/vocabulary/mining-industry-report",
          "headers": {}
       },
       {
          "label": "Mining Industry Report - single term HTML",
-         "from": "http://linked.data.gov.au/def/mining-industry-report/Water",
+         "from": "https://linked.data.gov.au/def/mining-industry-report/Water",
          "to": "https://vocabs.gsq.digital/object?vocab_id=mining-industry-report&uri=http://linked.data.gov.au/def/mining-industry-report/Water",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/mining-sample": [
+  "https://linked.data.gov.au/def/mining-sample": [
       {
          "label": "Mining Sample HTML",
-         "from": "http://linked.data.gov.au/def/mining-sample",
+         "from": "https://linked.data.gov.au/def/mining-sample",
          "to": "https://vocabs.gsq.digital/vocabulary/mining-sample",
          "headers": {}
       },
       {
          "label": "Mining Sample - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/mining-sample/",
+         "from": "https://linked.data.gov.au/def/mining-sample/",
          "to": "https://vocabs.gsq.digital/vocabulary/mining-sample",
          "headers": {}
       },
       {
          "label": "Mining Sample - single term HTML",
-         "from": "http://linked.data.gov.au/def/mining-sample/Float",
+         "from": "https://linked.data.gov.au/def/mining-sample/Float",
          "to": "https://vocabs.gsq.digital/object?vocab_id=mining-sample&uri=http://linked.data.gov.au/def/mining-sample/Float",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/mining-survey-status": [
+  "https://linked.data.gov.au/def/mining-survey-status": [
       {
          "label": "Mining Survey Status HTML",
-         "from": "http://linked.data.gov.au/def/mining-survey-status",
+         "from": "https://linked.data.gov.au/def/mining-survey-status",
          "to": "https://vocabs.gsq.digital/vocabulary/mining-survey-status",
          "headers": {}
       },
       {
          "label": "Mining Survey Status - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/mining-survey-status/",
+         "from": "https://linked.data.gov.au/def/mining-survey-status/",
          "to": "https://vocabs.gsq.digital/vocabulary/mining-survey-status",
          "headers": {}
       },
       {
          "label": "Mining Survey Status - single term HTML",
-         "from": "http://linked.data.gov.au/def/mining-survey-status/completed",
+         "from": "https://linked.data.gov.au/def/mining-survey-status/completed",
          "to": "https://vocabs.gsq.digital/object?vocab_id=mining-survey-status&uri=http://linked.data.gov.au/def/mining-survey-status/completed",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/qld-mining-permit": [
+  "https://linked.data.gov.au/def/qld-mining-permit": [
       {
          "label": "Queensland Mining Permit HTML",
-         "from": "http://linked.data.gov.au/def/qld-mining-permit",
+         "from": "https://linked.data.gov.au/def/qld-mining-permit",
          "to": "https://vocabs.gsq.digital/vocabulary/qld-mining-permit",
          "headers": {}
       },
       {
          "label": "Queensland Mining Permit - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/qld-mining-permit/",
+         "from": "https://linked.data.gov.au/def/qld-mining-permit/",
          "to": "https://vocabs.gsq.digital/vocabulary/qld-mining-permit",
          "headers": {}
       },
       {
          "label": "Queensland Mining Permit - single term HTML",
-         "from": "http://linked.data.gov.au/def/qld-mining-permit/MiningClaim",
+         "from": "https://linked.data.gov.au/def/qld-mining-permit/MiningClaim",
          "to": "https://vocabs.gsq.digital/object?vocab_id=qld-mining-permit&uri=http://linked.data.gov.au/def/qld-mining-permit/MiningClaim",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/sampling-method": [
+  "https://linked.data.gov.au/def/sampling-method": [
       {
          "label": "Sampling Method HTML",
-         "from": "http://linked.data.gov.au/def/sampling-method",
+         "from": "https://linked.data.gov.au/def/sampling-method",
          "to": "https://vocabs.gsq.digital/vocabulary/sampling-method",
          "headers": {}
       },
       {
          "label": "Sampling Method - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/sampling-method/",
+         "from": "https://linked.data.gov.au/def/sampling-method/",
          "to": "https://vocabs.gsq.digital/vocabulary/sampling-method",
          "headers": {}
       },
       {
          "label": "Sampling Method - single term HTML",
-         "from": "http://linked.data.gov.au/def/sampling-method/Age_Determination",
+         "from": "https://linked.data.gov.au/def/sampling-method/Age_Determination",
          "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method/Age_Determination",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/seismic-sampling-method": [
+  "https://linked.data.gov.au/def/seismic-sampling-method": [
       {
          "label": "Seismic Sampling Method HTML",
-         "from": "http://linked.data.gov.au/def/seismic-sampling-method",
+         "from": "https://linked.data.gov.au/def/seismic-sampling-method",
          "to": "https://vocabs.gsq.digital/vocabulary/seismic-sampling-method",
          "headers": {}
       },
       {
          "label": "Seismic Sampling Method - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/seismic-sampling-method/",
+         "from": "https://linked.data.gov.au/def/seismic-sampling-method/",
          "to": "https://vocabs.gsq.digital/vocabulary/seismic-sampling-method",
          "headers": {}
       },
       {
          "label": "Seismic Sampling Method - single term HTML",
-         "from": "http://linked.data.gov.au/def/seismic-sampling-method/dynamite",
+         "from": "https://linked.data.gov.au/def/seismic-sampling-method/dynamite",
          "to": "https://vocabs.gsq.digital/object?vocab_id=seismic-sampling-method&uri=http://linked.data.gov.au/def/seismic-sampling-method/dynamite",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/spatial-region": [
+  "https://linked.data.gov.au/def/spatial-region": [
       {
          "label": "Spatial Region HTML",
-         "from": "http://linked.data.gov.au/def/spatial-region",
+         "from": "https://linked.data.gov.au/def/spatial-region",
          "to": "https://vocabs.gsq.digital/vocabulary/spatial-region",
          "headers": {}
       },
       {
          "label": "Spatial Region - trailing slash HTML",
-         "from": "http://linked.data.gov.au/def/spatial-region/",
+         "from": "https://linked.data.gov.au/def/spatial-region/",
          "to": "https://vocabs.gsq.digital/vocabulary/spatial-region",
          "headers": {}
       }
    ],
-  "http://linked.data.gov.au/def/reg-status":[
+  "https://linked.data.gov.au/def/reg-status":[
       {
          "label": "Registry Status Vocabulary",
-         "from": "http://linked.data.gov.au/def/reg-status",
+         "from": "https://linked.data.gov.au/def/reg-status",
          "to": "http://www.linked.data.gov.au/def/reg-status",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-status.ttl",
          "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via QSA",
-         "from": "http://linked.data.gov.au/def/reg-status?_format=text/turtle",
+         "from": "https://linked.data.gov.au/def/reg-status?_format=text/turtle",
          "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via conneg",
-         "from": "http://linked.data.gov.au/def/reg-status",
+         "from": "https://linked.data.gov.au/def/reg-status",
          "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Registry Status Vocabulary, Concept accepted HTML",
-         "from": "http://linked.data.gov.au/def/reg-status/accepted",
+         "from": "https://linked.data.gov.au/def/reg-status/accepted",
          "to": "http://www.linked.data.gov.au/def/reg-status/accepted",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, Concept accepted RDF (turtle) via file ext",
-         "from": "http://linked.data.gov.au/def/reg-status/accepted.ttl",
+         "from": "https://linked.data.gov.au/def/reg-status/accepted.ttl",
          "to": "http://www.linked.data.gov.au/def/reg-status/accepted.ttl",
          "headers": {}
       }
