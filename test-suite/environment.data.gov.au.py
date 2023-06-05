@@ -110,6 +110,6 @@ if __name__ == "__main__":
     # def_op_html_header()
     # print('All tests passed successfully!')
 
-    import functions
+    import tests.functions as functions
 
     functions.validate_all_redirects("environment.data.gov.au.json")

@@ -187,6 +187,6 @@ if __name__ == "__main__":
     #
     # print("All tests passed successfully!")
 
-    import functions
+    import tests.functions as functions
 
     functions.validate_all_redirects("reference.data.gov.au.json")
