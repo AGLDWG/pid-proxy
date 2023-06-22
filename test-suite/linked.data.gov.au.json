@@ -1218,41 +1218,41 @@
          "headers": {}
       }
    ],
-  "https://linked.data.gov.au/def/reg-status":[
+  "https://linked.data.gov.au/def/reg-statuses":[
       {
          "label": "Registry Status Vocabulary",
-         "from": "https://linked.data.gov.au/def/reg-status",
-         "to": "http://www.linked.data.gov.au/def/reg-status",
+         "from": "https://linked.data.gov.au/def/reg-statuses",
+         "to": "https://agldwg.github.io/reg-statuses/",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via file ext",
-         "from": "https://linked.data.gov.au/def/reg-status.ttl",
-         "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses.ttl",
+         "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via QSA",
-         "from": "https://linked.data.gov.au/def/reg-status?_format=text/turtle",
-         "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses?_format=text/turtle",
+         "to": "https://agldwg.github.io/reg-statuses/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via conneg",
-         "from": "https://linked.data.gov.au/def/reg-status",
-         "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses",
+         "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Registry Status Vocabulary, Concept accepted HTML",
-         "from": "https://linked.data.gov.au/def/reg-status/accepted",
-         "to": "http://www.linked.data.gov.au/def/reg-status/accepted",
+         "from": "https://linked.data.gov.au/def/reg-statuses/accepted",
+         "to": "https://agldwg.github.io/reg-statuses/accepted",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, Concept accepted RDF (turtle) via file ext",
-         "from": "https://linked.data.gov.au/def/reg-status/accepted.ttl",
-         "to": "http://www.linked.data.gov.au/def/reg-status/accepted.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses/accepted.ttl",
+         "to": "https://agldwg.github.io/reg-statuses/accepted.ttl",
          "headers": {}
       }
    ]
