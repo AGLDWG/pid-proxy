@@ -948,37 +948,37 @@
   ],
   "https://linked.data.gov.au/def/gba":[
       {
-        "label": "GeoBeioregional Assessments Definitions HTML",
+        "label": "GeoBioregional Assessments Definitions HTML",
         "from": "https://linked.data.gov.au/def/gba",
         "to": "http://registry.it.csiro.au/def/gba",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
+        "label": "GeoBioregional Assessments Definitions Turtle, QSA",
         "from": "https://linked.data.gov.au/def/gba.ttl",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions JSON-LD, QSA",
+        "label": "GeoBioregional Assessments Definitions JSON-LD, QSA",
         "from": "https://linked.data.gov.au/def/gba?_format=text/turtle",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions Turtle, conneg",
+        "label": "GeoBioregional Assessments Definitions Turtle, conneg",
         "from": "https://linked.data.gov.au/def/gba",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {"Accept": "text/turtle"}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions glossary instance HTML",
+        "label": "GeoBioregional Assessments Definitions glossary instance HTML",
         "from": "https://linked.data.gov.au/def/gba/glossary/abandonment",
         "to": "http://registry.it.csiro.au/def/gba/glossary/abandonment",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
+        "label": "GeoBioregional Assessments Definitions Turtle, QSA",
         "from": "https://linked.data.gov.au/def/gba/glossary/abandonment?_format=text/turtle",
         "to": "http://registry.it.csiro.au/def/gba/glossary/abandonment?_format=ttl",
         "headers": {}
