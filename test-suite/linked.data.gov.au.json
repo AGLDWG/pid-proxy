@@ -844,66 +844,6 @@
          "headers": {}
       }
    ],
-  "https://linked.data.gov.au/def/borehole-status": [
-      {
-         "label": "Borehole Status HTML",
-         "from": "https://linked.data.gov.au/def/borehole-status",
-         "to": "https://vocabs.gsq.digital/vocabulary/borehole-status",
-         "headers": {}
-      },
-      {
-         "label": "Borehole Status - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/borehole-status/",
-         "to": "https://vocabs.gsq.digital/vocabulary/borehole-status",
-         "headers": {}
-      },
-      {
-         "label": "Borehole Status - single term HTML",
-         "from": "https://linked.data.gov.au/def/borehole-status/plugged_and_abandoned",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-status&uri=http://linked.data.gov.au/def/borehole-status/plugged_and_abandoned",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/borehole-surface-circumstance": [
-      {
-         "label": "Borehole Surface Circumstance HTML",
-         "from": "https://linked.data.gov.au/def/borehole-surface-circumstance",
-         "to": "https://vocabs.gsq.digital/vocabulary/borehole-surface-circumstance",
-         "headers": {}
-      },
-      {
-         "label": "Borehole Surface Circumstance - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/borehole-surface-circumstance/",
-         "to": "https://vocabs.gsq.digital/vocabulary/borehole-surface-circumstance",
-         "headers": {}
-      },
-      {
-         "label": "Borehole Surface Circumstance - single term HTML",
-         "from": "https://linked.data.gov.au/def/borehole-surface-circumstance/from_pre-existing_hole",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-surface-circumstance&uri=http://linked.data.gov.au/def/borehole-surface-circumstance/from_pre-existing_hole",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/borehole-type": [
-      {
-         "label": "Borehole Type HTML",
-         "from": "https://linked.data.gov.au/def/borehole-type",
-         "to": "https://vocabs.gsq.digital/vocabulary/borehole-type",
-         "headers": {}
-      },
-      {
-         "label": "Borehole Type - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/borehole-type/",
-         "to": "https://vocabs.gsq.digital/vocabulary/borehole-type",
-         "headers": {}
-      },
-      {
-         "label": "Borehole Type - single term HTML",
-         "from": "https://linked.data.gov.au/def/borehole-type/coal",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-type&uri=http://linked.data.gov.au/def/borehole-type/coal",
-         "headers": {}
-      }
-   ],
   "https://linked.data.gov.au/def/crs-th": [
       {
          "label": "Vocab HTML",
@@ -918,26 +858,6 @@
          "headers": {"Accept": "text/turtle"}
       }
    ],
-  "https://linked.data.gov.au/def/data-access": [
-      {
-         "label": "Data Access HTML",
-         "from": "https://linked.data.gov.au/def/data-access",
-         "to": "https://vocabs.gsq.digital/vocabulary/data-access",
-         "headers": {}
-      },
-      {
-         "label": "Data Access - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/data-access/",
-         "to": "https://vocabs.gsq.digital/vocabulary/data-access",
-         "headers": {}
-      },
-      {
-         "label": "Data Access - single term HTML",
-         "from": "https://linked.data.gov.au/def/data-access/open",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=data-access&uri=http://linked.data.gov.au/def/data-access/open",
-         "headers": {}
-      }
-   ],
   "https://linked.data.gov.au/def/earth-science-data-category": [
       {
          "label": "Earth Science Data Category vocab HTML",
@@ -948,220 +868,40 @@
   ],
   "https://linked.data.gov.au/def/gba":[
       {
-        "label": "GeoBeioregional Assessments Definitions HTML",
+        "label": "GeoBioregional Assessments Definitions HTML",
         "from": "https://linked.data.gov.au/def/gba",
         "to": "http://registry.it.csiro.au/def/gba",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
+        "label": "GeoBioregional Assessments Definitions Turtle, QSA",
         "from": "https://linked.data.gov.au/def/gba.ttl",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions JSON-LD, QSA",
+        "label": "GeoBioregional Assessments Definitions JSON-LD, QSA",
         "from": "https://linked.data.gov.au/def/gba?_format=text/turtle",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions Turtle, conneg",
+        "label": "GeoBioregional Assessments Definitions Turtle, conneg",
         "from": "https://linked.data.gov.au/def/gba",
         "to": "http://registry.it.csiro.au/def/gba?_format=ttl",
         "headers": {"Accept": "text/turtle"}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions glossary instance HTML",
+        "label": "GeoBioregional Assessments Definitions glossary instance HTML",
         "from": "https://linked.data.gov.au/def/gba/glossary/abandonment",
         "to": "http://registry.it.csiro.au/def/gba/glossary/abandonment",
         "headers": {}
       },
       {
-        "label": "GeoBeioregional Assessments Definitions Turtle, QSA",
+        "label": "GeoBioregional Assessments Definitions Turtle, QSA",
         "from": "https://linked.data.gov.au/def/gba/glossary/abandonment?_format=text/turtle",
         "to": "http://registry.it.csiro.au/def/gba/glossary/abandonment?_format=ttl",
         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/geochemistry-sampling-method": [
-      {
-         "label": "Geochemistry Sampling Method HTML",
-         "from": "https://linked.data.gov.au/def/geochemistry-sampling-method",
-         "to": "https://vocabs.gsq.digital/vocabulary/geochemistry-sampling-method",
-         "headers": {}
-      },
-      {
-         "label": "Geochemistry Sampling Method - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/geochemistry-sampling-method/",
-         "to": "https://vocabs.gsq.digital/vocabulary/geochemistry-sampling-method",
-         "headers": {}
-      },
-      {
-         "label": "Geochemistry Sampling Method - single term HTML",
-         "from": "https://linked.data.gov.au/def/geochemistry-sampling-method/Panning",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=geochemistry-sampling-method&uri=http://linked.data.gov.au/def/geochemistry-sampling-method/Panning",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/geophysical-survey": [
-      {
-         "label": "Geophysical Survey HTML",
-         "from": "https://linked.data.gov.au/def/geophysical-survey",
-         "to": "https://vocabs.gsq.digital/vocabulary/geophysical-survey",
-         "headers": {}
-      },
-      {
-         "label": "Geophysical Survey - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/geophysical-survey/",
-         "to": "https://vocabs.gsq.digital/vocabulary/geophysical-survey",
-         "headers": {}
-      },
-      {
-         "label": "Geophysical Survey - single term HTML",
-         "from": "https://linked.data.gov.au/def/geophysical-survey/EM_Surveys",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=geophysical-survey&uri=http://linked.data.gov.au/def/geophysical-survey/EM_Surveys",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/geoscience-foi": [
-      {
-         "label": "Geoscience Features of Interest HTML",
-         "from": "https://linked.data.gov.au/def/geoscience-foi",
-         "to": "https://vocabs.gsq.digital/vocabulary/geoscience-feature-of-interest",
-         "headers": {}
-      },
-      {
-         "label": "Geoscience Features of Interest - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/geoscience-foi/",
-         "to": "https://vocabs.gsq.digital/vocabulary/geoscience-feature-of-interest",
-         "headers": {}
-      },
-      {
-         "label": "Geoscience Features of Interest - single term HTML",
-         "from": "https://linked.data.gov.au/def/geoscience-foi/agate",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=geoscience-feature-of-interest&uri=http://linked.data.gov.au/def/geoscience-foi/agate",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/gsq-commodity-code": [
-      {
-         "label": "GSQ Commodity Code HTML",
-         "from": "https://linked.data.gov.au/def/gsq-commodity-code",
-         "to": "https://vocabs.gsq.digital/vocabulary/gsq-commodity-code",
-         "headers": {}
-      },
-      {
-         "label": "GSQ Commodity Code - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/gsq-commodity-code/",
-         "to": "https://vocabs.gsq.digital/vocabulary/gsq-commodity-code",
-         "headers": {}
-      },
-      {
-         "label": "GSQ Commodity Code - single term HTML",
-         "from": "https://linked.data.gov.au/def/gsq-commodity-code/agate",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-commodity-code&uri=http://linked.data.gov.au/def/gsq-commodity-code/agate",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/gsq-lithology": [
-      {
-         "label": "GSQ Lithology HTML",
-         "from": "https://linked.data.gov.au/def/gsq-lithology",
-         "to": "https://vocabs.gsq.digital/vocabulary/gsq-lithology",
-         "headers": {}
-      },
-      {
-         "label": "GSQ Lithology - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/gsq-lithology/",
-         "to": "https://vocabs.gsq.digital/vocabulary/gsq-lithology",
-         "headers": {}
-      },
-      {
-         "label": "GSQ Lithology - single term HTML",
-         "from": "https://linked.data.gov.au/def/gsq-lithology/adamellite",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-lithology&uri=http://linked.data.gov.au/def/gsq-lithology/adamellite",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/mining-industry-report": [
-      {
-         "label": "Mining Industry Report HTML",
-         "from": "https://linked.data.gov.au/def/mining-industry-report",
-         "to": "https://vocabs.gsq.digital/vocabulary/mining-industry-report",
-         "headers": {}
-      },
-      {
-         "label": "Mining Industry Report - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/mining-industry-report/",
-         "to": "https://vocabs.gsq.digital/vocabulary/mining-industry-report",
-         "headers": {}
-      },
-      {
-         "label": "Mining Industry Report - single term HTML",
-         "from": "https://linked.data.gov.au/def/mining-industry-report/Water",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=mining-industry-report&uri=http://linked.data.gov.au/def/mining-industry-report/Water",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/mining-sample": [
-      {
-         "label": "Mining Sample HTML",
-         "from": "https://linked.data.gov.au/def/mining-sample",
-         "to": "https://vocabs.gsq.digital/vocabulary/mining-sample",
-         "headers": {}
-      },
-      {
-         "label": "Mining Sample - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/mining-sample/",
-         "to": "https://vocabs.gsq.digital/vocabulary/mining-sample",
-         "headers": {}
-      },
-      {
-         "label": "Mining Sample - single term HTML",
-         "from": "https://linked.data.gov.au/def/mining-sample/Float",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=mining-sample&uri=http://linked.data.gov.au/def/mining-sample/Float",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/mining-survey-status": [
-      {
-         "label": "Mining Survey Status HTML",
-         "from": "https://linked.data.gov.au/def/mining-survey-status",
-         "to": "https://vocabs.gsq.digital/vocabulary/mining-survey-status",
-         "headers": {}
-      },
-      {
-         "label": "Mining Survey Status - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/mining-survey-status/",
-         "to": "https://vocabs.gsq.digital/vocabulary/mining-survey-status",
-         "headers": {}
-      },
-      {
-         "label": "Mining Survey Status - single term HTML",
-         "from": "https://linked.data.gov.au/def/mining-survey-status/completed",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=mining-survey-status&uri=http://linked.data.gov.au/def/mining-survey-status/completed",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/qld-mining-permit": [
-      {
-         "label": "Queensland Mining Permit HTML",
-         "from": "https://linked.data.gov.au/def/qld-mining-permit",
-         "to": "https://vocabs.gsq.digital/vocabulary/qld-mining-permit",
-         "headers": {}
-      },
-      {
-         "label": "Queensland Mining Permit - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/qld-mining-permit/",
-         "to": "https://vocabs.gsq.digital/vocabulary/qld-mining-permit",
-         "headers": {}
-      },
-      {
-         "label": "Queensland Mining Permit - single term HTML",
-         "from": "https://linked.data.gov.au/def/qld-mining-permit/MiningClaim",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=qld-mining-permit&uri=http://linked.data.gov.au/def/qld-mining-permit/MiningClaim",
-         "headers": {}
       }
    ],
   "https://linked.data.gov.au/def/sampling-method": [
@@ -1204,55 +944,41 @@
          "headers": {}
       }
    ],
-  "https://linked.data.gov.au/def/spatial-region": [
-      {
-         "label": "Spatial Region HTML",
-         "from": "https://linked.data.gov.au/def/spatial-region",
-         "to": "https://vocabs.gsq.digital/vocabulary/spatial-region",
-         "headers": {}
-      },
-      {
-         "label": "Spatial Region - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/spatial-region/",
-         "to": "https://vocabs.gsq.digital/vocabulary/spatial-region",
-         "headers": {}
-      }
-   ],
-  "https://linked.data.gov.au/def/reg-status":[
+  "https://linked.data.gov.au/def/reg-statuses":[
       {
          "label": "Registry Status Vocabulary",
-         "from": "https://linked.data.gov.au/def/reg-status",
-         "to": "http://www.linked.data.gov.au/def/reg-status",
+         "from": "https://linked.data.gov.au/def/reg-statuses",
+         "to": "https://agldwg.github.io/reg-statuses/",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via file ext",
-         "from": "https://linked.data.gov.au/def/reg-status.ttl",
-         "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses.ttl",
+         "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via QSA",
-         "from": "https://linked.data.gov.au/def/reg-status?_format=text/turtle",
-         "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses?_format=text/turtle",
+         "to": "https://agldwg.github.io/reg-statuses/?_format=text/turtle",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via conneg",
-         "from": "https://linked.data.gov.au/def/reg-status",
-         "to": "http://www.linked.data.gov.au/def/reg-status.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses",
+         "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "Registry Status Vocabulary, Concept accepted HTML",
-         "from": "https://linked.data.gov.au/def/reg-status/accepted",
-         "to": "http://www.linked.data.gov.au/def/reg-status/accepted",
+         "from": "https://linked.data.gov.au/def/reg-statuses/accepted",
+         "to": "https://agldwg.github.io/reg-statuses/accepted",
          "headers": {}
       },
       {
          "label": "Registry Status Vocabulary, Concept accepted RDF (turtle) via file ext",
-         "from": "https://linked.data.gov.au/def/reg-status/accepted.ttl",
-         "to": "http://www.linked.data.gov.au/def/reg-status/accepted.ttl",
+         "from": "https://linked.data.gov.au/def/reg-statuses/accepted.ttl",
+         "to": "https://agldwg.github.io/reg-statuses/accepted.ttl",
          "headers": {}
       }
    ]
