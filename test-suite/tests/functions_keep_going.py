@@ -38,7 +38,6 @@ def validate_html_response(label, uri, expected_title):
     else:
         print("For test '{}', URI {}, HTML response does not contain the correct <title> element. Expected '{}' got '{}'".format(
             label, uri, expected_title, received_title))
-    )
 
 
 def is_rdf_parseable(r, uri, expected_title, formatType):
