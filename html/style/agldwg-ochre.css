@@ -6,13 +6,13 @@
             text-align: center;
         }
         #header {
-            width: 900px;
+            width: 1000px;
             margin: 0 auto;
             text-align: left;
         }
 
         #main {
-            width: 900px;
+            width: 1000px;
             margin: 0 auto;
             text-align: left;
         }
@@ -203,7 +203,7 @@
             text-align: left;
             line-height: 2em;
             font-size: smaller;
-            width: 900px;
+            width: 1000px;
         }
 
         #footer_content a {
