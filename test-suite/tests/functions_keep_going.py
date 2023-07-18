@@ -9,14 +9,14 @@ except ImportError:
 import json
 
 
-def validate_redirect(label, from_, to, headers=None):
+def validate_redirect(json_file, label, from_, to, headers=None):
     r = requests.get(from_, headers=headers, allow_redirects=False, timeout=2)
 
     if (r.headers.get("Location") == to):
         pass
     else:
-        print("For test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
-            label, from_, to, str(r.headers.get("Location"))), file = sys.stderr)
+        print("For file '{}', test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+            json_file, label, from_, to, str(r.headers.get("Location"))), file = sys.stderr)
 
 
 def validate_html_response(label, uri, expected_title):
@@ -181,11 +181,12 @@ def validate_turtle_response(uri, expected_title):
 
 
 def validate_all_redirects(json_file):
+    print("validate_all_redirects for file: {}".format(json_file))
     uris = json.load(open(json_file, "r"))
     for uri, cases in uris.items():
         for case in cases:
             print("from: {}\nto: {}".format(case["from"], case["to"]))
             if len(case["headers"]) > 0:
                 print("headers: {}".format(case["headers"]))
-            validate_redirect(case["label"], case["from"], case["to"], case["headers"])
+            validate_redirect(json_file, case["label"], case["from"], case["to"], case["headers"])
             print("ok\n\n")
