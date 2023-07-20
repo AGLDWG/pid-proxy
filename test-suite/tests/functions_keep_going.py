@@ -13,8 +13,9 @@ def validate_redirect(json_file, label, from_, to, headers=None):
     r = requests.get(from_, headers=headers, allow_redirects=False, timeout=2)
 
     if (r.headers.get("Location") == to):
-        pass
+        print("OK\n\n")
     else:
+        print("NOT OK\n\n")
         print("For file '{}', test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
             json_file, label, from_, to, str(r.headers.get("Location"))), file = sys.stderr)
 
@@ -189,4 +190,3 @@ def validate_all_redirects(json_file):
             if len(case["headers"]) > 0:
                 print("headers: {}".format(case["headers"]))
             validate_redirect(json_file, case["label"], case["from"], case["to"], case["headers"])
-            print("ok\n\n")
