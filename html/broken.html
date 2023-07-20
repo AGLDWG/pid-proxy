@@ -4,13 +4,13 @@
     <title>AGLDWG</title>
     <meta charset="utf-8" />
 
-    <link rel="favicon" type="image/png" href="https://www.linked.data.gov.au/style/img/agldwg-logo.ico" />
+    <link rel="favicon" type="image/png" href="style/img/agldwg-logo.ico" />
     <link rel="stylesheet" type="text/css" href="style/agldwg-ochre.css" />
 </head>
 <body>
 <header id="header" style="text-align:right; padding-top:10px;">
     <div style="width:150px; height:150px; float:left;">
-        <img src="https://www.linked.data.gov.au/style/img/agldwg-logo-ochre-150.png" alt="AGLDWG logo" />
+        <img src="style/img/agldwg-logo-ochre-150.png" alt="AGLDWG logo" />
     </div>
     <div id="nav">
         <a href="https://www.linked.data.gov.au">Home</a> |
@@ -27,7 +27,7 @@
 </header>
 
 <div id="main" style="clear:both;">
-    <img src="style/broken.png" alt="broken ico" />
+    <img src="style/img/broken.png" alt="broken ico" />
     <h1>Broken</h1>
     <h4>The persistent identifier (PID) you resolved, <code style="font-size:larger; font-weight:bold;" id="iri"></code>, is registered but does not redirect anywhere, it is broken.</h4>
     <p>To find out about this PID, search for it in the Australian Government Linked Data Working Group's catalogue of PIDs:</p>
@@ -43,7 +43,7 @@
 <footer>
     <div id="footer-grid">
         <div style="grid-column:1; align-self: end;">
-            <img src="https://www.linked.data.gov.au/style/img/cc-by.png" alt="CC BY 4.0" width="88" height="31">
+            <img src="style/img/cc-by.png" alt="CC BY 4.0" width="88" height="31" />
             Content here licensed for use using the <a href="http://creativecommons.org/licenses/by/4.0/">Creative Commons Attribution 4.0 International License</a>
         </div>
         <div style="grid-column:2; align-self: end; text-align:right; ">
@@ -52,10 +52,10 @@
     </div>
 </footer>
 </body>
-</html>
 <script>
     document.addEventListener("DOMContentLoaded", function(event) {
         const urlParams = new URLSearchParams(window.location.search);
         document.getElementById("iri").innerHTML = urlParams.get('iri');
     });
 </script>
+</html>
