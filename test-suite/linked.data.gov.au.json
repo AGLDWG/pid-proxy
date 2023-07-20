@@ -4,158 +4,170 @@
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/dataset/asgs2011?_format=text/turtle",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, RDF (turtle) via file ext",
         "from": "https://linked.data.gov.au/dataset/asgs2011.ttl",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011.ttl",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011.ttl",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/dataset/asgs2011",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, HTML",
         "from": "https://linked.data.gov.au/dataset/asgs2011",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, Address Register RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/?_format=text/turtle",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, Address Register RDF (turtle) via file ext",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/index.ttl",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/index.ttl",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/index.ttl",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, Address Register RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, Address Register HTML",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, an Address RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933?_format=text/turtle",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, an Address RDF (turtle) via file ext",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933.ttl",
         "headers": {}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, an Address RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
         "headers": {"Accept": "text/turtle"}
      },
      {
         "tombstoned": true,
         "label": "ASGS 2011 Dataset, an Address HTML",
         "from": "https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
-        "to": "http://203.100.30.55/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011/address/GAACT714845933",
         "headers": {}
       }
    ],
   "https://linked.data.gov.au/dataset/asgs2016": [
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/dataset/asgs2016?_format=text/turtle",
-        "to": "http://asgsld.net/2016/index.ttl",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, RDF (turtle) via file ext",
         "from": "https://linked.data.gov.au/dataset/asgs2016.ttl",
-        "to": "http://asgsld.net/2016/index.ttl",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016.ttl",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/dataset/asgs2016",
-        "to": "http://asgsld.net/2016/index.ttl",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016",
         "headers": {"Accept": "text/turtle"}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, HTML",
         "from": "https://linked.data.gov.au/dataset/asgs2016",
-        "to": "http://asgsld.net/2016",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, Address Register RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/?_format=text/turtle",
-        "to": "http://asgsld.net/2016/address/?_format=text/turtle",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, Address Register RDF (turtle) via file ext",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/index.ttl",
-        "to": "http://asgsld.net/2016/address/?_format=text/turtle",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/index.ttl",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, Address Register RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/",
-        "to": "http://asgsld.net/2016/address/?_format=text/turtle",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/",
         "headers": {"Accept": "text/turtle"}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, Address Register HTML",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/",
-        "to": "http://asgsld.net/2016/address/",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, an Address RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933?_format=text/turtle",
-        "to": "http://asgsld.net/2016/address/GAACT714845933?_format=text/turtle",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, an Address RDF (turtle) via file ext",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933.ttl",
-        "to": "http://asgsld.net/2016/address/GAACT714845933?_format=text/turtle",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933.ttl",
         "headers": {}
      },
      {
+        "tombstoned": true,
         "label": "ASGS 2016 Dataset, an Address RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
-        "to": "http://asgsld.net/2016/address/GAACT714845933?_format=text/turtle",
+        "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
         "headers": {"Accept": "text/turtle"}
      },
      {
+        "tombstoned": true,
          "label": "ASGS 2016 Dataset, an Address HTML",
          "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
-         "to": "http://asgsld.net/2016/address/GAACT714845933",
+         "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
          "headers": {}
       }
    ],
