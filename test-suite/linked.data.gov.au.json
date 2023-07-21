@@ -285,48 +285,64 @@
          "headers": {}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, Catchment Register RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/?_format=text/turtle",
          "to": "http://geofabricld.net/catchment/?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, Catchment Register RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/index.ttl",
          "to": "http://geofabricld.net/catchment/?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, Catchment Register RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/",
          "to": "http://geofabricld.net/catchment/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, Catchment Register HTML",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/",
          "to": "http://geofabricld.net/catchment/",
          "headers": {}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, a Catchment RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523?_format=text/turtle",
          "to": "http://geofabricld.net/catchment/6600523?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, a Catchment RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523.ttl",
          "to": "http://geofabricld.net/catchment/6600523?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, a Catchment RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523",
          "to": "http://geofabricld.net/catchment/6600523?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "No redirect in place, but cf. redirects for /dataset/geofabric/fc/(drainagedivisions|riverregions|catchments)",
+         "ignore_failure": true,
          "label": "Geofabric Dataset, a Catchment HTML",
          "from": "https://linked.data.gov.au/dataset/geofabric/catchment/6600523",
          "to": "http://geofabricld.net/catchment/6600523",
@@ -335,146 +351,182 @@
    ],
   "https://linked.data.gov.au/dataset/gnaf":[
       {
+         "comment": "Target shows 'Page Not Found'",
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf?_format=text/turtle",
-         "to": "http://gnafld.net/index.ttl",
+         "to": "http://gnaf.linked.fsdf.org.au/dataset/gnaf?_profile=dcat&_mediatype=text/turtle",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Page Not Found'",
          "label": "G-NAF Dataset, RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf.ttl",
-         "to": "http://gnafld.net/index.ttl",
+         "to": "http://gnaf.linked.fsdf.org.au/dataset/gnaf?_profile=dcat&_mediatype=text/turtle",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Page Not Found'",
          "label": "G-NAF Dataset, RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf",
-         "to": "http://gnafld.net/index.ttl",
+         "to": "http://gnaf.linked.fsdf.org.au/dataset/gnaf?_profile=dcat&_mediatype=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "Target shows 'Page Not Found'",
          "label": "G-NAF Dataset, HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf",
-         "to": "http://gnafld.net",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/?_format=text/turtle",
-         "to": "http://gnafld.net/address/?_format=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/?_profile=geo&_mediatype=text/turtle",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, Address Register RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/index.ttl",
-         "to": "http://gnafld.net/address/?_format=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/index?_profile=geo&_mediatype=text/turtle",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, Address Register RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/",
-         "to": "http://gnafld.net/address/?_format=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/?_profile=geo&_mediatype=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, Address Register HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/",
-         "to": "http://gnafld.net/address/",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933?_format=text/turtle",
-         "to": "http://gnafld.net/address/GAACT714845933?_format=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/GAACT714845933?_profile=geo&_mediatype=text/turtle",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, an Address RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933.ttl",
-         "to": "http://gnafld.net/address/GAACT714845933?_format=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/GAACT714845933?_profile=geo&_mediatype=text/turtle",
          "headers": {}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, an Address RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
-         "to": "http://gnafld.net/address/GAACT714845933?_format=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/GAACT714845933?_profile=geo&_mediatype=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "Target shows 'Internal Server Error'",
          "label": "G-NAF Dataset, an Address HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/GAACT714845933",
-         "to": "http://gnafld.net/address/GAACT714845933",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/address/items/GAACT714845933",
          "headers": {}
       }
    ],
   "https://linked.data.gov.au/dataset/gnaf-2016-05": [
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05?_format=text/turtle",
          "to": "http://gnafld.net/2016-05/index.ttl",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05.ttl",
          "to": "http://gnafld.net/2016-05/index.ttl",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05",
          "to": "http://gnafld.net/2016-05/index.ttl",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05",
          "to": "http://gnafld.net/2016-05",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/?_format=text/turtle",
          "to": "http://gnafld.net/2016-05/address/?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, Address Register RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/index.ttl",
          "to": "http://gnafld.net/2016-05/address/?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, Address Register RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/",
          "to": "http://gnafld.net/2016-05/address/?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, Address Register HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/",
          "to": "http://gnafld.net/2016-05/address/",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, an Address RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933?_format=text/turtle",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, an Address RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933.ttl",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933?_format=text/turtle",
          "headers": {}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, an Address RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933?_format=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
+         "comment": "No redirect in place",
+         "ignore_failure": true,
          "label": "G-NAF Dataset, an Address HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf-2016-05/address/GAACT714845933",
          "to": "http://gnafld.net/2016-05/address/GAACT714845933",
