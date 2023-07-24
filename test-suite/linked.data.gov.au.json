@@ -164,7 +164,7 @@
         "headers": {"Accept": "text/turtle"}
      },
      {
-        "tombstoned": true,
+         "tombstoned": true,
          "label": "ASGS 2016 Dataset, an Address HTML",
          "from": "https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
          "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016/address/GAACT714845933",
@@ -594,12 +594,14 @@
        "headers": {}
      },
      {
+      "comment": "Target shows 404; fix by adding /model/ in path as mentioned in comment in gsq.conf",
       "label": "Borehole Profile, RDF (turtle) via file ext.",
       "from": "https://linked.data.gov.au/def/borehole.ttl",
       "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
       "headers": {}
     },
      {
+      "comment": "Target shows 404; fix by adding /model/ in path as mentioned in comment in gsq.conf",
       "label": "Borehole Profile, RDF (turtle) via QSA",
       "from": "https://linked.data.gov.au/def/borehole?_format=text/turtle",
       "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/borehole.ttl",
@@ -695,25 +697,28 @@
       {
         "label": "FSDF Ontology, HTML",
         "from": "https://linked.data.gov.au/def/fsdf",
-        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.html",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html#",
         "headers": {}
       },
       {
+        "comment": "Target shows GitHub repo with 404",
         "label": "FSDF Ontology, RDF (turtle) via file ext.",
         "from": "https://linked.data.gov.au/def/fsdf.ttl",
-        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
+        "to": "https://github.com/GeoscienceAustralia/FSDF-KG/blob/master/edg/ontologies/fsdf.ttl",
         "headers": {}
       },
       {
+        "comment": "Target shows GitHub repo with 404",
         "label": "FSDF Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/fsdf?_format=text/turtle",
-        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
+        "to": "https://github.com/GeoscienceAustralia/FSDF-KG/blob/master/edg/ontologies/fsdf.ttl?_format=text/turtle",
         "headers": {}
       },
       {
+        "comment": "Target shows GitHub repo with 404",
         "label": "FSDF Ontology, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/def/fsdf",
-        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-ont/master/fsdf.ttl",
+        "to": "https://github.com/GeoscienceAustralia/FSDF-KG/blob/master/edg/ontologies/fsdf.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -721,25 +726,28 @@
       {
         "label": "Geofabric Ontology, HTML",
         "from": "https://linked.data.gov.au/def/geofabric",
-        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.html",
+        "to": "https://csiro-enviro-informatics.github.io/geofabric-ont/geofabric.html",
         "headers": {}
       },
       {
+        "comment": "NB double slash in target; suggest removing this from the RewriteRule",
         "label": "Geofabric Ontology, RDF (turtle) via file ext.",
         "from": "https://linked.data.gov.au/def/geofabric.ttl",
-        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
+        "to": "https://csiro-enviro-informatics.github.io/geofabric-ont//geofabric.ttl",
         "headers": {}
       },
       {
+        "comment": "NB double slash in target; suggest removing this from the RewriteRule",
         "label": "Geofabric Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/geofabric?_format=text/turtle",
-        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
+        "to": "https://csiro-enviro-informatics.github.io/geofabric-ont//geofabric.ttl",
         "headers": {}
       },
       {
+        "comment": "NB double slash in target; suggest removing this from the RewriteRule",
         "label": "Geofabric Ontology, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/def/geofabric",
-        "to": "https://raw.githack.com/CSIRO-enviro-informatics/geofabric-ont/master/geofabric.ttl",
+        "to": "https://csiro-enviro-informatics.github.io/geofabric-ont//geofabric.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -747,25 +755,25 @@
       {
          "label": "G-NAF Ontology",
          "from": "https://linked.data.gov.au/def/gnaf",
-         "to": "http://gnafld.net/def/gnaf",
+         "to": "https://agldwg.github.io/gnaf-ont/gnaf.html",
          "headers": {}
       },
       {
         "label": "G-NAF Ontology, RDF (turtle) via file ext.",
         "from": "https://linked.data.gov.au/def/gnaf.ttl",
-        "to": "http://gnafld.net/def/gnaf.ttl",
+        "to": "https://agldwg.github.io/gnaf-ont/gnaf.ttl",
         "headers": {}
       },
       {
         "label": "G-NAF Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/gnaf?_format=text/turtle",
-        "to": "http://gnafld.net/def/gnaf.ttl",
+        "to": "https://agldwg.github.io/gnaf-ont/gnaf.ttl",
         "headers": {}
       },
       {
         "label": "G-NAF Ontology, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/def/gnaf",
-        "to": "http://gnafld.net/def/gnaf.ttl",
+        "to": "https://agldwg.github.io/gnaf-ont/gnaf.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -825,25 +833,26 @@
       {
          "label": "LocI Ontology",
          "from": "https://linked.data.gov.au/def/loci",
-         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.html",
+         "to": "https://csiro-enviro-informatics.github.io/loci-ont/loci.html",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/def/loci.ttl",
-         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
+         "to": "https://csiro-enviro-informatics.github.io/loci-ont/loci.ttl",
          "headers": {}
       },
       {
+          "comment": "xxx",
          "label": "LocI Ontology, RDF (turtle) via QSA",
-         "from": "https://linked.data.gov.au/def/loci?_format=text/turtle",
-         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
+         "from": "https://linked.data.gov.au/def/loci?_mediatype=text/turtle",
+         "to": "https://csiro-enviro-informatics.github.io/loci-ont/loci.ttl",
          "headers": {}
       },
       {
          "label": "LocI Ontology, RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/def/loci",
-         "to": "https://raw.githack.com/CSIRO-enviro-informatics/loci-ont/master/loci.ttl",
+         "to": "https://csiro-enviro-informatics.github.io/loci-ont/loci.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -851,25 +860,25 @@
       {
          "label": "Place Names Ontology",
          "from": "https://linked.data.gov.au/def/placenames",
-         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.html",
+         "to": "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.html",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/def/placenames.ttl",
-         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
+         "to": "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/def/placenames?_format=text/turtle",
-         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
+         "to": "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl",
          "headers": {}
       },
       {
          "label": "Place Names Ontology, RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/def/placenames",
-         "to": "https://raw.githack.com/GeoscienceAustralia/Place-Names/master/placenames.ttl",
+         "to": "https://geoscienceaustralia.github.io/Placenames-Ontology/placenames.ttl",
          "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -877,43 +886,49 @@
       {
         "label": "ASGS Ontology, HTML",
         "from": "https://linked.data.gov.au/def/plot",
-        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/docs/plot.html",
+        "to": "https://ternaustralia.github.io/ontology_tern-plot/",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via file ext.",
         "from": "https://linked.data.gov.au/def/plot.ttl",
-        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
+        "to": "https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/plot?_format=text/turtle",
-        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
+        "to": "https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl?_format=text/turtle",
         "headers": {}
       },
       {
         "label": "ASGS Ontology, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/def/plot",
-        "to": "https://bbcdn.githack.com/terndatateam/ternplotdata-ontology/raw/master/schema/plot.ttl",
+        "to": "https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
 
   "https://linked.data.gov.au/def/borehole-inclination": [
       {
+         "tombstoned": true,
+         "ignore_failure": true,
          "label": "Borehole Inclination Vocabulary HTML",
          "from": "https://linked.data.gov.au/def/borehole-inclination",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-inclination",
          "headers": {}
       },
       {
+         "tombstoned": true,
+         "ignore_failure": true,
          "label": "Borehole Inclination Vocabulary - trailing slash HTML",
          "from": "https://linked.data.gov.au/def/borehole-inclination/",
          "to": "https://vocabs.gsq.digital/vocabulary/borehole-inclination",
          "headers": {}
       },
       {
+         "tombstoned": true,
+         "ignore_failure": true,
          "label": "Borehole Inclination Vocabulary - single term HTML",
          "from": "https://linked.data.gov.au/def/borehole-inclination/Vertical",
          "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-inclination&uri=http://linked.data.gov.au/def/borehole-inclination/Vertical",
@@ -938,7 +953,7 @@
       {
          "label": "Earth Science Data Category vocab HTML",
          "from": "https://linked.data.gov.au/def/earth-science-data-category",
-         "to": "https://vocabs.gsq.digital/vocabulary/earth-science-data-category",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category",
          "headers": {}
       }
   ],
@@ -984,13 +999,14 @@
       {
          "label": "Sampling Method HTML",
          "from": "https://linked.data.gov.au/def/sampling-method",
-         "to": "https://vocabs.gsq.digital/vocabulary/sampling-method",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method",
          "headers": {}
       },
       {
+         "comment": "Target returns page saying 'NetworkError when attempting to fetch resource.' Is the rule incorrect?",
          "label": "Sampling Method - trailing slash HTML",
          "from": "https://linked.data.gov.au/def/sampling-method/",
-         "to": "https://vocabs.gsq.digital/vocabulary/sampling-method",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method/",
          "headers": {}
       },
       {
@@ -1002,15 +1018,17 @@
    ],
   "https://linked.data.gov.au/def/seismic-sampling-method": [
       {
+         "comment": "Target returns page saying 'NetworkError when attempting to fetch resource.'",
          "label": "Seismic Sampling Method HTML",
          "from": "https://linked.data.gov.au/def/seismic-sampling-method",
-         "to": "https://vocabs.gsq.digital/vocabulary/seismic-sampling-method",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=seismic-sampling-method&uri=http://linked.data.gov.au/def/seismic-sampling-method",
          "headers": {}
       },
       {
+         "comment": "Target returns page saying 'NetworkError when attempting to fetch resource.'",
          "label": "Seismic Sampling Method - trailing slash HTML",
          "from": "https://linked.data.gov.au/def/seismic-sampling-method/",
-         "to": "https://vocabs.gsq.digital/vocabulary/seismic-sampling-method",
+         "to": "https://vocabs.gsq.digital/object?vocab_id=seismic-sampling-method&uri=http://linked.data.gov.au/def/seismic-sampling-method/",
          "headers": {}
       },
       {
