@@ -24,7 +24,7 @@ def validate_redirect(json_file, label, from_, to, headers, case):
 
         else:
             print("NOT OK\n\n")
-            print("For file '{}', test '{}', URI {} did not redirect to {} as expected, instead {}.".format(
+            print("For file '{}', test '{}', URI {} did not redirect to {} as expected, instead {}".format(
                 json_file, label, from_, to, str(r.headers.get("Location"))), file = sys.stderr)
 
 def validate_html_response(label, uri, expected_title):
