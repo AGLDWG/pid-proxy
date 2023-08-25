@@ -113,3 +113,6 @@ venv.bak/
 
 # Visual Studio indexes
 .vscode/
+
+# Emacs backups
+*~
