@@ -1,1359 +1,1295 @@
 {
-    "http://linked.data.gov.au/def/address-type": [
+    "https://linked.data.gov.au/def/address-type": [
         {
             "label": "address-type HTML",
-            "from": "http://linked.data.gov.au/def/address-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/address-type",
+            "from": "https://linked.data.gov.au/def/address-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type",
             "headers": {}
         },
         {
             "label": "address-type RDF",
-            "from": "http://linked.data.gov.au/def/address-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/address-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=address-type&uri=http://linked.data.gov.au/def/address-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/anzsic-2006": [
+    "https://linked.data.gov.au/def/anzsic-2006": [
         {
             "label": "anzsic-2006 HTML",
-            "from": "http://linked.data.gov.au/def/anzsic-2006",
+            "from": "https://linked.data.gov.au/def/anzsic-2006",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/anzsic-2006",
             "headers": {}
         },
         {
             "label": "anzsic-2006 RDF",
-            "from": "http://linked.data.gov.au/def/anzsic-2006",
+            "from": "https://linked.data.gov.au/def/anzsic-2006",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/anzsic-2006&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/australian-phone-area-codes": [
+    "https://linked.data.gov.au/def/australian-phone-area-codes": [
         {
             "label": "australian-phone-area-codes HTML",
-            "from": "http://linked.data.gov.au/def/australian-phone-area-codes",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/australian-phone-area-codes",
+            "from": "https://linked.data.gov.au/def/australian-phone-area-codes",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=australian-phone-area-codes&uri=http://linked.data.gov.au/def/australian-phone-area-codes",
             "headers": {}
         },
         {
             "label": "australian-phone-area-codes RDF",
-            "from": "http://linked.data.gov.au/def/australian-phone-area-codes",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/australian-phone-area-codes&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/australian-phone-area-codes",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=australian-phone-area-codes&uri=http://linked.data.gov.au/def/australian-phone-area-codes&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/australian-states-and-territories": [
+    "https://linked.data.gov.au/def/australian-states-and-territories": [
         {
             "label": "australian-states-and-territories HTML",
-            "from": "http://linked.data.gov.au/def/australian-states-and-territories",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/australian-states-and-territories",
+            "from": "https://linked.data.gov.au/def/australian-states-and-territories",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=australian-states-and-territories&uri=http://linked.data.gov.au/def/australian-states-and-territories",
             "headers": {}
         },
         {
             "label": "australian-states-and-territories RDF",
-            "from": "http://linked.data.gov.au/def/australian-states-and-territories",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/australian-states-and-territories&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/australian-states-and-territories",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=australian-states-and-territories&uri=http://linked.data.gov.au/def/australian-states-and-territories&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-design": [
+    "https://linked.data.gov.au/def/borehole-design": [
         {
             "label": "borehole-design HTML",
-            "from": "http://linked.data.gov.au/def/borehole-design",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-design",
+            "from": "https://linked.data.gov.au/def/borehole-design",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-design&uri=http://linked.data.gov.au/def/borehole-design",
             "headers": {}
         },
         {
             "label": "borehole-design RDF",
-            "from": "http://linked.data.gov.au/def/borehole-design",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-design&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-design",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-design&uri=http://linked.data.gov.au/def/borehole-design&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-drilling-method": [
+    "https://linked.data.gov.au/def/borehole-drilling-method": [
         {
             "label": "borehole-drilling-method HTML",
-            "from": "http://linked.data.gov.au/def/borehole-drilling-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-drilling-method",
+            "from": "https://linked.data.gov.au/def/borehole-drilling-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-drilling-method&uri=http://linked.data.gov.au/def/borehole-drilling-method",
             "headers": {}
         },
         {
             "label": "borehole-drilling-method RDF",
-            "from": "http://linked.data.gov.au/def/borehole-drilling-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-drilling-method&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-drilling-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-drilling-method&uri=http://linked.data.gov.au/def/borehole-drilling-method&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-purpose": [
+    "https://linked.data.gov.au/def/borehole-purpose": [
         {
             "label": "borehole-purpose HTML",
-            "from": "http://linked.data.gov.au/def/borehole-purpose",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-purpose",
+            "from": "https://linked.data.gov.au/def/borehole-purpose",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-purpose&uri=http://linked.data.gov.au/def/borehole-purpose",
             "headers": {}
         },
         {
             "label": "borehole-purpose RDF",
-            "from": "http://linked.data.gov.au/def/borehole-purpose",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-purpose&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-purpose",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-purpose&uri=http://linked.data.gov.au/def/borehole-purpose&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-start-point": [
+    "https://linked.data.gov.au/def/borehole-start-point": [
         {
             "label": "borehole-start-point HTML",
-            "from": "http://linked.data.gov.au/def/borehole-start-point",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-start-point",
+            "from": "https://linked.data.gov.au/def/borehole-start-point",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-start-point&uri=http://linked.data.gov.au/def/borehole-start-point",
             "headers": {}
         },
         {
             "label": "borehole-start-point RDF",
-            "from": "http://linked.data.gov.au/def/borehole-start-point",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-start-point&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-start-point",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-start-point&uri=http://linked.data.gov.au/def/borehole-start-point&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-status": [
+    "https://linked.data.gov.au/def/borehole-status": [
         {
             "label": "borehole-status HTML",
-            "from": "http://linked.data.gov.au/def/borehole-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-status",
+            "from": "https://linked.data.gov.au/def/borehole-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-status&uri=http://linked.data.gov.au/def/borehole-status",
             "headers": {}
         },
         {
             "label": "borehole-status RDF",
-            "from": "http://linked.data.gov.au/def/borehole-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-status&uri=http://linked.data.gov.au/def/borehole-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-status-event": [
+    "https://linked.data.gov.au/def/borehole-status-event": [
         {
             "label": "borehole-status-event HTML",
-            "from": "http://linked.data.gov.au/def/borehole-status-event",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-status-event",
+            "from": "https://linked.data.gov.au/def/borehole-status-event",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-status-event&uri=http://linked.data.gov.au/def/borehole-status-event",
             "headers": {}
         },
         {
             "label": "borehole-status-event RDF",
-            "from": "http://linked.data.gov.au/def/borehole-status-event",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-status-event&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-status-event",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-status-event&uri=http://linked.data.gov.au/def/borehole-status-event&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/borehole-sub-purpose": [
+    "https://linked.data.gov.au/def/borehole-sub-purpose": [
         {
             "label": "borehole-sub-purpose HTML",
-            "from": "http://linked.data.gov.au/def/borehole-sub-purpose",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-sub-purpose",
+            "from": "https://linked.data.gov.au/def/borehole-sub-purpose",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-sub-purpose&uri=http://linked.data.gov.au/def/borehole-sub-purpose",
             "headers": {}
         },
         {
             "label": "borehole-sub-purpose RDF",
-            "from": "http://linked.data.gov.au/def/borehole-sub-purpose",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/borehole-sub-purpose&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/borehole-sub-purpose",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=borehole-sub-purpose&uri=http://linked.data.gov.au/def/borehole-sub-purpose&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/countries": [
+    "https://linked.data.gov.au/def/countries": [
         {
             "label": "countries HTML",
-            "from": "http://linked.data.gov.au/def/countries",
+            "from": "https://linked.data.gov.au/def/countries",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/countries",
             "headers": {}
         },
         {
             "label": "countries RDF",
-            "from": "http://linked.data.gov.au/def/countries",
+            "from": "https://linked.data.gov.au/def/countries",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/countries&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/data-access-rights": [
+    "https://linked.data.gov.au/def/data-access-rights": [
         {
             "label": "data-access-rights HTML",
-            "from": "http://linked.data.gov.au/def/data-access-rights",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/data-access-rights",
+            "from": "https://linked.data.gov.au/def/data-access-rights",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=data-access-rights&uri=http://linked.data.gov.au/def/data-access-rights",
             "headers": {}
         },
         {
             "label": "data-access-rights RDF",
-            "from": "http://linked.data.gov.au/def/data-access-rights",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/data-access-rights&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/data-access-rights",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=data-access-rights&uri=http://linked.data.gov.au/def/data-access-rights&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/dataciteroles": [
+    "https://linked.data.gov.au/def/dataciteroles": [
         {
             "label": "dataciteroles HTML",
-            "from": "http://linked.data.gov.au/def/dataciteroles",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/dataciteroles",
+            "from": "https://linked.data.gov.au/def/dataciteroles",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=dataciteroles&uri=http://linked.data.gov.au/def/dataciteroles",
             "headers": {}
         },
         {
             "label": "dataciteroles RDF",
-            "from": "http://linked.data.gov.au/def/dataciteroles",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/dataciteroles&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/dataciteroles",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=dataciteroles&uri=http://linked.data.gov.au/def/dataciteroles&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/depth-reference": [
+    "https://linked.data.gov.au/def/depth-reference": [
         {
             "label": "depth-reference HTML",
-            "from": "http://linked.data.gov.au/def/depth-reference",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/depth-reference",
+            "from": "https://linked.data.gov.au/def/depth-reference",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=depth-reference&uri=http://linked.data.gov.au/def/depth-reference",
             "headers": {}
         },
         {
             "label": "depth-reference RDF",
-            "from": "http://linked.data.gov.au/def/depth-reference",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/depth-reference&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/depth-reference",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=depth-reference&uri=http://linked.data.gov.au/def/depth-reference&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/earth-science-data-category": [
+    "https://linked.data.gov.au/def/earth-science-data-category": [
         {
             "label": "earth-science-data-category HTML",
-            "from": "http://linked.data.gov.au/def/earth-science-data-category",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/earth-science-data-category",
+            "from": "https://linked.data.gov.au/def/earth-science-data-category",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category",
             "headers": {}
         },
         {
             "label": "earth-science-data-category RDF",
-            "from": "http://linked.data.gov.au/def/earth-science-data-category",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/earth-science-data-category&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/earth-science-data-category",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geo-commodities": [
+    "https://linked.data.gov.au/def/geo-commodities": [
         {
             "label": "geo-commodities HTML",
-            "from": "http://linked.data.gov.au/def/geo-commodities",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geo-commodities",
+            "from": "https://linked.data.gov.au/def/geo-commodities",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geo-commodities&uri=http://linked.data.gov.au/def/geo-commodities",
             "headers": {}
         },
         {
             "label": "geo-commodities RDF",
-            "from": "http://linked.data.gov.au/def/geo-commodities",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geo-commodities&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geo-commodities",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geo-commodities&uri=http://linked.data.gov.au/def/geo-commodities&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geo-product-form": [
+    "https://linked.data.gov.au/def/geo-product-form": [
         {
             "label": "geo-product-form HTML",
-            "from": "http://linked.data.gov.au/def/geo-product-form",
+            "from": "https://linked.data.gov.au/def/geo-product-form",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geo-product-form",
             "headers": {}
         },
         {
             "label": "geo-product-form RDF",
-            "from": "http://linked.data.gov.au/def/geo-product-form",
+            "from": "https://linked.data.gov.au/def/geo-product-form",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geo-product-form&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geoadminfeatures": [
+    "https://linked.data.gov.au/def/geoadminfeatures": [
         {
             "label": "geoadminfeatures HTML",
-            "from": "http://linked.data.gov.au/def/geoadminfeatures",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geoadminfeatures",
+            "from": "https://linked.data.gov.au/def/geoadminfeatures",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geoadminfeatures&uri=http://linked.data.gov.au/def/geoadminfeatures",
             "headers": {}
         },
         {
             "label": "geoadminfeatures RDF",
-            "from": "http://linked.data.gov.au/def/geoadminfeatures",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geoadminfeatures&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geoadminfeatures",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geoadminfeatures&uri=http://linked.data.gov.au/def/geoadminfeatures&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geological-observation-instrument": [
+    "https://linked.data.gov.au/def/geological-observation-instrument": [
         {
             "label": "geological-observation-instrument HTML",
-            "from": "http://linked.data.gov.au/def/geological-observation-instrument",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-observation-instrument",
+            "from": "https://linked.data.gov.au/def/geological-observation-instrument",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-observation-instrument&uri=http://linked.data.gov.au/def/geological-observation-instrument",
             "headers": {}
         },
         {
             "label": "geological-observation-instrument RDF",
-            "from": "http://linked.data.gov.au/def/geological-observation-instrument",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-observation-instrument&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geological-observation-instrument",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-observation-instrument&uri=http://linked.data.gov.au/def/geological-observation-instrument&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geological-observation-method": [
+    "https://linked.data.gov.au/def/geological-observation-method": [
         {
             "label": "geological-observation-method HTML",
-            "from": "http://linked.data.gov.au/def/geological-observation-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-observation-method",
+            "from": "https://linked.data.gov.au/def/geological-observation-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-observation-method&uri=http://linked.data.gov.au/def/geological-observation-method",
             "headers": {}
         },
         {
             "label": "geological-observation-method RDF",
-            "from": "http://linked.data.gov.au/def/geological-observation-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-observation-method&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geological-observation-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-observation-method&uri=http://linked.data.gov.au/def/geological-observation-method&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geological-observation-type": [
+    "https://linked.data.gov.au/def/geological-observation-type": [
         {
             "label": "geological-observation-type HTML",
-            "from": "http://linked.data.gov.au/def/geological-observation-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-observation-type",
+            "from": "https://linked.data.gov.au/def/geological-observation-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-observation-type&uri=http://linked.data.gov.au/def/geological-observation-type",
             "headers": {}
         },
         {
             "label": "geological-observation-type RDF",
-            "from": "http://linked.data.gov.au/def/geological-observation-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-observation-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geological-observation-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-observation-type&uri=http://linked.data.gov.au/def/geological-observation-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geological-properties": [
+    "https://linked.data.gov.au/def/geological-properties": [
         {
             "label": "geological-properties HTML",
-            "from": "http://linked.data.gov.au/def/geological-properties",
+            "from": "https://linked.data.gov.au/def/geological-properties",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-properties",
             "headers": {}
         },
         {
             "label": "geological-properties RDF",
-            "from": "http://linked.data.gov.au/def/geological-properties",
+            "from": "https://linked.data.gov.au/def/geological-properties",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-properties&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geological-sites": [
+    "https://linked.data.gov.au/def/geological-sites": [
         {
             "label": "geological-sites HTML",
-            "from": "http://linked.data.gov.au/def/geological-sites",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-sites",
+            "from": "https://linked.data.gov.au/def/geological-sites",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-sites&uri=http://linked.data.gov.au/def/geological-sites",
             "headers": {}
         },
         {
             "label": "geological-sites RDF",
-            "from": "http://linked.data.gov.au/def/geological-sites",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geological-sites&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geological-sites",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geological-sites&uri=http://linked.data.gov.au/def/geological-sites&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geometry-roles": [
+    "https://linked.data.gov.au/def/geometry-roles": [
         {
             "label": "geometry-roles HTML",
-            "from": "http://linked.data.gov.au/def/geometry-roles",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geometry-roles",
+            "from": "https://linked.data.gov.au/def/geometry-roles",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geometry-roles&uri=http://linked.data.gov.au/def/geometry-roles",
             "headers": {}
         },
         {
             "label": "geometry-roles RDF",
-            "from": "http://linked.data.gov.au/def/geometry-roles",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geometry-roles&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geometry-roles",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geometry-roles&uri=http://linked.data.gov.au/def/geometry-roles&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/georesource-report": [
+    "https://linked.data.gov.au/def/georesource-report": [
         {
             "label": "georesource-report HTML",
-            "from": "http://linked.data.gov.au/def/georesource-report",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/georesource-report",
+            "from": "https://linked.data.gov.au/def/georesource-report",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=georesource-report&uri=http://linked.data.gov.au/def/georesource-report",
             "headers": {}
         },
         {
             "label": "georesource-report RDF",
-            "from": "http://linked.data.gov.au/def/georesource-report",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/georesource-report&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/georesource-report",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=georesource-report&uri=http://linked.data.gov.au/def/georesource-report&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/geou": [
+    "https://linked.data.gov.au/def/geou": [
         {
             "label": "geou HTML",
-            "from": "http://linked.data.gov.au/def/geou",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geou",
+            "from": "https://linked.data.gov.au/def/geou",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geou&uri=http://linked.data.gov.au/def/geou",
             "headers": {}
         },
         {
             "label": "geou RDF",
-            "from": "http://linked.data.gov.au/def/geou",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/geou&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/geou",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geou&uri=http://linked.data.gov.au/def/geou&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/gsq-alias": [
+    "https://linked.data.gov.au/def/gsq-alias": [
         {
             "label": "gsq-alias HTML",
-            "from": "http://linked.data.gov.au/def/gsq-alias",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-alias",
+            "from": "https://linked.data.gov.au/def/gsq-alias",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-alias&uri=http://linked.data.gov.au/def/gsq-alias",
             "headers": {}
         },
         {
             "label": "gsq-alias RDF",
-            "from": "http://linked.data.gov.au/def/gsq-alias",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-alias&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/gsq-alias",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-alias&uri=http://linked.data.gov.au/def/gsq-alias&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/gsq-dataset-theme": [
+    "https://linked.data.gov.au/def/gsq-dataset-theme": [
         {
             "label": "gsq-dataset-theme HTML",
-            "from": "http://linked.data.gov.au/def/gsq-dataset-theme",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-dataset-theme",
+            "from": "https://linked.data.gov.au/def/gsq-dataset-theme",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-dataset-theme&uri=http://linked.data.gov.au/def/gsq-dataset-theme",
             "headers": {}
         },
         {
             "label": "gsq-dataset-theme RDF",
-            "from": "http://linked.data.gov.au/def/gsq-dataset-theme",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-dataset-theme&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/gsq-dataset-theme",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=gsq-dataset-theme&uri=http://linked.data.gov.au/def/gsq-dataset-theme&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/gsq-feature-status": [
+    "https://linked.data.gov.au/def/gsq-feature-status": [
         {
             "label": "gsq-feature-status HTML",
-            "from": "http://linked.data.gov.au/def/gsq-feature-status",
+            "from": "https://linked.data.gov.au/def/gsq-feature-status",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-feature-status",
             "headers": {}
         },
         {
             "label": "gsq-feature-status RDF",
-            "from": "http://linked.data.gov.au/def/gsq-feature-status",
+            "from": "https://linked.data.gov.au/def/gsq-feature-status",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-feature-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/gsq-roles": [
+    "https://linked.data.gov.au/def/gsq-roles": [
         {
             "label": "gsq-roles HTML",
-            "from": "http://linked.data.gov.au/def/gsq-roles",
+            "from": "https://linked.data.gov.au/def/gsq-roles",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-roles",
             "headers": {}
         },
         {
             "label": "gsq-roles RDF",
-            "from": "http://linked.data.gov.au/def/gsq-roles",
+            "from": "https://linked.data.gov.au/def/gsq-roles",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-roles&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/gsq-sample-facility": [
+    "https://linked.data.gov.au/def/gsq-sample-facility": [
         {
             "label": "gsq-sample-facility HTML",
-            "from": "http://linked.data.gov.au/def/gsq-sample-facility",
+            "from": "https://linked.data.gov.au/def/gsq-sample-facility",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-sample-facility",
             "headers": {}
         },
         {
             "label": "gsq-sample-facility RDF",
-            "from": "http://linked.data.gov.au/def/gsq-sample-facility",
+            "from": "https://linked.data.gov.au/def/gsq-sample-facility",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/gsq-sample-facility&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/iso-4217-currencies": [
+    "https://linked.data.gov.au/def/iso-4217-currencies": [
         {
             "label": "iso-4217-currencies HTML",
-            "from": "http://linked.data.gov.au/def/iso-4217-currencies",
+            "from": "https://linked.data.gov.au/def/iso-4217-currencies",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso-4217-currencies",
             "headers": {}
         },
         {
             "label": "iso-4217-currencies RDF",
-            "from": "http://linked.data.gov.au/def/iso-4217-currencies",
+            "from": "https://linked.data.gov.au/def/iso-4217-currencies",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso-4217-currencies&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities": [
+    "https://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities": [
         {
             "label": "RolesAndResponsibilities HTML",
-            "from": "http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities",
+            "from": "https://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=iso11179-6/RolesAndResponsibilities&uri=http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities",
             "headers": {}
         },
         {
             "label": "RolesAndResponsibilities RDF",
-            "from": "http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=iso11179-6/RolesAndResponsibilities&uri=http://linked.data.gov.au/def/iso11179-6/RolesAndResponsibilities&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/iso19115-1/RoleCode": [
+    "https://linked.data.gov.au/def/iso19115-1/RoleCode": [
         {
             "label": "RoleCode HTML",
-            "from": "http://linked.data.gov.au/def/iso19115-1/RoleCode",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso19115-1/RoleCode",
+            "from": "https://linked.data.gov.au/def/iso19115-1/RoleCode",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=iso19115-1/RoleCode&uri=http://linked.data.gov.au/def/iso19115-1/RoleCode",
             "headers": {}
         },
         {
             "label": "RoleCode RDF",
-            "from": "http://linked.data.gov.au/def/iso19115-1/RoleCode",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso19115-1/RoleCode&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/iso19115-1/RoleCode",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=iso19115-1/RoleCode&uri=http://linked.data.gov.au/def/iso19115-1/RoleCode&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/iso639-1": [
+    "https://linked.data.gov.au/def/iso639-1": [
         {
             "label": "iso639-1 HTML",
-            "from": "http://linked.data.gov.au/def/iso639-1",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso639-1",
+            "from": "https://linked.data.gov.au/def/iso639-1",
+            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1",
             "headers": {}
         },
         {
             "label": "iso639-1 RDF",
-            "from": "http://linked.data.gov.au/def/iso639-1",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/iso639-1&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/iso639-1",
+            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/iso639-1&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/lithotype": [
+    "https://linked.data.gov.au/def/lithotype": [
         {
             "label": "lithotype HTML",
-            "from": "http://linked.data.gov.au/def/lithotype",
+            "from": "https://linked.data.gov.au/def/lithotype",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/lithotype",
             "headers": {}
         },
         {
             "label": "lithotype RDF",
-            "from": "http://linked.data.gov.au/def/lithotype",
+            "from": "https://linked.data.gov.au/def/lithotype",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/lithotype&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/minerals": [
+    "https://linked.data.gov.au/def/minerals": [
         {
             "label": "minerals HTML",
-            "from": "http://linked.data.gov.au/def/minerals",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/minerals",
+            "from": "https://linked.data.gov.au/def/minerals",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=minerals&uri=http://linked.data.gov.au/def/minerals",
             "headers": {}
         },
         {
             "label": "minerals RDF",
-            "from": "http://linked.data.gov.au/def/minerals",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/minerals&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/minerals",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=minerals&uri=http://linked.data.gov.au/def/minerals&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/observation-detail-type": [
+    "https://linked.data.gov.au/def/observation-detail-type": [
         {
             "label": "observation-detail-type HTML",
-            "from": "http://linked.data.gov.au/def/observation-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/observation-detail-type",
+            "from": "https://linked.data.gov.au/def/observation-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=observation-detail-type&uri=http://linked.data.gov.au/def/observation-detail-type",
             "headers": {}
         },
         {
             "label": "observation-detail-type RDF",
-            "from": "http://linked.data.gov.au/def/observation-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/observation-detail-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/observation-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=observation-detail-type&uri=http://linked.data.gov.au/def/observation-detail-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/organisation-activity-status": [
+    "https://linked.data.gov.au/def/organisation-activity-status": [
         {
             "label": "organisation-activity-status HTML",
-            "from": "http://linked.data.gov.au/def/organisation-activity-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/organisation-activity-status",
+            "from": "https://linked.data.gov.au/def/organisation-activity-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=organisation-activity-status&uri=http://linked.data.gov.au/def/organisation-activity-status",
             "headers": {}
         },
         {
             "label": "organisation-activity-status RDF",
-            "from": "http://linked.data.gov.au/def/organisation-activity-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/organisation-activity-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/organisation-activity-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=organisation-activity-status&uri=http://linked.data.gov.au/def/organisation-activity-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/organisation-name-types": [
+    "https://linked.data.gov.au/def/organisation-name-types": [
         {
             "label": "organisation-name-types HTML",
-            "from": "http://linked.data.gov.au/def/organisation-name-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/organisation-name-types",
+            "from": "https://linked.data.gov.au/def/organisation-name-types",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=organisation-name-types&uri=http://linked.data.gov.au/def/organisation-name-types",
             "headers": {}
         },
         {
             "label": "organisation-name-types RDF",
-            "from": "http://linked.data.gov.au/def/organisation-name-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/organisation-name-types&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/organisation-name-types",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=organisation-name-types&uri=http://linked.data.gov.au/def/organisation-name-types&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/organisation-type": [
+    "https://linked.data.gov.au/def/organisation-type": [
         {
             "label": "organisation-type HTML",
-            "from": "http://linked.data.gov.au/def/organisation-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/organisation-type",
+            "from": "https://linked.data.gov.au/def/organisation-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=organisation-type&uri=http://linked.data.gov.au/def/organisation-type",
             "headers": {}
         },
         {
             "label": "organisation-type RDF",
-            "from": "http://linked.data.gov.au/def/organisation-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/organisation-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/organisation-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=organisation-type&uri=http://linked.data.gov.au/def/organisation-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/party-identifier-type": [
+    "https://linked.data.gov.au/def/party-identifier-type": [
         {
             "label": "party-identifier-type HTML",
-            "from": "http://linked.data.gov.au/def/party-identifier-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/party-identifier-type",
+            "from": "https://linked.data.gov.au/def/party-identifier-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=party-identifier-type&uri=http://linked.data.gov.au/def/party-identifier-type",
             "headers": {}
         },
         {
             "label": "party-identifier-type RDF",
-            "from": "http://linked.data.gov.au/def/party-identifier-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/party-identifier-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/party-identifier-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=party-identifier-type&uri=http://linked.data.gov.au/def/party-identifier-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/party-relationship": [
+    "https://linked.data.gov.au/def/party-relationship": [
         {
             "label": "party-relationship HTML",
-            "from": "http://linked.data.gov.au/def/party-relationship",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/party-relationship",
+            "from": "https://linked.data.gov.au/def/party-relationship",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=party-relationship&uri=http://linked.data.gov.au/def/party-relationship",
             "headers": {}
         },
         {
             "label": "party-relationship RDF",
-            "from": "http://linked.data.gov.au/def/party-relationship",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/party-relationship&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/party-relationship",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=party-relationship&uri=http://linked.data.gov.au/def/party-relationship&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qesd-qkd": [
-        {
-            "label": "qesd-qkd HTML",
-            "from": "http://linked.data.gov.au/def/qesd-qkd",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qesd-qkd",
-            "headers": {}
-        },
-        {
-            "label": "qesd-qkd RDF",
-            "from": "http://linked.data.gov.au/def/qesd-qkd",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qesd-qkd&_mediatype=text/turtle",
-            "headers": {
-                "Accept": "text/turtle"
-            }
-        }
-    ],
-    "http://linked.data.gov.au/def/qesd-uom": [
-        {
-            "label": "qesd-uom HTML",
-            "from": "http://linked.data.gov.au/def/qesd-uom",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qesd-uom",
-            "headers": {}
-        },
-        {
-            "label": "qesd-uom RDF",
-            "from": "http://linked.data.gov.au/def/qesd-uom",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qesd-uom&_mediatype=text/turtle",
-            "headers": {
-                "Accept": "text/turtle"
-            }
-        }
-    ],
-    "http://linked.data.gov.au/def/qg-agent": [
+    "https://linked.data.gov.au/def/qg-agent": [
         {
             "label": "qg-agent HTML",
-            "from": "http://linked.data.gov.au/def/qg-agent",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qg-agent",
+            "from": "https://linked.data.gov.au/def/qg-agent",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-agent&uri=https://linked.data.gov.au/def/qg-agent",
             "headers": {}
         },
         {
             "label": "qg-agent RDF",
-            "from": "http://linked.data.gov.au/def/qg-agent",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qg-agent&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qg-agent",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-agent&uri=https://linked.data.gov.au/def/qg-agent&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qg-file-types": [
+    "https://linked.data.gov.au/def/qg-file-types": [
         {
             "label": "qg-file-types HTML",
-            "from": "http://linked.data.gov.au/def/qg-file-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qg-file-types",
+            "from": "https://linked.data.gov.au/def/qg-file-types",
+            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types",
             "headers": {}
         },
         {
             "label": "qg-file-types RDF",
-            "from": "http://linked.data.gov.au/def/qg-file-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qg-file-types&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qg-file-types",
+            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-file-types&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qg-sites": [
+    "https://linked.data.gov.au/def/qg-sites": [
         {
             "label": "qg-sites HTML",
-            "from": "http://linked.data.gov.au/def/qg-sites",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qg-sites",
+            "from": "https://linked.data.gov.au/def/qg-sites",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=http://linked.data.gov.au/def/qg-sites",
             "headers": {}
         },
         {
             "label": "qg-sites RDF",
-            "from": "http://linked.data.gov.au/def/qg-sites",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qg-sites&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qg-sites",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=http://linked.data.gov.au/def/qg-sites&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qld-data-licenses": [
+    "https://linked.data.gov.au/def/qld-data-licenses": [
         {
             "label": "qld-data-licenses HTML",
-            "from": "http://linked.data.gov.au/def/qld-data-licenses",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-data-licenses",
+            "from": "https://linked.data.gov.au/def/qld-data-licenses",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-data-licenses&uri=https://linked.data.gov.au/def/qld-data-licenses",
             "headers": {}
         },
         {
             "label": "qld-data-licenses RDF",
-            "from": "http://linked.data.gov.au/def/qld-data-licenses",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-data-licenses&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qld-data-licenses",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-data-licenses&uri=https://linked.data.gov.au/def/qld-data-licenses&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qld-export-terminals": [
+    "https://linked.data.gov.au/def/qld-export-terminals": [
         {
             "label": "qld-export-terminals HTML",
-            "from": "http://linked.data.gov.au/def/qld-export-terminals",
+            "from": "https://linked.data.gov.au/def/qld-export-terminals",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-export-terminals",
             "headers": {}
         },
         {
             "label": "qld-export-terminals RDF",
-            "from": "http://linked.data.gov.au/def/qld-export-terminals",
+            "from": "https://linked.data.gov.au/def/qld-export-terminals",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-export-terminals&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qld-resource-permit": [
+    "https://linked.data.gov.au/def/qld-resource-permit": [
         {
             "label": "qld-resource-permit HTML",
-            "from": "http://linked.data.gov.au/def/qld-resource-permit",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-resource-permit",
+            "from": "https://linked.data.gov.au/def/qld-resource-permit",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-resource-permit&uri=http://linked.data.gov.au/def/qld-resource-permit",
             "headers": {}
         },
         {
             "label": "qld-resource-permit RDF",
-            "from": "http://linked.data.gov.au/def/qld-resource-permit",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-resource-permit&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qld-resource-permit",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-resource-permit&uri=http://linked.data.gov.au/def/qld-resource-permit&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qld-resource-permit-status": [
+    "https://linked.data.gov.au/def/qld-resource-permit-status": [
         {
             "label": "qld-resource-permit-status HTML",
-            "from": "http://linked.data.gov.au/def/qld-resource-permit-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-resource-permit-status",
+            "from": "https://linked.data.gov.au/def/qld-resource-permit-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-resource-permit&uri=http://linked.data.gov.au/def/qld-resource-permit-status",
             "headers": {}
         },
         {
             "label": "qld-resource-permit-status RDF",
-            "from": "http://linked.data.gov.au/def/qld-resource-permit-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-resource-permit-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qld-resource-permit-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-resource-permit&uri=http://linked.data.gov.au/def/qld-resource-permit-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qld-utm-zones": [
+    "https://linked.data.gov.au/def/qld-utm-zones": [
         {
             "label": "qld-utm-zones HTML",
-            "from": "http://linked.data.gov.au/def/qld-utm-zones",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-utm-zones",
+            "from": "https://linked.data.gov.au/def/qld-utm-zones",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-utm-zones&uri=http://linked.data.gov.au/def/qld-utm-zones",
             "headers": {}
         },
         {
             "label": "qld-utm-zones RDF",
-            "from": "http://linked.data.gov.au/def/qld-utm-zones",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qld-utm-zones&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/qld-utm-zones",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qld-utm-zones&uri=http://linked.data.gov.au/def/qld-utm-zones&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/qualitative-confidence": [
+    "https://linked.data.gov.au/def/qualitative-confidence": [
         {
             "label": "qualitative-confidence HTML",
-            "from": "http://linked.data.gov.au/def/qualitative-confidence",
+            "from": "https://linked.data.gov.au/def/qualitative-confidence",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qualitative-confidence",
             "headers": {}
         },
         {
             "label": "qualitative-confidence RDF",
-            "from": "http://linked.data.gov.au/def/qualitative-confidence",
+            "from": "https://linked.data.gov.au/def/qualitative-confidence",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/qualitative-confidence&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/queensland-crs": [
+    "https://linked.data.gov.au/def/queensland-crs": [
         {
             "label": "queensland-crs HTML",
-            "from": "http://linked.data.gov.au/def/queensland-crs",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/queensland-crs",
+            "from": "https://linked.data.gov.au/def/queensland-crs",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=queensland-crs&uri=http://linked.data.gov.au/def/queensland-crs",
             "headers": {}
         },
         {
             "label": "queensland-crs RDF",
-            "from": "http://linked.data.gov.au/def/queensland-crs",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/queensland-crs&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/queensland-crs",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=queensland-crs&uri=http://linked.data.gov.au/def/queensland-crs&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/report-detail-type": [
+    "https://linked.data.gov.au/def/report-detail-type": [
         {
             "label": "report-detail-type HTML",
-            "from": "http://linked.data.gov.au/def/report-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/report-detail-type",
+            "from": "https://linked.data.gov.au/def/report-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=report-detail-type&uri=http://linked.data.gov.au/def/report-detail-type",
             "headers": {}
         },
         {
             "label": "report-detail-type RDF",
-            "from": "http://linked.data.gov.au/def/report-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/report-detail-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/report-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=report-detail-type&uri=http://linked.data.gov.au/def/report-detail-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/report-status": [
+    "https://linked.data.gov.au/def/report-status": [
         {
             "label": "report-status HTML",
-            "from": "http://linked.data.gov.au/def/report-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/report-status",
+            "from": "https://linked.data.gov.au/def/report-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=report-status&uri=http://linked.data.gov.au/def/report-status",
             "headers": {}
         },
         {
             "label": "report-status RDF",
-            "from": "http://linked.data.gov.au/def/report-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/report-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/report-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=report-status&uri=http://linked.data.gov.au/def/report-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/resource-project-lifecycle": [
+    "https://linked.data.gov.au/def/resource-project-lifecycle": [
         {
             "label": "resource-project-lifecycle HTML",
-            "from": "http://linked.data.gov.au/def/resource-project-lifecycle",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/resource-project-lifecycle",
+            "from": "https://linked.data.gov.au/def/resource-project-lifecycle",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=resource-project-lifecycle&uri=http://linked.data.gov.au/def/resource-project-lifecycle",
             "headers": {}
         },
         {
             "label": "resource-project-lifecycle RDF",
-            "from": "http://linked.data.gov.au/def/resource-project-lifecycle",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/resource-project-lifecycle&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/resource-project-lifecycle",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=resource-project-lifecycle&uri=http://linked.data.gov.au/def/resource-project-lifecycle&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/resource-stockpile-purpose": [
+    "https://linked.data.gov.au/def/resource-stockpile-purpose": [
         {
             "label": "resource-stockpile-purpose HTML",
-            "from": "http://linked.data.gov.au/def/resource-stockpile-purpose",
+            "from": "https://linked.data.gov.au/def/resource-stockpile-purpose",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/resource-stockpile-purpose",
             "headers": {}
         },
         {
             "label": "resource-stockpile-purpose RDF",
-            "from": "http://linked.data.gov.au/def/resource-stockpile-purpose",
+            "from": "https://linked.data.gov.au/def/resource-stockpile-purpose",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/resource-stockpile-purpose&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/resource-types": [
+    "https://linked.data.gov.au/def/resource-types": [
         {
             "label": "resource-types HTML",
-            "from": "http://linked.data.gov.au/def/resource-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/resource-types",
+            "from": "https://linked.data.gov.au/def/resource-types",
+            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/resource-types",
             "headers": {}
         },
         {
             "label": "resource-types RDF",
-            "from": "http://linked.data.gov.au/def/resource-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/resource-types&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/resource-types",
+            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/resource-types&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/result-type": [
+    "https://linked.data.gov.au/def/result-type": [
         {
             "label": "result-type HTML",
-            "from": "http://linked.data.gov.au/def/result-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/result-type",
+            "from": "https://linked.data.gov.au/def/result-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=result-type&uri=http://linked.data.gov.au/def/result-type",
             "headers": {}
         },
         {
             "label": "result-type RDF",
-            "from": "http://linked.data.gov.au/def/result-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/result-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/result-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=result-type&uri=http://linked.data.gov.au/def/result-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-detail-type": [
+    "https://linked.data.gov.au/def/sample-detail-type": [
         {
             "label": "sample-detail-type HTML",
-            "from": "http://linked.data.gov.au/def/sample-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-detail-type",
+            "from": "https://linked.data.gov.au/def/sample-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-detail-type&uri=http://linked.data.gov.au/def/sample-detail-type",
             "headers": {}
         },
         {
             "label": "sample-detail-type RDF",
-            "from": "http://linked.data.gov.au/def/sample-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-detail-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-detail-type&uri=http://linked.data.gov.au/def/sample-detail-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-location-status": [
+    "https://linked.data.gov.au/def/sample-location-status": [
         {
             "label": "sample-location-status HTML",
-            "from": "http://linked.data.gov.au/def/sample-location-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-location-status",
+            "from": "https://linked.data.gov.au/def/sample-location-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-location-status&uri=http://linked.data.gov.au/def/sample-location-status",
             "headers": {}
         },
         {
             "label": "sample-location-status RDF",
-            "from": "http://linked.data.gov.au/def/sample-location-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-location-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-location-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-location-status&uri=http://linked.data.gov.au/def/sample-location-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-location-types": [
+    "https://linked.data.gov.au/def/sample-location-types": [
         {
             "label": "sample-location-types HTML",
-            "from": "http://linked.data.gov.au/def/sample-location-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-location-types",
+            "from": "https://linked.data.gov.au/def/sample-location-types",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-location-types&uri=http://linked.data.gov.au/def/sample-location-types",
             "headers": {}
         },
         {
             "label": "sample-location-types RDF",
-            "from": "http://linked.data.gov.au/def/sample-location-types",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-location-types&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-location-types",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-location-types&uri=http://linked.data.gov.au/def/sample-location-types&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-material": [
+    "https://linked.data.gov.au/def/sample-material": [
         {
             "label": "sample-material HTML",
-            "from": "http://linked.data.gov.au/def/sample-material",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-material",
+            "from": "https://linked.data.gov.au/def/sample-material",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-material&uri=http://linked.data.gov.au/def/sample-material",
             "headers": {}
         },
         {
             "label": "sample-material RDF",
-            "from": "http://linked.data.gov.au/def/sample-material",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-material&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-material",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-material&uri=http://linked.data.gov.au/def/sample-material&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-preparation-methods": [
+    "https://linked.data.gov.au/def/sample-preparation-methods": [
         {
             "label": "sample-preparation-methods HTML",
-            "from": "http://linked.data.gov.au/def/sample-preparation-methods",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-preparation-methods",
+            "from": "https://linked.data.gov.au/def/sample-preparation-methods",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-preparation-methods&uri=http://linked.data.gov.au/def/sample-preparation-methods",
             "headers": {}
         },
         {
             "label": "sample-preparation-methods RDF",
-            "from": "http://linked.data.gov.au/def/sample-preparation-methods",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-preparation-methods&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-preparation-methods",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-preparation-methods&uri=http://linked.data.gov.au/def/sample-preparation-methods&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-relationship": [
+    "https://linked.data.gov.au/def/sample-relationship": [
         {
             "label": "sample-relationship HTML",
-            "from": "http://linked.data.gov.au/def/sample-relationship",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-relationship",
+            "from": "https://linked.data.gov.au/def/sample-relationship",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-relationship&uri=http://linked.data.gov.au/def/sample-relationship",
             "headers": {}
         },
         {
             "label": "sample-relationship RDF",
-            "from": "http://linked.data.gov.au/def/sample-relationship",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-relationship&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-relationship",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-relationship&uri=http://linked.data.gov.au/def/sample-relationship&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sample-type": [
+    "https://linked.data.gov.au/def/sample-type": [
         {
             "label": "sample-type HTML",
-            "from": "http://linked.data.gov.au/def/sample-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-type",
+            "from": "https://linked.data.gov.au/def/sample-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-type&uri=http://linked.data.gov.au/def/sample-type",
             "headers": {}
         },
         {
             "label": "sample-type RDF",
-            "from": "http://linked.data.gov.au/def/sample-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sample-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sample-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sample-type&uri=http://linked.data.gov.au/def/sample-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/sampling-method": [
+    "https://linked.data.gov.au/def/sampling-method": [
         {
             "label": "sampling-method HTML",
-            "from": "http://linked.data.gov.au/def/sampling-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sampling-method",
+            "from": "https://linked.data.gov.au/def/sampling-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method",
             "headers": {}
         },
         {
             "label": "sampling-method RDF",
-            "from": "http://linked.data.gov.au/def/sampling-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sampling-method&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/sampling-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/seismic-dimensionality": [
+    "https://linked.data.gov.au/def/seismic-dimensionality": [
         {
             "label": "seismic-dimensionality HTML",
-            "from": "http://linked.data.gov.au/def/seismic-dimensionality",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/seismic-dimensionality",
+            "from": "https://linked.data.gov.au/def/seismic-dimensionality",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=seismic-dimensionality&uri=http://linked.data.gov.au/def/seismic-dimensionality",
             "headers": {}
         },
         {
             "label": "seismic-dimensionality RDF",
-            "from": "http://linked.data.gov.au/def/seismic-dimensionality",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/seismic-dimensionality&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/seismic-dimensionality",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=seismic-dimensionality&uri=http://linked.data.gov.au/def/seismic-dimensionality&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/site-detail-type": [
+    "https://linked.data.gov.au/def/site-detail-type": [
         {
             "label": "site-detail-type HTML",
-            "from": "http://linked.data.gov.au/def/site-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/site-detail-type",
+            "from": "https://linked.data.gov.au/def/site-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=site-detail-type&uri=http://linked.data.gov.au/def/site-detail-type",
             "headers": {}
         },
         {
             "label": "site-detail-type RDF",
-            "from": "http://linked.data.gov.au/def/site-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/site-detail-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/site-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=site-detail-type&uri=http://linked.data.gov.au/def/site-detail-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/site-relationships": [
+    "https://linked.data.gov.au/def/site-relationships": [
         {
             "label": "site-relationships HTML",
-            "from": "http://linked.data.gov.au/def/site-relationships",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/site-relationships",
+            "from": "https://linked.data.gov.au/def/site-relationships",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=site-relationships&uri=http://linked.data.gov.au/def/site-relationships",
             "headers": {}
         },
         {
             "label": "site-relationships RDF",
-            "from": "http://linked.data.gov.au/def/site-relationships",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/site-relationships&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/site-relationships",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=site-relationships&uri=http://linked.data.gov.au/def/site-relationships&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/site-status": [
+    "https://linked.data.gov.au/def/site-status": [
         {
             "label": "site-status HTML",
-            "from": "http://linked.data.gov.au/def/site-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/site-status",
+            "from": "https://linked.data.gov.au/def/site-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=site-status&uri=http://linked.data.gov.au/def/site-status",
             "headers": {}
         },
         {
             "label": "site-status RDF",
-            "from": "http://linked.data.gov.au/def/site-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/site-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/site-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=site-status&uri=http://linked.data.gov.au/def/site-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/survey-detail-type": [
+    "https://linked.data.gov.au/def/survey-detail-type": [
         {
             "label": "survey-detail-type HTML",
-            "from": "http://linked.data.gov.au/def/survey-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-detail-type",
+            "from": "https://linked.data.gov.au/def/survey-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-detail-type&uri=http://linked.data.gov.au/def/survey-detail-type",
             "headers": {}
         },
         {
             "label": "survey-detail-type RDF",
-            "from": "http://linked.data.gov.au/def/survey-detail-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-detail-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/survey-detail-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-detail-type&uri=http://linked.data.gov.au/def/survey-detail-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/survey-method": [
+    "https://linked.data.gov.au/def/survey-method": [
         {
             "label": "survey-method HTML",
-            "from": "http://linked.data.gov.au/def/survey-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-method",
+            "from": "https://linked.data.gov.au/def/survey-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-method&uri=http://linked.data.gov.au/def/survey-method",
             "headers": {}
         },
         {
             "label": "survey-method RDF",
-            "from": "http://linked.data.gov.au/def/survey-method",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-method&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/survey-method",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-method&uri=http://linked.data.gov.au/def/survey-method&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/survey-relationship-type": [
+    "https://linked.data.gov.au/def/survey-relationship-type": [
         {
             "label": "survey-relationship-type HTML",
-            "from": "http://linked.data.gov.au/def/survey-relationship-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-relationship-type",
+            "from": "https://linked.data.gov.au/def/survey-relationship-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-relationship-type&uri=http://linked.data.gov.au/def/survey-relationship-type",
             "headers": {}
         },
         {
             "label": "survey-relationship-type RDF",
-            "from": "http://linked.data.gov.au/def/survey-relationship-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-relationship-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/survey-relationship-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-relationship-type&uri=http://linked.data.gov.au/def/survey-relationship-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/survey-status": [
+    "https://linked.data.gov.au/def/survey-status": [
         {
             "label": "survey-status HTML",
-            "from": "http://linked.data.gov.au/def/survey-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-status",
+            "from": "https://linked.data.gov.au/def/survey-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-status&uri=http://linked.data.gov.au/def/survey-status",
             "headers": {}
         },
         {
             "label": "survey-status RDF",
-            "from": "http://linked.data.gov.au/def/survey-status",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-status&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/survey-status",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-status&uri=http://linked.data.gov.au/def/survey-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/survey-type": [
+    "https://linked.data.gov.au/def/survey-type": [
         {
             "label": "survey-type HTML",
-            "from": "http://linked.data.gov.au/def/survey-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-type",
+            "from": "https://linked.data.gov.au/def/survey-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-type&uri=http://linked.data.gov.au/def/survey-type",
             "headers": {}
         },
         {
             "label": "survey-type RDF",
-            "from": "http://linked.data.gov.au/def/survey-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/survey-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/survey-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=survey-type&uri=http://linked.data.gov.au/def/survey-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/telephone-type": [
+    "https://linked.data.gov.au/def/telephone-type": [
         {
             "label": "telephone-type HTML",
-            "from": "http://linked.data.gov.au/def/telephone-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/telephone-type",
+            "from": "https://linked.data.gov.au/def/telephone-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=telephone-type&uri=http://linked.data.gov.au/def/telephone-type",
             "headers": {}
         },
         {
             "label": "telephone-type RDF",
-            "from": "http://linked.data.gov.au/def/telephone-type",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/telephone-type&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/telephone-type",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=telephone-type&uri=http://linked.data.gov.au/def/telephone-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/transaction-status": [
+    "https://linked.data.gov.au/def/transaction-status": [
         {
             "label": "transaction-status HTML",
-            "from": "http://linked.data.gov.au/def/transaction-status",
+            "from": "https://linked.data.gov.au/def/transaction-status",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/transaction-status",
             "headers": {}
         },
         {
             "label": "transaction-status RDF",
-            "from": "http://linked.data.gov.au/def/transaction-status",
+            "from": "https://linked.data.gov.au/def/transaction-status",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/transaction-status&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/transaction-type": [
+    "https://linked.data.gov.au/def/transaction-type": [
         {
             "label": "transaction-type HTML",
-            "from": "http://linked.data.gov.au/def/transaction-type",
+            "from": "https://linked.data.gov.au/def/transaction-type",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/transaction-type",
             "headers": {}
         },
         {
             "label": "transaction-type RDF",
-            "from": "http://linked.data.gov.au/def/transaction-type",
+            "from": "https://linked.data.gov.au/def/transaction-type",
             "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/transaction-type&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
         }
     ],
-    "http://linked.data.gov.au/def/trs": [
+    "https://linked.data.gov.au/def/trs": [
         {
             "label": "trs HTML",
-            "from": "http://linked.data.gov.au/def/trs",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/trs",
+            "from": "https://linked.data.gov.au/def/trs",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=trs&uri=http://linked.data.gov.au/def/trs",
             "headers": {}
         },
         {
             "label": "trs RDF",
-            "from": "http://linked.data.gov.au/def/trs",
-            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/trs&_mediatype=text/turtle",
-            "headers": {
-                "Accept": "text/turtle"
-            }
-        }
-    ],
-    "http://resource.geosciml.org/vocabulary/timescale/skos-demo": [
-        {
-            "label": "skos-demo HTML",
-            "from": "http://resource.geosciml.org/vocabulary/timescale/skos-demo",
-            "to": "https://vocabs.gsq.digital/object?uri=http://resource.geosciml.org/vocabulary/timescale/skos-demo",
-            "headers": {}
-        },
-        {
-            "label": "skos-demo RDF",
-            "from": "http://resource.geosciml.org/vocabulary/timescale/skos-demo",
-            "to": "https://vocabs.gsq.digital/object?uri=http://resource.geosciml.org/vocabulary/timescale/skos-demo&_mediatype=text/turtle",
-            "headers": {
-                "Accept": "text/turtle"
-            }
-        }
-    ],
-    "http://www.w3.org/ns/time/gregorian": [
-        {
-            "label": "gregorian HTML",
-            "from": "http://www.w3.org/ns/time/gregorian",
-            "to": "https://vocabs.gsq.digital/object?uri=http://www.w3.org/ns/time/gregorian",
-            "headers": {}
-        },
-        {
-            "label": "gregorian RDF",
-            "from": "http://www.w3.org/ns/time/gregorian",
-            "to": "https://vocabs.gsq.digital/object?uri=http://www.w3.org/ns/time/gregorian&_mediatype=text/turtle",
+            "from": "https://linked.data.gov.au/def/trs",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=trs&uri=http://linked.data.gov.au/def/trs&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
@@ -1379,13 +1315,13 @@
         {
             "label": "geofeatures HTML",
             "from": "https://linked.data.gov.au/def/geofeatures",
-            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/geofeatures",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures",
             "headers": {}
         },
         {
             "label": "geofeatures RDF",
             "from": "https://linked.data.gov.au/def/geofeatures",
-            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/geofeatures&_mediatype=text/turtle",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=geofeatures&uri=https://linked.data.gov.au/def/geofeatures&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
@@ -1427,13 +1363,13 @@
         {
             "label": "qg-security-classifications HTML",
             "from": "https://linked.data.gov.au/def/qg-security-classifications",
-            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-security-classifications",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-security-classifications&uri=https://linked.data.gov.au/def/qg-security-classifications",
             "headers": {}
         },
         {
             "label": "qg-security-classifications RDF",
             "from": "https://linked.data.gov.au/def/qg-security-classifications",
-            "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/qg-security-classifications&_mediatype=text/turtle",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-security-classifications&uri=https://linked.data.gov.au/def/qg-security-classifications&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
