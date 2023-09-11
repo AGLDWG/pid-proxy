@@ -1,10 +1,9 @@
 # pid-proxy
-This is the documentation of server configuration and data back-up for the Australian Government Linked Data Working Group (AGLDWG)'s Persistent ID (PID) proxy service that manages URI for Linked Data resources.
+This is the documentation of server configuration and data back-up for the [Australian Government Linked Data Working Group (AGLDWG)](https://www.linked.data.gov.au)'s Persistent ID (PID) proxy service that manages URI for Linked Data resources.
 
 The PID proxy manages persistent URIs within the following domains:
 
 * `linked.data.gov.au` - the main, operational, domain
-* `environment.data.gov.au`, `reference.data.gov.au` - legacy domains for which existing URIs will be supported but none new added
 
 Also managed are a number of non-persistent domains:
 
