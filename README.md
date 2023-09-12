@@ -25,7 +25,6 @@ The server is a small Virtual Machine (VM) that running Linux within which is in
 * The Virtual Machine image of the current VM acting as PID Proxy is name: pid-prod8, ID: b8567a35-adaf-41cc-8228-b3e7f70d74e7
   * The installation log of the server is in this repository as [install.sh](install.sh)
 
-
 ## Backup
 Redirection and proxying configuration implemented in the PID Proxy is slaved to this repository. This means that the configuration you see here (the files ending in .conf) is the master copy of Apache config which is then pulled to the server for deployment. So far, the three PID domains managed by the PID Proxy use configuration from the files:
 
