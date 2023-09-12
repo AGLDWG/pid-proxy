@@ -387,19 +387,19 @@
      {
       "label": "Borehole Profile, RDF (turtle) via file ext.",
       "from": "https://linked.data.gov.au/def/borehole.ttl",
-      "to": "https://raw.githubusercontent.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl",
+      "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl",
       "headers": {}
     },
      {
       "label": "Borehole Profile, RDF (turtle) via QSA",
       "from": "https://linked.data.gov.au/def/borehole?_mediatype=text/turtle",
-      "to": "https://raw.githubusercontent.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl",
+      "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl",
       "headers": {}
      },
      {
       "label": "Borehole Profile, RDF (turtle) via conneg",
       "from": "https://linked.data.gov.au/def/borehole",
-      "to": "https://raw.githubusercontent.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl",
+      "to": "https://raw.githack.com/geological-survey-of-queensland/gsq-borehole-profile/master/model/borehole.ttl",
       "headers": {"Accept": "text/turtle"}
      }
    ],
@@ -486,28 +486,28 @@
       {
         "label": "FSDF Ontology, HTML",
         "from": "https://linked.data.gov.au/def/fsdf",
-        "to": "https://raw.githack.com/GeoscienceAustralia/fsdf-kg/master/docs/fsdf.html",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html#",
         "headers": {}
       },
       {
         "comment": "Target needs better delivery to return text/turtle headers",
         "label": "FSDF Ontology, RDF (turtle) via file ext.",
         "from": "https://linked.data.gov.au/def/fsdf.ttl",
-        "to": "https://raw.githubusercontent.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
         "headers": {}
       },
       {
         "comment": "Target needs better delivery to return text/turtle headers",
         "label": "FSDF Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/fsdf?_mediatype=text/turtle",
-        "to": "https://raw.githubusercontent.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
         "headers": {}
       },
       {
         "comment": "Target needs better delivery to return text/turtle headers",
         "label": "FSDF Ontology, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/def/fsdf",
-        "to": "https://raw.githubusercontent.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
         "headers": {"Accept": "text/turtle"}
       }
    ],
@@ -697,6 +697,7 @@
   "https://linked.data.gov.au/def/borehole-inclination": [
       {
          "tombstoned": true,
+        "ignore_failure": true,
          "label": "Borehole Inclination Vocabulary HTML",
          "from": "https://linked.data.gov.au/def/borehole-inclination",
          "to": "https://linked.data.gov.au/static/tombstoned.html",
@@ -704,6 +705,7 @@
       },
       {
          "tombstoned": true,
+        "ignore_failure": true,
          "label": "Borehole Inclination Vocabulary - trailing slash HTML",
          "from": "https://linked.data.gov.au/def/borehole-inclination/",
          "to": "https://linked.data.gov.au/static/tombstoned.html",
@@ -787,12 +789,6 @@
          "headers": {}
       },
       {
-         "label": "Sampling Method - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/sampling-method/",
-         "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sampling-method",
-         "headers": {}
-      },
-      {
          "label": "Sampling Method - single term HTML",
          "from": "https://linked.data.gov.au/def/sampling-method/Age_Determination",
          "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method/Age_Determination",
@@ -823,7 +819,7 @@
       {
          "label": "Registry Status Vocabulary, RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/def/reg-statuses?_mediatype=text/turtle",
-         "to": "https://agldwg.github.io/reg-statuses/?_mediatype=text/turtle",
+         "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
          "headers": {}
       },
       {
