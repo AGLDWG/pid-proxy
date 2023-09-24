@@ -243,13 +243,13 @@
         {
             "label": "earth-science-data-category HTML",
             "from": "https://linked.data.gov.au/def/earth-science-data-category",
-            "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category",
+            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/earth-science-data-category",
             "headers": {}
         },
         {
             "label": "earth-science-data-category RDF",
             "from": "https://linked.data.gov.au/def/earth-science-data-category",
-            "to": "https://vocabs.gsq.digital/object?vocab_id=earth-science-data-category&uri=http://linked.data.gov.au/def/earth-science-data-category&_mediatype=text/turtle",
+            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/earth-science-data-category&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
