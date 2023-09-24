@@ -223,35 +223,35 @@
          "headers": {}
       },
       {
-         "label": "Geofabric Dataset, a Catchment RDF (turtle) via QSA",
-         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/102214491?_mediatype=text/turtle",
-         "to": "https://geofabric.linked.fsdf.org.au/dataset/geofabric/collections/catchments/items/102214491?_mediatype=text/turtle",
+         "label": "Geofabric Dataset, a HydroID RDF (turtle) via QSA",
+         "from": "https://linked.data.gov.au/dataset/geofabric/hydroid/102214491?_mediatype=text/turtle",
+         "to": "https://geofabric.linked.fsdf.org.au/object?uri=https://linked.data.gov.au/dataset/geofabric/hydroid/102214491&_mediatype=text/turtle",
          "headers": {}
       },
       {
-         "label": "Geofabric Dataset, a Catchment RDF (turtle) via file ext",
-         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/102214491.ttl",
-         "to": "https://geofabric.linked.fsdf.org.au/dataset/geofabric/collections/catchments/items/102214491?_mediatype=text/turtle",
+         "label": "Geofabric Dataset, a HydroID RDF (turtle) via file ext",
+         "from": "https://linked.data.gov.au/dataset/geofabric/hydroid/102214491.ttl",
+         "to": "https://geofabric.linked.fsdf.org.au/object?uri=https://linked.data.gov.au/dataset/geofabric/hydroid/102214491&_mediatype=text/turtle",
          "headers": {}
       },
       {
-         "label": "Geofabric Dataset, a Catchment RDF (turtle) via conneg",
-         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/102214491",
-         "to": "https://geofabric.linked.fsdf.org.au/dataset/geofabric/collections/catchments/items/102214491?_mediatype=text/turtle",
+         "label": "Geofabric Dataset, a HydroID RDF (turtle) via conneg",
+         "from": "https://linked.data.gov.au/dataset/geofabric/hydroid/102214491",
+         "to": "https://geofabric.linked.fsdf.org.au/object?uri=https://linked.data.gov.au/dataset/geofabric/hydroid/102214491&_mediatype=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
-         "label": "Geofabric Dataset, a Catchment HTML",
-         "from": "https://linked.data.gov.au/dataset/geofabric/catchment/102214491",
-         "to": "https://geofabric.linked.fsdf.org.au/dataset/geofabric/collections/catchments/items/102214491",
+         "label": "Geofabric Dataset, a HydroID HTML",
+         "from": "https://linked.data.gov.au/dataset/geofabric/hydroid/102214491",
+         "to": "https://geofabric.linked.fsdf.org.au/object?uri=https://linked.data.gov.au/dataset/geofabric/hydroid/102214491",
          "headers": {}
       }
    ],
   "https://linked.data.gov.au/dataset/gnaf":[
       {
-        "comment": "Target error: Target shows 'Page Not Found'",
+         "comment": "Target error: Target shows 'Page Not Found'",
          "label": "G-NAF Dataset, RDF (turtle) via QSA",
-         "from": "https://linked.data.gov.au/dataset/gnaf",
+         "from": "https://linked.data.gov.au/dataset/gnaf?_mediatype=text/turtle",
          "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf?_mediatype=text/turtle",
          "headers": {}
       },
@@ -279,25 +279,25 @@
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via QSA",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/?_mediatype=text/turtle",
-         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses?_mediatype=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses/items?_mediatype=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via file ext",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/index.ttl",
-         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses?_mediatype=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses/items?_mediatype=text/turtle",
          "headers": {}
       },
       {
          "label": "G-NAF Dataset, Address Register RDF (turtle) via conneg",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/",
-         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses?_mediatype=text/turtle",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses/items?_mediatype=text/turtle",
          "headers": {"Accept": "text/turtle"}
       },
       {
          "label": "G-NAF Dataset, Address Register HTML",
          "from": "https://linked.data.gov.au/dataset/gnaf/address/",
-         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses",
+         "to": "https://gnaf.linked.fsdf.org.au/dataset/gnaf/collections/addresses/items",
          "headers": {}
       },
       {
@@ -325,6 +325,7 @@
          "headers": {}
       }
    ],
+
   "https://linked.data.gov.au/def/agrif": [
      {
        "label": "AGRIF Ontology, HTML",
@@ -429,7 +430,6 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
-
   "https://linked.data.gov.au/def/dataset": [
      {
        "label": "Datatype Ontology, HTML",
@@ -693,33 +693,6 @@
         "headers": {"Accept": "text/turtle"}
       }
    ],
-
-  "https://linked.data.gov.au/def/borehole-inclination": [
-      {
-         "tombstoned": true,
-        "ignore_failure": true,
-         "label": "Borehole Inclination Vocabulary HTML",
-         "from": "https://linked.data.gov.au/def/borehole-inclination",
-         "to": "https://linked.data.gov.au/static/tombstoned.html",
-         "headers": {}
-      },
-      {
-         "tombstoned": true,
-        "ignore_failure": true,
-         "label": "Borehole Inclination Vocabulary - trailing slash HTML",
-         "from": "https://linked.data.gov.au/def/borehole-inclination/",
-         "to": "https://linked.data.gov.au/static/tombstoned.html",
-         "headers": {}
-      },
-      {
-         "tombstoned": true,
-         "ignore_failure": true,
-         "label": "Borehole Inclination Vocabulary - single term HTML",
-         "from": "https://linked.data.gov.au/def/borehole-inclination/Vertical",
-         "to": "https://linked.data.gov.au/static/tombstoned.html",
-         "headers": {}
-      }
-   ],
   "https://linked.data.gov.au/def/crs-th": [
       {
          "label": "Vocab HTML",
@@ -782,16 +755,9 @@
    ],
   "https://linked.data.gov.au/def/sampling-method": [
       {
-        "tombstoned": true,
          "label": "Sampling Method HTML",
          "from": "https://linked.data.gov.au/def/sampling-method",
          "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sampling-method",
-         "headers": {}
-      },
-      {
-         "label": "Sampling Method - single term HTML",
-         "from": "https://linked.data.gov.au/def/sampling-method/Age_Determination",
-         "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method/Age_Determination",
          "headers": {}
       }
    ],
