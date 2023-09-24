@@ -1,0 +1,10 @@
+{
+  "https://linked.data.gov.au/def/address-type": [
+    {
+      "label": "borehole-configuration HTML",
+      "from": "https://linked.data.gov.au/def/borehole-configuration",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:borehole-configuration",
+      "headers": {}
+    }
+  ]
+}
