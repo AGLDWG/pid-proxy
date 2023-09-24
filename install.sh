@@ -1,7 +1,7 @@
 #
 # installation file for the PID Proxy Virtual Machine
 #
-# VM is running Ubuntu 18.04
+# VM is running Ubuntu 22.04
 
 # update machine, set time
 sudo apt update
@@ -26,18 +26,6 @@ sudo mkdir /var/log/apache2/linked.data.gov.au
 sudo touch /var/log/apache2/linked.data.gov.au/access.log
 sudo touch /var/log/apache2/linked.data.gov.au/error.log
 
-sudo mkdir /var/log/apache2/environment.data.gov.au
-sudo touch /var/log/apache2/environment.data.gov.au/access.log
-sudo touch /var/log/apache2/environment.data.gov.au/error.log
-
-sudo mkdir /var/log/apache2/lab.environment.data.gov.au
-sudo touch /var/log/apache2/lab.environment.data.gov.au/access.log
-sudo touch /var/log/apache2/lab.environment.data.gov.au/error.log
-
-sudo mkdir /var/log/apache2/reference.data.gov.au
-sudo touch /var/log/apache2/reference.data.gov.au/access.log
-sudo touch /var/log/apache2/reference.data.gov.au/error.log
-
 sudo mkdir /var/log/apache2/test.linked.data.gov.au
 sudo touch /var/log/apache2/test.linked.data.gov.au/access.log
 sudo touch /var/log/apache2/test.linked.data.gov.au/error.log
@@ -54,26 +42,36 @@ sudo apt install -y git
 # pull the master repo for Apache conf files
 git clone https://github.com/AGLDWG/pid-proxy.git /home/ubuntu/pid-proxy-config
 
-# copy the repo's .conf file to Apache & enable
+# copy the repo's .conf file to Apache & enable & set server name to linked.data.gov.au
 sudo rm /etc/apache2/sites-available/*.conf
-sudo cp /home/ubuntu/pid-proxy-config/conf/*.conf /etc/apache2/sites-available/
-sudo a2ensite 0-linked.data.gov.au.conf
-sudo a2ensite 0-linked.data.gov.au-le-ssl.conf
+sudo rm /etc/apache2/sites-enabled/*.conf
+sudo ln -s /etc/apache2/sites-available/linked.data.gov.au /etc/apache2/sites-enabled/linked.data.gov.au
 sudo a2ensite catalogue.linked.data.gov.au.conf
 sudo a2ensite catalogue.linked.data.gov.au-le-ssl.conf
 sudo a2ensite environment.data.gov.au.conf
 sudo a2ensite infrastructure.data.gov.au.conf
 sudo a2ensite lab.environment.data.gov.au.conf
-sudo a2ensite linked.data.gov.au-datasets.conf
-sudo a2ensite linked.data.gov.au-ontologies.conf
-sudo a2ensite linked.data.gov.au-registers.conf
-sudo a2ensite linked.data.gov.au-vocabularies.conf
 sudo a2ensite reference.data.gov.au.conf
 sudo a2ensite test.linked.data.gov.au.conf
 sudo a2ensite www.linked.data.gov.au.conf
 
+sudo echo "IncludeOptional sites-enabled/linked.data.gov.au/*.conf" | sudo tee -a /etc/apache2/apache2.conf
+sudo echo "ServerName linked.data.gov.au" | sudo tee -a /etc/apache2/apache2.conf
+
+# copy the web pages
+sudo rm /var/www/html/*.html
+sudo cp -r /home/ubuntu/pid-proxy-config/html/* /var/www/html
+
+sudo service apache2 restart
+
+# restart for kernel updates
+sudo shutdown -r now
+
 # enable HTTPS
 # -- follow https://certbot.eff.org/instructions?ws=apache&os=ubuntufocal
+sudo apt remove certbot
+sudo snap install --classic certbot
+sudo ln -s /snap/bin/certbot /usr/bin/certbot
 
 # implement Apache mappings
 sudo service apache2 restart
