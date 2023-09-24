@@ -1075,13 +1075,13 @@
         {
             "label": "sampling-method HTML",
             "from": "https://linked.data.gov.au/def/sampling-method",
-            "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method",
+            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sampling-method",
             "headers": {}
         },
         {
             "label": "sampling-method RDF",
             "from": "https://linked.data.gov.au/def/sampling-method",
-            "to": "https://vocabs.gsq.digital/object?vocab_id=sampling-method&uri=http://linked.data.gov.au/def/sampling-method&_mediatype=text/turtle",
+            "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/sampling-method&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
