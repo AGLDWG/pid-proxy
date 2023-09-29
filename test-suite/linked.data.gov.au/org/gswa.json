@@ -1,9 +1,65 @@
 {
-  "https://linked.data.gov.au/def/address-type": [
+  "https://linked.data.gov.au/def/australian-physiographic-units": [
+    {
+      "label": "australian-physiographic-units HTML",
+      "from": "https://linked.data.gov.au/def/australian-physiographic-units",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:australian-physiographic-units",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/borehole-configuration": [
     {
       "label": "borehole-configuration HTML",
       "from": "https://linked.data.gov.au/def/borehole-configuration",
       "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:borehole-configuration",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/borehole-start-point-setting": [
+    {
+      "label": "borehole-start-point-setting HTML",
+      "from": "https://linked.data.gov.au/def/borehole-start-point-setting",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:borehole-start-point-setting",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/dmirs-offices": [
+    {
+      "label": "dmirs-offices HTML",
+      "from": "https://linked.data.gov.au/def/dmirs-offices",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:dmirs-offices",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/gswa-collection-facilities": [
+    {
+      "label": "gswa-collection-facilities HTML",
+      "from": "https://linked.data.gov.au/def/gswa-collection-facilities",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:gswa-collection-facilities",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/physiographic-unit-types": [
+    {
+      "label": "physiographic-unit-types HTML",
+      "from": "https://linked.data.gov.au/def/physiographic-unit-types",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:physiographic-unit-types",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/wa-coordinate-reference-system": [
+    {
+      "label": "wa-coordinate-reference-system HTML",
+      "from": "https://linked.data.gov.au/def/wa-coordinate-reference-system",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:wa-coordinate-reference-system",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/wa-mineral-fields-and-districts": [
+    {
+      "label": "wa-mineral-fields-and-districts HTML",
+      "from": "https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/w-mnrl-flds-nd-dstrct:wa-mineral-fields-and-districts",
       "headers": {}
     }
   ]
