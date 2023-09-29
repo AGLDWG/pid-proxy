@@ -3,7 +3,7 @@
     {
       "label": "australian-physiographic-units HTML",
       "from": "https://linked.data.gov.au/def/australian-physiographic-units",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:australian-physiographic-units",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:Australian-physiographic-units",
       "headers": {}
     }
   ],
@@ -47,11 +47,11 @@
       "headers": {}
     }
   ],
-  "https://linked.data.gov.au/def/wa-coordinate-reference-system": [
+  "https://linked.data.gov.au/def/wa-coordinate-reference-systems": [
     {
       "label": "wa-coordinate-reference-system HTML",
-      "from": "https://linked.data.gov.au/def/wa-coordinate-reference-system",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:wa-coordinate-reference-system",
+      "from": "https://linked.data.gov.au/def/wa-coordinate-reference-systems",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns4:wa-coordinate-reference-systems",
       "headers": {}
     }
   ],
