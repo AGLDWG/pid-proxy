@@ -3,7 +3,7 @@
     {
       "label": "australian-physiographic-units HTML",
       "from": "https://linked.data.gov.au/def/australian-physiographic-units",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:Australian-physiographic-units",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:australian-physiographic-units",
       "headers": {}
     }
   ],
@@ -28,14 +28,6 @@
       "label": "dmirs-offices HTML",
       "from": "https://linked.data.gov.au/def/dmirs-offices",
       "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:dmirs-offices",
-      "headers": {}
-    }
-  ],
-  "https://linked.data.gov.au/def/geological-feature-type": [
-    {
-      "label": "gswa-collection-facilities HTML",
-      "from": "https://linked.data.gov.au/def/geological-feature-type",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:geological-feature-type",
       "headers": {}
     }
   ],
