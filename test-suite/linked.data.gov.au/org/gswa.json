@@ -39,6 +39,14 @@
       "headers": {}
     }
   ],
+  "https://linked.data.gov.au/def/geological-feature-type": [
+    {
+      "label": "gswa-collection-facilities HTML",
+      "from": "https://linked.data.gov.au/def/geological-feature-type",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns1:geological-feature-type",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/gswa-collection-facilities": [
     {
       "label": "gswa-collection-facilities HTML",
