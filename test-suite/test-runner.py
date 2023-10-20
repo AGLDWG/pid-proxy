@@ -4,6 +4,7 @@ if __name__ == "__main__":
     functions.validate_all_redirects("linked.data.gov.au.json")
     functions.validate_all_redirects("linked.data.gov.au/org/abs.json")
     functions.validate_all_redirects("linked.data.gov.au/org/gsq.json")
+    functions.validate_all_redirects("linked.data.gov.au/org/gswa.json")
     # functions.validate_turtle_response('http://linked.data.gov.au/def/placenames', 'Place Names Ontolodgy')
     # functions.validate_turtle_response('http://reference.data.gov.au/def/ont/agrif', 'The Australian Government Records Interoperability Framework (AGRIF) ontology')
     # functions.validate_turtle_response('http://gnafld.net/def/gnaf', 'GNAF ontology')
