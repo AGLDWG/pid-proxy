@@ -3,7 +3,7 @@
     {
       "label": "australian-physiographic-units HTML",
       "from": "https://linked.data.gov.au/def/australian-physiographic-units",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:Australian-physiographic-units",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:australian-physiographic-units",
       "headers": {}
     }
   ],
@@ -36,14 +36,6 @@
       "label": "gswa-collection-facilities HTML",
       "from": "https://linked.data.gov.au/def/geological-feature-type",
       "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:geological-feature-type",
-      "headers": {}
-    }
-  ],
-  "https://linked.data.gov.au/def/geological-feature-type": [
-    {
-      "label": "gswa-collection-facilities HTML",
-      "from": "https://linked.data.gov.au/def/geological-feature-type",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/ns1:geological-feature-type",
       "headers": {}
     }
   ],
@@ -83,7 +75,7 @@
     {
       "label": "wa-mineral-fields-and-districts HTML",
       "from": "https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/w-mnrl-flds-nd-dstrct:wa-mineral-fields-and-districts",
+      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:wa-mineral-fields-and-districts",
       "headers": {}
     }
   ]
