@@ -1,0 +1,50 @@
+{
+  "http://linked.data.gov.au/dataset/asgs2011": [
+    {
+      "label": "/dataset/asgs2011 HTML",
+      "from": "https://linked.data.gov.au/dataset/asgs2011",
+      "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2011",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/dataset/asgs2016": [
+    {
+      "label": "/dataset/asgs2016 HTML",
+      "from": "https://linked.data.gov.au/dataset/asgs2016",
+      "to": "https://linked.data.gov.au/static/broken.html?iri=https://linked.data.gov.au/dataset/asgs2016",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/dataset/asgsed3": [
+    {
+      "label": "/dataset/asgs2016 HTML",
+      "from": "https://linked.data.gov.au/dataset/asgsed3",
+      "to": "https://asgs.linked.fsdf.org.au/dataset/asgsed3",
+      "headers": {}
+    },
+    {
+      "label": "/dataset/asgs2016 RDF",
+      "from": "https://linked.data.gov.au/dataset/asgsed3",
+      "to": "https://asgs.linked.fsdf.org.au/dataset/asgsed3?_profile=dcat&_mediatype=text/turtle",
+      "headers": {
+          "Accept": "text/turtle"
+      }
+    }
+  ],
+  "http://linked.data.gov.au/def/asgs": [
+    {
+      "label": "/dataset/asgs2016 HTML",
+      "from": "https://linked.data.gov.au/def/asgs",
+      "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.html",
+      "headers": {}
+    },
+    {
+      "label": "/dataset/asgs2016 RDF",
+      "from": "https://linked.data.gov.au/def/asgs",
+      "to": "https://raw.githack.com/AGLDWG/asgs-ont/master/asgs.ttl",
+      "headers": {
+          "Accept": "text/turtle"
+      }
+    }
+  ]
+}

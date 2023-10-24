@@ -1,10 +1,9 @@
 # pid-proxy
-This is the documentation of server configuration and data back-up for the Australian Government Linked Data Working Group (AGLDWG)'s Persistent ID (PID) proxy service that manages URI for Linked Data resources.
+This is the documentation of server configuration and data back-up for the [Australian Government Linked Data Working Group (AGLDWG)](https://www.linked.data.gov.au)'s Persistent ID (PID) proxy service that manages URI for Linked Data resources.
 
 The PID proxy manages persistent URIs within the following domains:
 
 * `linked.data.gov.au` - the main, operational, domain
-* `environment.data.gov.au`, `reference.data.gov.au` - legacy domains for which existing URIs will be supported but none new added
 
 Also managed are a number of non-persistent domains:
 
@@ -25,7 +24,6 @@ The server is a small Virtual Machine (VM) that running Linux within which is in
 * The Floating IP of the PID Proxy is [203.100.30.55](http://203.100.30.55)
 * The Virtual Machine image of the current VM acting as PID Proxy is name: pid-prod8, ID: b8567a35-adaf-41cc-8228-b3e7f70d74e7
   * The installation log of the server is in this repository as [install.sh](install.sh)
-
 
 ## Backup
 Redirection and proxying configuration implemented in the PID Proxy is slaved to this repository. This means that the configuration you see here (the files ending in .conf) is the master copy of Apache config which is then pulled to the server for deployment. So far, the three PID domains managed by the PID Proxy use configuration from the files:
@@ -67,3 +65,4 @@ System Owner contact:
 Research School of Computer Science  
 Australian National University   
 <nicholas.car@anu.edu.au>  
+
