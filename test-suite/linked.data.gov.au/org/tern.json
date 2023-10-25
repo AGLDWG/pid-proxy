@@ -89,7 +89,7 @@
        },
        {
             "label": "TERN Vocabularies - one vocab HTML",
-            "from": "http://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
+            "from": "https://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
             "to": "https://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
             "headers": {}
        }
