@@ -1406,5 +1406,33 @@
                 "Accept": "text/turtle"
             }
         }
+    ],
+    "https://linked.data.gov.au/def/geochem": [
+        {
+            "label": "Geochemistry Spec HTML",
+            "from": "https://linked.data.gov.au/def/geochem",
+            "to": "https://kurrawong.github.io/gsq-geochem/spec.html",
+            "headers": {}
+        },
+        {
+            "label": "Geochemistry Model RDF",
+            "from": "https://linked.data.gov.au/def/geochem",
+            "to": "https://kurrawong.github.io/gsq-geochem/model.ttl",
+            "headers": {
+                "Accept": "text/turtle"
+            }
+        },
+        {
+            "label": "Geochemistry Spec HTML #2",
+            "from": "https://linked.data.gov.au/def/geochem/overview",
+            "to": "https://kurrawong.github.io/gsq-geochem/overview.html",
+            "headers": {}
+        },
+        {
+            "label": "Geochemistry Overview HTML",
+            "from": "https://linked.data.gov.au/def/geochem/spec",
+            "to": "https://kurrawong.github.io/gsq-geochem/spec.html",
+            "headers": {}
+        }
     ]
 }
