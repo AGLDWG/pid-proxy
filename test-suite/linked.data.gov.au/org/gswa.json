@@ -3,7 +3,7 @@
     {
       "label": "australian-physiographic-units HTML",
       "from": "https://linked.data.gov.au/def/australian-physiographic-units",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:australian-physiographic-units",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/australian-physiographic-units",
       "headers": {}
     }
   ],
@@ -11,7 +11,7 @@
     {
       "label": "borehole-configuration HTML",
       "from": "https://linked.data.gov.au/def/borehole-configuration",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:borehole-configuration",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-configuration",
       "headers": {}
     }
   ],
@@ -27,7 +27,7 @@
     {
       "label": "borehole-start-point-setting HTML",
       "from": "https://linked.data.gov.au/def/borehole-start-point-setting",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:borehole-start-point-setting",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-start-point-setting",
       "headers": {}
     }
   ],
@@ -43,7 +43,7 @@
     {
       "label": "dmirs-offices HTML",
       "from": "https://linked.data.gov.au/def/dmirs-offices",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:dmirs-offices",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/dmirs-offices",
       "headers": {}
     }
   ],
@@ -51,7 +51,7 @@
     {
       "label": "gswa-collection-facilities HTML",
       "from": "https://linked.data.gov.au/def/geological-feature-type",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:geological-feature-type",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/geological-feature-type",
       "headers": {}
     }
   ],
@@ -59,7 +59,7 @@
     {
       "label": "gswa-collection-facilities HTML",
       "from": "https://linked.data.gov.au/def/gswa-collection-facilities",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:gswa-collection-facilities",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-collection-facilities",
       "headers": {}
     }
   ],
@@ -115,7 +115,7 @@
     {
       "label": "physiographic-unit-types HTML",
       "from": "https://linked.data.gov.au/def/physiographic-unit-types",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:physiographic-unit-types",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types",
       "headers": {}
     }
   ],
@@ -139,7 +139,7 @@
     {
       "label": "wa-coordinate-reference-system HTML",
       "from": "https://linked.data.gov.au/def/vertical-depth-reference-systems",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:vertical-depth-reference-systems",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/vertical-depth-reference-systems",
       "headers": {}
     }
   ],  
@@ -147,7 +147,7 @@
     {
       "label": "wa-coordinate-reference-system HTML",
       "from": "https://linked.data.gov.au/def/wa-coordinate-reference-systems",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:wa-coordinate-reference-systems",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-coordinate-reference-systems",
       "headers": {}
     }
   ],
@@ -155,7 +155,7 @@
     {
       "label": "wa-mineral-fields-and-districts HTML",
       "from": "https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
-      "to": "https://gswa.dev.kurrawong.ai/v/vocab/def:wa-mineral-fields-and-districts",
+      "to": "https://gswa.dev.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
       "headers": {}
     }
   ]
