@@ -1,8 +1,13 @@
+# This is the test runner currently in use by the ARDC staging facility.
+
+import glob
+
 import tests.functions_keep_going as functions
 
 if __name__ == "__main__":
     functions.validate_all_redirects("linked.data.gov.au.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/abs.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/gsq.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/gswa.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/tern.json")
+    # All .json files in the linked.data.gov.au/org directory.
+    org_json = glob.glob('linked.data.gov.au/org/*.json')
+    org_json.sort()
+    for org in org_json:
+        functions.validate_all_redirects(org)
