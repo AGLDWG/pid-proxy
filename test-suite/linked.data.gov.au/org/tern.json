@@ -23,8 +23,22 @@
             "headers": {}
        }
   ],
-  "https://linked.data.gov.au/dataset/bdbsa": [],
-  "https://linked.data.gov.au/dataset/three-parks-savanna": [],
+  "https://linked.data.gov.au/dataset/bdbsa": [
+     {
+          "label": "BDBSA Dataset Metadata HTML",
+          "from": "https://linked.data.gov.au/dataset/bdbsa",
+          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://graphdb.tern.org.au/repositories/ecoplots",
+          "headers": {}
+     }
+  ],
+  "https://linked.data.gov.au/dataset/three-parks-savanna": [
+     {
+          "label": "Three Parks Savanna Dataset Metadata HTML",
+          "from": "https://linked.data.gov.au/dataset/three-parks-savanna",
+          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+          "headers": {}
+     }
+  ],
   "https://linked.data.gov.au/dataset/bioregion": [],
   "https://linked.data.gov.au/dataset/corveg": [
        {
