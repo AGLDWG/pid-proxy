@@ -1,11 +1,13 @@
+# This is the test runner currently in use by the ARDC staging facility.
+
+import glob
+
 import tests.functions_keep_going as functions
 
 if __name__ == "__main__":
     functions.validate_all_redirects("linked.data.gov.au.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/abs.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/gsq.json")
-    functions.validate_all_redirects("linked.data.gov.au/org/gswa.json")
-    # functions.validate_turtle_response('http://linked.data.gov.au/def/placenames', 'Place Names Ontolodgy')
-    # functions.validate_turtle_response('http://reference.data.gov.au/def/ont/agrif', 'The Australian Government Records Interoperability Framework (AGRIF) ontology')
-    # functions.validate_turtle_response('http://gnafld.net/def/gnaf', 'GNAF ontology')
-    # functions.validate_turtle_response('https://gist.githubusercontent.com/edmondchuc/ea2cc0bb2ce8f0f2adfa583a34540153/raw/a53f3a550c96cba9098ef033aec001ac6511ee1b', 'pizza')
+    # All .json files in the linked.data.gov.au/org directory.
+    org_json = glob.glob('linked.data.gov.au/org/*.json')
+    org_json.sort()
+    for org in org_json:
+        functions.validate_all_redirects(org)
