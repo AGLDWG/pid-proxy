@@ -1,6 +1,8 @@
 on:
   # Trigger the workflow on push or pull request
-  pull_request_target
+  pull_request_target:
+    types:
+      - opened
 #    branches:
 #      - master
 #      - develop
