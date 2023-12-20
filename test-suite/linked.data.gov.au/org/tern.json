@@ -3,7 +3,7 @@
         {
             "label": "AusPlots Dataset Metadata HTML",
             "from": "https://linked.data.gov.au/dataset/ausplots",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ausplots&sparql_endpoint=https://graphdb.tern.org.au/repositories/ecoplots",
+            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ausplots&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
             "headers": {}
         }
     ],
@@ -11,7 +11,7 @@
        {
             "label": "TERN Ecosystem Processes Dataset Metadata HTML",
             "from": "https://linked.data.gov.au/dataset/tern-ecosystem-processes",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/tern-ecosystem-processes&sparql_endpoint=https://graphdb.tern.org.au/repositories/ecoplots",
+            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/tern-ecosystem-processes&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
             "headers": {}
        }
   ],
@@ -19,7 +19,7 @@
        {
             "label": "Wet Tropics Dataset Metadata HTML",
             "from": "https://linked.data.gov.au/dataset/wet-tropics-vertebrate",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wet-tropics-vertebrate&sparql_endpoint=https://graphdb.tern.org.au/repositories/ecoplots",
+            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wet-tropics-vertebrate&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
             "headers": {}
        }
   ],
@@ -27,7 +27,7 @@
      {
           "label": "BDBSA Dataset Metadata HTML",
           "from": "https://linked.data.gov.au/dataset/bdbsa",
-          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://graphdb.tern.org.au/repositories/ecoplots",
+          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
           "headers": {}
      }
   ],
@@ -39,12 +39,20 @@
           "headers": {}
      }
   ],
+  "https://linked.data.gov.au/dataset/nsw-fmip": [
+     {
+          "label": "New South Wales Forest Monitoring and improvement Program (NSW-FMIP) Dataset Metadata HTML",
+          "from": "https://linked.data.gov.au/dataset/nsw-fmip",
+          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/nsw-fmip&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+          "headers": {}
+     }
+  ],
   "https://linked.data.gov.au/dataset/bioregion": [],
   "https://linked.data.gov.au/dataset/corveg": [
        {
             "label": "Queensland Biodiversity and Ecology Information System Dataset Metadata HTML",
             "from": "https://linked.data.gov.au/dataset/corveg",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/corveg&sparql_endpoint=https://graphdb.tern.org.au/repositories/ecoplots",
+            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/corveg&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
             "headers": {}
        }
   ],
