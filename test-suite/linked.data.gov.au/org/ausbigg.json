@@ -1,0 +1,78 @@
+{
+  "http://linked.data.gov.au/def/abis": [
+    {
+      "label": "/def/abis HTML",
+      "from": "https://linked.data.gov.au/def/abis",
+      "to": "https://ausbigg.github.io/abis/specification.html",
+      "headers": {}
+    },
+    {
+      "label": "/def/abis RDF",
+      "from": "https://linked.data.gov.au/def/abis.ttl",
+      "to": "https://ausbigg.github.io/abis/profile.ttl",
+      "headers": {
+          "Accept": "text/turtle"
+      }
+    }
+  ],
+  "http://linked.data.gov.au/def/abis/overview": [
+    {
+      "label": "/def/abis/overview",
+      "from": "https://linked.data.gov.au/def/abis/overview",
+      "to": "https://ausbigg.github.io/abis/overview.html",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/abis/spec": [
+    {
+      "label": "/def/abis/spec",
+      "from": "https://linked.data.gov.au/def/abis/spec",
+      "to": "https://ausbigg.github.io/abis/specification.html",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/abis/validator": [
+    {
+      "label": "/def/abis/validator",
+      "from": "https://linked.data.gov.au/def/abis/validator",
+      "to": "https://ausbigg.github.io/abis/validator.ttl",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/abis/context.json": [
+    {
+      "label": "/def/abis/context.json",
+      "from": "https://linked.data.gov.au/def/abis/context.json",
+      "to": "https://ausbigg.github.io/abis/context.json",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/abis/data-release": [
+    {
+      "label": "/def/abis/data-release HTML",
+      "from": "https://linked.data.gov.au/def/abis/data-release",
+      "to": "https://ausbigg.github.io/abis/specification.html#annex-b",
+      "headers": {}
+    },
+    {
+      "label": "/def/abis RDF",
+      "from": "https://linked.data.gov.au/def/abis/data-release.ttl",
+      "to": "https://ausbigg.github.io/abis/data-release.ttl",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/abis/projects": [
+    {
+      "label": "/def/abis/projects HTML",
+      "from": "https://linked.data.gov.au/def/abis/projects",
+      "to": "https://ausbigg.github.io/abis/specification.html#annex-a",
+      "headers": {}
+    },
+    {
+      "label": "/def/abis/projects RDF",
+      "from": "https://linked.data.gov.au/def/abis/projects.ttl",
+      "to": "https://ausbigg.github.io/abis/projects.ttl",
+      "headers": {}
+    }
+  ]
+}
