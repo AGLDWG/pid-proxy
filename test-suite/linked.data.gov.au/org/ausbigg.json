@@ -65,7 +65,7 @@
     {
       "label": "/def/abis/projects HTML",
       "from": "https://linked.data.gov.au/def/abis/projects",
-      "to": "https://ausbigg.github.io/abis/specification.html#annex-b",
+      "to": "https://ausbigg.github.io/abis/specification.html#annex-a",
       "headers": {}
     },
     {
