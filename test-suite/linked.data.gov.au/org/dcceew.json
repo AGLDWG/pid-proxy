@@ -1,0 +1,32 @@
+{
+  "http://linked.data.gov.au/def/nsl": [
+    {
+      "label": "/def/nsl HTML",
+      "from": "https://linked.data.gov.au/def/nsl",
+      "to": "https://kurrawong.github.io/nsl-model/spec.html",
+      "headers": {}
+    },
+    {
+      "label": "/def/nsl RDF",
+      "from": "https://linked.data.gov.au/def/nsl.ttl",
+      "to": "https://kurrawong.github.io/nsl-model/profile.ttl",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/nsl/validator": [
+    {
+      "label": "/def/nsl/validator",
+      "from": "https://linked.data.gov.au/def/nsl/validator",
+      "to": "https://kurrawong.github.io/nsl-model/validator.ttl",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/nsl/context.json": [
+    {
+      "label": "/def/context.json",
+      "from": "https://linked.data.gov.au/def/nsl/context.json",
+      "to": "https://kurrawong.github.io/nsl-model/context.json",
+      "headers": {}
+    }
+  ]
+}
