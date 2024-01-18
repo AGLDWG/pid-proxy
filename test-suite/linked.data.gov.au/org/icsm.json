@@ -1,0 +1,58 @@
+{
+  "https://linked.data.gov.au/def/csdm/commonpatterns": [
+    {
+      "label": "CSDM Component Patterns HTML",
+      "from": "https://linked.data.gov.au/def/csdm/commonpatterns",
+      "to": "https://icsm-au.github.io/3d-csdm/commonpatterns.html",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/container": [
+    {
+      "label": "CSDM Container HTML",
+      "from": "https://linked.data.gov.au/def/csdm/container",
+      "to": "https://icsm-au.github.io/3d-csdm/container.html",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/geometryprim": [
+    {
+      "label": "CSDM Geometry Primitive HTML",
+      "from": "https://linked.data.gov.au/def/csdm/geometryprim",
+      "to": "https://icsm-au.github.io/3d-csdm/geometryprim.html",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/parcels": [
+    {
+      "label": "CSDM Parcels HTML",
+      "from": "https://linked.data.gov.au/def/csdm/parcels",
+      "to": "https://icsm-au.github.io/3d-csdm/parcels.html",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/surveyfeats": [
+    {
+      "label": "CSDM Survey Features HTML",
+      "from": "https://linked.data.gov.au/def/csdm/surveyfeats",
+      "to": "https://icsm-au.github.io/3d-csdm/surveyfeats.html",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/surveyprov": [
+    {
+      "label": "CSDM Survey Provenance HTML",
+      "from": "https://linked.data.gov.au/def/csdm/surveyprov",
+      "to": "https://icsm-au.github.io/3d-csdm/surveyprov.html",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/surveyobs": [
+    {
+      "label": "CSDM Survey Observations HTML",
+      "from": "https://linked.data.gov.au/def/csdm/surveyobs",
+      "to": "https://icsm-au.github.io/3d-csdm/surveyobs.html",
+      "headers": {}
+    }
+  ]
+}
