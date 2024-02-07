@@ -34,7 +34,7 @@
   "https://linked.data.gov.au/def/csdm/surveyfeatures": [
     {
       "label": "CSDM Survey Features HTML",
-      "from": "https://linked.data.gov.au/def/csdm/surveyfeats",
+      "from": "https://linked.data.gov.au/def/csdm/surveyfeatures",
       "to": "https://icsm-au.github.io/3d-csdm/surveyfeats.html",
       "headers": {}
     }
