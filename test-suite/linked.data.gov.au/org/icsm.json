@@ -103,6 +103,35 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/fsdf":[
+      {
+        "label": "FSDF Ontology, HTML",
+        "from": "https://linked.data.gov.au/def/fsdf",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html",
+        "headers": {}
+      },
+      {
+        "comment": "Target needs better delivery to return text/turtle headers",
+        "label": "FSDF Ontology, RDF (turtle) via file ext.",
+        "from": "https://linked.data.gov.au/def/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "headers": {}
+      },
+      {
+        "comment": "Target needs better delivery to return text/turtle headers",
+        "label": "FSDF Ontology, RDF (turtle) via QSA",
+        "from": "https://linked.data.gov.au/def/fsdf?_mediatype=text/turtle",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "headers": {}
+      },
+      {
+        "comment": "Target needs better delivery to return text/turtle headers",
+        "label": "FSDF Ontology, RDF (turtle) via conneg",
+        "from": "https://linked.data.gov.au/def/fsdf",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "headers": {"Accept": "text/turtle"}
+      }
+   ],
   "https://linked.data.gov.au/def/fsdf/themes": [
     {
       "label": "fsdf/themes HTML",
