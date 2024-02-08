@@ -54,5 +54,594 @@
       "to": "https://icsm-au.github.io/3d-csdm/surveyobs.html",
       "headers": {}
     }
+  ],
+  "https://linked.data.gov.au/def/address-alias-type": [
+    {
+      "label": "address-alias-type HTML",
+      "from": "https://linked.data.gov.au/def/address-alias-type",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/address-alias-type",
+      "headers": {}
+    },
+    {
+      "label": "address-alias-type RDF",
+      "from": "https://linked.data.gov.au/def/address-alias-type",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/address-alias-type&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/address-classes": [
+    {
+      "label": "address-classes HTML",
+      "from": "https://linked.data.gov.au/def/address-classes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/address-classes",
+      "headers": {}
+    },
+    {
+      "label": "address-classes RDF",
+      "from": "https://linked.data.gov.au/def/address-classes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/address-classes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/address-status-type": [
+    {
+      "label": "address-status-type HTML",
+      "from": "https://linked.data.gov.au/def/address-status-type",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/address-status-type",
+      "headers": {}
+    },
+    {
+      "label": "address-status-type RDF",
+      "from": "https://linked.data.gov.au/def/address-status-type",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/address-status-type&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/fsdf":[
+      {
+        "label": "FSDF Ontology, HTML",
+        "from": "https://linked.data.gov.au/def/fsdf",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html",
+        "headers": {}
+      },
+      {
+        "comment": "Target needs better delivery to return text/turtle headers",
+        "label": "FSDF Ontology, RDF (turtle) via file ext.",
+        "from": "https://linked.data.gov.au/def/fsdf.ttl",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "headers": {}
+      },
+      {
+        "comment": "Target needs better delivery to return text/turtle headers",
+        "label": "FSDF Ontology, RDF (turtle) via QSA",
+        "from": "https://linked.data.gov.au/def/fsdf?_mediatype=text/turtle",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "headers": {}
+      },
+      {
+        "comment": "Target needs better delivery to return text/turtle headers",
+        "label": "FSDF Ontology, RDF (turtle) via conneg",
+        "from": "https://linked.data.gov.au/def/fsdf",
+        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+        "headers": {"Accept": "text/turtle"}
+      }
+   ],
+  "https://linked.data.gov.au/def/fsdf/themes": [
+    {
+      "label": "fsdf/themes HTML",
+      "from": "https://linked.data.gov.au/def/fsdf/themes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/fsdf/themes",
+      "headers": {}
+    },
+    {
+      "label": "fsdf/themes RDF",
+      "from": "https://linked.data.gov.au/def/fsdf/themes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/fsdf/themes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geocode-types": [
+    {
+      "label": "geocode-types HTML",
+      "from": "https://linked.data.gov.au/def/geocode-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/geocode-types",
+      "headers": {}
+    },
+    {
+      "label": "geocode-types RDF",
+      "from": "https://linked.data.gov.au/def/geocode-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/geocode-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/gn-part-types": [
+    {
+      "label": "gn-part-types HTML",
+      "from": "https://linked.data.gov.au/def/gn-part-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/gn-part-types",
+      "headers": {}
+    },
+    {
+      "label": "gn-part-types RDF",
+      "from": "https://linked.data.gov.au/def/gn-part-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/gn-part-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/gn-statuses": [
+    {
+      "label": "gn-statuses HTML",
+      "from": "https://linked.data.gov.au/def/gn-statuses",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/gn-statuses",
+      "headers": {}
+    },
+    {
+      "label": "gn-statuses RDF",
+      "from": "https://linked.data.gov.au/def/gn-statuses",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/gn-statuses&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/go-categories": [
+    {
+      "label": "go-categories HTML",
+      "from": "https://linked.data.gov.au/def/go-categories",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/go-categories",
+      "headers": {}
+    },
+    {
+      "label": "go-categories RDF",
+      "from": "https://linked.data.gov.au/def/go-categories",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/go-categories&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/ground-relationship": [
+    {
+      "label": "ground-relationship HTML",
+      "from": "https://linked.data.gov.au/def/ground-relationship",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/ground-relationship",
+      "headers": {}
+    },
+    {
+      "label": "ground-relationship RDF",
+      "from": "https://linked.data.gov.au/def/ground-relationship",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/ground-relationship&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/level-types": [
+    {
+      "label": "level-types HTML",
+      "from": "https://linked.data.gov.au/def/level-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/level-types",
+      "headers": {}
+    },
+    {
+      "label": "level-types RDF",
+      "from": "https://linked.data.gov.au/def/level-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/level-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/lrrs-indicator": [
+    {
+      "label": "lrrs-indicator HTML",
+      "from": "https://linked.data.gov.au/def/lrrs-indicator",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/lrrs-indicator",
+      "headers": {}
+    },
+    {
+      "label": "lrrs-indicator RDF",
+      "from": "https://linked.data.gov.au/def/lrrs-indicator",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/lrrs-indicator&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/population-zone": [
+    {
+      "label": "population-zone HTML",
+      "from": "https://linked.data.gov.au/def/population-zone",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/population-zone",
+      "headers": {}
+    },
+    {
+      "label": "population-zone RDF",
+      "from": "https://linked.data.gov.au/def/population-zone",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/population-zone&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/positional-accuracy": [
+    {
+      "label": "positional-accuracy HTML",
+      "from": "https://linked.data.gov.au/def/positional-accuracy",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/positional-accuracy",
+      "headers": {}
+    },
+    {
+      "label": "positional-accuracy RDF",
+      "from": "https://linked.data.gov.au/def/positional-accuracy",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/positional-accuracy&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/record-access": [
+    {
+      "label": "record-access HTML",
+      "from": "https://linked.data.gov.au/def/record-access",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access",
+      "headers": {}
+    },
+    {
+      "label": "record-access RDF",
+      "from": "https://linked.data.gov.au/def/record-access",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/record-access&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-cadastral-relationship": [
+    {
+      "label": "road-cadastral-relationship HTML",
+      "from": "https://linked.data.gov.au/def/road-cadastral-relationship",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-cadastral-relationship",
+      "headers": {}
+    },
+    {
+      "label": "road-cadastral-relationship RDF",
+      "from": "https://linked.data.gov.au/def/road-cadastral-relationship",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-cadastral-relationship&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-classifications": [
+    {
+      "label": "road-classifications HTML",
+      "from": "https://linked.data.gov.au/def/road-classifications",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-classifications",
+      "headers": {}
+    },
+    {
+      "label": "road-classifications RDF",
+      "from": "https://linked.data.gov.au/def/road-classifications",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-classifications&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-geometry-notes": [
+    {
+      "label": "road-geometry-notes HTML",
+      "from": "https://linked.data.gov.au/def/road-geometry-notes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-geometry-notes",
+      "headers": {}
+    },
+    {
+      "label": "road-geometry-notes RDF",
+      "from": "https://linked.data.gov.au/def/road-geometry-notes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-geometry-notes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-lane-count": [
+    {
+      "label": "road-lane-count HTML",
+      "from": "https://linked.data.gov.au/def/road-lane-count",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-lane-count",
+      "headers": {}
+    },
+    {
+      "label": "road-lane-count RDF",
+      "from": "https://linked.data.gov.au/def/road-lane-count",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-lane-count&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-maintainer": [
+    {
+      "label": "road-maintainer HTML",
+      "from": "https://linked.data.gov.au/def/road-maintainer",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-maintainer",
+      "headers": {}
+    },
+    {
+      "label": "road-maintainer RDF",
+      "from": "https://linked.data.gov.au/def/road-maintainer",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-maintainer&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-name-part-types": [
+    {
+      "label": "road-name-part-types HTML",
+      "from": "https://linked.data.gov.au/def/road-name-part-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-name-part-types",
+      "headers": {}
+    },
+    {
+      "label": "road-name-part-types RDF",
+      "from": "https://linked.data.gov.au/def/road-name-part-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-name-part-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-operational-statuses": [
+    {
+      "label": "road-operational-statuses HTML",
+      "from": "https://linked.data.gov.au/def/road-operational-statuses",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-operational-statuses",
+      "headers": {}
+    },
+    {
+      "label": "road-operational-statuses RDF",
+      "from": "https://linked.data.gov.au/def/road-operational-statuses",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-operational-statuses&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-owner": [
+    {
+      "label": "road-owner HTML",
+      "from": "https://linked.data.gov.au/def/road-owner",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-owner",
+      "headers": {}
+    },
+    {
+      "label": "road-owner RDF",
+      "from": "https://linked.data.gov.au/def/road-owner",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-owner&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-seasonality": [
+    {
+      "label": "road-seasonality HTML",
+      "from": "https://linked.data.gov.au/def/road-seasonality",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-seasonality",
+      "headers": {}
+    },
+    {
+      "label": "road-seasonality RDF",
+      "from": "https://linked.data.gov.au/def/road-seasonality",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-seasonality&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-sub-classes": [
+    {
+      "label": "road-sub-classes HTML",
+      "from": "https://linked.data.gov.au/def/road-sub-classes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-sub-classes",
+      "headers": {}
+    },
+    {
+      "label": "road-sub-classes RDF",
+      "from": "https://linked.data.gov.au/def/road-sub-classes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-sub-classes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-suffixes": [
+    {
+      "label": "road-suffixes HTML",
+      "from": "https://linked.data.gov.au/def/road-suffixes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-suffixes",
+      "headers": {}
+    },
+    {
+      "label": "road-suffixes RDF",
+      "from": "https://linked.data.gov.au/def/road-suffixes",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-suffixes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-surfaces": [
+    {
+      "label": "road-surfaces HTML",
+      "from": "https://linked.data.gov.au/def/road-surfaces",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-surfaces",
+      "headers": {}
+    },
+    {
+      "label": "road-surfaces RDF",
+      "from": "https://linked.data.gov.au/def/road-surfaces",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-surfaces&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-trafficability": [
+    {
+      "label": "road-trafficability HTML",
+      "from": "https://linked.data.gov.au/def/road-trafficability",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-trafficability",
+      "headers": {}
+    },
+    {
+      "label": "road-trafficability RDF",
+      "from": "https://linked.data.gov.au/def/road-trafficability",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-trafficability&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-travel-direction": [
+    {
+      "label": "road-travel-direction HTML",
+      "from": "https://linked.data.gov.au/def/road-travel-direction",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-travel-direction",
+      "headers": {}
+    },
+    {
+      "label": "road-travel-direction RDF",
+      "from": "https://linked.data.gov.au/def/road-travel-direction",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-travel-direction&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-types": [
+    {
+      "label": "road-types HTML",
+      "from": "https://linked.data.gov.au/def/road-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-types",
+      "headers": {}
+    },
+    {
+      "label": "road-types RDF",
+      "from": "https://linked.data.gov.au/def/road-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/road-user-access": [
+    {
+      "label": "road-user-access HTML",
+      "from": "https://linked.data.gov.au/def/road-user-access",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-user-access",
+      "headers": {}
+    },
+    {
+      "label": "road-user-access RDF",
+      "from": "https://linked.data.gov.au/def/road-user-access",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/road-user-access&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/scr-indicator": [
+    {
+      "label": "scr-indicator HTML",
+      "from": "https://linked.data.gov.au/def/scr-indicator",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/scr-indicator",
+      "headers": {}
+    },
+    {
+      "label": "scr-indicator RDF",
+      "from": "https://linked.data.gov.au/def/scr-indicator",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/scr-indicator&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/source": [
+    {
+      "label": "source HTML",
+      "from": "https://linked.data.gov.au/def/source",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/source",
+      "headers": {}
+    },
+    {
+      "label": "source RDF",
+      "from": "https://linked.data.gov.au/def/source",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/source&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/spatial-capture-method": [
+    {
+      "label": "spatial-capture-method HTML",
+      "from": "https://linked.data.gov.au/def/spatial-capture-method",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/spatial-capture-method",
+      "headers": {}
+    },
+    {
+      "label": "spatial-capture-method RDF",
+      "from": "https://linked.data.gov.au/def/spatial-capture-method",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/spatial-capture-method&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/subaddress-types": [
+    {
+      "label": "subaddress-types HTML",
+      "from": "https://linked.data.gov.au/def/subaddress-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/subaddress-types",
+      "headers": {}
+    },
+    {
+      "label": "subaddress-types RDF",
+      "from": "https://linked.data.gov.au/def/subaddress-types",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/subaddress-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/surface-capture-method": [
+    {
+      "label": "surface-capture-method HTML",
+      "from": "https://linked.data.gov.au/def/surface-capture-method",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/surface-capture-method",
+      "headers": {}
+    },
+    {
+      "label": "surface-capture-method RDF",
+      "from": "https://linked.data.gov.au/def/surface-capture-method",
+      "to": "https://vocabs.gsq.digital/object?uri=https://linked.data.gov.au/def/surface-capture-method&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
   ]
 }
