@@ -1,4 +1,84 @@
 {
+  "https://linked.data.gov.au/def/causalnetwork": [
+       {
+            "label": "CSIRO Causal Network Ontology (no headers), no slash",
+            "from": "https://linked.data.gov.au/def/causalnetwork",
+            "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork",
+            "headers": {}
+       },
+       {
+          "label": "CSIRO Causal Network Ontology (no headers), final slash",
+          "from": "https://linked.data.gov.au/def/causalnetwork/",
+          "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork/",
+          "headers": {}
+       },
+       {
+          "label": "CSIRO Causal Network Ontology (TTL ext)",
+          "from": "https://linked.data.gov.au/def/causalnetwork.ttl",
+          "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl",
+          "headers": {}
+       },
+       {
+          "label": "CSIRO Causal Network Ontology (TTL header), no slash",
+          "from": "https://linked.data.gov.au/def/causalnetwork",
+          "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl",
+          "headers": {
+               "Accept": "text/turtle"
+           }
+       },
+       {
+          "label": "CSIRO Causal Network Ontology (TTL header), final slash",
+          "from": "https://linked.data.gov.au/def/causalnetwork/",
+          "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl",
+          "headers": {
+               "Accept": "text/turtle"
+           }
+       }
+  ],
+  "https://linked.data.gov.au/dataset/causalnetwork": [
+     {
+         "label": "CSIRO Causal Network identifiers (no header)",
+         "from": "https://linked.data.gov.au/dataset/causalnetwork/id/network/beetaloo/v1",
+         "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/network/beetaloo/v1",
+         "headers": {}
+     },
+     {
+         "label": "CSIRO Causal Network identifiers (TTL header)",
+         "from": "https://linked.data.gov.au/dataset/causalnetwork/id/network/beetaloo/v1",
+         "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/network/beetaloo/v1.ttl",
+         "headers": {
+              "Accept": "text/turtle"
+         }
+     },
+     {
+         "label": "CSIRO Causal Network Node identifiers (no header)",
+         "from": "https://linked.data.gov.au/dataset/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc",
+         "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc",
+         "headers": {}
+     },
+     {
+         "label": "CSIRO Causal Network Node identifiers (TTL header)",
+         "from": "https://linked.data.gov.au/dataset/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc",
+         "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc.ttl",
+         "headers": {
+              "Accept": "text/turtle"
+         }
+     },
+     {
+         "label": "CSIRO Causal Network Link identifiers (no header)",
+         "from": "https://linked.data.gov.au/dataset/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09",
+         "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09",
+         "headers": {}
+     },
+     {
+         "label": "CSIRO Causal Network Link identifiers (TTL header)",
+         "from": "https://linked.data.gov.au/dataset/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09",
+         "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09.ttl",
+         "headers": {
+             "Accept": "text/turtle"
+         }
+     }  
+  ],
      "https://linked.data.gov.au/def/asls-land-surface": [
           {
                "label": "ASLS Land Surface classifiers - HTML",
