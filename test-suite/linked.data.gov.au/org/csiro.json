@@ -171,21 +171,21 @@
      ],
      "https://linked.data.gov.au/def/soil": [
           {
-               "label": "Soil Physical Measurements Vocabulary - HTML",
+               "label": "Soil Ontology - HTML",
                "from": "https://linked.data.gov.au/def/soil",
                "to": "https://raw.githack.com/ANZSoilData/def-au-domain/main/doc/domain.html",
                "headers": {}
           },
           {
-               "label": "Soil Physical Measurements Vocabulary - RDF",
+               "label": "Soil Ontology - RDF",
                "from": "https://linked.data.gov.au/def/soil",
                "to": "https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/rdf/domain.ttl",
                "headers": {
                 "Accept": "text/turtle"
-          }
+               }
           },
           {
-               "label": "Soil Physical Measurements Vocabulary - one Concept HTML",
+               "label": "Soil Ontology - one Class HTML",
                "from": "https://linked.data.gov.au/def/soil#Treatment",
                "to": "https://raw.githack.com/ANZSoilData/def-au-domain/main/doc/domain.html#Treatment",
                "headers": {}
