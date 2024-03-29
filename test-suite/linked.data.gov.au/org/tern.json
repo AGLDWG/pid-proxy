@@ -17,9 +17,9 @@
   ],
   "https://linked.data.gov.au/dataset/bioregion": [
     {
-          "label": "New South Wales Forest Monitoring and improvement Program (NSW-FMIP) Dataset Metadata HTML",
+          "label": "Bioregions Dataset Metadata HTML",
           "from": "https://linked.data.gov.au/dataset/bioregion",
-          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bioregion&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bioregion/IBRA7&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
           "headers": {}
      }
   ],
