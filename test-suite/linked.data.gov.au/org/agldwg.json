@@ -1,0 +1,112 @@
+{
+  "https://linked.data.gov.au/def/data-roles": [
+    {
+      "label": "AGLDWG Data Roles Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/data-roles",
+      "to": "https://agldwg.github.io/data-roles/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG Data Roles vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/data-roles",
+      "to": "https://agldwg.github.io/data-roles/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG Data Roles HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/data-roles/author",
+      "to": "https://agldwg.github.io/data-roles/author",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/reg-roles": [
+    {
+      "label": "AGLDWG Registry Roles Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/reg-roles",
+      "to": "https://agldwg.github.io/reg-roles/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG Registry Roles vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/reg-roles",
+      "to": "https://agldwg.github.io/reg-roles/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG Registry Roles HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/reg-roles/control-body",
+      "to": "https://agldwg.github.io/reg-roles/control-body",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/reg-statuses": [
+    {
+      "label": "AGLDWG Registry Statuses Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/reg-statuses",
+      "to": "https://agldwg.github.io/reg-statuses/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG Registry Statuses vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/reg-statuses",
+      "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG Registry Statuses HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/reg-statuses/accepted",
+      "to": "https://agldwg.github.io/reg-statuses/accepted",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/prof-roles": [
+    {
+      "label": "AGLDWG PROF Roles Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/prof-roles",
+      "to": "https://agldwg.github.io/prof-roles/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG PROF Roles vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/prof-roles",
+      "to": "https://agldwg.github.io/prof-roles/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG PROF Roles HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/prof-roles/constraints",
+      "to": "https://agldwg.github.io/prof-roles/constraints",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/vocdermods": [
+    {
+      "label": "AGLDWG Vocab Derivation Modes Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/vocdermods",
+      "to": "https://agldwg.github.io/vocdermods/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG Vocab Derivation Modes vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/vocdermods",
+      "to": "https://agldwg.github.io/vocdermods/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG Vocab Derivation Modes HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/vocdermods/direct",
+      "to": "https://agldwg.github.io/vocdermods/direct",
+      "headers": {}
+    }
+  ]
+}
