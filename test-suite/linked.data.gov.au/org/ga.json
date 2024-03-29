@@ -12,6 +12,6 @@
       "to": "https://raw.githack.com/surroundaustralia/su-ont/master/su.ttl",
       "headers": {
         "Accept": "text/turtle"
-      },
+      }
   ]
 }
