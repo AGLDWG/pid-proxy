@@ -1,0 +1,18 @@
+{
+  "http://linked.data.gov.au/def/su": [
+    {
+      "label": "Stratigraphic Units Ontology HTML",
+      "from": "https://linked.data.gov.au/def/su",
+      "to": "https://raw.githack.com/surroundaustralia/su-ont/master/su.html",
+      "headers": {}
+    },
+    {
+      "label": "Stratigraphic Units Ontology RDF",
+      "from": "https://linked.data.gov.au/def/su",
+      "to": "https://raw.githack.com/surroundaustralia/su-ont/master/su.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ]
+}
