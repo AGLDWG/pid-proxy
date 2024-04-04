@@ -79,16 +79,16 @@
       }
     }
   ],
-  "https://linked.data.gov.au/def/asls-asc": [
+  "https://linked.data.gov.au/def/asc": [
     {
       "label": "ASLS Australian Soil Classification - HTML",
-      "from": "https://linked.data.gov.au/def/asls-asc",
+      "from": "https://linked.data.gov.au/def/asc",
       "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource?uri=http://anzsoil.org/def/au/asc/Glossary",
       "headers": {}
     },
     {
       "label": "ASLS Australian Soil Classification - RDF",
-      "from": "https://linked.data.gov.au/def/asls-asc",
+      "from": "https://linked.data.gov.au/def/asc",
       "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asc/Glossary",
       "headers": {
         "Accept": "text/turtle"
@@ -96,7 +96,7 @@
     },
     {
       "label": "ASLS Australian Soil Classification - one Concept HTML",
-      "from": "https://linked.data.gov.au/def/asls-asc/A-horizons",
+      "from": "https://linked.data.gov.au/def/asc/A-horizons",
       "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource?uri=http://anzsoil.org/def/au/asc/A-horizons",
       "headers": {}
     }
