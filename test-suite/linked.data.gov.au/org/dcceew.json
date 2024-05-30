@@ -37,7 +37,7 @@
     {
       "label": "Levels of Measurement HTML",
       "from": "https://linked.data.gov.au/def/levels-of-measurement",
-      "to": "https://agldwg.github.io/levels-of-measurement/",
+      "to": "https://agldwg.github.io/levels-of-measurement",
       "headers": {}
     },
     {
