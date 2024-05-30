@@ -57,7 +57,7 @@
     {
       "label": "Levels of Measurement Concept RDF",
       "from": "https://linked.data.gov.au/def/levels-of-measurement/nominal",
-      "to": "https://agldwg.github.io/levels-of-measurement/nominal.ttl",
+      "to": "https://agldwg.github.io/levels-of-measurement/vocabulary.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
