@@ -33,6 +33,36 @@
       "headers": {}
     }
   ],
+  "http://linked.data.gov.au/def/levels-of-measurement": [
+    {
+      "label": "Levels of Measurement HTML",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement",
+      "to": "https://agldwg.github.io/levels-of-measurement",
+      "headers": {}
+    },
+    {
+      "label": "Levels of Measurement RDF",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement",
+      "to": "https://agldwg.github.io/levels-of-measurement/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Levels of Measurement Concept HTML",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement/nominal",
+      "to": "https://agldwg.github.io/levels-of-measurement/nominal",
+      "headers": {}
+    },
+    {
+      "label": "Levels of Measurement Concept RDF",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement/nominal",
+      "to": "https://agldwg.github.io/levels-of-measurement/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "http://linked.data.gov.au/def/nslvoc": [
     {
       "label": "NSLVoc HTML",
