@@ -1,4 +1,12 @@
 {
+  "https://linked.data.gov.au/def/csdm": [
+    {
+      "label": "CSDM Specification HTML",
+      "from": "https://linked.data.gov.au/def/csdm",
+      "to": "https://icsm-au.github.io/3d-csdm/docs/",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/csdm/commonpatterns": [
     {
       "label": "CSDM Component Patterns HTML",
