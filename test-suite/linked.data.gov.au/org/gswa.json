@@ -1,4 +1,68 @@
 {
+  "https://linked.data.gov.au/def/gswa-supermodel": [
+    {
+      "label": "gswa-supermodel HTML",
+      "from": "https://linked.data.gov.au/def/gswa-supermodel",
+      "to": "https://kurrawong.github.io/gswa-supermodel/",
+      "headers": {}
+    },
+    {
+      "label": "gswa-supermodel RDF",
+      "from": "https://linked.data.gov.au/def/gswa-supermodel",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/profile.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/bore": [
+    {
+      "label": "bore HTML",
+      "from": "https://linked.data.gov.au/def/bore",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/bores/",
+      "headers": {}
+    },
+    {
+      "label": "bore RDF",
+      "from": "https://linked.data.gov.au/def/bore",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/bores.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mine": [
+    {
+      "label": "mine HTML",
+      "from": "https://linked.data.gov.au/def/mine",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/mines/",
+      "headers": {}
+    },
+    {
+      "label": "mine RDF",
+      "from": "https://linked.data.gov.au/def/mine",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mines.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/tenement": [
+    {
+      "label": "tenement RDF",
+      "from": "https://linked.data.gov.au/def/tenement",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/tenements/",
+      "headers": {}
+    },
+    {
+      "label": "tenement HTML",
+      "from": "https://linked.data.gov.au/def/tenement",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/tenements.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/australian-physiographic-units": [
     {
       "label": "australian-physiographic-units HTML",
