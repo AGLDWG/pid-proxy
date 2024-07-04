@@ -19,13 +19,13 @@
     {
       "label": "bore HTML",
       "from": "https://linked.data.gov.au/def/bore",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/bores/",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/bore/",
       "headers": {}
     },
     {
       "label": "bore RDF",
       "from": "https://linked.data.gov.au/def/bore",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/bores.ttl",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/bore.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -35,29 +35,29 @@
     {
       "label": "mine HTML",
       "from": "https://linked.data.gov.au/def/mine",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/mines/",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/mine/",
       "headers": {}
     },
     {
       "label": "mine RDF",
       "from": "https://linked.data.gov.au/def/mine",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mines.ttl",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mine.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
     }
   ],
-  "https://linked.data.gov.au/def/tenement": [
+  "https://linked.data.gov.au/def/mining-authorisation": [
     {
       "label": "tenement RDF",
-      "from": "https://linked.data.gov.au/def/tenement",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/tenements/",
+      "from": "https://linked.data.gov.au/def/mining-authorisation",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/mining-authorisation/",
       "headers": {}
     },
     {
       "label": "tenement HTML",
-      "from": "https://linked.data.gov.au/def/tenement",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/tenements.ttl",
+      "from": "https://linked.data.gov.au/def/mining-authorisation",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mining-authorisation.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
