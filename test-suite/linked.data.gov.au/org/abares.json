@@ -1,13 +1,13 @@
 {
   "http://linked.data.gov.au/def/alum8": [
     {
-      "label": "ALUM Classification Version 8 vocabulary HTML",
+      "label": "ALUM Classification Version 8 vocab HTML",
       "from": "https://linked.data.gov.au/def/alum8",
       "to": "http://vocabs.ardc.edu.au/repository/api/sparql/abares_australian-land-use-and-management-classification_version-8/resource?uri=https://linked.data.gov.au/def/alum8",
       "headers": {}
     },
     {
-      "label": "ALUM Classification Version 8 vocabulary RDF",
+      "label": "ALUM Classification Version 8 vocab RDF",
       "from": "https://linked.data.gov.au/def/alum8",
       "to": "http://vocabs.ardc.edu.au/repository/api/sparql/abares_australian-land-use-and-management-classification_version-8/resource.ttl?uri=https://linked.data.gov.au/def/alum8",
       "headers": {
@@ -15,13 +15,13 @@
       }
     },
     {
-      "label": "ALUM Classification Version 8 vocabulary Concept HTML",
+      "label": "ALUM Classification Version 8 vocab Concept HTML",
       "from": "https://linked.data.gov.au/def/alum8/1.1.1",
       "to": "http://vocabs.ardc.edu.au/repository/api/sparql/abares_australian-land-use-and-management-classification_version-8/resource?uri=https://linked.data.gov.au/def/alum8/1.1.1",
       "headers": {}
     },
     {
-      "label": "ALUM Classification Version 8 vocabulary Concept RDF",
+      "label": "ALUM Classification Version 8 vocab Concept RDF",
       "from": "https://linked.data.gov.au/def/alum8/1.1.1",
       "to": "http://vocabs.ardc.edu.au/repository/api/sparql/abares_australian-land-use-and-management-classification_version-8/resource.ttl?uri=https://linked.data.gov.au/def/alum8/1.1.1",
       "headers": {
