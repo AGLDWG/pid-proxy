@@ -739,13 +739,13 @@
         {
             "label": "qg-sites HTML",
             "from": "https://linked.data.gov.au/def/qg-sites",
-            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=http://linked.data.gov.au/def/qg-sites",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites",
             "headers": {}
         },
         {
             "label": "qg-sites RDF",
             "from": "https://linked.data.gov.au/def/qg-sites",
-            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=http://linked.data.gov.au/def/qg-sites&_mediatype=text/turtle",
+            "to": "https://vocabs.gsq.digital/object?vocab_id=qg-sites&uri=https://linked.data.gov.au/def/qg-sites&_mediatype=text/turtle",
             "headers": {
                 "Accept": "text/turtle"
             }
