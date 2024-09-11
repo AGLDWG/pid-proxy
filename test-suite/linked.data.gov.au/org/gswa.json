@@ -135,6 +135,22 @@
       "headers": {}
     }
   ],
+  "https://linked.data.gov.au/def/gswa-rock-classification-scheme": [
+    {
+      "label": "gswa-rock-classification-scheme HTML",
+      "from": "https://linked.data.gov.au/def/gswa-rock-classification-scheme",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-rock-classification-scheme",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/gswa-vocabulary-themes": [
+    {
+      "label": "gswa-vocabulary-themes HTML",
+      "from": "https://linked.data.gov.au/def/gswa-vocabulary-themes",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-vocabulary-themes",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/JORC-Code": [
     {
       "label": "JORC Code vocab HTML",
