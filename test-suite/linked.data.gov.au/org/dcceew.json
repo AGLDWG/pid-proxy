@@ -3,8 +3,32 @@
     {
       "label": "BDR Dataset HTML",
       "from": "https://linked.data.gov.au/dataset/bdr",
-      "to": "https://bdrtesting.net/",
+      "to": "https://linked.bdr.gov.au/dataset/bdr?_host=linked.data.gov.au",
       "headers": {}
+    },
+    {
+      "label": "BDR Dataset's Observed Properties Registry entry",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au",
+      "headers": {}
+    },
+    {
+      "label": "BDR Registry entry with mediatype",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_mediatype=text/turtle",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_mediatype=text/turtle",
+      "headers": {}
+    },
+    {
+      "label": "BDR Registry entry with profile",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_profile=alt",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_profile=alt",
+      "headers": {}
+    },
+    {
+      "label": "BDR Registry entry with profile and Accept Header",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_profile=alt",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_profile=alt",
+      "headers": {"Accept": "text/turtle"}
     }
   ],
   "http://linked.data.gov.au/def/nsl": [
