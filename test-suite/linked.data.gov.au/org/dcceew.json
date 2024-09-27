@@ -3,7 +3,7 @@
     {
       "label": "BDR Dataset HTML",
       "from": "https://linked.data.gov.au/dataset/bdr",
-      "to": "https://linked.data.gov.au/dataset/bdr?_host=linked.data.gov.au",
+      "to": "https://linked.bdr.gov.au/dataset/bdr?_host=linked.data.gov.au",
       "headers": {}
     },
     {
