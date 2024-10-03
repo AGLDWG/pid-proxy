@@ -1,0 +1,178 @@
+{
+  "https://linked.data.gov.au/def/sa-commodity-codes": [
+    {
+      "label": "sa-commodity-codes HTML",
+      "from": "https://linked.data.gov.au/def/sa-commodity-codes",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-commodity-codes",
+      "headers": {}
+    },
+    {
+      "label": "sa-commodity-codes RDF",
+      "from": "https://linked.data.gov.au/def/sa-commodity-codes",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-commodity-codes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-distribution-formats": [
+    {
+      "label": "mer-distribution-formats HTML",
+      "from": "https://linked.data.gov.au/def/mer-distribution-formats",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-distribution-formats",
+      "headers": {}
+    },
+    {
+      "label": "mer-distribution-formats RDF",
+      "from": "https://linked.data.gov.au/def/mer-distribution-formats",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-distribution-formats&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-doc-types": [
+    {
+      "label": "mer-doc-types HTML",
+      "from": "https://linked.data.gov.au/def/mer-doc-types",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-doc-types",
+      "headers": {}
+    },
+    {
+      "label": "mer-doc-types RDF",
+      "from": "https://linked.data.gov.au/def/mer-doc-types",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-doc-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-for-codes": [
+    {
+      "label": "mer-for-codes HTML",
+      "from": "https://linked.data.gov.au/def/mer-for-codes",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-for-codes",
+      "headers": {}
+    },
+    {
+      "label": "mer-for-codes RDF",
+      "from": "https://linked.data.gov.au/def/mer-for-codes",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-for-codes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/maintenancefrequencycode": [
+    {
+      "label": "maintenancefrequencycode HTML",
+      "from": "https://linked.data.gov.au/def/maintenancefrequencycode",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/maintenancefrequencycode",
+      "headers": {}
+    },
+    {
+      "label": "maintenancefrequencycode RDF",
+      "from": "https://linked.data.gov.au/def/maintenancefrequencycode",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/maintenancefrequencycode&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/sa-geological-features": [
+    {
+      "label": "sa-geological-features HTML",
+      "from": "https://linked.data.gov.au/def/sa-geological-features",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-geological-features",
+      "headers": {}
+    },
+    {
+      "label": "sa-geological-features RDF",
+      "from": "https://linked.data.gov.au/def/sa-geological-features",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/sa-geological-features&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-scope-codes": [
+    {
+      "label": "mer-scope-codes HTML",
+      "from": "https://linked.data.gov.au/def/mer-scope-codes",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-scope-codes",
+      "headers": {}
+    },
+    {
+      "label": "mer-scope-codes RDF",
+      "from": "https://linked.data.gov.au/def/mer-scope-codes",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-scope-codes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-stakeholder-types": [
+    {
+      "label": "mer-stakeholder-types HTML",
+      "from": "https://linked.data.gov.au/def/mer-stakeholder-types",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types",
+      "headers": {}
+    },
+    {
+      "label": "mer-stakeholder-types RDF",
+      "from": "https://linked.data.gov.au/def/mer-stakeholder-types",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-stakeholder-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-tenament-types": [
+    {
+      "label": "mer-tenament-types HTML",
+      "from": "https://linked.data.gov.au/def/mer-tenament-types",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-tenament-types",
+      "headers": {}
+    },
+    {
+      "label": "mer-tenament-types RDF",
+      "from": "https://linked.data.gov.au/def/mer-tenament-types",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-tenament-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-topic-categories": [
+    {
+      "label": "mer-topic-categories HTML",
+      "from": "https://linked.data.gov.au/def/mer-topic-categories",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-topic-categories",
+      "headers": {}
+    },
+    {
+      "label": "mer-topic-categories RDF",
+      "from": "https://linked.data.gov.au/def/mer-topic-categories",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-topic-categories&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/mer-work-statuses": [
+    {
+      "label": "mer-work-statuses HTML",
+      "from": "https://linked.data.gov.au/def/mer-work-statuses",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-work-statuses",
+      "headers": {}
+    },
+    {
+      "label": "mer-work-statuses RDF",
+      "from": "https://linked.data.gov.au/def/mer-work-statuses",
+      "to": "https://vocabularies.sarig.sa.gov.au/object?uri=https://linked.data.gov.au/def/mer-work-statuses&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ]
+}
