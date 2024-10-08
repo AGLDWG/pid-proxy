@@ -1,0 +1,312 @@
+{
+  "https://linked.data.gov.au/def/causalnetwork": [
+    {
+      "label": "CSIRO Causal Network Ontology (no headers), no slash",
+      "from": "https://linked.data.gov.au/def/causalnetwork",
+      "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork",
+      "headers": {}
+    },
+    {
+      "label": "CSIRO Causal Network Ontology (no headers), final slash",
+      "from": "https://linked.data.gov.au/def/causalnetwork/",
+      "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork/",
+      "headers": {}
+    },
+    {
+      "label": "CSIRO Causal Network Ontology (TTL ext)",
+      "from": "https://linked.data.gov.au/def/causalnetwork.ttl",
+      "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl",
+      "headers": {}
+    },
+    {
+      "label": "CSIRO Causal Network Ontology (TTL header), no slash",
+      "from": "https://linked.data.gov.au/def/causalnetwork",
+      "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "CSIRO Causal Network Ontology (TTL header), final slash",
+      "from": "https://linked.data.gov.au/def/causalnetwork/",
+      "to": "https://causalnetworks.azurewebsites.net/def/causalnetwork.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/dataset/causalnetwork": [
+    {
+      "label": "CSIRO Causal Network identifiers (no header)",
+      "from": "https://linked.data.gov.au/dataset/causalnetwork/id/network/beetaloo/v1",
+      "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/network/beetaloo/v1",
+      "headers": {}
+    },
+    {
+      "label": "CSIRO Causal Network identifiers (TTL header)",
+      "from": "https://linked.data.gov.au/dataset/causalnetwork/id/network/beetaloo/v1",
+      "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/network/beetaloo/v1.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "CSIRO Causal Network Node identifiers (no header)",
+      "from": "https://linked.data.gov.au/dataset/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc",
+      "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc",
+      "headers": {}
+    },
+    {
+      "label": "CSIRO Causal Network Node identifiers (TTL header)",
+      "from": "https://linked.data.gov.au/dataset/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc",
+      "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/node/0c219dcc-942c-461e-b186-41b1564235bc.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "CSIRO Causal Network Link identifiers (no header)",
+      "from": "https://linked.data.gov.au/dataset/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09",
+      "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09",
+      "headers": {}
+    },
+    {
+      "label": "CSIRO Causal Network Link identifiers (TTL header)",
+      "from": "https://linked.data.gov.au/dataset/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09",
+      "to": "https://causalnetworks.azurewebsites.net/causalnetwork/id/link/1aaf6dbd-560f-4d8b-b977-28d9f59d8f0a-08656602-04c2-4f64-919b-1c2135066e09.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/asc": [
+    {
+      "label": "ASLS Australian Soil Classification - HTML",
+      "from": "https://linked.data.gov.au/def/asc",
+      "to": "https://anzsoildata.github.io/def-au-asc/",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Australian Soil Classification - RDF",
+      "from": "https://linked.data.gov.au/def/asc",
+      "to": "https://anzsoildata.github.io/def-au-asc/rdf/ASC.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ASLS Australian Soil Classification - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/asc/A-horizons",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/australian-soil-classification/3ed/resource?uri=http://anzsoil.org/def/au/asc/A-horizons",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/asls-land-surface": [
+    {
+      "label": "ASLS Land Surface classifiers - HTML",
+      "from": "https://linked.data.gov.au/def/asls-land-surface",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/land-surface-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/land-surface",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Land Surface classifiers - RDF",
+      "from": "https://linked.data.gov.au/def/asls-land-surface",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/land-surface-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/land-surface",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ASLS Land Surface classifiers - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/asls-land-surface/01A1",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/land-surface-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/land-surface/01A1",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/asls-landform": [
+    {
+      "label": "ASLS Landform classifiers - HTML",
+      "from": "https://linked.data.gov.au/def/asls-landform",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/landform",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Landform classifiers - RDF",
+      "from": "https://linked.data.gov.au/def/asls-landform",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/landform",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ASLS Landform classifiers - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/asls-landform/relief-class-P",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/landform-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/landform/relief-class-P",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/asls-location": [
+    {
+      "label": "ASLS Location classifiers - HTML",
+      "from": "https://linked.data.gov.au/def/asls-location",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/location",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Location classifiers - RDF",
+      "from": "https://linked.data.gov.au/def/asls-location",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/location",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ASLS Location classifiers - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/asls-location/accuracy-4",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-location-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/location/accuracy-4",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/asls-soil-profile": [
+    {
+      "label": "ASLS Soil Profile classifiers - HTML",
+      "from": "https://linked.data.gov.au/def/asls-soil-profile",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/soil-profile-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/soil-profile",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Soil Profile classifiers - RDF",
+      "from": "https://linked.data.gov.au/def/asls-soil-profile",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/soil-profile-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/soil-profile",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/asls-substrate": [
+    {
+      "label": "ASLS Substrate classifiers - HTML",
+      "from": "https://linked.data.gov.au/def/asls-substrate",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-substrate-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/substrate",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Substrate classifiers - RDF",
+      "from": "https://linked.data.gov.au/def/asls-substrate",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-substrate-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/substrate",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ASLS Substrate classifiers - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/asls-substrate/texture-A",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-substrate-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/substrate/texture-A",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/asls-vegetation": [
+    {
+      "label": "ASLS Vegetation classifiers - HTML",
+      "from": "https://linked.data.gov.au/def/asls-vegetation",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/vegetation",
+      "headers": {}
+    },
+    {
+      "label": "ASLS Vegetation classifiers - RDF",
+      "from": "https://linked.data.gov.au/def/asls-vegetation",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/vegetation",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ASLS Vegetation classifiers - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/asls-vegetation/condition",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/asls-vegetation-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/vegetation/condition",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/scm-swcm-1992": [
+    {
+      "label": "Soil Chemical Methods SWCM 1992 Vocabulary - HTML",
+      "from": "https://linked.data.gov.au/def/scm-swcm-1992",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/swcm-1992",
+      "headers": {}
+    },
+    {
+      "label": "Soil Chemical Methods SWCM 1992 Vocabulary - RDF",
+      "from": "https://linked.data.gov.au/def/scm-swcm-1992",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/swcm-1992",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Soil Chemical Methods SWCM 1992 Vocabulary - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/scm-swcm-1992/01A1",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/swcm-1992/01A1",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/scm-scma-2011": [
+    {
+      "label": "Soil Chemical Methods SCMA 2011 Vocabulary - HTML",
+      "from": "https://linked.data.gov.au/def/scm-scma-2011",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/scma-2011",
+      "headers": {}
+    },
+    {
+      "label": "Soil Chemical Methods SCMA 2011 Vocabulary - RDF",
+      "from": "https://linked.data.gov.au/def/scm-scma-2011",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource.ttl?uri=http://anzsoil.org/def/au/scm/scma-2011",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Soil Chemical Methods SCMA 2011 Vocabulary - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/scm-scma-2011/02A1",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/ub/soil-chemical-methods-australasia/scm3/resource?uri=http://anzsoil.org/def/au/scm/scma-2011/02A1",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/soil": [
+    {
+      "label": "Soil Ontology - HTML",
+      "from": "https://linked.data.gov.au/def/soil",
+      "to": "https://raw.githack.com/ANZSoilData/def-au-domain/main/doc/domain.html",
+      "headers": {}
+    },
+    {
+      "label": "Soil Ontology - RDF",
+      "from": "https://linked.data.gov.au/def/soil",
+      "to": "https://raw.githubusercontent.com/ANZSoilData/def-au-domain/main/rdf/domain.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/spmile": [
+    {
+      "label": "Soil Physical Measurements Vocabulary - HTML",
+      "from": "https://linked.data.gov.au/def/spmile",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource?uri=http://anzsoil.org/def/au/spm/spmile",
+      "headers": {}
+    },
+    {
+      "label": "Soil Physical Measurements Vocabulary - RDF",
+      "from": "https://linked.data.gov.au/def/spmile",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource.ttl?uri=http://anzsoil.org/def/au/spm/spmile",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Soil Physical Measurements Vocabulary - one Concept HTML",
+      "from": "https://linked.data.gov.au/def/spmile/503.07",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-physical-measurements/1-0-2023-04-21/resource?uri=http://anzsoil.org/def/au/spm/spmile/503.07",
+      "headers": {}
+    }
+  ]
+}

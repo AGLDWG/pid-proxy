@@ -1,0 +1,106 @@
+{
+  "http://linked.data.gov.au/dataset/bdr": [
+    {
+      "label": "BDR Dataset HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr",
+      "to": "https://linked.bdr.gov.au/dataset/bdr?_host=linked.data.gov.au",
+      "headers": {}
+    },
+    {
+      "label": "BDR Dataset's Observed Properties Registry entry",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au",
+      "headers": {}
+    },
+    {
+      "label": "BDR Registry entry with mediatype",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_mediatype=text/turtle",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_mediatype=text/turtle",
+      "headers": {}
+    },
+    {
+      "label": "BDR Registry entry with profile",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_profile=alt",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_profile=alt",
+      "headers": {}
+    },
+    {
+      "label": "BDR Registry entry with profile and Accept Header",
+      "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_profile=alt",
+      "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_profile=alt",
+      "headers": {"Accept": "text/turtle"}
+    }
+  ],
+  "http://linked.data.gov.au/def/nsl": [
+    {
+      "label": "/def/nsl HTML",
+      "from": "https://linked.data.gov.au/def/nsl",
+      "to": "https://kurrawong.github.io/nsl-model/spec.html",
+      "headers": {}
+    },
+    {
+      "label": "/def/nsl RDF",
+      "from": "https://linked.data.gov.au/def/nsl.ttl",
+      "to": "https://kurrawong.github.io/nsl-model/profile.ttl",
+      "headers": {}
+    },
+    {
+      "label": "/def/nsl/validator",
+      "from": "https://linked.data.gov.au/def/nsl/validator",
+      "to": "https://kurrawong.github.io/nsl-model/validator.ttl",
+      "headers": {}
+    },
+    {
+      "label": "/def/context.json",
+      "from": "https://linked.data.gov.au/def/nsl/context.json",
+      "to": "https://kurrawong.github.io/nsl-model/context.json",
+      "headers": {}
+    }
+  ],
+  "http://linked.data.gov.au/def/levels-of-measurement": [
+    {
+      "label": "Levels of Measurement HTML",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement",
+      "to": "https://agldwg.github.io/levels-of-measurement",
+      "headers": {}
+    },
+    {
+      "label": "Levels of Measurement RDF",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement",
+      "to": "https://agldwg.github.io/levels-of-measurement/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Levels of Measurement Concept HTML",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement/nominal",
+      "to": "https://agldwg.github.io/levels-of-measurement/nominal",
+      "headers": {}
+    },
+    {
+      "label": "Levels of Measurement Concept RDF",
+      "from": "https://linked.data.gov.au/def/levels-of-measurement/nominal",
+      "to": "https://agldwg.github.io/levels-of-measurement/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "http://linked.data.gov.au/def/nslvoc": [
+    {
+      "label": "NSLVoc HTML",
+      "from": "https://linked.data.gov.au/def/nslvoc",
+      "to": "https://biodiversity.org.au/voc/aunsl.html",
+      "headers": {}
+    },
+    {
+      "label": "NSLVoc RDF",
+      "from": "https://linked.data.gov.au/def/nslvoc",
+      "to": "https://biodiversity.org.au/voc/aunsl.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ]
+}
