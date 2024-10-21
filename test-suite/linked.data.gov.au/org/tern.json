@@ -258,34 +258,16 @@
    "http://linked.data.gov.au/dataset/dataset/auscapad2022":[
       {
          "label":"CAPAD 2022 - HTML",
-         "from":"http://linked.data.gov.au/dataset/dataset/auscapad2022",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/auscapad2022",
+         "from":"https://linked.data.gov.au/dataset/dataset/auscapad2022",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/auscapad2022/",
          "headers":{
             
          }
       },
       {
          "label":"CAPAD 2022 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/dataset/auscapad2022",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/auscapad2022$1?format=text/turtle",
-         "headers":{
-            "Accept":"text/turtle"
-         }
-      }
-   ],
-   "http://linked.data.gov.au/dataset/dataset/capad-2018-terrestrial":[
-      {
-         "label":"CAPAD 2018 - HTML",
-         "from":"http://linked.data.gov.au/dataset/dataset/capad-2018-terrestrial",
-         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/capad-2018-terrestrial&sparql_endpoint=https://graphdb.tern.org.au/repositories/capad_2018_terrestrial",
-         "headers":{
-            
-         }
-      },
-      {
-         "label":"CAPAD 2018 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/dataset/capad-2018-terrestrial",
-         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/capad-2018-terrestrial&sparql_endpoint=https://graphdb.tern.org.au/repositories/capad_2018_terrestrial&format=text/turtle",
+         "from":"https://linked.data.gov.au/dataset/dataset/auscapad2022",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/auscapad2022/&format=text/turtle",
          "headers":{
             "Accept":"text/turtle"
          }
@@ -294,34 +276,16 @@
    "http://linked.data.gov.au/dataset/ausnrm2023":[
       {
          "label":"NRM 2023 - HTML",
-         "from":"http://linked.data.gov.au/dataset/ausnrm2023",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/ausnrm2023",
+         "from":"https://linked.data.gov.au/dataset/ausnrm2023",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/ausnrm2023/",
          "headers":{
             
          }
       },
       {
          "label":"NRM 2023 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/ausnrm2023",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/ausnrm2023&format=text/turtle",
-         "headers":{
-            "Accept":"text/turtle"
-         }
-      }
-   ],
-   "http://linked.data.gov.au/dataset/nrm-2017":[
-      {
-         "label":"NRM 2017 - HTML",
-         "from":"http://linked.data.gov.au/dataset/nrm-2017/1010",
-         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/nrm-2017/1010&sparql_endpoint=https://graphdb.tern.org.au/repositories/nrm_regions_2017",
-         "headers":{
-            
-         }
-      },
-      {
-         "label":"NRM 2017 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/nrm-2017/1010",
-         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/nrm-2017/1010&sparql_endpoint=https://graphdb.tern.org.au/repositories/nrm_regions_2017&format=text/turtle",
+         "from":"https://linked.data.gov.au/dataset/ausnrm2023",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/ausnrm2023/&format=text/turtle",
          "headers":{
             "Accept":"text/turtle"
          }
@@ -330,34 +294,16 @@
    "http://linked.data.gov.au/dataset/wwf2011":[
       {
          "label":"WWF 2011 - HTML",
-         "from":"http://linked.data.gov.au/dataset/wwf2011",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/wwf2011",
+         "from":"https://linked.data.gov.au/dataset/wwf2011",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/wwf2011/",
          "headers":{
             
          }
       },
       {
          "label":"WFF 2011 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/wwf2011",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/wwf2011",
-         "headers":{
-            "Accept":"text/turtle"
-         }
-      }
-   ],
-   "http://linked.data.gov.au/dataset/wwf-terr-ecoregions":[
-      {
-         "label":"WWF 2011 (Legacy) - HTML",
-         "from":"http://linked.data.gov.au/dataset/wwf-terr-ecoregions",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/wwf2011",
-         "headers":{
-            
-         }
-      },
-      {
-         "label":"WFF 2011 (Legacy) - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/wwf-terr-ecoregions",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/wwf2011",
+         "from":"https://linked.data.gov.au/dataset/wwf2011",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/wwf2011/&format=text/turtle",
          "headers":{
             "Accept":"text/turtle"
          }
@@ -366,57 +312,21 @@
    "http://linked.data.gov.au/dataset/ibra7":[
       {
          "label":"IBRA7 - HTML",
-         "from":"http://linked.data.gov.au/dataset/ibra7",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/ibra7",
+         "from":"https://linked.data.gov.au/dataset/ibra7",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/ibra7/",
          "headers":{
             
          }
       },
       {
          "label":"IBRA7 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/ibra7",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/ibra7",
+         "from":"https://linked.data.gov.au/dataset/ibra7",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/ibra7/&format=text/turtle",
          "headers":{
             "Accept":"text/turtle"
          }
       }
    ],
-   "http://linked.data.gov.au/def/bioregion/ibra_v7":[
-      {
-         "label":"IBRA7 (Legacy) - HTML",
-         "from":"http://linked.data.gov.au/def/bioregion/ibra_v7",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/ibra7",
-         "headers":{
-            
-         }
-      },
-      {
-         "label":"IBRA7 (Legacy) - TURTLE",
-         "from":"http://linked.data.gov.au/def/bioregion/ibra_v7",
-         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=http://linked.data.gov.au/dataset/ibra7",
-         "headers":{
-            "Accept":"text/turtle"
-         }
-      }
-   ],
-   "http://linked.data.gov.au/dataset/local-gov-areas-2011":[
-      {
-         "label":"LGA 2011 - HTML",
-         "from":"http://linked.data.gov.au/dataset/local-gov-areas-2011",
-         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/local-gov-areas-2011&sparql_endpoint=https://graphdb.tern.org.au/repositories/abs-local-gov-areas-2011",
-         "headers":{
-            
-         }
-      },
-      {
-         "label":"LGA 2011 - TURTLE",
-         "from":"http://linked.data.gov.au/dataset/local-gov-areas-2011",
-         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/local-gov-areas-2011&sparql_endpoint=https://graphdb.tern.org.au/repositories/abs-local-gov-areas-2011",
-         "headers":{
-            "Accept":"text/turtle"
-         }
-      }
-   ],   
    "https://linked.data.gov.au/def/plot":[
       {
          "label":"TERN Plot Ontology HTML",
