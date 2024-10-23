@@ -255,10 +255,10 @@
          }
       }
    ],
-   "http://linked.data.gov.au/dataset/dataset/auscapad2022":[
+   "http://linked.data.gov.au/dataset/auscapad2022":[
       {
          "label":"CAPAD 2022 - HTML",
-         "from":"https://linked.data.gov.au/dataset/dataset/auscapad2022",
+         "from":"https://linked.data.gov.au/dataset/auscapad2022",
          "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/auscapad2022",
          "headers":{
             
@@ -266,7 +266,7 @@
       },
       {
          "label":"CAPAD 2022 - TURTLE",
-         "from":"https://linked.data.gov.au/dataset/dataset/auscapad2022",
+         "from":"https://linked.data.gov.au/dataset/auscapad2022",
          "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/auscapad2022&format=text/turtle",
          "headers":{
             "Accept":"text/turtle"
