@@ -1,126 +1,348 @@
 {
-  "https://linked.data.gov.au/dataset/ausplots": [
-        {
-            "label": "AusPlots Dataset Metadata HTML",
-            "from": "https://linked.data.gov.au/dataset/ausplots",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ausplots&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-            "headers": {}
-        }
-    ],
-  "https://linked.data.gov.au/dataset/bdbsa": [
-     {
-          "label": "BDBSA Dataset Metadata HTML",
-          "from": "https://linked.data.gov.au/dataset/bdbsa",
-          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-          "headers": {}
-     }
-  ],
-  "https://linked.data.gov.au/dataset/bioregion": [
-    {
-          "label": "Bioregions Dataset Metadata HTML",
-          "from": "https://linked.data.gov.au/dataset/bioregion",
-          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bioregion/IBRA7&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-          "headers": {}
-     }
-  ],
-  "https://linked.data.gov.au/dataset/corveg": [
-       {
-            "label": "Queensland Biodiversity and Ecology Information System Dataset Metadata HTML",
-            "from": "https://linked.data.gov.au/dataset/corveg",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/corveg&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/dataset/nsw-fmip": [
-     {
-          "label": "New South Wales Forest Monitoring and improvement Program (NSW-FMIP) Dataset Metadata HTML",
-          "from": "https://linked.data.gov.au/dataset/nsw-fmip",
-          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/nsw-fmip&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-          "headers": {}
-     }
-  ],
-  "https://linked.data.gov.au/dataset/tern-ecosystem-processes": [
-       {
-            "label": "TERN Ecosystem Processes Dataset Metadata HTML",
-            "from": "https://linked.data.gov.au/dataset/tern-ecosystem-processes",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/tern-ecosystem-processes&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/dataset/three-parks-savanna": [
-     {
-          "label": "Three Parks Savanna Dataset Metadata HTML",
-          "from": "https://linked.data.gov.au/dataset/three-parks-savanna",
-          "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-          "headers": {}
-     }
-  ],
-  "https://linked.data.gov.au/dataset/wet-tropics-vertebrate": [
-       {
-            "label": "Wet Tropics Dataset Metadata HTML",
-            "from": "https://linked.data.gov.au/dataset/wet-tropics-vertebrate",
-            "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wet-tropics-vertebrate&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/def/ausplots-cv": [
-       {
-            "label": "TERN Vocabularies Register HTML",
-            "from": "https://linked.data.gov.au/def/ausplots-cv",
-            "to": "https://linkeddata.tern.org.au/viewer/tern/",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/def/corveg-cv": [
-       {
-            "label": "Queensland CORVEG Database Vocabularies Register HTML",
-            "from": "https://linked.data.gov.au/def/corveg-cv",
-            "to": "https://linkeddata.tern.org.au/viewer/corveg/",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/def/nrm": [
-       {
-            "label": "Ecological Monitoring System – Australia (EMSA) Controlled Vocabularies HTML",
-            "from": "https://linked.data.gov.au/def/nrm",
-            "to": "https://linkeddata.tern.org.au/viewers/dawe-vocabs?uri=https://linked.data.gov.au/def/nrm",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/def/plot": [
-       {
-            "label": "TERN Plot Ontology HTML",
-            "from": "https://linked.data.gov.au/def/plot",
-            "to": "https://ternaustralia.github.io/ontology_tern-plot/",
-            "headers": {}
-       },
-       {
-            "label": "TERN Plot Ontology RDF",
-            "from": "https://linked.data.gov.au/def/plot.ttl",
-            "to": "https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
-            "headers": {}
-       }
-  ],
-  "https://linked.data.gov.au/def/tern-cv": [
-       {
-            "label": "TERN Vocabularies Register HTML",
-            "from": "https://linked.data.gov.au/def/tern-cv",
-            "to": "https://linkeddata.tern.org.au/viewer/tern/vocabulary/",
-            "headers": {}
-       },
-       {
-            "label": "TERN Vocabularies Register RDF",
-            "from": "https://linked.data.gov.au/def/tern-cv",
-            "to": "https://linkeddata.tern.org.au/viewer/tern/vocabulary/?_view=reg&_format=text/turtle&uri=https://linkeddata.tern.org.au/viewer/tern/vocabulary/",
-            "headers": {
-                "Accept": "text/turtle"
-            }
-       },
-       {
-            "label": "TERN Vocabularies - one vocab HTML",
-            "from": "https://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
-            "to": "https://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
-            "headers": {}
-       }
-  ]
+   "https://linked.data.gov.au/def/tern-cv":[
+      {
+         "label":"TERN Vocabularies HTML",
+         "from":"https://linked.data.gov.au/def/tern-cv",
+         "to":"https://linkeddata.tern.org.au/prez/tern-cv/v/",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"TERN Vocabularies - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
+         "to":"https://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f?format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      },
+      {
+         "label":"TERN Vocabularies - one vocab HTML",
+         "from":"https://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
+         "to":"https://linkeddata.tern.org.au/viewer/tern/id/http://linked.data.gov.au/def/tern-cv/c3f9024b-18a5-4cda-9b3a-ba9ae7a7d56f",
+         "headers":{
+            
+         }
+      }
+   ],
+   "https://linked.data.gov.au/def/ausplots-cv":[
+      {
+         "label":"Ausplots Vocabularies HTML",
+         "from":"https://linked.data.gov.au/def/ausplots-cv",
+         "to":"https://linkeddata.tern.org.au/prez/ausplots-cv/v/",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"Ausplots Vocabularies - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
+         "to":"https://linkeddata.tern.org.au/viewer/ausplots/id/http://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f?format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      },
+      {
+         "label":"Ausplots Vocabularies - one vocab HTML",
+         "from":"https://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
+         "to":"https://linkeddata.tern.org.au/viewer/ausplots/id/http://linked.data.gov.au/def/ausplots-cv/db8c0205-db78-4189-8d90-f261a63e826f",
+         "headers":{
+            
+         }
+      }
+   ],
+   "https://linked.data.gov.au/def/corveg-cv":[
+      {
+         "label":"Corveg Vocabularies HTML",
+         "from":"https://linked.data.gov.au/def/corveg-cv",
+         "to":"https://linkeddata.tern.org.au/prez/corveg-cv/v/",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"Corveg Vocabularies - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/def/corveg-cv/b1bbf674-62ee-4CF1-a660-1c25cde62551",
+         "to":"https://linkeddata.tern.org.au/viewer/corveg/id/http://linked.data.gov.au/def/corveg-cv/b1bbf674-62ee-4CF1-a660-1c25cde62551?format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      },
+      {
+         "label":"Corveg Vocabularies - one vocab HTML",
+         "from":"https://linked.data.gov.au/def/corveg-cv/b1bbf674-62ee-4CF1-a660-1c25cde62551",
+         "to":"https://linkeddata.tern.org.au/viewer/corveg/id/http://linked.data.gov.au/def/corveg-cv/b1bbf674-62ee-4CF1-a660-1c25cde62551",
+         "headers":{
+            
+         }
+      }
+   ],
+   "https://linked.data.gov.au/def/bdbsa-cv":[
+      {
+         "label":"BDBSA Vocabularies HTML",
+         "from":"https://linked.data.gov.au/def/bdbsa-cv",
+         "to":"https://linkeddata.tern.org.au/prez/bdbsa-cv/v/",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"BDBSA Vocabularies - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/def/bdbsa-cv/c6258421-d5d1-4BF0-98c5-d2bc2a1af688",
+         "to":"https://linkeddata.tern.org.au/viewer/bdbsa/id/https://linked.data.gov.au/def/bdbsa-cv/c6258421-d5d1-4BF0-98c5-d2bc2a1af688?format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      },
+      {
+         "label":"BDBSA Vocabularies - one vocab HTML",
+         "from":"https://linked.data.gov.au/def/bdbsa-cv/c6258421-d5d1-4BF0-98c5-d2bc2a1af688",
+         "to":"https://linkeddata.tern.org.au/viewer/bdbsa/id/https://linked.data.gov.au/def/bdbsa-cv/c6258421-d5d1-4BF0-98c5-d2bc2a1af688",
+         "headers":{
+            
+         }
+      }
+   ],
+   "https://linked.data.gov.au/def/nrm":[
+      {
+         "label":"Ecological Monitoring System – Australia (EMSA) Controlled Vocabularies HTML",
+         "from":"https://linked.data.gov.au/def/nrm",
+         "to":"https://linkeddata.tern.org.au/prez/dawe-cv/v/",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"Ecological Monitoring System – Australia (EMSA) Controlled Vocabularies - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/def/nrm/71f0182a-e143-5ACC-8965-f72ab1795036",
+         "to":"https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm/71f0182a-e143-5ACC-8965-f72ab1795036?format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      },
+      {
+         "label":"Ecological Monitoring System – Australia (EMSA) Controlled Vocabularies - one vocab HTML",
+         "from":"https://linked.data.gov.au/def/nrm/71f0182a-e143-5ACC-8965-f72ab1795036",
+         "to":"https://linkeddata.tern.org.au/viewer/dawe/id/https://linked.data.gov.au/def/nrm/71f0182a-e143-5ACC-8965-f72ab1795036",
+         "headers":{
+            
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/ausplots":[
+      {
+         "label":"AusPlots Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/ausplots",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ausplots&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"AusPlots Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/ausplots",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ausplots&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/bdbsa":[
+      {
+         "label":"BDBSA Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/bdbsa",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"BDBSA Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/bdbsa",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/bdbsa&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/corveg":[
+      {
+         "label":"Queensland Biodiversity and Ecology Information System Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/corveg",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/corveg&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"Queensland Biodiversity and Ecology Information System Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/corveg",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/corveg&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/nsw-fmip":[
+      {
+         "label":"New South Wales Forest Monitoring and improvement Program (NSW-FMIP) Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/nsw-fmip",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/nsw-fmip&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"New South Wales Forest Monitoring and improvement Program (NSW-FMIP) Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/nsw-fmip",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/nsw-fmip&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/tern-ecosystem-processes":[
+      {
+         "label":"TERN Ecosystem Processes Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/tern-ecosystem-processes",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/tern-ecosystem-processes&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"TERN Ecosystem Processes Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/tern-ecosystem-processes",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/tern-ecosystem-processes&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/three-parks-savanna":[
+      {
+         "label":"Three Parks Savanna Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/three-parks-savanna",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"Three Parks Savanna Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/three-parks-savanna",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/wet-tropics-vertebrate":[
+      {
+         "label":"Wet Tropics Dataset Metadata - one vocab HTML",
+         "from":"https://linked.data.gov.au/dataset/wet-tropics-vertebrate",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wet-tropics-vertebrate&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"Wet Tropics Dataset Metadata - one vocab TURTLE",
+         "from":"https://linked.data.gov.au/dataset/wet-tropics-vertebrate",
+         "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wet-tropics-vertebrate&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/auscapad2022":[
+      {
+         "label":"CAPAD 2022 - HTML",
+         "from":"https://linked.data.gov.au/dataset/auscapad2022",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/auscapad2022",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"CAPAD 2022 - TURTLE",
+         "from":"https://linked.data.gov.au/dataset/auscapad2022",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/auscapad2022&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/ausnrm2023":[
+      {
+         "label":"NRM 2023 - HTML",
+         "from":"https://linked.data.gov.au/dataset/ausnrm2023",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"NRM 2023 - TURTLE",
+         "from":"https://linked.data.gov.au/dataset/ausnrm2023",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ausnrm2023&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/wwf2011":[
+      {
+         "label":"WWF 2011 - HTML",
+         "from":"https://linked.data.gov.au/dataset/wwf2011",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/wwf2011",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"WFF 2011 - TURTLE",
+         "from":"https://linked.data.gov.au/dataset/wwf2011",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/wwf2011&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/ibra7":[
+      {
+         "label":"IBRA7 - HTML",
+         "from":"https://linked.data.gov.au/dataset/ibra7",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"IBRA7 - TURTLE",
+         "from":"https://linked.data.gov.au/dataset/ibra7",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?uri=https://linked.data.gov.au/dataset/ibra7&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/def/plot":[
+      {
+         "label":"TERN Plot Ontology HTML",
+         "from":"https://linked.data.gov.au/def/plot",
+         "to":"https://ternaustralia.github.io/ontology_tern-plot/",
+         "headers":{
+            
+         }
+      },
+      {
+         "label":"TERN Plot Ontology RDF",
+         "from":"https://linked.data.gov.au/def/plot.ttl",
+         "to":"https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
+         "headers":{
+            
+         }
+      }
+   ]
 }
