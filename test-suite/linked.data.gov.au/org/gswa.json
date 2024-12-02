@@ -119,6 +119,22 @@
       "headers": {}
     }
   ],
+  "https://linked.data.gov.au/def/earthsci-for": [
+    {
+      "label": "Earth Science FoR HTML",
+      "from": "https://linked.data.gov.au/def/earthsci-for",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/earthsci-for",
+      "headers": {}
+    },
+    {
+      "label": "Earth Science FoR RDF",
+      "from": "https://linked.data.gov.au/def/earthsci-for",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/earthsci-for&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/geological-feature-type": [
     {
       "label": "gswa-collection-facilities HTML",
