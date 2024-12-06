@@ -95,6 +95,22 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/alteration-type": [
+    {
+      "label": "alteration-type HTML",
+      "from": "https://linked.data.gov.au/def/alteration-type",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-type",
+      "headers": {}
+    },
+    {
+      "label": "alteration-type RDF",
+      "from": "https://linked.data.gov.au/def/alteration-type",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-type&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/australian-physiographic-units": [
     {
       "label": "australian-physiographic-units HTML",
