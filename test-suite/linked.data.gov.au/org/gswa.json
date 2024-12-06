@@ -63,12 +63,52 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/alteration-form": [
+    {
+      "label": "alteration-form HTML",
+      "from": "https://linked.data.gov.au/def/alteration-form",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form",
+      "headers": {}
+    },
+    {
+      "label": "alteration-form RDF",
+      "from": "https://linked.data.gov.au/def/alteration-form",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-form&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/alteration-intensity": [
+    {
+      "label": "alteration-intensity HTML",
+      "from": "https://linked.data.gov.au/def/alteration-intensity",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-intensity",
+      "headers": {}
+    },
+    {
+      "label": "alteration-intensity RDF",
+      "from": "https://linked.data.gov.au/def/alteration-intensity",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/alteration-intensity&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/australian-physiographic-units": [
     {
       "label": "australian-physiographic-units HTML",
       "from": "https://linked.data.gov.au/def/australian-physiographic-units",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/australian-physiographic-units",
       "headers": {}
+    },
+    {
+      "label": "australian-physiographic-units RDF",
+      "from": "https://linked.data.gov.au/def/australian-physiographic-units",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/australian-physiographic-units&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/borehole-configuration": [
@@ -77,6 +117,14 @@
       "from": "https://linked.data.gov.au/def/borehole-configuration",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-configuration",
       "headers": {}
+    },
+    {
+      "label": "borehole-configuration RDF",
+      "from": "https://linked.data.gov.au/def/borehole-configuration",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-configuration&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/borehole-geometry": [
@@ -85,6 +133,14 @@
       "from": "https://linked.data.gov.au/def/borehole-geometry",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-geometry",
       "headers": {}
+    },
+    {
+      "label": "borehole-geometry RDF",
+      "from": "https://linked.data.gov.au/def/borehole-geometry",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-geometry&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/borehole-drilling-method-western-australia": [
@@ -93,6 +149,14 @@
       "from": "https://linked.data.gov.au/def/borehole-drilling-method-western-australia",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-western-australia",
       "headers": {}
+    },
+    {
+      "label": "borehole-drilling-method-western-australia RDF",
+      "from": "https://linked.data.gov.au/def/borehole-drilling-method-western-australia",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-western-australia&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/borehole-start-point-setting": [
@@ -101,6 +165,14 @@
       "from": "https://linked.data.gov.au/def/borehole-start-point-setting",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-start-point-setting",
       "headers": {}
+    },
+    {
+      "label": "borehole-start-point-setting RDF",
+      "from": "https://linked.data.gov.au/def/borehole-start-point-setting",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-start-point-setting&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/CRIRSCO-mineral-resource-reporting": [
@@ -109,6 +181,14 @@
       "from": "https://linked.data.gov.au/def/CRIRSCO-mineral-resource-reporting",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/CRIRSCO-mineral-resource-reporting",
       "headers": {}
+    },
+    {
+      "label": "CRIRSCO-mineral-resource-reporting RDF",
+      "from": "https://linked.data.gov.au/def/CRIRSCO-mineral-resource-reporting",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/CRIRSCO-mineral-resource-reporting&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/dmirs-offices": [
@@ -117,6 +197,14 @@
       "from": "https://linked.data.gov.au/def/dmirs-offices",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/dmirs-offices",
       "headers": {}
+    },
+    {
+      "label": "dmirs-offices RDF",
+      "from": "https://linked.data.gov.au/def/dmirs-offices",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/dmirs-offices&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/earthsci-for": [
@@ -141,6 +229,14 @@
       "from": "https://linked.data.gov.au/def/geological-feature-type",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/geological-feature-type",
       "headers": {}
+    },
+    {
+      "label": "geological-feature-type RDF",
+      "from": "https://linked.data.gov.au/def/geological-feature-type",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/geological-feature-type&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/gswa-collection-facilities": [
@@ -149,6 +245,14 @@
       "from": "https://linked.data.gov.au/def/gswa-collection-facilities",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-collection-facilities",
       "headers": {}
+    },
+    {
+      "label": "gswa-collection-facilities RDF",
+      "from": "https://linked.data.gov.au/def/gswa-collection-facilities",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-collection-facilities&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/gswa-rock-classification-scheme": [
@@ -157,6 +261,14 @@
       "from": "https://linked.data.gov.au/def/gswa-rock-classification-scheme",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-rock-classification-scheme",
       "headers": {}
+    },
+    {
+      "label": "gswa-rock-classification-scheme RDF",
+      "from": "https://linked.data.gov.au/def/gswa-rock-classification-scheme",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-rock-classification-scheme&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/gswa-vocabulary-themes": [
@@ -165,6 +277,14 @@
       "from": "https://linked.data.gov.au/def/gswa-vocabulary-themes",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-vocabulary-themes",
       "headers": {}
+    },
+    {
+      "label": "gswa-vocabulary-themes RDF",
+      "from": "https://linked.data.gov.au/def/gswa-vocabulary-themes",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/gswa-vocabulary-themes&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/JORC-Code": [
@@ -173,6 +293,14 @@
       "from": "https://linked.data.gov.au/def/JORC-Code",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/JORC-Code",
       "headers": {}
+    },
+    {
+      "label": "JORC-Code RDF",
+      "from": "https://linked.data.gov.au/def/JORC-Code",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/JORC-Code&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/location-method": [
@@ -181,6 +309,14 @@
       "from": "https://linked.data.gov.au/def/location-method",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/location-method",
       "headers": {}
+    },
+    {
+      "label": "location-method RDF",
+      "from": "https://linked.data.gov.au/def/location-method",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/location-method&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/metamorphic-facies": [
@@ -189,6 +325,14 @@
       "from": "https://linked.data.gov.au/def/metamorphic-facies",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-facies",
       "headers": {}
+    },
+    {
+      "label": "metamorphic-facies RDF",
+      "from": "https://linked.data.gov.au/def/metamorphic-facies",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-facies&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/metamorphic-P-T-trajectory": [
@@ -197,6 +341,14 @@
       "from": "https://linked.data.gov.au/def/metamorphic-P-T-trajectory",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-P-T-trajectory",
       "headers": {}
+    },
+    {
+      "label": "metamorphic-P-T-trajectory RDF",
+      "from": "https://linked.data.gov.au/def/metamorphic-P-T-trajectory",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-P-T-trajectory&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/metamorphic-stage": [
@@ -205,6 +357,14 @@
       "from": "https://linked.data.gov.au/def/metamorphic-stage",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage",
       "headers": {}
+    },
+    {
+      "label": "metamorphic-stage RDF",
+      "from": "https://linked.data.gov.au/def/metamorphic-stage",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-stage&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/metamorphic-thermal-regime": [
@@ -213,6 +373,14 @@
       "from": "https://linked.data.gov.au/def/metamorphic-thermal-regime",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime",
       "headers": {}
+    },
+    {
+      "label": "metamorphic-thermal-regime RDF",
+      "from": "https://linked.data.gov.au/def/metamorphic-thermal-regime",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/metamorphic-thermal-regime&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/physiographic-unit-types": [
@@ -221,6 +389,14 @@
       "from": "https://linked.data.gov.au/def/physiographic-unit-types",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types",
       "headers": {}
+    },
+    {
+      "label": "physiographic-unit-types RDF",
+      "from": "https://linked.data.gov.au/def/physiographic-unit-types",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/physiographic-unit-types&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/tectonic-unit-type": [
@@ -229,6 +405,14 @@
       "from": "https://linked.data.gov.au/def/tectonic-unit-type",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/tectonic-unit-type",
       "headers": {}
+    },
+    {
+      "label": "tectonic-unit-type",
+      "from": "https://linked.data.gov.au/def/tectonic-unit-type",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/tectonic-unit-type&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/uom-geoscience": [
@@ -237,6 +421,14 @@
       "from": "https://linked.data.gov.au/def/uom-geoscience",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/uom-geoscience",
       "headers": {}
+    },
+    {
+      "label": "uom-geoscience RDF",
+      "from": "https://linked.data.gov.au/def/uom-geoscience",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/uom-geoscience&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/vertical-depth-reference-systems": [
@@ -245,6 +437,14 @@
       "from": "https://linked.data.gov.au/def/vertical-depth-reference-systems",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/vertical-depth-reference-systems",
       "headers": {}
+    },
+    {
+      "label": "vertical-depth-reference-systems RDF",
+      "from": "https://linked.data.gov.au/def/vertical-depth-reference-systems",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/vertical-depth-reference-systems&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],  
   "https://linked.data.gov.au/def/wa-coordinate-reference-systems": [
@@ -253,6 +453,14 @@
       "from": "https://linked.data.gov.au/def/wa-coordinate-reference-systems",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-coordinate-reference-systems",
       "headers": {}
+    },
+    {
+      "label": "wa-coordinate-reference-systems RDF",
+      "from": "https://linked.data.gov.au/def/wa-coordinate-reference-systems",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-coordinate-reference-systems&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ],
   "https://linked.data.gov.au/def/wa-mineral-fields-and-districts": [
@@ -261,6 +469,14 @@
       "from": "https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
       "headers": {}
+    },
+    {
+      "label": "wa-mineral-fields-and-districts RDF",
+      "from": "https://linked.data.gov.au/def/wa-mineral-fields-and-districts",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/wa-mineral-fields-and-districts&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
     }
   ]
 }
