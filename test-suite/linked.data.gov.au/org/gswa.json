@@ -415,6 +415,72 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/sample-condition": [
+    {
+      "label": "sample-condition HTML",
+      "from": "https://linked.data.gov.au/def/sample-condition",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition",
+      "headers": {}
+    },
+    {
+      "label": "sample-condition RDF",
+      "from": "https://linked.data.gov.au/def/sample-condition",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "sample-condition Concept HTML",
+      "from": "https://linked.data.gov.au/def/sample-condition/fair",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-condition/fair",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/sample-curation-status": [
+    {
+      "label": "sample-curation-status HTML",
+      "from": "https://linked.data.gov.au/def/sample-curation-status",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-curation-status",
+      "headers": {}
+    },
+    {
+      "label": "sample-curation-status RDF",
+      "from": "https://linked.data.gov.au/def/sample-curation-status",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-curation-status&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "sample-curation-status Concept HTML",
+      "from": "https://linked.data.gov.au/def/sample-curation-status/archived",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-curation-status/archived",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/sample-nomenclature-publication-status": [
+    {
+      "label": "sample-nomenclature-publication-status HTML",
+      "from": "https://linked.data.gov.au/def/sample-nomenclature-publication-status",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status",
+      "headers": {}
+    },
+    {
+      "label": "sample-nomenclature-publication-status RDF",
+      "from": "https://linked.data.gov.au/def/sample-nomenclature-publication-status",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "sample-nomenclature-publication-status Concept HTML",
+      "from": "https://linked.data.gov.au/def/sample-nomenclature-publication-status/type-specimen-meteorite",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-nomenclature-publication-status/type-specimen-meteorite",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/tectonic-unit-type": [
     {
       "label": "Tectonic Unit Type vocab HTML",
