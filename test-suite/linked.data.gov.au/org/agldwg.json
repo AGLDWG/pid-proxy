@@ -108,5 +108,51 @@
       "to": "https://agldwg.github.io/vocdermods/direct",
       "headers": {}
     }
+  ],
+  "https://linked.data.gov.au/def/vocpub": [
+    {
+      "label": "VocPub Profile HTML",
+      "from": "https://linked.data.gov.au/def/vocpub",
+      "to": "https://agldwg.github.io/vocpub-profile/profile.html",
+      "headers": {}
+    },
+    {
+      "label": "VocPub Profile RDF",
+      "from": "https://linked.data.gov.au/def/vocpub",
+      "to": "https://agldwg.github.io/vocpub-profile/profile.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "VocPub Specification HTML",
+      "from": "https://linked.data.gov.au/def/vocpub",
+      "to": "https://agldwg.github.io/vocpub-profile/specification.html",
+      "headers": {}
+    },
+    {
+      "label": "VocPub Validator RDF",
+      "from": "https://linked.data.gov.au/def/vocpub",
+      "to": "https://agldwg.github.io/vocpub-profile/validator.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "VocPub Validator old version RDF",
+      "from": "https://linked.data.gov.au/def/vocpub/4.7",
+      "to": "https://cdn.jsdelivr.net/gh/AGLDWG/vocpub-profile@4.7/validators/validator.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "VocPub repo",
+      "from": "https://linked.data.gov.au/def/vocpub",
+      "to": "https://github.com/AGLDWG/vocpub-profile",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
   ]
 }

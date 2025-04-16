@@ -31,6 +31,34 @@
       "headers": {"Accept": "text/turtle"}
     }
   ],
+  "http://linked.data.gov.au/dataset/bdr-pr": [
+    {
+      "label": "BDR Profile of ABIS HTML",
+      "from": "https://linked.data.gov.au/def/bdr-pr",
+      "to": "https://dcceew-bdr.github.io/bdr-profile-of-abis/specification.html",
+      "headers": {}
+    },
+    {
+      "label": "BDR Profile of ABIS RDF",
+      "from": "https://linked.data.gov.au/def/bdr-pr",
+      "to": "https://dcceew-bdr.github.io/bdr-profile-of-abis/profile.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "BDR Profile of ABIS Validator RDF",
+      "from": "https://linked.data.gov.au/def/bdr-pr/validator",
+      "to": "https://dcceew-bdr.github.io/bdr-profile-of-abis/validator.ttl",
+      "headers": {}
+    },
+    {
+      "label": "BDR Profile of ABIS Validator RDF 2",
+      "from": "https://linked.data.gov.au/def/bdr-pr/validator.ttl",
+      "to": "https://dcceew-bdr.github.io/bdr-profile-of-abis/validator.ttl",
+      "headers": {}
+    }
+  ],
   "http://linked.data.gov.au/def/nsl": [
     {
       "label": "/def/nsl HTML",
