@@ -159,17 +159,17 @@
       }
     }
   ],
-  "https://linked.data.gov.au/def/borehole-drilling-method-western-australia": [
+  "https://linked.data.gov.au/def/borehole-drilling-method-wa": [
     {
-      "label": "borehole-drilling-method-western-australia HTML",
-      "from": "https://linked.data.gov.au/def/borehole-drilling-method-western-australia",
-      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-western-australia",
+      "label": "borehole-drilling-method-wa HTML",
+      "from": "https://linked.data.gov.au/def/borehole-drilling-method-wa",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-wa",
       "headers": {}
     },
     {
-      "label": "borehole-drilling-method-western-australia RDF",
-      "from": "https://linked.data.gov.au/def/borehole-drilling-method-western-australia",
-      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-western-australia&_mediatype=text/turtle",
+      "label": "borehole-drilling-method-wa RDF",
+      "from": "https://linked.data.gov.au/def/borehole-drilling-method-wa",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-drilling-method-wa&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -186,6 +186,38 @@
       "label": "borehole-start-point-setting RDF",
       "from": "https://linked.data.gov.au/def/borehole-start-point-setting",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-start-point-setting&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+    "https://linked.data.gov.au/def/borehole-purpose-wa": [
+    {
+      "label": "borehole-purpose-wa HTML",
+      "from": "https://linked.data.gov.au/def/borehole-purpose-wa",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-purpose-wa",
+      "headers": {}
+    },
+    {
+      "label": "borehole-purpose-wa RDF",
+      "from": "https://linked.data.gov.au/def/borehole-purpose-wa",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-purpose-wa&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/borehole-status-wa": [
+    {
+      "label": "borehole-status-wa HTML",
+      "from": "https://linked.data.gov.au/def/borehole-status-wa",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-status-wa",
+      "headers": {}
+    },
+    {
+      "label": "borehole-status-wa RDF",
+      "from": "https://linked.data.gov.au/def/borehole-status-wa",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/borehole-status-wa&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
