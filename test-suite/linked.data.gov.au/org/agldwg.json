@@ -133,7 +133,7 @@
     {
       "label": "VocPub Validator RDF",
       "from": "https://linked.data.gov.au/def/vocpub/validator",
-      "to": "https://agldwg.github.io/vocpub-profile/validator.ttl",
+      "to": "https://agldwg.github.io/vocpub-profile/validators/validator.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -148,7 +148,7 @@
     },
     {
       "label": "VocPub repo",
-      "from": "https://linked.data.gov.au/def/vocpub",
+      "from": "https://linked.data.gov.au/def/vocpub/repo",
       "to": "https://github.com/AGLDWG/vocpub-profile",
       "headers": {
         "Accept": "text/turtle"
