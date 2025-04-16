@@ -126,13 +126,13 @@
     },
     {
       "label": "VocPub Specification HTML",
-      "from": "https://linked.data.gov.au/def/vocpub",
+      "from": "https://linked.data.gov.au/def/vocpub/spec",
       "to": "https://agldwg.github.io/vocpub-profile/specification.html",
       "headers": {}
     },
     {
       "label": "VocPub Validator RDF",
-      "from": "https://linked.data.gov.au/def/vocpub",
+      "from": "https://linked.data.gov.au/def/vocpub/validator",
       "to": "https://agldwg.github.io/vocpub-profile/validator.ttl",
       "headers": {
         "Accept": "text/turtle"
@@ -140,7 +140,7 @@
     },
     {
       "label": "VocPub Validator old version RDF",
-      "from": "https://linked.data.gov.au/def/vocpub/4.7",
+      "from": "https://linked.data.gov.au/def/vocpub/validator/4.7",
       "to": "https://cdn.jsdelivr.net/gh/AGLDWG/vocpub-profile@4.7/validators/validator.ttl",
       "headers": {
         "Accept": "text/turtle"
