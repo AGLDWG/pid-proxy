@@ -339,7 +339,7 @@
       {
          "label":"TERN Plot Ontology RDF",
          "from":"https://linked.data.gov.au/def/plot.ttl",
-         "to":"https://raw.githack.com/ternaustralia/ontology_tern-plot/master/docs/tern-plot.ttl",
+         "to":"https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl",
          "headers":{
             
          }
