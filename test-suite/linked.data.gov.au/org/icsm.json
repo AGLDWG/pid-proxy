@@ -87,6 +87,22 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/countries": [
+      {
+          "label": "countries HTML",
+          "from": "https://linked.data.gov.au/def/countries",
+          "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/countries",
+          "headers": {}
+      },
+      {
+          "label": "countries RDF",
+          "from": "https://linked.data.gov.au/def/countries",
+          "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/countries&_mediatype=text/turtle",
+          "headers": {
+              "Accept": "text/turtle"
+          }
+      }
+  ],
   "https://linked.data.gov.au/def/csdm": [
     {
       "label": "CSDM Specification HTML",
