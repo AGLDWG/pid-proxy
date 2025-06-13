@@ -1,0 +1,10 @@
+services:
+  redirect:
+    image: httpd:2.4-alpine
+    container_name: redirector
+    ports:
+      - 8080:80
+    volumes:
+      - ./www:/usr/local/apache2/htdocs/
+      - ./conf/httpd.conf:/usr/local/apache2/conf/httpd.conf
+      - ../conf/linked.data.gov.au/org:/usr/local/apache2/conf/orgs
