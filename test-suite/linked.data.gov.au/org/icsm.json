@@ -39,17 +39,17 @@
       "headers": {}
     }
   ],
-  "https://linked.data.gov.au/def/addr-part-type": [
+  "https://linked.data.gov.au/def/addr-part-types": [
     {
-      "label": "addr-part-type HTML",
-      "from": "https://linked.data.gov.au/def/addr-part-type",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-part-type",
+      "label": "addr-part-types HTML",
+      "from": "https://linked.data.gov.au/def/addr-part-types",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-part-types",
       "headers": {}
     },
     {
-      "label": "addr-part-type RDF",
-      "from": "https://linked.data.gov.au/def/addr-part-type",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-part-type&_mediatype=text/turtle",
+      "label": "addr-part-types RDF",
+      "from": "https://linked.data.gov.au/def/addr-part-types",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-part-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -91,13 +91,13 @@
       {
           "label": "countries HTML",
           "from": "https://linked.data.gov.au/def/countries",
-          "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/countries",
+          "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/countries",
           "headers": {}
       },
       {
           "label": "countries RDF",
           "from": "https://linked.data.gov.au/def/countries",
-          "to": "https://vocabs.gsq.digital/object?uri=http://linked.data.gov.au/def/countries&_mediatype=text/turtle",
+          "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/countries&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
           "headers": {
               "Accept": "text/turtle"
           }
@@ -310,7 +310,7 @@
     {
       "label": "lifecycle-stage-types RDF",
       "from": "https://linked.data.gov.au/def/lifecycle-stage-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/lifecycle-stage-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/lifecycle-stage-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -406,7 +406,7 @@
     {
       "label": "road-cadastral-relationship RDF",
       "from": "https://linked.data.gov.au/def/road-cadastral-relationship",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-cadastral-relationship&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-cadastral-relationship&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -422,7 +422,7 @@
     {
       "label": "road-geometry-notes RDF",
       "from": "https://linked.data.gov.au/def/road-geometry-notes",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-geometry-notes&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-geometry-notes&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
