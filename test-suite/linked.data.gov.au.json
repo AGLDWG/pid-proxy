@@ -639,25 +639,25 @@
    ],
   "https://linked.data.gov.au/def/plot":[
       {
-        "label": "ASGS Ontology, HTML",
+        "label": "TERN Plot Ontology, HTML",
         "from": "https://linked.data.gov.au/def/plot",
         "to": "https://ternaustralia.github.io/ontology_tern-plot/",
         "headers": {}
       },
       {
-        "label": "ASGS Ontology, RDF (turtle) via file ext.",
+        "label": "TERN Plot Ontology, RDF (turtle) via file ext.",
         "from": "https://linked.data.gov.au/def/plot.ttl",
         "to": "https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl",
         "headers": {}
       },
       {
-        "label": "ASGS Ontology, RDF (turtle) via QSA",
+        "label": "TERN Plot Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/plot?_mediatype=text/turtle",
         "to": "https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl",
         "headers": {}
       },
       {
-        "label": "ASGS Ontology, RDF (turtle) via conneg",
+        "label": "TERN Plot Ontology, RDF (turtle) via conneg",
         "from": "https://linked.data.gov.au/def/plot",
         "to": "https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl",
         "headers": {"Accept": "text/turtle"}
