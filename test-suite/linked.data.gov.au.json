@@ -653,7 +653,7 @@
       {
         "label": "TERN Plot Ontology, RDF (turtle) via QSA",
         "from": "https://linked.data.gov.au/def/plot?_mediatype=text/turtle",
-        "to": "https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl",
+        "to": "https://ternaustralia.github.io/ontology_tern-plot/tern-plot.ttl?_mediatype=text/turtle",
         "headers": {}
       },
       {
