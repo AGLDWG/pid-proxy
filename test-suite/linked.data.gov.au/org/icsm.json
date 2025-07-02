@@ -25,7 +25,7 @@
     {
       "label": "addr-classes RDF",
       "from": "https://linked.data.gov.au/def/addr-classes",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-classes&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-classes&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -65,7 +65,7 @@
     {
       "label": "addr-status-type RDF",
       "from": "https://linked.data.gov.au/def/addr-status-type",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-status-type&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/addr-status-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -81,27 +81,27 @@
     {
       "label": "building-level-types RDF",
       "from": "https://linked.data.gov.au/def/building-level-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/building-level-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
     }
   ],
   "https://linked.data.gov.au/def/countries": [
-      {
-          "label": "countries HTML",
-          "from": "https://linked.data.gov.au/def/countries",
-          "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/countries",
-          "headers": {}
-      },
-      {
-          "label": "countries RDF",
-          "from": "https://linked.data.gov.au/def/countries",
-          "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/countries&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
-          "headers": {
-              "Accept": "text/turtle"
-          }
+    {
+      "label": "countries HTML",
+      "from": "https://linked.data.gov.au/def/countries",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/countries",
+      "headers": {}
+    },
+    {
+      "label": "countries RDF",
+      "from": "https://linked.data.gov.au/def/countries",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/countries&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
       }
+    }
   ],
   "https://linked.data.gov.au/def/csdm": [
     {
@@ -167,35 +167,1299 @@
       "headers": {}
     }
   ],
-  "https://linked.data.gov.au/def/fsdf":[
-      {
-        "label": "FSDF Ontology, HTML",
-        "from": "https://linked.data.gov.au/def/fsdf",
-        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html",
-        "headers": {}
-      },
-      {
-        "comment": "Target needs better delivery to return text/turtle headers",
-        "label": "FSDF Ontology, RDF (turtle) via file ext.",
-        "from": "https://linked.data.gov.au/def/fsdf.ttl",
-        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
-        "headers": {}
-      },
-      {
-        "comment": "Target needs better delivery to return text/turtle headers",
-        "label": "FSDF Ontology, RDF (turtle) via QSA",
-        "from": "https://linked.data.gov.au/def/fsdf?_mediatype=text/turtle",
-        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
-        "headers": {}
-      },
-      {
-        "comment": "Target needs better delivery to return text/turtle headers",
-        "label": "FSDF Ontology, RDF (turtle) via conneg",
-        "from": "https://linked.data.gov.au/def/fsdf",
-        "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
-        "headers": {"Accept": "text/turtle"}
+  "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-admin-unit-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-admin-unit-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-admin-unit-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
       }
-   ],
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-angle-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-angle-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-angle-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-angle-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-angle-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-angle-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-angle-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-distance-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-distance-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-distance-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-distance-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-distance-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-distance-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-distance-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-equipment-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-equipment-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-equipment-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-equipment-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-equipment-type",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-equipment-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-equipment-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-monument-condition": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-monument-condition",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-monument-condition",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-monument-condition",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-monument-condition&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-monument-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-monument-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-monument-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-monument-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-monument-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-parcel-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-parcel-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-parcel-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-parcel-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-parcel-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-procedure-used": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-procedure-used",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-procedure-used",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-procedure-used",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-procedure-used&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/icsm-surveypoint-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-annotation": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-annotation",
+      "from": "https://linked.data.gov.au/def/csdm/nz-annotation",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-annotation",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-annotation",
+      "from": "https://linked.data.gov.au/def/csdm/nz-annotation",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-annotation&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-compound-crs": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-compound-crs",
+      "from": "https://linked.data.gov.au/def/csdm/nz-compound-crs",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-compound-crs",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-compound-crs",
+      "from": "https://linked.data.gov.au/def/csdm/nz-compound-crs",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-compound-crs&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-crs": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-crs",
+      "from": "https://linked.data.gov.au/def/csdm/nz-crs",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-crs",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-crs",
+      "from": "https://linked.data.gov.au/def/csdm/nz-crs",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-crs&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-interest-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-interest-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-interest-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-interest-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-interest-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-interest-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-interest-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-land-district": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-land-district",
+      "from": "https://linked.data.gov.au/def/csdm/nz-land-district",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-land-district",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-land-district",
+      "from": "https://linked.data.gov.au/def/csdm/nz-land-district",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-land-district&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-monument-condition": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/nz-monument-condition",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-monument-condition",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/nz-monument-condition",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-monument-condition&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-monument-form": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-monument-form",
+      "from": "https://linked.data.gov.au/def/csdm/nz-monument-form",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-monument-form",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-monument-form",
+      "from": "https://linked.data.gov.au/def/csdm/nz-monument-form",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-monument-form&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-monument-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/nz-monument-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-monument-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/nz-monument-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-monument-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-parcel-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-parcel-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-parcel-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-parcel-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-parcel-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/nz-parcel-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-parcel-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/nz-parcel-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-parcel-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-parcel-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-parcel-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-parcel-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-parcel-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-parcel-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-point-class": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-point-class",
+      "from": "https://linked.data.gov.au/def/csdm/nz-point-class",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-point-class",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-point-class",
+      "from": "https://linked.data.gov.au/def/csdm/nz-point-class",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-point-class&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-procedure-used": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/nz-procedure-used",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-procedure-used",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/nz-procedure-used",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-procedure-used&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-secondary-parcel-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-secondary-parcel-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-secondary-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-secondary-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-secondary-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-secondary-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-survey-class": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-class",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-class",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-class",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-class",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-class",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-class&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-documentation-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-documentation-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-documentation-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-survey-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-survey-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-survey-type",
+      "from": "https://linked.data.gov.au/def/csdm/nz-survey-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-survey-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-surveypoint-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-territorial-authority": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-territorial-authority",
+      "from": "https://linked.data.gov.au/def/csdm/nz-territorial-authority",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-territorial-authority",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-territorial-authority",
+      "from": "https://linked.data.gov.au/def/csdm/nz-territorial-authority",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-territorial-authority&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-vector-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-vector-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-vector-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-vector-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-vector-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/nz-vector-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-vector-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/nz-vhd": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-vhd",
+      "from": "https://linked.data.gov.au/def/csdm/nz-vhd",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-vhd",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/nz-vhd",
+      "from": "https://linked.data.gov.au/def/csdm/nz-vhd",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/nz-vhd&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-annotation": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-annotation",
+      "from": "https://linked.data.gov.au/def/csdm/vic-annotation",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-annotation",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-annotation",
+      "from": "https://linked.data.gov.au/def/csdm/vic-annotation",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-annotation&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-county": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-county",
+      "from": "https://linked.data.gov.au/def/csdm/vic-county",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-county",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-county",
+      "from": "https://linked.data.gov.au/def/csdm/vic-county",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-county&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-crs": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-crs",
+      "from": "https://linked.data.gov.au/def/csdm/vic-crs",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-crs",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-crs",
+      "from": "https://linked.data.gov.au/def/csdm/vic-crs",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-crs&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-interest-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-interest-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-interest-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-interest-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-interest-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-interest-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-interest-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-local-government-area": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-local-government-area",
+      "from": "https://linked.data.gov.au/def/csdm/vic-local-government-area",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-local-government-area",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-local-government-area",
+      "from": "https://linked.data.gov.au/def/csdm/vic-local-government-area",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-local-government-area&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-locality": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-locality",
+      "from": "https://linked.data.gov.au/def/csdm/vic-locality",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-locality",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-locality",
+      "from": "https://linked.data.gov.au/def/csdm/vic-locality",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-locality&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-monument-condition": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/vic-monument-condition",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-monument-condition",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/vic-monument-condition",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-monument-condition&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-monument-form": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-monument-form",
+      "from": "https://linked.data.gov.au/def/csdm/vic-monument-form",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-monument-form",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-monument-form",
+      "from": "https://linked.data.gov.au/def/csdm/vic-monument-form",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-monument-form&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-monument-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/vic-monument-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-monument-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/vic-monument-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-monument-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-parcel-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parcel-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parcel-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parcel-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-parcel-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parcel-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parcel-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parcel-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parcel-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-parcel-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parcel-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parcel-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parcel-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parcel-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-parish": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parish",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parish",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parish",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-parish",
+      "from": "https://linked.data.gov.au/def/csdm/vic-parish",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-parish&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-point-class": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-point-class",
+      "from": "https://linked.data.gov.au/def/csdm/vic-point-class",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-point-class",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-point-class",
+      "from": "https://linked.data.gov.au/def/csdm/vic-point-class",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-point-class&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-procedure-used": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/vic-procedure-used",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-procedure-used",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/vic-procedure-used",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-procedure-used&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-secondary-parcel-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-survey-documentation-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-survey-documentation-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-survey-documentation-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-survey-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-survey-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-survey-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-survey-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-survey-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-survey-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-survey-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-survey-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-survey-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-survey-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-survey-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-survey-type",
+      "from": "https://linked.data.gov.au/def/csdm/vic-survey-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-survey-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-surveypoint-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-township": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-township",
+      "from": "https://linked.data.gov.au/def/csdm/vic-township",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-township",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-township",
+      "from": "https://linked.data.gov.au/def/csdm/vic-township",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-township&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-vector-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-vector-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-vector-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-vector-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-vector-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/vic-vector-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-vector-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-vector-quality": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-vector-quality",
+      "from": "https://linked.data.gov.au/def/csdm/vic-vector-quality",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-vector-quality",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-vector-quality",
+      "from": "https://linked.data.gov.au/def/csdm/vic-vector-quality",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-vector-quality&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/vic-vhd": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-vhd",
+      "from": "https://linked.data.gov.au/def/csdm/vic-vhd",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-vhd",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/vic-vhd",
+      "from": "https://linked.data.gov.au/def/csdm/vic-vhd",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/vic-vhd&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-annotation": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-annotation",
+      "from": "https://linked.data.gov.au/def/csdm/wa-annotation",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-annotation",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-annotation",
+      "from": "https://linked.data.gov.au/def/csdm/wa-annotation",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-annotation&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-crs": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-crs",
+      "from": "https://linked.data.gov.au/def/csdm/wa-crs",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-crs",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-crs",
+      "from": "https://linked.data.gov.au/def/csdm/wa-crs",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-crs&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-interest-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-interest-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-interest-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-interest-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-interest-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-interest-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-interest-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-local-government": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-local-government",
+      "from": "https://linked.data.gov.au/def/csdm/wa-local-government",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-local-government",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-local-government",
+      "from": "https://linked.data.gov.au/def/csdm/wa-local-government",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-local-government&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-locality": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-locality",
+      "from": "https://linked.data.gov.au/def/csdm/wa-locality",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-locality",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-locality",
+      "from": "https://linked.data.gov.au/def/csdm/wa-locality",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-locality&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-monument-condition": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/wa-monument-condition",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-monument-condition",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-monument-condition",
+      "from": "https://linked.data.gov.au/def/csdm/wa-monument-condition",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-monument-condition&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-monument-form": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-monument-form",
+      "from": "https://linked.data.gov.au/def/csdm/wa-monument-form",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-monument-form",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-monument-form",
+      "from": "https://linked.data.gov.au/def/csdm/wa-monument-form",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-monument-form&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-monument-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/wa-monument-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-monument-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-monument-state",
+      "from": "https://linked.data.gov.au/def/csdm/wa-monument-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-monument-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-parcel-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-parcel-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-parcel-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-parcel-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-parcel-state": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/wa-parcel-state",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-parcel-state",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-parcel-state",
+      "from": "https://linked.data.gov.au/def/csdm/wa-parcel-state",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-parcel-state&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-parcel-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-parcel-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-parcel-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-parcel-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-parcel-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-procedure-used": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/wa-procedure-used",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-procedure-used",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-procedure-used",
+      "from": "https://linked.data.gov.au/def/csdm/wa-procedure-used",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-procedure-used&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-secondary-parcel-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-secondary-parcel-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-secondary-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-secondary-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-secondary-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-secondary-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-survey-documentation-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-survey-documentation-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-survey-documentation-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-survey-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-survey-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-survey-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-survey-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-survey-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-survey-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-survey-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-survey-type": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-survey-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-survey-type",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-survey-type",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-survey-type",
+      "from": "https://linked.data.gov.au/def/csdm/wa-survey-type",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-survey-type&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-surveypoint-method": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method",
+      "from": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-surveypoint-method",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method",
+      "from": "https://linked.data.gov.au/def/csdm/wa-surveypoint-method",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-surveypoint-method&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-surveypoint-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-vector-purpose": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-vector-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-vector-purpose",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-vector-purpose",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-vector-purpose",
+      "from": "https://linked.data.gov.au/def/csdm/wa-vector-purpose",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-vector-purpose&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/wa-vhd": [
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-vhd",
+      "from": "https://linked.data.gov.au/def/csdm/wa-vhd",
+      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-vhd",
+      "headers": {}
+    },
+    {
+      "label": "https://linked.data.gov.au/def/csdm/wa-vhd",
+      "from": "https://linked.data.gov.au/def/csdm/wa-vhd",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/csdm/wa-vhd&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/fsdf": [
+    {
+      "label": "FSDF Ontology, HTML",
+      "from": "https://linked.data.gov.au/def/fsdf",
+      "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/docs/fsdf.html",
+      "headers": {}
+    },
+    {
+      "comment": "Target needs better delivery to return text/turtle headers",
+      "label": "FSDF Ontology, RDF (turtle) via file ext.",
+      "from": "https://linked.data.gov.au/def/fsdf.ttl",
+      "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+      "headers": {}
+    },
+    {
+      "comment": "Target needs better delivery to return text/turtle headers",
+      "label": "FSDF Ontology, RDF (turtle) via QSA",
+      "from": "https://linked.data.gov.au/def/fsdf?_mediatype=text/turtle",
+      "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+      "headers": {}
+    },
+    {
+      "comment": "Target needs better delivery to return text/turtle headers",
+      "label": "FSDF Ontology, RDF (turtle) via conneg",
+      "from": "https://linked.data.gov.au/def/fsdf",
+      "to": "https://raw.githack.com/GeoscienceAustralia/FSDF-KG/master/rdf/ontologies/fsdf.ttl",
+      "headers": { "Accept": "text/turtle" }
+    }
+  ],
   "https://linked.data.gov.au/def/fsdf/themes": [
     {
       "label": "fsdf/themes HTML",
@@ -206,7 +1470,7 @@
     {
       "label": "fsdf/themes RDF",
       "from": "https://linked.data.gov.au/def/fsdf/themes",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/fsdf/themes&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/fsdf/themes&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -222,7 +1486,7 @@
     {
       "label": "geocode-types RDF",
       "from": "https://linked.data.gov.au/def/geocode-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/geocode-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/geocode-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -238,7 +1502,7 @@
     {
       "label": "gn-affix RDF",
       "from": "https://linked.data.gov.au/def/gn-affix",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/gn-affix&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/gn-affix&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -262,7 +1526,7 @@
     {
       "label": "gn-part-types RDF",
       "from": "https://linked.data.gov.au/def/gn-part-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/gn-part-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/gn-part-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -278,7 +1542,7 @@
     {
       "label": "go-categories RDF",
       "from": "https://linked.data.gov.au/def/go-categories",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/go-categories&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/go-categories&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -294,7 +1558,7 @@
     {
       "label": "ground-relationship RDF",
       "from": "https://linked.data.gov.au/def/ground-relationship",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/ground-relationship&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/ground-relationship&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -326,7 +1590,7 @@
     {
       "label": "lrrs-indicator RDF",
       "from": "https://linked.data.gov.au/def/lrrs-indicator",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/lrrs-indicator&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/lrrs-indicator&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -342,7 +1606,7 @@
     {
       "label": "naming-authority RDF",
       "from": "https://linked.data.gov.au/def/naming-authority",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/naming-authority&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/naming-authority&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -358,7 +1622,7 @@
     {
       "label": "population-zone RDF",
       "from": "https://linked.data.gov.au/def/population-zone",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/population-zone&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/population-zone&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -374,7 +1638,7 @@
     {
       "label": "positional-accuracy RDF",
       "from": "https://linked.data.gov.au/def/positional-accuracy",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/positional-accuracy&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/positional-accuracy&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -390,7 +1654,7 @@
     {
       "label": "record-access RDF",
       "from": "https://linked.data.gov.au/def/record-access",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/record-access&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/record-access&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -430,13 +1694,13 @@
   ],
   "https://linked.data.gov.au/def/road-classifications": [
     {
-      "label": "road-classifications HTML",
+      "label": "road-classifications HTML (note: not found in ICSM anymore)",
       "from": "https://linked.data.gov.au/def/road-classifications",
       "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-classifications",
       "headers": {}
     },
     {
-      "label": "road-classifications RDF",
+      "label": "road-classifications RDF (note: not found in ICSM anymore)",
       "from": "https://linked.data.gov.au/def/road-classifications",
       "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-classifications&_mediatype=text/turtle",
       "headers": {
@@ -454,7 +1718,7 @@
     {
       "label": "road-lane-count RDF",
       "from": "https://linked.data.gov.au/def/road-lane-count",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-lane-count&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-lane-count&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -470,7 +1734,7 @@
     {
       "label": "road-maintainer RDF",
       "from": "https://linked.data.gov.au/def/road-maintainer",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-maintainer&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-maintainer&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -486,7 +1750,7 @@
     {
       "label": "road-name-part-types RDF",
       "from": "https://linked.data.gov.au/def/road-name-part-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-name-part-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-name-part-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -502,7 +1766,7 @@
     {
       "label": "road-operational-statuses RDF",
       "from": "https://linked.data.gov.au/def/road-operational-statuses",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-operational-statuses&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-operational-statuses&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -518,7 +1782,7 @@
     {
       "label": "road-owner RDF",
       "from": "https://linked.data.gov.au/def/road-owner",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-owner&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-owner&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -534,7 +1798,7 @@
     {
       "label": "road-seasonality RDF",
       "from": "https://linked.data.gov.au/def/road-seasonality",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-seasonality&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-seasonality&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -542,13 +1806,13 @@
   ],
   "https://linked.data.gov.au/def/road-suffixes": [
     {
-      "label": "road-suffixes HTML",
+      "label": "road-suffixes HTML (note: not found in ICSM anymore)",
       "from": "https://linked.data.gov.au/def/road-suffixes",
       "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-suffixes",
       "headers": {}
     },
     {
-      "label": "road-suffixes RDF",
+      "label": "road-suffixes RDF (note: not found in ICSM anymore)",
       "from": "https://linked.data.gov.au/def/road-suffixes",
       "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-suffixes&_mediatype=text/turtle",
       "headers": {
@@ -566,7 +1830,7 @@
     {
       "label": "road-surfaces RDF",
       "from": "https://linked.data.gov.au/def/road-surfaces",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-surfaces&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-surfaces&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -582,7 +1846,7 @@
     {
       "label": "road-trafficability RDF",
       "from": "https://linked.data.gov.au/def/road-trafficability",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-trafficability&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-trafficability&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -598,7 +1862,7 @@
     {
       "label": "road-travel-direction RDF",
       "from": "https://linked.data.gov.au/def/road-travel-direction",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-travel-direction&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-travel-direction&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -614,7 +1878,7 @@
     {
       "label": "road-types RDF",
       "from": "https://linked.data.gov.au/def/road-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -630,7 +1894,7 @@
     {
       "label": "road-user-access RDF",
       "from": "https://linked.data.gov.au/def/road-user-access",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-user-access&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/road-user-access&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -646,7 +1910,7 @@
     {
       "label": "scr-indicator RDF",
       "from": "https://linked.data.gov.au/def/scr-indicator",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/scr-indicator&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/scr-indicator&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -662,7 +1926,7 @@
     {
       "label": "spatial-capture-method RDF",
       "from": "https://linked.data.gov.au/def/spatial-capture-method",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/spatial-capture-method&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/spatial-capture-method&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -678,7 +1942,7 @@
     {
       "label": "subaddress-types RDF",
       "from": "https://linked.data.gov.au/def/subaddress-types",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/subaddress-types&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/subaddress-types&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -694,7 +1958,7 @@
     {
       "label": "surface-capture-method RDF",
       "from": "https://linked.data.gov.au/def/surface-capture-method",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/surface-capture-method&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/surface-capture-method&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -710,7 +1974,7 @@
     {
       "label": "unggim-themes RDF",
       "from": "https://linked.data.gov.au/def/unggim-themes",
-      "to": "https://icsm.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/unggim-themes&_mediatype=text/turtle",
+      "to": "https://icsm-api.qlocation.information.qld.gov.au/object?uri=https://linked.data.gov.au/def/unggim-themes&_profile=prez:OGCItemProfile&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
