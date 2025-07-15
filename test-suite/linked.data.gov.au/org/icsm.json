@@ -1979,5 +1979,37 @@
         "Accept": "text/turtle"
       }
     }
+  ],
+  "https://linked.data.gov.au/def/csdm/profiles/common": [
+    {
+      "label": "csdm-profiles-common HTML",
+      "from": "https://linked.data.gov.au/def/csdm/profiles/common",
+      "to": "https://icsm-au.github.io/3d-csdm/docs/icsm-profile/",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/profiles/nz": [
+    {
+      "label": "csdm-profiles-nz HTML",
+      "from": "https://linked.data.gov.au/def/csdm/profiles/nz",
+      "to": "https://icsm-au.github.io/3d-csdm/docs/nz-profile/",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/profiles/vic": [
+    {
+      "label": "csdm-profiles-vic HTML",
+      "from": "https://linked.data.gov.au/def/csdm/profiles/vic",
+      "to": "https://icsm-au.github.io/3d-csdm/docs/vic-profile/",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/csdm/profiles/wa": [
+    {
+      "label": "csdm-profiles-wa HTML",
+      "from": "https://linked.data.gov.au/def/csdm/profiles/wa",
+      "to": "https://icsm-au.github.io/3d-csdm/docs/wa-profile/",
+      "headers": {}
+    }
   ]
 }
