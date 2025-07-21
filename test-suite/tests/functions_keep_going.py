@@ -36,4 +36,4 @@ def validate_all_redirects(json_file):
             print("from: {}\nto: {}".format(case["from"], case["to"]))
             if case.get("headers") is not None:
                 print("headers: {}".format(case["headers"]))
-            validate_redirect(json_file, case["label"], case["from"], case["to"], case["headers"], case)
+            validate_redirect(json_file, case["label"], case["from"], case["to"], case.get("headers"), case)
