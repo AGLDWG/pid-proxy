@@ -508,7 +508,7 @@
     },
     {
       "label": "sample-data-quality-management Concept HTML",
-      "from": "https://linked.data.gov.au/def/sample-data-quality-management/archived",
+      "from": "https://linked.data.gov.au/def/sample-data-quality-management/analytical-blank",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-data-quality-management/analytical-blank",
       "headers": {}
     }
