@@ -34,6 +34,6 @@ def validate_all_redirects(json_file):
     for uri, cases in uris.items():
         for case in cases:
             print("from: {}\nto: {}".format(case["from"], case["to"]))
-            if len(case["headers"]) > 0:
+            if case.get("headers") is not None:
                 print("headers: {}".format(case["headers"]))
             validate_redirect(json_file, case["label"], case["from"], case["to"], case["headers"], case)
