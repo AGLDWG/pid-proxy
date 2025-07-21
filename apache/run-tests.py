@@ -47,7 +47,7 @@ def validate_all_redirects(json_file, server_root_url):
 
 
 if __name__ == "__main__":
-    SERVER_ROOT_URL = "http://localhost:8080"
+    SERVER_ROOT_URL = "https://linked.data.gov.au/"
 
     TEST_SUITE_DIR = Path(__file__).parent.parent.resolve() / "test-suite"
     org_json = Path(TEST_SUITE_DIR / "linked.data.gov.au/org/").glob("*.json")
