@@ -191,7 +191,7 @@
       }
     }
   ],
-    "https://linked.data.gov.au/def/borehole-purpose-wa": [
+  "https://linked.data.gov.au/def/borehole-purpose-wa": [
     {
       "label": "borehole-purpose-wa HTML",
       "from": "https://linked.data.gov.au/def/borehole-purpose-wa",
@@ -488,6 +488,28 @@
       "label": "sample-curation-status Concept HTML",
       "from": "https://linked.data.gov.au/def/sample-curation-status/archived",
       "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-curation-status/archived",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/sample-data-quality-management": [
+    {
+      "label": "sample-data-quality-management HTML",
+      "from": "https://linked.data.gov.au/def/sample-data-quality-management",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-data-quality-management",
+      "headers": {}
+    },
+    {
+      "label": "sample-data-quality-management RDF",
+      "from": "https://linked.data.gov.au/def/sample-data-quality-management",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-data-quality-management&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "sample-data-quality-management Concept HTML",
+      "from": "https://linked.data.gov.au/def/sample-data-quality-management/analytical-blank",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/sample-data-quality-management/analytical-blank",
       "headers": {}
     }
   ],

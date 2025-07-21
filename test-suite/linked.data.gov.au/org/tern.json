@@ -344,5 +344,23 @@
             
          }
       }
+   ],
+   "https://linked.data.gov.au/dataset/worldcountries2025":[
+      {
+         "label":"worldcountries2025 - HTML",
+         "from":"https://linked.data.gov.au/dataset/worldcountries2025",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/worldcountries2025",
+         "headers":{
+
+         }
+      },
+      {
+         "label":"worldcountries2025 - TURTLE",
+         "from":"https://linked.data.gov.au/dataset/worldcountries2025",
+         "to":"https://linkeddata.tern.org.au/viewers/administrative-areas?regiontype=https://linked.data.gov.au/dataset/worldcountries2025&format=text/turtle",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      }
    ]
 }
