@@ -209,6 +209,14 @@
       "headers": {}
     }
   ],
+  "https://linked.data.gov.au/dataset/eiatest" : [
+    {
+      "label": "EIA test dataset stub",
+      "from": "https://linked.data.gov.au/dataset/eiatest",
+      "to": "https://resources.bdr.gov.au",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/eia-dp" : [
     {
       "label": "EIA DP Spec HTML",
@@ -236,6 +244,14 @@
       "label": "EIA DP JSON-LD context",
       "from": "https://linked.data.gov.au/def/eia-dp/context.json",
       "to": "https://dcceew-bdr.github.io/eia-data-profile/context.json"
+    }
+  ],
+  "https://linked.data.gov.au/def/eia-supermodel" : [
+    {
+      "label": "EIA Supermodel HTML",
+      "from": "https://linked.data.gov.au/def/eia-supermodel",
+      "to": "https://dcceew-bdr.github.io/eia-supermodel/",
+      "headers": {}
     }
   ],
   "http://linked.data.gov.au/def/nsl": [
