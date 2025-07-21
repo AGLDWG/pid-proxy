@@ -264,7 +264,7 @@
     },
     {
       "label": "EIA DP validator RDF",
-      "from": "https://linked.data.gov.au/def/eia-dp",
+      "from": "https://linked.data.gov.au/def/eia-dp/validator",
       "to": "https://dcceew-bdr.github.io/eia-data-profile/validator.ttl",
       "headers": {
         "Accept": "text/turtle"
