@@ -276,7 +276,7 @@
       "to": "https://dcceew-bdr.github.io/eia-data-profile/context.json"
     }
   ],
-  "https://linked.data.gov.au/def/depth-reference": [
+  "https://linked.data.gov.au/def/eia-dk": [
         {
             "label": "EIA Data Kinds HTML",
             "from": "https://linked.data.gov.au/def/eia-dk",
