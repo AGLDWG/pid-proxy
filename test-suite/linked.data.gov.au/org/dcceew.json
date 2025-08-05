@@ -276,6 +276,22 @@
       "to": "https://dcceew-bdr.github.io/eia-data-profile/context.json"
     }
   ],
+  "https://linked.data.gov.au/def/eia-dk": [
+        {
+            "label": "EIA Data Kinds HTML",
+            "from": "https://linked.data.gov.au/def/eia-dk",
+            "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/def/eia-dk",
+            "headers": {}
+        },
+        {
+            "label": "EIA Data Kinds RDF",
+            "from": "https://linked.data.gov.au/def/eia-dk",
+            "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/def/eia-dk&_mediatype=text/turtle",
+            "headers": {
+                "Accept": "text/turtle"
+            }
+        }
+    ],
   "https://linked.data.gov.au/def/eia-supermodel" : [
     {
       "label": "EIA Supermodel HTML",

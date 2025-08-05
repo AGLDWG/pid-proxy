@@ -1,6 +1,28 @@
 {
   "http://linked.data.gov.au/def/su": [
     {
+      "label": "LocI Data Profile HTML",
+      "from": "https://linked.data.gov.au/def/loci-dp",
+      "to": "https://dcceew-bdr.github.io/loci-data-profile/specification.html",
+      "headers": {}
+    },
+    {
+      "label": "LocI Data Profile RDF",
+      "from": "https://linked.data.gov.au/def/loci-dp",
+      "to": "https://dcceew-bdr.github.io/loci-data-profile/profile.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "LocI Data Profile Validator RDF",
+      "from": "https://linked.data.gov.au/def/loci-dp/validator",
+      "to": "https://dcceew-bdr.github.io/loci-data-profile/validator.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
       "label": "Stratigraphic Units Ontology HTML",
       "from": "https://linked.data.gov.au/def/su",
       "to": "https://raw.githack.com/surroundaustralia/su-ont/master/su.html",
