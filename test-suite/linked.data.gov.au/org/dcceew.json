@@ -108,14 +108,14 @@
           "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
           "headers": {}
       },
-      {
-          "label": "BDR datatypes RDF",
-          "from": "https://linked.data.gov.au/def/bdr/datatypes",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
-          "headers": {
-              "Accept": "text/turtle"
-          }
-      },
+    {
+      "label": "BDR datatypes RDF",
+      "from": "https://linked.data.gov.au/def/bdr/datatypes",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
       {
           "label": "BDR datatypes Concept HTML",
           "from": "https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
