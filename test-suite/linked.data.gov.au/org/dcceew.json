@@ -115,6 +115,12 @@
           "headers": {
               "Accept": "text/turtle"
           }
+      },
+      {
+          "label": "BDR datatypes Concept HTML",
+          "from": "https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
+          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
+          "headers": {}
       }
   ],
   "https://linked.data.gov.au/dataset/bdr/op" : [
@@ -131,6 +137,12 @@
           "headers": {
               "Accept": "text/turtle"
           }
+      },
+      {
+          "label": "BDR op Concept HTML",
+          "from": "https://linked.data.gov.au/dataset/bdr/op/DataStatistic",
+          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op/DataStatistic",
+          "headers": {}
       }
   ],
   "https://linked.data.gov.au/dataset/bdr/orgs" : [
@@ -147,6 +159,12 @@
           "headers": {
               "Accept": "text/turtle"
           }
+      },
+      {
+          "label": "BDR orgs Concept HTML",
+          "from": "https://linked.data.gov.au/dataset/bdr/orgs/birdlife",
+          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs/birdlife",
+          "headers": {}
       }
   ],
   "https://linked.data.gov.au/dataset/bdr/sma" : [
@@ -163,6 +181,12 @@
           "headers": {
               "Accept": "text/turtle"
           }
+      },
+      {
+          "label": "BDR sma Concept HTML",
+          "from": "https://linked.data.gov.au/dataset/bdr/sma/Check",
+          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma/Check",
+          "headers": {}
       }
   ],
   "https://linked.data.gov.au/dataset/bdr/smrr" : [
@@ -179,6 +203,12 @@
           "headers": {
               "Accept": "text/turtle"
           }
+      },
+      {
+          "label": "BDR smrr Concept HTML",
+          "from": "https://linked.data.gov.au/dataset/bdr/smrr/NecessaryForValidation",
+          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr/NecessaryForValidation",
+          "headers": {}
       }
   ],
   "http://linked.data.gov.au/dataset/bdr-pr": [
