@@ -19,6 +19,12 @@
       "from": "https://linked.data.gov.au/def/addr/",
       "to": "https://icsm-au.github.io/addr-model/model.ttl",
       "headers": {}
+    },
+    {
+      "label": "Address Model Address Class",
+      "from": "https://linked.data.gov.au/def/addr/Address",
+      "to": "https://icsm-au.github.io/addr-model/model.ttl",
+      "headers": {}
     }
   ],
   "https://linked.data.gov.au/def/addr-classes": [
