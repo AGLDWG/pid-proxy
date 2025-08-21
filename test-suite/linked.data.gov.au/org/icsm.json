@@ -13,6 +13,12 @@
       "headers": {
         "Accept": "text/turtle"
       }
+    },
+    {
+      "label": "Address Model Namespace RDF",
+      "from": "https://linked.data.gov.au/def/addr/",
+      "to": "https://icsm-au.github.io/addr-model/model.ttl",
+      "headers": {}
     }
   ],
   "https://linked.data.gov.au/def/addr-classes": [
