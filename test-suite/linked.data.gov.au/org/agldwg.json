@@ -21,7 +21,7 @@
       "headers": {}
     },
     {
-      "label": "Compound Naming Model Compound Name Class",
+      "label": "Compound Naming Model Compound Name Class RDF",
       "from": "https://linked.data.gov.au/def/cn/CompoundName",
       "to": "https://agldwg.github.io/compound-naming-model/model.ttl",
       "headers": {}
