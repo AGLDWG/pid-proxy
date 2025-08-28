@@ -1,4 +1,32 @@
 {
+  "https://linked.data.gov.au/def/cn": [
+    {
+      "label": "Compound Naming Model Specification HTML",
+      "from": "https://linked.data.gov.au/def/cn",
+      "to": "https://agldwg.github.io/compound-naming-model/model.html",
+      "headers": {}
+    },
+    {
+      "label": "Compound Naming Model Specification RDF",
+      "from": "https://linked.data.gov.au/def/cn",
+      "to": "https://agldwg.github.io/compound-naming-model/model.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Compound Naming Model Namespace RDF",
+      "from": "https://linked.data.gov.au/def/cn/",
+      "to": "https://agldwg.github.io/compound-naming-model/model.ttl",
+      "headers": {}
+    },
+    {
+      "label": "Compound Naming Model Compound Name Class RDF",
+      "from": "https://linked.data.gov.au/def/cn/CompoundName",
+      "to": "https://agldwg.github.io/compound-naming-model/model.ttl",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/data-roles": [
     {
       "label": "AGLDWG Data Roles Vocabulary HTML",
@@ -18,6 +46,34 @@
       "label": "AGLDWG Data Roles HTML - one Concept",
       "from": "https://linked.data.gov.au/def/data-roles/author",
       "to": "https://agldwg.github.io/data-roles/author",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/lifecycle": [
+    {
+      "label": "Lifecycle Model Specification HTML",
+      "from": "https://linked.data.gov.au/def/lifecycle",
+      "to": "https://agldwg.github.io/lifecycle-model/model.html",
+      "headers": {}
+    },
+    {
+      "label": "Lifecycle Model Specification RDF",
+      "from": "https://linked.data.gov.au/def/lifecycle",
+      "to": "https://agldwg.github.io/lifecycle-model/model.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "Lifecycle Model Namespace RDF",
+      "from": "https://linked.data.gov.au/def/lifecycle/",
+      "to": "https://agldwg.github.io/lifecycle-model/model.ttl",
+      "headers": {}
+    },
+    {
+      "label": "Lifecycle Model LifecycleStage Class",
+      "from": "https://linked.data.gov.au/def/lifecycle/LifecycleStage",
+      "to": "https://agldwg.github.io/lifecycle-model/model.ttl",
       "headers": {}
     }
   ],
