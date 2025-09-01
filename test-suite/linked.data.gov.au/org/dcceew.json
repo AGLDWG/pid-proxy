@@ -28,7 +28,9 @@
       "label": "BDR Registry entry with profile and Accept Header",
       "from": "https://linked.data.gov.au/dataset/bdr/obsprops/DatasetsCount?_profile=alt",
       "to": "https://linked.bdr.gov.au/dataset/bdr/obsprops/DatasetsCount?_host=linked.data.gov.au&_profile=alt",
-      "headers": {"Accept": "text/turtle"}
+      "headers": {
+        "Accept": "text/turtle"
+      }
     },
     {
       "label": "BDR Dataset vocab datatypes HTML",
@@ -101,13 +103,13 @@
       }
     }
   ],
-  "https://linked.data.gov.au/dataset/bdr/datatypes" : [
-      {
-          "label": "BDR datatypes HTML",
-          "from": "https://linked.data.gov.au/def/bdr/datatypes",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
-          "headers": {}
-      },
+  "https://linked.data.gov.au/dataset/bdr/datatypes": [
+    {
+      "label": "BDR datatypes HTML",
+      "from": "https://linked.data.gov.au/def/bdr/datatypes",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
+      "headers": {}
+    },
     {
       "label": "BDR datatypes RDF",
       "from": "https://linked.data.gov.au/def/bdr/datatypes",
@@ -116,100 +118,100 @@
         "Accept": "text/turtle"
       }
     },
-      {
-          "label": "BDR datatypes Concept HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
-          "headers": {}
-      }
+    {
+      "label": "BDR datatypes Concept HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes/MERITCreatorID",
+      "headers": {}
+    }
   ],
-  "https://linked.data.gov.au/dataset/bdr/op" : [
-      {
-          "label": "BDR op HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/op",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op",
-          "headers": {}
-      },
-      {
-          "label": "BDR op RDF",
-          "from": "https://linked.data.gov.au/dataset/bdr/op",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op",
-          "headers": {
-              "Accept": "text/turtle"
-          }
-      },
-      {
-          "label": "BDR op Concept HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/op/DataStatistic",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op/DataStatistic",
-          "headers": {}
+  "https://linked.data.gov.au/dataset/bdr/op": [
+    {
+      "label": "BDR op HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/op",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op",
+      "headers": {}
+    },
+    {
+      "label": "BDR op RDF",
+      "from": "https://linked.data.gov.au/dataset/bdr/op",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op",
+      "headers": {
+        "Accept": "text/turtle"
       }
+    },
+    {
+      "label": "BDR op Concept HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/op/DataStatistic",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/op/DataStatistic",
+      "headers": {}
+    }
   ],
-  "https://linked.data.gov.au/dataset/bdr/orgs" : [
-      {
-          "label": "BDR orgs HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/orgs",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs",
-          "headers": {}
-      },
-      {
-          "label": "BDR orgs RDF",
-          "from": "https://linked.data.gov.au/dataset/bdr/orgs",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs&_mediatype=text/turtle",
-          "headers": {
-              "Accept": "text/turtle"
-          }
-      },
-      {
-          "label": "BDR orgs Concept HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/orgs/birdlife",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs/birdlife",
-          "headers": {}
+  "https://linked.data.gov.au/dataset/bdr/orgs": [
+    {
+      "label": "BDR orgs HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/orgs",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs",
+      "headers": {}
+    },
+    {
+      "label": "BDR orgs RDF",
+      "from": "https://linked.data.gov.au/dataset/bdr/orgs",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
       }
+    },
+    {
+      "label": "BDR orgs Concept HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/orgs/birdlife",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/orgs/birdlife",
+      "headers": {}
+    }
   ],
-  "https://linked.data.gov.au/dataset/bdr/sma" : [
-      {
-          "label": "BDR sma HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/sma",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma",
-          "headers": {}
-      },
-      {
-          "label": "BDR sma RDF",
-          "from": "https://linked.data.gov.au/dataset/bdr/sma",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma",
-          "headers": {
-              "Accept": "text/turtle"
-          }
-      },
-      {
-          "label": "BDR sma Concept HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/sma/Check",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma/Check",
-          "headers": {}
+  "https://linked.data.gov.au/dataset/bdr/sma": [
+    {
+      "label": "BDR sma HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/sma",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma",
+      "headers": {}
+    },
+    {
+      "label": "BDR sma RDF",
+      "from": "https://linked.data.gov.au/dataset/bdr/sma",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma",
+      "headers": {
+        "Accept": "text/turtle"
       }
+    },
+    {
+      "label": "BDR sma Concept HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/sma/Check",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/sma/Check",
+      "headers": {}
+    }
   ],
-  "https://linked.data.gov.au/dataset/bdr/smrr" : [
-      {
-          "label": "BDR smrr HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/smrr",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr",
-          "headers": {}
-      },
-      {
-          "label": "BDR smrr RDF",
-          "from": "https://linked.data.gov.au/dataset/bdr/smrr",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr&_mediatype=text/turtle",
-          "headers": {
-              "Accept": "text/turtle"
-          }
-      },
-      {
-          "label": "BDR smrr Concept HTML",
-          "from": "https://linked.data.gov.au/dataset/bdr/smrr/NecessaryForValidation",
-          "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr/NecessaryForValidation",
-          "headers": {}
+  "https://linked.data.gov.au/dataset/bdr/smrr": [
+    {
+      "label": "BDR smrr HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/smrr",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr",
+      "headers": {}
+    },
+    {
+      "label": "BDR smrr RDF",
+      "from": "https://linked.data.gov.au/dataset/bdr/smrr",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
       }
+    },
+    {
+      "label": "BDR smrr Concept HTML",
+      "from": "https://linked.data.gov.au/dataset/bdr/smrr/NecessaryForValidation",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/smrr/NecessaryForValidation",
+      "headers": {}
+    }
   ],
   "http://linked.data.gov.au/dataset/bdr-pr": [
     {
@@ -239,15 +241,39 @@
       "headers": {}
     }
   ],
-  "https://linked.data.gov.au/dataset/eiatest" : [
+  "https://linked.data.gov.au/dataset/eiatest": [
     {
-      "label": "EIA test dataset stub",
+      "label": "EIA dataset home",
       "from": "https://linked.data.gov.au/dataset/eiatest",
-      "to": "https://resources.bdr.gov.au",
+      "to": "https://eia.testing.bdr.gov.au",
+      "headers": {}
+    },
+    {
+      "label": "EIA Datasets catalogue",
+      "from": "https://linked.data.gov.au/dataset/eiatest/catalogue/datasets",
+      "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/dataset/eiatest/catalogue/datasets",
+      "headers": {}
+    },
+    {
+      "label": "EIA Dataset BDR ACT",
+      "from": "https://linked.data.gov.au/dataset/eiatest/bdr-act",
+      "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/dataset/eiatest/bdr-act",
+      "headers": {}
+    },
+    {
+      "label": "EIA Dataset BDR ACT FC",
+      "from": "https://linked.data.gov.au/dataset/eiatest/bdr-act/incidental-occurrences",
+      "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/dataset/eiatest/bdr-act/incidental-occurrences",
+      "headers": {}
+    },
+    {
+      "label": "NVIS Major Vegetation Groups and Major Vegetation Subgroups vocab",
+      "from": "https://linked.data.gov.au/dataset/eiatest/nvis-veg",
+      "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/dataset/eiatest/nvis-veg",
       "headers": {}
     }
   ],
-  "https://linked.data.gov.au/def/eia-dp" : [
+  "https://linked.data.gov.au/def/eia-dp": [
     {
       "label": "EIA DP Spec HTML",
       "from": "https://linked.data.gov.au/def/eia-dp",
@@ -264,7 +290,7 @@
     },
     {
       "label": "EIA DP validator RDF",
-      "from": "https://linked.data.gov.au/def/eia-dp/validator",
+      "from": "https://linked.data.gov.au/def/eia-dp",
       "to": "https://dcceew-bdr.github.io/eia-data-profile/validator.ttl",
       "headers": {
         "Accept": "text/turtle"
@@ -277,22 +303,22 @@
     }
   ],
   "https://linked.data.gov.au/def/eia-dk": [
-        {
-            "label": "EIA Data Kinds HTML",
-            "from": "https://linked.data.gov.au/def/eia-dk",
-            "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/def/eia-dk",
-            "headers": {}
-        },
-        {
-            "label": "EIA Data Kinds RDF",
-            "from": "https://linked.data.gov.au/def/eia-dk",
-            "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/def/eia-dk&_mediatype=text/turtle",
-            "headers": {
-                "Accept": "text/turtle"
-            }
-        }
-    ],
-  "https://linked.data.gov.au/def/eia-supermodel" : [
+    {
+      "label": "EIA Data Kinds HTML",
+      "from": "https://linked.data.gov.au/def/eia-dk",
+      "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/def/eia-dk",
+      "headers": {}
+    },
+    {
+      "label": "EIA Data Kinds RDF",
+      "from": "https://linked.data.gov.au/def/eia-dk",
+      "to": "https://eia.testing.bdr.gov.au/object?iri=https://linked.data.gov.au/def/eia-dk&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/eia-supermodel": [
     {
       "label": "EIA Supermodel HTML",
       "from": "https://linked.data.gov.au/def/eia-supermodel",
