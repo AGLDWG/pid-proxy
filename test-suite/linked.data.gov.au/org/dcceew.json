@@ -113,7 +113,7 @@
     {
       "label": "BDR datatypes RDF",
       "from": "https://linked.data.gov.au/dataset/bdr/datatypes",
-      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes",
+      "to": "https://bdr.gov.au/object?uri=https://linked.data.gov.au/dataset/bdr/datatypes&_mediatype=text/turtle",
       "headers": {
         "Accept": "text/turtle"
       }
