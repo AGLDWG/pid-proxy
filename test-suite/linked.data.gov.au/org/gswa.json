@@ -15,6 +15,22 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/geofh": [
+    {
+      "label": "geofh RDF",
+      "from": "https://linked.data.gov.au/def/geofh",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/geofh/",
+      "headers": {}
+    },
+    {
+      "label": "geofh HTML",
+      "from": "https://linked.data.gov.au/def/geofh",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/geofh.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/bore": [
     {
       "label": "bore HTML",
@@ -49,15 +65,47 @@
   ],
   "https://linked.data.gov.au/def/mining-authorisation": [
     {
-      "label": "tenement RDF",
+      "label": "mining-authorisation RDF",
       "from": "https://linked.data.gov.au/def/mining-authorisation",
       "to": "https://kurrawong.github.io/gswa-supermodel/components/mining-authorisation/",
       "headers": {}
     },
     {
-      "label": "tenement HTML",
+      "label": "mining-authorisation HTML",
       "from": "https://linked.data.gov.au/def/mining-authorisation",
       "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mining-authorisation.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/resource-occurrence": [
+    {
+      "label": "resource-occurrence RDF",
+      "from": "https://linked.data.gov.au/def/resource-occurrence",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/resource-occurrence/",
+      "headers": {}
+    },
+    {
+      "label": "resource-occurrence HTML",
+      "from": "https://linked.data.gov.au/def/resource-occurrence",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/resource-occurrence.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/geosample": [
+    {
+      "label": "geosample RDF",
+      "from": "https://linked.data.gov.au/def/geosample",
+      "to": "https://kurrawong.github.io/gswa-supermodel/components/geosample/",
+      "headers": {}
+    },
+    {
+      "label": "geosample HTML",
+      "from": "https://linked.data.gov.au/def/geosample",
+      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/geosample.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
