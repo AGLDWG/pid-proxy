@@ -330,6 +330,12 @@
       "from": "https://linked.data.gov.au/def/eia-supermodel",
       "to": "https://dcceew-bdr.github.io/eia-supermodel/",
       "headers": {}
+    },
+    {
+      "label": "EIA Supermodel RDF",
+      "from": "https://linked.data.gov.au/def/eia-supermodel.ttl",
+      "to": "https://dcceew-bdr.github.io/eia-supermodel/profile.ttl",
+      "headers": {}
     }
   ],
   "http://linked.data.gov.au/def/nsl": [
