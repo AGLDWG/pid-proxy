@@ -99,6 +99,28 @@
       "headers": {}
     }
   ],
+  "https://linked.data.gov.au/def/supermodel": [
+    {
+      "label": "Supermodel HTML",
+      "from": "https://linked.data.gov.au/def/supermodel",
+      "to": "https://kurrawong.github.io/supermodel-model/",
+      "headers": {}
+    },
+    {
+      "label": "Supermodel RDF .ttl",
+      "from": "https://linked.data.gov.au/def/supermodel.ttl",
+      "to": "https://kurrawong.github.io/supermodel-model/model.ttl",
+      "headers": {}
+    },
+    {
+      "label": "Supermodel RDF Accept",
+      "from": "https://linked.data.gov.au/def/supermodel",
+      "to": "https://kurrawong.github.io/supermodel-model/model.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/reg-statuses": [
     {
       "label": "AGLDWG Registry Statuses Vocabulary HTML",
