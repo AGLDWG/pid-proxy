@@ -9,7 +9,7 @@
     {
       "label": "gswa-supermodel RDF",
       "from": "https://linked.data.gov.au/def/gswa-supermodel",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/profile.ttl",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/profile.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
