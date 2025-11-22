@@ -3,7 +3,7 @@
     {
       "label": "gswa-supermodel HTML",
       "from": "https://linked.data.gov.au/def/gswa-supermodel",
-      "to": "https://kurrawong.github.io/gswa-supermodel/",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/",
       "headers": {}
     },
     {
@@ -19,13 +19,13 @@
     {
       "label": "geofh RDF",
       "from": "https://linked.data.gov.au/def/geofh",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/geofh/",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/components/geofh/",
       "headers": {}
     },
     {
       "label": "geofh HTML",
       "from": "https://linked.data.gov.au/def/geofh",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/geofh.ttl",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/geofh.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -51,13 +51,13 @@
     {
       "label": "mine HTML",
       "from": "https://linked.data.gov.au/def/mine",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/mine/",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/components/mine/",
       "headers": {}
     },
     {
       "label": "mine RDF",
       "from": "https://linked.data.gov.au/def/mine",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mine.ttl",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/mine.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -67,13 +67,13 @@
     {
       "label": "mining-authorisation RDF",
       "from": "https://linked.data.gov.au/def/mining-authorisation",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/mining-authorisation/",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/components/mining-authorisation/",
       "headers": {}
     },
     {
       "label": "mining-authorisation HTML",
       "from": "https://linked.data.gov.au/def/mining-authorisation",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/mining-authorisation.ttl",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/mining-authorisation.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -83,13 +83,13 @@
     {
       "label": "resource-occurrence RDF",
       "from": "https://linked.data.gov.au/def/resource-occurrence",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/resource-occurrence/",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/components/resource-occurrence/",
       "headers": {}
     },
     {
       "label": "resource-occurrence HTML",
       "from": "https://linked.data.gov.au/def/resource-occurrence",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/resource-occurrence.ttl",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/resource-occurrence.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
@@ -99,13 +99,13 @@
     {
       "label": "geosample RDF",
       "from": "https://linked.data.gov.au/def/geosample",
-      "to": "https://kurrawong.github.io/gswa-supermodel/components/geosample/",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/components/geosample/",
       "headers": {}
     },
     {
       "label": "geosample HTML",
       "from": "https://linked.data.gov.au/def/geosample",
-      "to": "https://raw.githubusercontent.com/Kurrawong/gswa-supermodel/main/rdf/components/geosample.ttl",
+      "to": "https://geological-survey-of-western-australia.github.io/GSWA-Supermodel/rdf/components/geosample.ttl",
       "headers": {
         "Accept": "text/turtle"
       }
