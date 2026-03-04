@@ -77,6 +77,66 @@
       "headers": {}
     }
   ],
+  "https://linked.data.gov.au/def/ontpub": [
+    {
+      "label": "OntPub Profile HTML",
+      "from": "https://linked.data.gov.au/def/ontpub",
+      "to": "https://agldwg.github.io/ontpub-profile/profile.html",
+      "headers": {}
+    },
+    {
+      "label": "OntPub Profile RDF",
+      "from": "https://linked.data.gov.au/def/ontpub",
+      "to": "https://agldwg.github.io/ontpub-profile/profile.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "OntPub Specification HTML",
+      "from": "https://linked.data.gov.au/def/ontpub/spec",
+      "to": "https://agldwg.github.io/ontpub-profile/specification.html",
+      "headers": {}
+    },
+    {
+      "label": "OntPub Validator RDF",
+      "from": "https://linked.data.gov.au/def/ontpub/validator",
+      "to": "https://agldwg.github.io/ontpub-profile/validators/validator.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "OntPub repo",
+      "from": "https://linked.data.gov.au/def/ontpub/repo",
+      "to": "https://github.com/AGLDWG/ontpub-profile",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/prof-roles": [
+    {
+      "label": "AGLDWG PROF Roles Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/prof-roles",
+      "to": "https://agldwg.github.io/prof-roles/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG PROF Roles vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/prof-roles",
+      "to": "https://agldwg.github.io/prof-roles/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG PROF Roles HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/prof-roles/constraints",
+      "to": "https://agldwg.github.io/prof-roles/constraints",
+      "headers": {}
+    }
+  ],
   "https://linked.data.gov.au/def/reg-roles": [
     {
       "label": "AGLDWG Registry Roles Vocabulary HTML",
@@ -96,6 +156,28 @@
       "label": "AGLDWG Registry Roles HTML - one Concept",
       "from": "https://linked.data.gov.au/def/reg-roles/control-body",
       "to": "https://agldwg.github.io/reg-roles/control-body",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/def/reg-statuses": [
+    {
+      "label": "AGLDWG Registry Statuses Vocabulary HTML",
+      "from": "https://linked.data.gov.au/def/reg-statuses",
+      "to": "https://agldwg.github.io/reg-statuses/",
+      "headers": {}
+    },
+    {
+      "label": "AGLDWG Registry Statuses vocabulary RDF",
+      "from": "https://linked.data.gov.au/def/reg-statuses",
+      "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "AGLDWG Registry Statuses HTML - one Concept",
+      "from": "https://linked.data.gov.au/def/reg-statuses/accepted",
+      "to": "https://agldwg.github.io/reg-statuses/accepted",
       "headers": {}
     }
   ],
@@ -121,50 +203,6 @@
       }
     }
   ],
-  "https://linked.data.gov.au/def/reg-statuses": [
-    {
-      "label": "AGLDWG Registry Statuses Vocabulary HTML",
-      "from": "https://linked.data.gov.au/def/reg-statuses",
-      "to": "https://agldwg.github.io/reg-statuses/",
-      "headers": {}
-    },
-    {
-      "label": "AGLDWG Registry Statuses vocabulary RDF",
-      "from": "https://linked.data.gov.au/def/reg-statuses",
-      "to": "https://agldwg.github.io/reg-statuses/vocabulary.ttl",
-      "headers": {
-        "Accept": "text/turtle"
-      }
-    },
-    {
-      "label": "AGLDWG Registry Statuses HTML - one Concept",
-      "from": "https://linked.data.gov.au/def/reg-statuses/accepted",
-      "to": "https://agldwg.github.io/reg-statuses/accepted",
-      "headers": {}
-    }
-  ],
-  "https://linked.data.gov.au/def/prof-roles": [
-    {
-      "label": "AGLDWG PROF Roles Vocabulary HTML",
-      "from": "https://linked.data.gov.au/def/prof-roles",
-      "to": "https://agldwg.github.io/prof-roles/",
-      "headers": {}
-    },
-    {
-      "label": "AGLDWG PROF Roles vocabulary RDF",
-      "from": "https://linked.data.gov.au/def/prof-roles",
-      "to": "https://agldwg.github.io/prof-roles/vocabulary.ttl",
-      "headers": {
-        "Accept": "text/turtle"
-      }
-    },
-    {
-      "label": "AGLDWG PROF Roles HTML - one Concept",
-      "from": "https://linked.data.gov.au/def/prof-roles/constraints",
-      "to": "https://agldwg.github.io/prof-roles/constraints",
-      "headers": {}
-    }
-  ],
   "https://linked.data.gov.au/def/surf": [
     {
       "label": "SURF Ontology HTML",
@@ -176,6 +214,44 @@
       "label": "SURF Ontology RDF",
       "from": "https://linked.data.gov.au/def/smurf",
       "to": "https://rmit-gkl.github.io/SMURF/smurf.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
+  "https://linked.data.gov.au/def/valpub": [
+    {
+      "label": "ValPub Profile HTML",
+      "from": "https://linked.data.gov.au/def/valpub",
+      "to": "https://agldwg.github.io/valpub-profile/profile.html",
+      "headers": {}
+    },
+    {
+      "label": "ValPub Profile RDF",
+      "from": "https://linked.data.gov.au/def/valpub",
+      "to": "https://agldwg.github.io/valpub-profile/profile.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ValPub Specification HTML",
+      "from": "https://linked.data.gov.au/def/valpub/spec",
+      "to": "https://agldwg.github.io/valpub-profile/specification.html",
+      "headers": {}
+    },
+    {
+      "label": "ValPub Validator RDF",
+      "from": "https://linked.data.gov.au/def/valpub/validator",
+      "to": "https://agldwg.github.io/valpub-profile/validators/validator.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    },
+    {
+      "label": "ValPub repo",
+      "from": "https://linked.data.gov.au/def/valpub/repo",
+      "to": "https://github.com/AGLDWG/valpub-profile",
       "headers": {
         "Accept": "text/turtle"
       }
