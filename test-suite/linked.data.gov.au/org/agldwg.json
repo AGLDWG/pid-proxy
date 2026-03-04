@@ -257,6 +257,22 @@
       }
     }
   ],
+  "https://linked.data.gov.au/def/surf": [
+    {
+      "label": "SURF Ontology HTML",
+      "from": "https://linked.data.gov.au/def/smurf",
+      "to": "https://rmit-gkl.github.io/SMURF/smurf.html",
+      "headers": {}
+    },
+    {
+      "label": "SURF Ontology RDF",
+      "from": "https://linked.data.gov.au/def/smurf",
+      "to": "https://rmit-gkl.github.io/SMURF/smurf.ttl",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/vocdermods": [
     {
       "label": "AGLDWG Vocab Derivation Modes Vocabulary HTML",
