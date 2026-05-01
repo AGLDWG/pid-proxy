@@ -1,4 +1,20 @@
 {
+  "https://linked.data.gov.au/def/geological-sample-type": [
+    {
+      "label": "geological-sample-type HTML",
+      "from": "https://linked.data.gov.au/def/geological-sample-type",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/geological-sample-type",
+      "headers": {}
+    },
+    {
+      "label": "geological-sample-type RDF",
+      "from": "https://linked.data.gov.au/def/geological-sample-type",
+      "to": "https://vocabulary.gswa.kurrawong.ai/object?uri=https://linked.data.gov.au/def/geological-sample-type&_mediatype=text/turtle",
+      "headers": {
+        "Accept": "text/turtle"
+      }
+    }
+  ],
   "https://linked.data.gov.au/def/gswa-supermodel": [
     {
       "label": "gswa-supermodel HTML",
