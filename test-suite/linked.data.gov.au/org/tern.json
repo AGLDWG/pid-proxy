@@ -237,6 +237,22 @@
          }
       }
    ],
+   "https://linked.data.gov.au/dataset/wildobs": [
+      {
+         "label": "WildObs Dataset Metadata - one vocab HTML",
+         "from": "https://linked.data.gov.au/dataset/wildobs",
+         "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wildobs&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers": {}
+      },
+      {
+         "label": "WildObs Dataset Metadata - one vocab TURTLE",
+         "from": "https://linked.data.gov.au/dataset/wildobs",
+         "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wildobs&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers": {
+            "Accept": "text/turtle"
+         }
+      }
+   ],
    "https://linked.data.gov.au/dataset/wet-tropics-vertebrate":[
       {
          "label":"Wet Tropics Dataset Metadata - one vocab HTML",
