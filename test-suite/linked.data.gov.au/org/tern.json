@@ -201,6 +201,22 @@
          }
       }
    ],
+   "https://linked.data.gov.au/dataset/ozset": [
+      {
+         "label": "OzSET Dataset Metadata - one vocab HTML",
+         "from": "https://linked.data.gov.au/dataset/ozset",
+         "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ozset&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers": {}
+      },
+      {
+         "label": "OzSET Dataset Metadata - one vocab TURTLE",
+         "from": "https://linked.data.gov.au/dataset/ozset",
+         "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/ozset&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers": {
+            "Accept": "text/turtle"
+         }
+      }
+   ],
    "https://linked.data.gov.au/dataset/tern-ecosystem-processes":[
       {
          "label":"TERN Ecosystem Processes Dataset Metadata - one vocab HTML",
@@ -234,6 +250,22 @@
          "to":"https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/three-parks-savanna&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
          "headers":{
             "Accept":"text/turtle"
+         }
+      }
+   ],
+   "https://linked.data.gov.au/dataset/wave": [
+      {
+         "label": "Wave Dataset Metadata - one vocab HTML",
+         "from": "https://linked.data.gov.au/dataset/wave",
+         "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wave&sparql_endpoint=https://virtuoso.tern.org.au/sparql",
+         "headers": {}
+      },
+      {
+         "label": "Wave Dataset Metadata - one vocab TURTLE",
+         "from": "https://linked.data.gov.au/dataset/wave",
+         "to": "https://linkeddata.tern.org.au/viewers/general?uri=http://linked.data.gov.au/dataset/wave&sparql_endpoint=https://virtuoso.tern.org.au/sparql&format=text/turtle",
+         "headers": {
+            "Accept": "text/turtle"
          }
       }
    ],
