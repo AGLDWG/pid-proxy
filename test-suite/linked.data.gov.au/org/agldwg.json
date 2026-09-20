@@ -339,6 +339,12 @@
       "headers": {
         "Accept": "text/turtle"
       }
+    },
+      {
+        "label": "VocPub Codex Skill",
+        "from": "https://linked.data.gov.au/def/vocpub/codex-skill",
+        "to": "https://raw.githubusercontent.com/AGLDWG/vocpub-profile/refs/heads/master/codex-skill.md",
+        "headers": {}
     }
   ]
 }
