@@ -171,13 +171,13 @@
     {
       "label": "ASLS Soil Profile classifiers - HTML",
       "from": "https://linked.data.gov.au/def/asls-soil-profile",
-      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/soil-profile-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/soil-profile",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-profile-classifiers/3ed/resource?uri=http://anzsoil.org/def/au/asls/soil-profile",
       "headers": {}
     },
     {
       "label": "ASLS Soil Profile classifiers - RDF",
       "from": "https://linked.data.gov.au/def/asls-soil-profile",
-      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro/soil-profile-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/soil-profile",
+      "to": "https://vocabs.ardc.edu.au/repository/api/lda/csiro-ansis/soil-profile-classifiers/3ed/resource.ttl?uri=http://anzsoil.org/def/au/asls/soil-profile",
       "headers": {
         "Accept": "text/turtle"
       }
