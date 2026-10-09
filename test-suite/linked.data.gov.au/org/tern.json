@@ -129,6 +129,32 @@
          }
       }
    ],
+   "https://linked.data.gov.au/def/nrm/validator":[
+      {
+         "label":"Ecological Monitoring System - Australia Field Survey Protocols Shapes Graph",
+         "from":"https://linked.data.gov.au/def/nrm/validator/92700cdc-dcdb-4379-aac9-b90d29688d82",
+         "to":"https://raw.githubusercontent.com/ternaustralia/dawe-rlp-spec/refs/heads/main/shapes/sg.ttl",
+         "headers":{
+
+         }
+      },
+      {
+         "label":"Ecological Monitoring System - Within Plot Belt Transect Protocol Shapes Graph",
+         "from":"https://linked.data.gov.au/def/nrm/validator/fdb0d628-4bb0-46fb-88ef-e0f35310fb98",
+         "to":"https://raw.githubusercontent.com/ternaustralia/dawe-rlp-spec/refs/heads/main/shapes/herbivory-and-physical-damage/within-plot-belt-transect-protocol-shapes/sg.ttl",
+         "headers":{
+            "Accept":"text/turtle"
+         }
+      },
+      {
+         "label":"Ecological Monitoring System - Soils Shapes Graph",
+         "from":"https://linked.data.gov.au/def/nrm/validator/f5d64636-207d-44a7-9d59-333bb5d4e000",
+         "to":"https://raw.githubusercontent.com/ternaustralia/dawe-rlp-spec/refs/heads/main/shapes/soils/sg.ttl",
+         "headers":{
+
+         }
+      }
+   ],
    "https://linked.data.gov.au/dataset/ausplots":[
       {
          "label":"AusPlots Dataset Metadata - one vocab HTML",
