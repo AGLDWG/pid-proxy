@@ -1,0 +1,24 @@
+{
+  "https://linked.data.gov.au/dataset/2023-referendum": [
+    {
+      "label": "/dataset/asgs2011 HTML",
+      "from": "https://linked.data.gov.au/dataset/2023-referendum",
+      "to": "https://data.idnau.org/object?iri=https://linked.data.gov.au/dataset/2023-referendum",
+      "headers": {}
+    }
+  ],
+  "https://linked.data.gov.au/dataset/electorates-2019": [
+    {
+      "label": "/dataset/electorates-2019 HTML",
+      "from": "https://linked.data.gov.au/dataset/electorates-2019",
+      "to": "https://data.idnau.org/object?iri=https://linked.data.gov.au/dataset/electorates-2019",
+      "headers": {}
+    },
+    {
+      "label": "/dataset/electorates-2019 HTML part",
+      "from": "https://linked.data.gov.au/dataset/electorates-2019/Adelaide",
+      "to": "https://data.idnau.org/object?iri=https://linked.data.gov.au/dataset/electorates-2019/Adelaide",
+      "headers": {}
+    }
+  ]
+}
