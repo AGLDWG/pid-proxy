@@ -1,7 +1,7 @@
 {
   "https://linked.data.gov.au/dataset/2023-referendum": [
     {
-      "label": "/dataset/asgs2011 HTML",
+      "label": "/dataset/2023-referendum HTML",
       "from": "https://linked.data.gov.au/dataset/2023-referendum",
       "to": "https://data.idnau.org/object?iri=https://linked.data.gov.au/dataset/2023-referendum",
       "headers": {}
