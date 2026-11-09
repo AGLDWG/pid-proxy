@@ -1,5 +1,5 @@
 {
-  "http://linked.data.gov.au/dataset/bdr": [
+  "https://linked.data.gov.au/dataset/bdr": [
     {
       "label": "BDR Dataset HTML",
       "from": "https://linked.data.gov.au/dataset/bdr",
@@ -213,7 +213,7 @@
       "headers": {}
     }
   ],
-  "http://linked.data.gov.au/dataset/bdr-pr": [
+  "https://linked.data.gov.au/dataset/bdr-pr": [
     {
       "label": "BDR Profile of ABIS HTML",
       "from": "https://linked.data.gov.au/def/bdr-pr",
@@ -346,33 +346,21 @@
       }
     }
   ],
-  "http://linked.data.gov.au/def/nsl": [
+  "https://linked.data.gov.au/def/nsl": [
     {
       "label": "/def/nsl HTML",
       "from": "https://linked.data.gov.au/def/nsl",
-      "to": "https://kurrawong.github.io/nsl-model/spec.html",
+      "to": "https://dcceew-bdr.github.io/nsl-model/spec.html",
       "headers": {}
     },
     {
       "label": "/def/nsl RDF",
       "from": "https://linked.data.gov.au/def/nsl.ttl",
-      "to": "https://kurrawong.github.io/nsl-model/profile.ttl",
-      "headers": {}
-    },
-    {
-      "label": "/def/nsl/validator",
-      "from": "https://linked.data.gov.au/def/nsl/validator",
-      "to": "https://kurrawong.github.io/nsl-model/validator.ttl",
-      "headers": {}
-    },
-    {
-      "label": "/def/context.json",
-      "from": "https://linked.data.gov.au/def/nsl/context.json",
-      "to": "https://kurrawong.github.io/nsl-model/context.json",
+      "to": "https://dcceew-bdr.github.io/nsl-model/model.ttl",
       "headers": {}
     }
   ],
-  "http://linked.data.gov.au/def/levels-of-measurement": [
+  "https://linked.data.gov.au/def/levels-of-measurement": [
     {
       "label": "Levels of Measurement HTML",
       "from": "https://linked.data.gov.au/def/levels-of-measurement",
@@ -402,7 +390,7 @@
       }
     }
   ],
-  "http://linked.data.gov.au/def/nslvoc": [
+  "https://linked.data.gov.au/def/nslvoc": [
     {
       "label": "NSLVoc HTML",
       "from": "https://linked.data.gov.au/def/nslvoc",
